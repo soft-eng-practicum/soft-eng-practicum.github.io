@@ -6,7 +6,7 @@ layout: default
 
 {{ content }}
 
-{% for project in site.collections[page.collection].docs[0].projects %} 
+{% for project in page.projects %} 
 
 <h2 class="project-title"><a href="{{project.demo-url}}">
     {{ project.name }} - {{ project.title }}</a></h2>
