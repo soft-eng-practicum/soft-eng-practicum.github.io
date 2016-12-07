@@ -4,6 +4,18 @@ layout: default
 
 <div class="home">
 
+  <h1 class="page-heading">Public Projects</h1>
+
+  <ul class="post-list">
+  {% for repository in site.github.public_repositories %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ repository.html_url }}">{{ repository.name }}</a>
+        </h2>
+      </li>
+  {% endfor %}  
+  </ul>
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">

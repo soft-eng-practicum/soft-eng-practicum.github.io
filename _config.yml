@@ -8,6 +8,7 @@ url: "https://soft-eng-practicum.github.io/" # the base hostname & protocol for 
 twitter_username: cengique
 github_username:  cengique
 theme: minima
+repository: soft-eng-practicum
 
 # Build settings
 markdown: kramdown
