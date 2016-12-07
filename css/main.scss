@@ -37,6 +37,13 @@ $on-laptop:        800px;
     @media screen and (max-width: $device) {
         @content;
     }
+    .home-2col {
+	width: 45%;
+	max-width: ( $device - $spacing-unit ) / 2;
+	float: left;
+	padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
 
