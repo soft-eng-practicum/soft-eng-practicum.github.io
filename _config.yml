@@ -9,6 +9,10 @@ twitter_username: cengique
 github_username:  cengique
 theme: minima
 repository: soft-eng-practicum/soft-eng-practicum.github.io
+collections:
+  itec3870_fa16:
+    title: "soft dev 2 course"
+    output: true
 
 # Build settings
 markdown: kramdown

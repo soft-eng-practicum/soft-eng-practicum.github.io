@@ -3,25 +3,25 @@
   <h1 class="page-heading">Public Projects</h1>
 
   <ul class="post-list">
-  {% for repository in site.github.public_repositories %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ repository.html_url }}">{{ repository.name }}</a>
-        </h2>
-      </li>
-  {% endfor %}  
+    {% for repository in site.github.public_repositories %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ repository.html_url }}">{{ repository.name }}</a>
+      </h2>
+    </li>
+    {% endfor %}  
   </ul>
 
   <h1 class="page-heading">Members</h1>
 
   <ul class="post-list">
-  {% for member in site.github.organization_members %}
-      <li>
-        <h2>	  
-          <a class="post-link" href="{{ member.html_url }}">
-	    <img src="{{ member.avatar_url }}"> {{ member.login }}</a>
-        </h2>
-      </li>
-  {% endfor %}  
+    {% for member in site.github.organization_members %}
+    <li>
+      <h2>	  
+        <a class="post-link" href="{{ member.html_url }}">
+	  <img src="{{ member.avatar_url }}"> {{ member.login }}</a>
+      </h2>
+    </li>
+    {% endfor %}  
   </ul>
 </div>

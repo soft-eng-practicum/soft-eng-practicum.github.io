@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1 class="post-title">{{ page.title }}</h1>
+
+{{ content }}
+
+{% for project in site.collections[page.collection].docs[0].projects %} 
+
+<h2 class="project-title"><a href="{{project.demo-url}}">
+    {{ project.name }} - {{ project.title }}</a></h2>
+
+<img class="logo-thumb" src="{{ project.logo-thumb }}">
+
+<p> by <em>{{ project.members }}</em>
+
+<p> {{ project.description }}
+    
+{% endfor %}
+
