@@ -53,9 +53,13 @@ $on-laptop:        800px;
 	clear: left;
 	@extend .post-title;
     }
+    .create-images {
+	float: left;
+	width: 45%;
+	padding-right: $spacing-unit / 2;
+	padding-bottom: $spacing-unit / 2;
+    }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

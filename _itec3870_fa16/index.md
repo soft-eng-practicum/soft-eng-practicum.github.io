@@ -5,6 +5,35 @@ date:   2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
 projects:
+- name: GGM
+  title: "Gwinnett Grizzlies Maps"
+  demo-url: https://soft-eng-practicum.github.io/ggm/
+  members: Michael Deiters, Narith Seang, Aston Tsou
+  client: "Dr. Catherine Moore"
+  client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
+  description: "Find rooms around campus with ease!"
+  logo-thumb: images/thumb-flyer-GGM.png
+  repo-url: https://github.com/soft-eng-practicum/ggm
+- name: "Campus Maps 1"
+  title: "Never be lost again"
+  demo-url: http://campusmap1.duckdns.org/
+  members: "Christopher 'Cody' Cates, Eric Kim, Adam Printz, Lance Toornman"
+  client: "Dr. Catherine Moore"
+  client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
+  description: "Familiar maps, new twists. Never be out of the loop. 
+  	       Easily locate services. Mobile friendly."
+  logo-thumb: images/thumb-flyer-campusmaps1.png
+  repo-url: https://github.com/soft-eng-practicum/campusmap1
+- name: SimpleQ
+  title: "A simple solution to simple quizzing"
+  demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
+  members: "Demetri Clark, Alvin Jean, Stuart Miller, Austin Seawell, Palmer Simmons"
+  client: "Dr. Tracy Ediger"
+  client-url: http://www.ggc.edu/about-ggc/directory/tracy-ediger
+  description: "Generate a quiz for any subject matter. With multiple 
+  	       templates available, quiz customization could not be easier!"
+  logo-thumb: images/thumb-flyer-SimpleQ.png
+  repo-url: https://github.com/soft-eng-practicum/myXLab
 - name: Xenon
   demo-url: http://xe1.duckdns.org/
   title: "A chemistry study game"
@@ -16,16 +45,6 @@ projects:
     formulas/nomenclature in a fun format!"
   logo-thumb: images/thumb-flyer-XENON.png
   repo-url: https://github.com/soft-eng-practicum/chemistrylearning1.git
-- name: SimpleQ
-  title: "A simple solution to simple quizzing"
-  demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
-  members: "Demetri Clark, Alvin Jean, Stuart Miller, Austin Seawell, Palmer Simmons"
-  client: "Dr. Tracy Ediger"
-  client-url: http://www.ggc.edu/about-ggc/directory/tracy-ediger
-  description: "Generate a quiz for any subject matter. With multiple 
-  	       templates available, quiz customization could not be easier!"
-  logo-thumb: images/thumb-flyer-SimpleQ.png
-  repo-url: https://github.com/soft-eng-practicum/myXLab
 - name: Begin Again
   title: "Apply for internships. Apply for your future"
   demo-url: https://ggc-internapp.herokuapp.com/login
@@ -35,13 +54,6 @@ projects:
   description: "Internship applications for Biology and IT students at GGC"
   logo-thumb: images/thumb-flyer-internship.png
   repo-url: https://github.com/soft-eng-practicum/internapp
-- name: GGM
-  title: "Gwinnett Grizzlies Maps"
-  demo-url: https://soft-eng-practicum.github.io/ggm/
-  members: Michael Deiters, Narith Seang, Aston Tsou
-  description: "Find rooms around campus with ease!"
-  logo-thumb: images/thumb-flyer-GGM.png
-  repo-url: https://github.com/soft-eng-practicum/ggm
 - name: Elements
   title: ""
   demo-url: 
@@ -81,7 +93,12 @@ Fall 2016 semester by [Georgia Gwinnett College][ggc] students. Each
 project was commissioned and supervised by a GGC professor who
 provided the idea, requirements, and direction throughout the
 semester. Final products were demonstrated and tested by other
-students and faculty at the GGC CREATE symposium on Dec 1st.
+students and faculty at the [GGC CREATE symposium][create] on Dec 1st. Click on
+titles to see their demo sites.
+
+<img src="images/create-cm1.jpg" class="create-images">
+<img src="images/create-mixed.jpg" class="create-images">
 
 [ggc]:		http://www.ggc.edu
 [gunay-ggc]: 	http://www.ggc.edu/about-ggc/directory/cengiz-gunay
+[create]:	https://www.facebook.com/georgiagwinnett/photos/ms.c.eJxdz0EKADEMAsAflaYx0fz~;Ywt7KNTrIIqxo3IaRSkD4IornDFRV5uwX9HusMxUeQZ04Xm3FN6jHJmg0gXHRW3N4P~;0Ay4NMx8~-.bps.a.10153964573906447.1073741919.78573401446/10153964578831447/?type=3&theater
