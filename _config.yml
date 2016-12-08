@@ -11,7 +11,8 @@ theme: minima
 repository: soft-eng-practicum/soft-eng-practicum.github.io
 collections:
   itec3870_fa16:
-    title: "soft dev 2 course"
+    title: "Fall 2016 ITEC 3870 Soft Dev 2 course projects"
+    date: 2016-12-01
     output: true
 
 # Build settings

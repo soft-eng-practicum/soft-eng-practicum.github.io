@@ -80,8 +80,8 @@ Development 2 course taught by [Dr. Cengiz Gunay][gunay-ggc] in the
 Fall 2016 semester by [Georgia Gwinnett College][ggc] students. Each
 project was commissioned and supervised by a GGC professor who
 provided the idea, requirements, and direction throughout the
-semester. Final products were demonstrated at the GGC CREATE symposium
-on Dec 1st.
+semester. Final products were demonstrated and tested by other
+students and faculty at the GGC CREATE symposium on Dec 1st.
 
 [ggc]:		http://www.ggc.edu
 [gunay-ggc]: 	http://www.ggc.edu/about-ggc/directory/cengiz-gunay
