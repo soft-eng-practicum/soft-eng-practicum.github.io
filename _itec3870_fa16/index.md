@@ -44,7 +44,7 @@ projects:
     to practice and master the skill of naming chemical 
     formulas/nomenclature in a fun format!"
   logo-thumb: images/thumb-flyer-XENON.png
-  repo-url: https://github.com/soft-eng-practicum/chemistrylearning1.git
+  repo-url: https://github.com/soft-eng-practicum/xenon.git
 - name: Begin Again
   title: "Apply for internships. Apply for your future"
   demo-url: https://ggc-internapp.herokuapp.com/login
