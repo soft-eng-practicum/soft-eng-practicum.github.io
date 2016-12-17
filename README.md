@@ -25,5 +25,4 @@ like that in `_itec3870_fa16/`.
 
 * Make individual pages for each project by using `@include index.md`
   and then picking up the item with a parameter?
-* Make product flyers clickable and show image modal using (lighgallery)[https://sachinchoolur.github.io/lightGallery/].
 * Upload the screencast videos to Youtube and link them from here.
