@@ -1,4 +1,4 @@
-== Org Github Pages Website using Jekyll ==
+## Org Github Pages Website using Jekyll ##
 
 Change these files to update the documentation served
 [here](https://soft-eng-practicum.github.io/).
@@ -21,7 +21,9 @@ To add content, either add new files under `_posts/` or define
 collections in `_config.yml` and add a corresponding folder structure
 like that in `_itec3870_fa16/`.
 
-=== TODO ===
+### TODO ###
 
 * Make individual pages for each project by using `@include index.md`
   and then picking up the item with a parameter?
+* Make product flyers clickable and show image modal using (lighgallery)[https://sachinchoolur.github.io/lightGallery/].
+* Upload the screencast videos to Youtube and link them from here.

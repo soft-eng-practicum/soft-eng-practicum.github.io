@@ -12,6 +12,7 @@ projects:
   client: "Dr. Catherine Moore"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
   description: "Find rooms around campus with ease!"
+  logo-full: images/flyer-GGM.png
   logo-thumb: images/thumb-flyer-GGM.png
   repo-url: https://github.com/soft-eng-practicum/ggm
 - name: "Campus Maps 1"
@@ -22,6 +23,7 @@ projects:
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
   description: "Familiar maps, new twists. Never be out of the loop. 
   	       Easily locate services. Mobile friendly."
+  logo-full: images/flyer-campusmaps1.png
   logo-thumb: images/thumb-flyer-campusmaps1.png
   repo-url: https://github.com/soft-eng-practicum/campusmap1
 - name: SimpleQ
@@ -32,6 +34,7 @@ projects:
   client-url: http://www.ggc.edu/about-ggc/directory/tracy-ediger
   description: "Generate a quiz for any subject matter. With multiple 
   	       templates available, quiz customization could not be easier!"
+  logo-full: images/flyer-SimpleQ.png
   logo-thumb: images/thumb-flyer-SimpleQ.png
   repo-url: https://github.com/soft-eng-practicum/myXLab
 - name: Xenon
@@ -43,6 +46,7 @@ projects:
   description: "An optimized mobile web game that allows students 
     to practice and master the skill of naming chemical 
     formulas/nomenclature in a fun format!"
+  logo-full: images/flyer-XENON.png
   logo-thumb: images/thumb-flyer-XENON.png
   repo-url: https://github.com/soft-eng-practicum/xenon.git
 - name: Begin Again
@@ -52,6 +56,7 @@ projects:
   client: "Dr. Latanya Hammonds-Odie and Dr. Lissa Pollacia"
   client-url: http://www.ggc.edu/about-ggc/directory/
   description: "Internship applications for Biology and IT students at GGC"
+  logo-full: images/flyer-internship.png
   logo-thumb: images/thumb-flyer-internship.png
   repo-url: https://github.com/soft-eng-practicum/internapp
 - name: Elements
@@ -62,6 +67,7 @@ projects:
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
   description: 
+  logo-full: images/flyer-elements.png
   logo-thumb: images/thumb-flyer-elements.png
   repo-url: https://github.com/soft-eng-practicum/elements
 - name: OneFitness
@@ -73,6 +79,7 @@ projects:
   description: "Get in shape & be healthy: flexible workout 
   	       plans to help user plan their workouts while
 	       keeping track of their past performance!" 
+  logo-full: images/flyer-one-fitness.png
   logo-thumb: images/thumb-flyer-one-fitness.png
   repo-url: https://github.com/soft-eng-practicum/Exercise-Application
 - name: "Insurance Squad"
@@ -83,6 +90,7 @@ projects:
   client-url: http://www.ggc.edu/about-ggc/directory/andrei-olifer
   description: "An easy to use application for real people to find, 
   	       request and negotiate car insurance."
+  logo-full: images/thumb-flyer-insurancesquad.png
   logo-thumb: images/thumb-flyer-insurancesquad.png
   repo-url: https://github.com/soft-eng-practicum/insurancesquad
 ---
@@ -95,6 +103,21 @@ provided the idea, requirements, and direction throughout the
 semester. Final products were demonstrated and tested by other
 students and faculty at the [GGC CREATE symposium][create] on Dec 1st. Click on
 titles to see their demo sites.
+
+  <!-- lightgallery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>  
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $("body").lightGallery({
+	zoom: true,
+	selector: 'a#lightgallery',
+	selectWithin: 'body'
+    }); 
+    });
+  </script>
 
 <img src="images/create-cm1.jpg" class="create-images">
 <img src="images/create-mixed.jpg" class="create-images">

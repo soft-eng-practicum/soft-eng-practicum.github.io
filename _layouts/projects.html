@@ -11,7 +11,11 @@ layout: default
 <h2 class="project-title"><a href="{{project.demo-url}}" target="_blank">
     {{ project.name }} - {{ project.title }}</a></h2>
 
-<img class="logo-thumb" src="{{ project.logo-thumb }}">
+<div>
+  <a id="lightgallery" href="{{ project.logo-full }}">
+    <img class="logo-thumb" src="{{ project.logo-thumb }}">
+  </a>
+</div>
 
 <p> Developed by <em>{{ project.members }}</em><br>
   Lead by <em><a href="{{ project.client-url }}" target="_blank">{{
