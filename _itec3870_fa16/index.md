@@ -36,7 +36,7 @@ projects:
   	       templates available, quiz customization could not be easier!"
   logo-full: images/flyer-SimpleQ.png
   logo-thumb: images/thumb-flyer-SimpleQ.png
-  repo-url: https://github.com/soft-eng-practicum/myXLab
+  repo-url: https://github.com/soft-eng-practicum/SimpleQ
 - name: Xenon
   demo-url: http://xe1.duckdns.org/
   title: "A chemistry study game"
@@ -61,7 +61,7 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/internapp
 - name: Elements
   title: ""
-  demo-url: 
+  demo-url: https://hmontgomery.github.io/
   members: "Roland Abrahantes, Aboubakar 'Winston' Koene, 
   	   Xavier Lazo, Hailey Montgomery"
   client: "Dr. Thomas Gluick"
@@ -81,7 +81,7 @@ projects:
 	       keeping track of their past performance!" 
   logo-full: images/flyer-one-fitness.png
   logo-thumb: images/thumb-flyer-one-fitness.png
-  repo-url: https://github.com/soft-eng-practicum/Exercise-Application
+  repo-url: https://github.com/soft-eng-practicum/OneFitness
 - name: "Insurance Squad"
   title: "Find, request, and negotiate the car insurance you want!"
   demo-url: http://mastermindawareness.com/insurancesquad
