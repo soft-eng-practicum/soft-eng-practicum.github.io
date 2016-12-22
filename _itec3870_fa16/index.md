@@ -7,7 +7,7 @@ collection: itec3870_fa16
 projects:
 - name: GGM
   title: "Gwinnett Grizzlies Maps"
-  demo-url: https://soft-eng-practicum.github.io/ggm/
+  demo-url: https://soft-eng-practicum.github.io/ggcmaps/
   members: Michael Deiters, Narith Seang, Aston Tsou
   client: "Dr. Catherine Moore"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
