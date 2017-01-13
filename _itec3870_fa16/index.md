@@ -85,7 +85,7 @@ projects:
 - name: "Insurance Squad"
   title: "Find, request, and negotiate the car insurance you want!"
   demo-url: http://mastermindawareness.com/insurancesquad
-  members: "Anthony D'Alessandro, Caitlin Kraig, Patrik Williams"
+  members: "Anthony D'Alessandro, Kaitlin Craig, Patrik Williams"
   client: "Dr. Andrei Olifer"
   client-url: http://www.ggc.edu/about-ggc/directory/andrei-olifer
   description: "An easy to use application for real people to find, 
