@@ -4,6 +4,12 @@ title:  "Fall 2016 Software Projects"
 date:   2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
+photos:
+- create-cm1.jpg
+- create-mixed.jpg
+- Create 1.png
+- Create 2.png
+- Create 3.png
 projects:
 - name: GGM
   title: "Gwinnett Grizzlies Maps"
@@ -118,9 +124,6 @@ titles to see their demo sites.
     }); 
     });
   </script>
-
-<img src="images/create-cm1.jpg" class="create-images">
-<img src="images/create-mixed.jpg" class="create-images">
 
 [ggc]:		http://www.ggc.edu
 [gunay-ggc]: 	http://www.ggc.edu/about-ggc/directory/cengiz-gunay
