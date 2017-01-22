@@ -7,9 +7,9 @@ collection: itec3870_fa16
 photos:
 - create-cm1.jpg
 - create-mixed.jpg
-- Create 1.png
-- Create 2.png
-- Create 3.png
+- Create-CB-1.jpg
+- Create-CB-2.jpg
+- Create-CB-3.jpg
 projects:
 - name: GGM
   title: "Gwinnett Grizzlies Maps"
