@@ -12,8 +12,9 @@ photos:
 - Create-CB-3.jpg
 projects:
 - name: GGM
-  title: "Gwinnett Grizzlies Maps"
+  title: "Gwinnett Grizzlies Maps - GGC Campus Maps"
   demo-url: https://ggcmaps.github.io/
+  screencast-youtube: lRmVo5O5jPc
   members: Michael Deiters, Narith Seang, Aston Tsou
   client: "Dr. Catherine Moore"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
@@ -24,6 +25,7 @@ projects:
 - name: "Campus Maps 1"
   title: "Never be lost again"
   demo-url: http://campusmap1.duckdns.org/
+  screencast-youtube: e3Cl1kVO9Ok
   members: "Christopher 'Cody' Cates, Eric Kim, Adam Printz, Lance Toornman"
   client: "Dr. Catherine Moore"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
@@ -35,6 +37,7 @@ projects:
 - name: SimpleQ
   title: "A simple solution to simple quizzing"
   demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
+  screencast-youtube: 9PBQISSSY-E
   members: "Demetri Clark, Alvin Jean, Stuart Miller, Austin Seawell, Palmer Simmons"
   client: "Dr. Tracy Ediger"
   client-url: http://www.ggc.edu/about-ggc/directory/tracy-ediger
@@ -45,6 +48,7 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/SimpleQ
 - name: Xenon
   demo-url: http://xe1.duckdns.org/
+  screencast-youtube: 45AhRdb5GRw
   title: "A chemistry study game"
   members: "Adem Abafogi, Adele Francois, Jawan Higgins, John Rose"
   client: "Dr. Thomas Gluick"
@@ -68,6 +72,7 @@ projects:
 - name: Elements
   title: ""
   demo-url: https://hmontgomery.github.io/
+  screencast-youtube: iUSVqSxJaGM
   members: "Roland Abrahantes, Aboubakar 'Winston' Koene, 
   	   Xavier Lazo, Hailey Montgomery"
   client: "Dr. Thomas Gluick"
@@ -79,6 +84,7 @@ projects:
 - name: OneFitness
   title: "GGC Exercise Science Discipline mobile fitness app"
   demo-url: 
+  screencast-youtube: 6TCaJin93k8
   members: "Brock Bearchell, David Guevara, Wesley McDorman, Matthew Thompson"
   client: "Dr. Pamela Anderson"
   client-url: http://www.ggc.edu/about-ggc/directory/pamela-anderson

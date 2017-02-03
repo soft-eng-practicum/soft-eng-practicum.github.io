@@ -29,11 +29,24 @@ layout: default
   Lead by <em><a href="{{ project.client-url }}" target="_blank">{{
       project.client }}</a></em>
   
-<p> {{ project.description }}
+<p> {{ project.description }}</p>
 
-<p> <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a></em>
+<div class="project-links">
+
+  {% if project.demo-url %}
+  <p> <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a></em></p>
+  {% endif %}
 
 <p> <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
+</p>
+
+{% if project.screencast-youtube %}
+<div class="project-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endif %}
+
+<hr class="project-sep">
     
 {% endfor %}
 
