@@ -47,7 +47,7 @@ projects:
   logo-thumb: images/thumb-flyer-SimpleQ.png
   repo-url: https://github.com/soft-eng-practicum/SimpleQ
 - name: Xenon
-  demo-url: http://xe1.duckdns.org/
+  demo-url: https://soft-eng-practicum.github.io/xenon/
   screencast-youtube: 45AhRdb5GRw
   title: "A chemistry study game"
   members: "Adem Abafogi, Adele Francois, Jawan Higgins, John Rose"
