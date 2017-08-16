@@ -1,1 +1,1 @@
-convert flyer-team42.png -resize 200x200 thumb-flyer-team42.png
+convert $1 -resize 200x200 thumb-$1

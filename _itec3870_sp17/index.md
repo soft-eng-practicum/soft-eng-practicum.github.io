@@ -14,14 +14,13 @@ projects:
 - name: GGCmaps
   title: "GGC Campus Maps"
   demo-url: https://ggcmaps.com/
-  screencast-youtube: lRmVo5O5jPc
-  members: David Rivera-Rocha, 
+  members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie" Muse
   client: "Dr. Catherine Moore & Michael Deiters"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
-  description: "Find rooms around campus with ease!"
-  logo-full: images/flyer-GGM.png
-  logo-thumb: images/thumb-flyer-GGM.png
-  repo-url: https://github.com/soft-eng-practicum/ggm
+  description: "Search rooms. Find rooms. Don't get lost in A (even offline!)"
+  logo-full: images/flyer-ggcmaps.png
+  logo-thumb: images/thumb-flyer-ggcmaps.png
+  repo-url: https://github.com/soft-eng-practicum/ggcmaps
 - name: CellPhysics42
   title: "Cellular Automaton Demo Program"
   screencast-youtube: HGxIZMmUeGA
