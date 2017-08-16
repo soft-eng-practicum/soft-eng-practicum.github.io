@@ -14,6 +14,10 @@ collections:
     title: "Fall 2016 ITEC 3870 Soft Dev 2 course projects"
     date: 2016-12-01
     output: true
+  itec3870_sp17:
+    title: "Spring 2017 ITEC 3870 Soft Dev 2 course projects"
+    date: 2017-05-10
+    output: true
 
 # Build settings
 markdown: kramdown
