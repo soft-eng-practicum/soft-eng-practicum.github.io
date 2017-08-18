@@ -15,7 +15,7 @@ photos:
 projects:
 - name: GGCmaps
   title: "GGC Campus Maps"
-  demo-url: https://ggcmaps.com/
+  demo-url: http://ggcmaps.com/
   members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie" Muse
   client: "Dr. Catherine Moore & Michael Deiters"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
