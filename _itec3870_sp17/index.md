@@ -76,6 +76,7 @@ projects:
   logo-full: images/flyer-internapp.png
   logo-thumb: images/thumb-flyer-internapp.png
   repo-url: https://github.com/soft-eng-practicum/internapp
+
 ---
 
 These projects were developed during the ITEC 3870 Software
