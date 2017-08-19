@@ -46,7 +46,7 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/pictureperfect
 - name: AtomPuzzler
   title: "Learn chemistry for fun!"
-  demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
+  demo-url: http://johnjlam.com/AtomPuzzlerPages/
   screencast-youtube: oK54BlI11o4
   members: "Matt Nelson, King Lo, Caleb Sears, and John Lam"
   client: "Dr. Thomas Gluick"
