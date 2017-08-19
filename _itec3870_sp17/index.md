@@ -44,6 +44,17 @@ projects:
   logo-full: images/flyer-pictureperfect.png
   logo-thumb: images/thumb-flyer-pictureperfect.png
   repo-url: https://github.com/soft-eng-practicum/pictureperfect
+- name: AtomPuzzler
+  title: "Learn chemistry for fun!"
+  demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
+  screencast-youtube: oK54BlI11o4
+  members: "Matt Nelson, King Lo, Caleb Sears, and John Lam"
+  client: "Dr. Thomas Gluick"
+  client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+  description: "College-level gamified learning tool for chemical naming and molecular geometry."
+  logo-full: images/flyer-atompuzzler.png
+  logo-thumb: images/thumb-flyer-atompuzzler.png
+  repo-url: https://github.com/soft-eng-practicum/AtomPuzzler
 ---
 
 These projects were developed during the ITEC 3870 Software
