@@ -56,7 +56,7 @@ projects:
   logo-thumb: images/thumb-flyer-atompuzzler.png
   repo-url: https://github.com/soft-eng-practicum/AtomPuzzler
 - name: GGRAwebsite
-  title: Greater Gwinnett Reentry Alliance website design
+  title: A new design for the Greater Gwinnett Reentry Alliance website 
   screencast-youtube: EWj7w-kcm3A
   members: "Team Monstars: King Oruga, Joshua Tran, Peter Odeojo, William \"Matt\" Smith"
   client: "Karen Klett, Koko Hunt, and Dr. Lana McDowell"

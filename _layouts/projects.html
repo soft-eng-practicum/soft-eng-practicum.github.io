@@ -26,8 +26,14 @@ layout: default
 </div>
 
 <p> Developed by <em>{{ project.members }}</em><br>
-  Lead by <em><a href="{{ project.client-url }}" target="_blank">{{
-      project.client }}</a></em>
+  Lead by <em>
+    {% if project.demo-url %}
+    <a href="{{ project.client-url }}" target="_blank">{{
+      project.client }}</a>
+    {% else %}
+    {{ project.client }}
+    {% endif %}
+  </em>
   
 <p> {{ project.description }}</p>
 
