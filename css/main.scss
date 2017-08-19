@@ -74,6 +74,9 @@ $on-laptop:        800px;
 	//border-bottom: 1px dashed #fff;
 	margin-bottom: 20px;
     }
+    b.project-tech {
+	font-weight: "bold";
+    }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
