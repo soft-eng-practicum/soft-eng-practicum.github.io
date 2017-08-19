@@ -65,6 +65,16 @@ projects:
   logo-full: images/flyer-GGRA.png
   logo-thumb: images/thumb-flyer-GGRA.png
   repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
+- name: InternApp
+  title: "Kickstart your career! Apply now!"
+  screencast-youtube: EWj7w-kcm3A
+  members: "Team DaSquad: "
+  client: "Dr. Latanya Hammonds-Odie (Biology) and Dr. Lisa Pollacia (IT)"
+  client-url: http://www.ggc.edu/about-ggc/directory/lisa-pollacia
+  description: "Online applications for ITEC 4900 and BIOL 4800 internship courses (second semester)."
+  logo-full: images/flyer-internapp.png
+  logo-thumb: images/thumb-flyer-internapp.png
+  repo-url: https://github.com/soft-eng-practicum/internapp
 ---
 
 These projects were developed during the ITEC 3870 Software
