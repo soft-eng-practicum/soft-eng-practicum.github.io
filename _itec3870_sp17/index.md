@@ -67,8 +67,9 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
 - name: InternApp
   title: "Kickstart your career! Apply now!"
-  screencast-youtube: EWj7w-kcm3A
-  members: "Team DaSquad: "
+  demo-url: http://ggc-internapp.herokuapp.com/
+  screencast-youtube: TNs-tkoyQG8
+  members: "Team DaSquad: Robert Bryan, Blake Norman, Khaled Asad, and Michael Cawton"
   client: "Dr. Latanya Hammonds-Odie (Biology) and Dr. Lisa Pollacia (IT)"
   client-url: http://www.ggc.edu/about-ggc/directory/lisa-pollacia
   description: "Online applications for ITEC 4900 and BIOL 4800 internship courses (second semester)."
