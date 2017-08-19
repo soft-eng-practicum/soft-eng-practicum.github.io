@@ -85,7 +85,7 @@ Spring 2017 semester by [Georgia Gwinnett College][ggc] students. Each
 project was commissioned and supervised by a GGC professor who
 provided the idea, requirements, and direction throughout the
 semester. Final products were demonstrated and tested by other
-students and faculty at the [GGC CREATE symposium][create]. Click on
+students and faculty at the GGC CREATE symposium. Click on
 titles to see their demo sites.
 
   <!-- lightgallery -->
@@ -105,4 +105,3 @@ titles to see their demo sites.
 
 [ggc]:		http://www.ggc.edu
 [gunay-ggc]: 	http://www.ggc.edu/about-ggc/directory/cengiz-gunay
-[create]:	https://www.facebook.com/georgiagwinnett/photos/ms.c.eJxdz0EKADEMAsAflaYx0fz~;Ywt7KNTrIIqxo3IaRSkD4IornDFRV5uwX9HusMxUeQZ04Xm3FN6jHJmg0gXHRW3N4P~;0Ay4NMx8~-.bps.a.10153964573906447.1073741919.78573401446/10153964578831447/?type=3&theater
