@@ -58,13 +58,13 @@ projects:
 - name: GGRAwebsite
   title: Greater Gwinnett Reentry Alliance website design
   screencast-youtube: EWj7w-kcm3A
-  members: Team Monstars: King Oruga, Joshua Tran, Peter Odeojo, William "Matt" Smith
+  members: "Team Monstars: King Oruga, Joshua Tran, Peter Odeojo, William "Matt" Smith"
   client: "Karen Klett, Koko Hunt, and Dr. Lana McDowell"
   client-url: http://www.ggc.edu/about-ggc/directory/lana-mcdowell
   description: "Reintegration, restoration, and reentry of returning citizens."
   logo-full: images/flyer-GGRA.png
   logo-thumb: images/thumb-flyer-GGRA.png
-  repo-url: https://github.com/soft-eng-practicum/AtomPuzzler
+  repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
 ---
 
 These projects were developed during the ITEC 3870 Software
