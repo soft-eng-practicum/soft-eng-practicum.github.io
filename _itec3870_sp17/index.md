@@ -70,8 +70,7 @@ projects:
   demo-url: http://ggc-internapp.herokuapp.com/
   screencast-youtube: TNs-tkoyQG8
   members: "Team DaSquad: Robert Bryan, Blake Norman, Khaled Asad, and Michael Cawton"
-  client: "Dr. Latanya Hammonds-Odie (Biology) and Dr. Lissa Pollacia (IT)"
-  client-url: http://www.ggc.edu/about-ggc/directory/lissa-pollacia
+  client: "Dr. Latanya Hammonds-Odie (Biology) and [Dr. Lissa Pollacia (IT)](http://www.ggc.edu/about-ggc/directory/lissa-pollacia)"
   description: "Online applications for ITEC 4900 and BIOL 4800 internship courses (second semester)."
   logo-full: images/flyer-internapp.png
   logo-thumb: images/thumb-flyer-internapp.png
