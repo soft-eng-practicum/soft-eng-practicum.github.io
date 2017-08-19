@@ -19,6 +19,7 @@ projects:
   members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie" Muse
   client: "Dr. Catherine Moore & Michael Deiters"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
+  tech: "Webapp with a custom Javascript front-end. It requires no back-end to function."
   description: "Search rooms. Find rooms. Don't get lost in A (even offline!)"
   logo-full: images/flyer-ggcmaps.png
   logo-thumb: images/thumb-flyer-ggcmaps.png

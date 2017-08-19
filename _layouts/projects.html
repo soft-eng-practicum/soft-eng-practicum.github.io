@@ -37,14 +37,18 @@ layout: default
   
 <p> {{ project.description }}</p>
 
+{% if project.tech %}
+<p> <b>Technology:</b> {{ project.tech }}</p>
+{% endif %}
+
 <div class="project-links">
 
   {% if project.demo-url %}
   <p> <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a></em></p>
   {% endif %}
 
-<p> <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
-</p>
+  <p> <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
+  </p>
 
 {% if project.screencast-youtube %}
 <div class="project-video">
