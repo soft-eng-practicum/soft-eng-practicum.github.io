@@ -14,7 +14,7 @@ layout: default
 
 {% endfor %}
 
-<p>Projects:
+<p class="project-toc">Projects:
   <ul>
     {% for project in page.projects %}
     <li><a href="#{{ project.name }}">
@@ -53,11 +53,12 @@ layout: default
 
 <div class="project-links">
 
-  {% if project.demo-url %}
-  <p> <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a></em></p>
-  {% endif %}
+  <p>
+    {% if project.demo-url %}
+    <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a></em>
+    {% endif %}
 
-  <p> <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
+    <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
   </p>
 
 {% if project.screencast-youtube %}
