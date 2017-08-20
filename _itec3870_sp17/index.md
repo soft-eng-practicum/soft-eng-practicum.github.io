@@ -36,7 +36,7 @@ projects:
   logo-thumb: images/thumb-flyer-team42.png
   repo-url: https://github.com/soft-eng-practicum/CellPhysics42
 - name: PicturePerfect
-  title: ""
+  title: "A cinematography and photo teaching app"
   demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
   screencast-youtube: cIvjVlIS4lM
   members: "Alain Hirwa, Anwar Saleeby, and Neal Klemenc"
