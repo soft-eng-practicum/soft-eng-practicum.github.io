@@ -4,6 +4,15 @@ layout: default
 
 <h1 class="post-title">{{ page.title }}</h1>
 
+<p class="project-toc">Projects:
+  <ul>
+    {% for project in page.projects %}
+    <li><a href="#{{ project.name | url_encode }}">
+	{{ project.name }} - {{ project.title }}</a></li>
+    {% endfor %}
+  </ul>
+</p>
+
 {{ content }}
 
 {% for project in page.photos %} 
@@ -13,15 +22,6 @@ layout: default
 </a>
 
 {% endfor %}
-
-<p class="project-toc">Projects:
-  <ul>
-    {% for project in page.projects %}
-    <li><a href="#{{ project.name | url_encode }}">
-	{{ project.name }} - {{ project.title }}</a></li>
-    {% endfor %}
-  </ul>
-</p>
 
 {% for project in page.projects %} 
 
