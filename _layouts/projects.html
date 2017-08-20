@@ -8,17 +8,18 @@ layout: default
 
 {% for project in page.photos %} 
 
-  <a id="lightgallery" href="images/{{ project }}">
-    <img class="create-images logo-thumb" src="images/{{ project }}">
-  </a>
+<a id="lightgallery" href="images/{{ project }}">
+  <img class="create-images logo-thumb" src="images/{{ project }}">
+</a>
 
 {% endfor %}
 
 {% for project in page.projects %} 
 
-<h2 class="project-title"><a href="{{project.demo-url}}" target="_blank">
+<h2 class="project-title"><a id="{{ project.name }}" href="{{project.demo-url}}"
+			     target="_blank">
     {{ project.name }} - {{ project.title }}</a></h2>
-
+  
 <div>
   <a id="lightgallery" href="{{ project.logo-full }}">
     <img class="logo-thumb" src="{{ project.logo-thumb }}">
