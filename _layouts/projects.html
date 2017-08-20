@@ -17,7 +17,7 @@ layout: default
 <p class="project-toc">Projects:
   <ul>
     {% for project in page.projects %}
-    <li><a href="#{{ project.name }}">
+    <li><a href="#{{ project.name | url_encode }}">
 	{{ project.name }} - {{ project.title }}</a></li>
     {% endfor %}
   </ul>
@@ -25,7 +25,7 @@ layout: default
 
 {% for project in page.projects %} 
 
-<h2 class="project-title"><a id="{{ project.name }}" href="{{project.demo-url}}"
+<h2 class="project-title"><a id="{{ project.name | url_encode }}" href="{{project.demo-url}}"
 			     target="_blank">
     {{ project.name }} - {{ project.title }}</a></h2>
   
@@ -55,7 +55,7 @@ layout: default
 
   <p>
     {% if project.demo-url %}
-    <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a></em>
+    <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a>, </em>
     {% endif %}
 
     <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
