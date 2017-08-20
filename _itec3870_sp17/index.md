@@ -14,23 +14,23 @@ photos:
 - IMG_20170427_145202939_HDR.jpg
 projects:
 - name: GGCmaps
-  title: "GGC Campus Maps"
+  title: "Search rooms. Find rooms. Don't get lost in A (even offline!)"
   demo-url: http://ggcmaps.com/
   members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie" Muse
   client: "Dr. Catherine Moore & Michael Deiters"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
-  tech: "Webapp with a custom Javascript front-end. It requires no back-end to function."
-  description: "Search rooms. Find rooms. Don't get lost in A (even offline!)"
+  description: "Webapp that allows finding GGC campus rooms from their numbers."
+  tech: "Progressive webapp that can work offline with a custom Javascript front-end. It requires no back-end to function. It can save itself as a desktop shortcut on mobile platforms."
   logo-full: images/flyer-ggcmaps.png
   logo-thumb: images/thumb-flyer-ggcmaps.png
   repo-url: https://github.com/soft-eng-practicum/ggcmaps
 - name: CellPhysics42
-  title: "Cellular Automaton Demo Program"
+  title: "A Cellular Automaton Demo and Visualization Tool"
   screencast-youtube: HGxIZMmUeGA
   members: "Michael Holtmann, Jory Alexander, and Bess Burnett"
   client: "Dr. Kenneth Sales"
   client-url: http://www.ggc.edu/about-ggc/directory/kenneth-sales
-  description: ""
+  description: "Can visualize 1-D and 2-D rules as 2-D triangles and 3-D pyramids, respectively."
   logo-full: images/flyer-team42.png
   logo-thumb: images/thumb-flyer-team42.png
   repo-url: https://github.com/soft-eng-practicum/CellPhysics42
