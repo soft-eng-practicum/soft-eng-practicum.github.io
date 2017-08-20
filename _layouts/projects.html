@@ -14,6 +14,15 @@ layout: default
 
 {% endfor %}
 
+<p>Projects:
+  <ul>
+    {% for project in page.projects %}
+    <li><a href="#{{ project.name }}">
+	{{ project.name }} - {{ project.title }}</a></li>
+    {% endfor %}
+  </ul>
+</p>
+
 {% for project in page.projects %} 
 
 <h2 class="project-title"><a id="{{ project.name }}" href="{{project.demo-url}}"
