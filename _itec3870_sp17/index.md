@@ -19,7 +19,7 @@ projects:
   members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie" Muse
   client: "Dr. Catherine Moore & Michael Deiters"
   client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
-  description: "Webapp that allows finding GGC campus rooms from their numbers."
+  description: "Webapp that allows finding GGC campus rooms from their numbers (second semester)."
   tech: "Progressive webapp that can work offline with a custom Javascript front-end. It requires no back-end to function. It can save itself as a desktop shortcut on mobile platforms."
   logo-full: images/flyer-ggcmaps.png
   logo-thumb: images/thumb-flyer-ggcmaps.png
@@ -31,6 +31,7 @@ projects:
   client: "Dr. Kenneth Sales"
   client-url: http://www.ggc.edu/about-ggc/directory/kenneth-sales
   description: "Can visualize 1-D and 2-D rules as 2-D triangles and 3-D pyramids, respectively."
+  tech: Java application with JavaFX GUI and 3D visualization. 3-D models were also printed using a 3-D printer.
   logo-full: images/flyer-team42.png
   logo-thumb: images/thumb-flyer-team42.png
   repo-url: https://github.com/soft-eng-practicum/CellPhysics42
@@ -42,6 +43,7 @@ projects:
   client: "Dr. Lyndsay Gratch"
   client-url: http://www.ggc.edu/about-ggc/directory/lyndsay-gratch
   description: "Learn the basics of cinematography and photo composition"
+  tech: Mobile app with Ionic 2. No backend or database. Not on app markets yet.
   logo-full: images/flyer-pictureperfect.png
   logo-thumb: images/thumb-flyer-pictureperfect.png
   repo-url: https://github.com/soft-eng-practicum/pictureperfect
@@ -53,6 +55,7 @@ projects:
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
   description: "College-level gamified learning tool for chemical naming and molecular geometry."
+  tech: Website created using GameMaker Studio. No database or backend.
   logo-full: images/flyer-atompuzzler.png
   logo-thumb: images/thumb-flyer-atompuzzler.png
   repo-url: https://github.com/soft-eng-practicum/AtomPuzzler
@@ -63,6 +66,7 @@ projects:
   client: "Karen Klett, Koko Hunt, and Dr. Lana McDowell"
   client-url: http://www.ggc.edu/about-ggc/directory/lana-mcdowell
   description: "Reintegration, restoration, and reentry of returning citizens."
+  tech: Website with HTML/CSS/Javascript frontend and an ASP.Net backend using C#. SQL Server database.
   logo-full: images/flyer-GGRA.png
   logo-thumb: images/thumb-flyer-GGRA.png
   repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
@@ -73,6 +77,7 @@ projects:
   members: "Team DaSquad: Robert Bryan, Blake Norman, Khaled Asad, and Michael Cawton"
   client: <a href="http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie" target="_blank">Dr. Latanya Hammonds-Odie (Biology)</a> and <a href="http://www.ggc.edu/about-ggc/directory/lissa-pollacia" target="_blank">Dr. Lissa Pollacia (IT)</a>
   description: "Online applications for ITEC 4900 and BIOL 4800 internship courses (second semester)."
+  tech: Website with EJS templating in the frontend, Express+Node.JS in the backend with MongoDB hosted on mLab.
   logo-full: images/flyer-internapp.png
   logo-thumb: images/thumb-flyer-internapp.png
   repo-url: https://github.com/soft-eng-practicum/internapp
