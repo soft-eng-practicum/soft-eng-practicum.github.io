@@ -14,6 +14,7 @@ photos:
 - IMG_20171130_141709149.jpg
 - IMG_20171130_141725331.jpg
 - IMG_20171130_141734571.jpg
+
 projects:
 - name: LipidLator
   title: "formula, molar mass, abbreviation"
@@ -26,6 +27,37 @@ projects:
   logo-full: images/flyer-LipidLator.png
   logo-thumb: images/thumb-flyer-LipidLator.png
   screencast-youtube: B8mQj-wBI9A
+
+- name: "GGC Maps (1)"
+  title: "New features: Event listing, safety mode, predictive search"
+  members: "Team Adventuras: Bryan Yeap, Matt Soucy, Robert Westervelt, Nilaja Williams"
+  client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
+  description: "Predictive Search Functionality: Provides multiple solutions based on current input by the user. User input can be at any place within the provided solutions. Safety Mode: Provides an overlay of safety related items. Items include AEDs, Fire Extinguishers, Fire Alarms, Trauma Kits, and Safety Shelters. Event Information Tab: Provides event information related to events held on GGC campus. Event list changes depending on the building being accessed. Provides events up to 2 weeks ahead of current date. Functional Service Worker: Checks all cache versions in the users browser and deletes any old versions. Additional files for cache. Updated Building Legend: Add locations and building labels. Turns off if parking legend is on, vice versa."
+  tech: "Single page application, HTML/CSS, Sass, Javascript, Grunt, SVG, Selenium and BrowserStack testing"
+  logo-full: images/flyer-ggcmaps-adventuras-new.jpg
+  logo-thumb: images/thumb-flyer-ggcmaps-adventuras-new.jpg
+  screencast-youtube: xVOkgmRYMaY
+
+- name: "GGC Maps (2)"
+  title: "New features: Updated parking lots and search building 3000 rooms"
+  members: "Team NavBenders: Maryam Najiarani, Richard A Williams Jr, Joseph Pelletier"
+  client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
+  description: "Continuing previous project. Search Function properly works in all buildings and now for 3000 building. An updated look to all parking lots with accurate handicap, staff/faculty parking, etc. New updated legend for all parking lots."
+  tech: "Single page application, HTML/CSS, Sass, Javascript, Grunt, SVG, Selenium and BrowserStack testing"
+  logo-full: images/flyer-ggcmaps-navbenders.jpg
+  logo-thumb: images/thumb-flyer-ggcmaps-navbenders.jpg
+  screencast-vimeo: 245831389 
+
+- name: SmartVid
+  title: "Make learning fun by giving students the best viewing & learning experience"
+  members: "The Brogrammers"
+  client: Dr Shelby Fencil Shuler
+  client-url: http://www.ggc.edu/about-ggc/directory/shelby-shuler
+  description: "SmartVid is an educational platform designed to enable professors to create a more interactive learning experience by uploading videos to be viewed by their active classes. The benefit of SmartVid is that the videos created by the professors will be tailored toward the classes they teach, providing a personalized resource where students can access the material their professors are teaching. Additionally, professors will be able to monitor the activity of their students via progress bars showing how much of the video (and which part) the students have viewed. This will be coupled with periodically introduced quizzes as the video is viewed, designed by the professor(s). A professor would then be able to decide what action would be taken if the student fails the quiz (IE: the student must re-watch the video, the quiz must be immediately retaken, etc.)."
+  tech: "PHP, Bootstrap, HTML/CSS, Javascript"
+  logo-full: images/flyer-smartvid.jpg
+  logo-thumb: images/thumb-flyer-smartvid.jpg
+  screencast-youtube: l2tCRhr-2lY
 
 ---
 

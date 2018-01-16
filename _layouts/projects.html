@@ -66,6 +66,11 @@ layout: default
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}" frameborder="0" allowfullscreen></iframe>
 </div>
 {% endif %}
+{% if project.screencast-vimeo %}
+<div class="project-video">
+  <iframe src="https://player.vimeo.com/video/{{ project.screencast-vimeo }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+{% endif %}
 
 <hr class="project-sep">
     
