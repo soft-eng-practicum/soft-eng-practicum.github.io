@@ -27,9 +27,10 @@ projects:
   logo-full: images/flyer-LipidLator.png
   logo-thumb: images/thumb-flyer-LipidLator.png
   screencast-youtube: B8mQj-wBI9A
-
-- name: "GGC Maps (1)"
+  
+- name: "GGC Maps v3a"
   title: "New features: Event listing, safety mode, predictive search"
+  demo-url: https://soft-eng-practicum.github.io/ggcmaps/
   members: "Team Adventuras: Bryan Yeap, Matt Soucy, Robert Westervelt, Nilaja Williams"
   client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
   description: "Predictive Search Functionality: Provides multiple solutions based on current input by the user. User input can be at any place within the provided solutions. Safety Mode: Provides an overlay of safety related items. Items include AEDs, Fire Extinguishers, Fire Alarms, Trauma Kits, and Safety Shelters. Event Information Tab: Provides event information related to events held on GGC campus. Event list changes depending on the building being accessed. Provides events up to 2 weeks ahead of current date. Functional Service Worker: Checks all cache versions in the users browser and deletes any old versions. Additional files for cache. Updated Building Legend: Add locations and building labels. Turns off if parking legend is on, vice versa."
@@ -37,9 +38,11 @@ projects:
   logo-full: images/flyer-ggcmaps-adventuras-new.jpg
   logo-thumb: images/thumb-flyer-ggcmaps-adventuras-new.jpg
   screencast-youtube: xVOkgmRYMaY
+  repo-url: https://github.com/soft-eng-practicum/ggcmaps
 
-- name: "GGC Maps (2)"
+- name: "GGC Maps v3b"
   title: "New features: Updated parking lots and search building 3000 rooms"
+  demo-url: https://soft-eng-practicum.github.io/ggcmaps/
   members: "Team NavBenders: Maryam Najiarani, Richard A Williams Jr, Joseph Pelletier"
   client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
   description: "Continuing previous project. Search Function properly works in all buildings and now for 3000 building. An updated look to all parking lots with accurate handicap, staff/faculty parking, etc. New updated legend for all parking lots."
@@ -47,6 +50,64 @@ projects:
   logo-full: images/flyer-ggcmaps-navbenders.jpg
   logo-thumb: images/thumb-flyer-ggcmaps-navbenders.jpg
   screencast-vimeo: 245831389 
+  repo-url: https://github.com/soft-eng-practicum/ggcmaps-navbenders
+
+- name: Xenon
+  title: "Learn Chemistry. Play | Learn"
+  demo-url: https://soft-eng-practicum.github.io/xenon/
+  members: "Team XenaMorphs: Laura Arevalo, Cat Windham, Charneaka Lewis, Magdalena Ledezma, Chinelo Obiamalu"
+  client: "Assistant Professor of Chemistry Thomas Gluick and Assistant Professor of Information Technology Cengiz Gunay"
+  description: "To create a user-friendly, simple web-based game that aids chemistry students in their learning of molecular nomenclature."
+  tech: "Javascript, Phaser, MongoDB, mLab"
+  logo-full: images/flyer-xenamorphs.jpg
+  logo-thumb: images/thumb-flyer-xenamorphs.jpg
+  screencast-youtube: 7Zr2xxn9mUw
+  repo-url: https://github.com/soft-eng-practicum/xenon
+
+- name: BookSwap
+  title: "Need a textbook? Lending, swapping, trading, sharing books in our campus community"
+  demo-url: http://bookswap-dev.us-east-1.elasticbeanstalk.com/
+  members: "Team Mercury: Alek Gartland, Chelsea D'Alessandro, Sierra Williams, Waylon Lao"
+  client: "Student Hailey Montgomery"
+  description: "Continuation of project from Spring 2017 Software Development Project course. Changes: Database - Hosting, Amazon Web Services (AWS); UI/UX Complete redesign of entire site, Style: minimalist modern, Colors, Image assets; Pages: Blade template & usage, JavaScript, Bootstrap, → CSS ←"
+  tech: Amazon AWS (Elastic Beanstalk 2, Simple Email Service, Relational Data Service), PHP, Laravel, HTML/CSS, Javascript
+  logo-full: images/flyer-bookswap.png
+  logo-thumb: images/thumb-flyer-bookswap.png
+  screencast-youtube: OSNYOYd8ozk
+  repo-url: https://github.com/soft-eng-practicum/bookswap
+
+- name: "GameOfDrone"
+  title: "Brace yourself GameofDrone is coming"
+  members: "Steven Beteag, Gabriel Mezquita, Tony Neese, Matthew Xiong"
+  client: "Associate Professor of Mathematics Matthew Stackpole, and Associate Professor of Mathematics Keith Erickson"
+  description: "Our team was tasked, to develop an  mobile application for the IOS/Android  to control a drone. 
+The application must be user friendly, because our main audience will be students who are taking Dr. Stackpole and Dr. Erickson’s calculus section. 
+The application must also record time, Velocity x/y/z, pitch, roll, Yaw, Altitude.
+Each data collection will be unique to each student who use the application, and will be used to make their very own calculus problems.
+Dr. Stackpole hopes that this will change his student’s view on calculus, and hope they will enjoy the subject."
+  tech: "Python, Qt, AR Drone"
+  logo-full: images/flyer-gameofdrone-new.jpg
+  logo-thumb: images/thumb-flyer-gameofdrone-new.jpg
+  screencast-youtube: KFycTiE1j-c
+  repo-url: https://github.com/soft-eng-practicum/GameOfDrones
+
+- name: Project Review
+  title: Students review each other's projects anonymously
+  demo-url: http://souciernd.com/ProjectReview/
+  members: "Matthew Coker, Norman Soucie, Kevin Stevens, Janna Timmer, and other."
+  client: Assistant Professor of Information Technology Sebastien Siva
+  client-url: http://www.ggc.edu/about-ggc/directory/sebastien-siva
+  description: "Project-Review is a website platform that enables
+professors to assess their students through a peer review process. It
+allows a professor to hold multiple classes with students imported
+from D2L or manual invitation. Using an algorithm that makes sure no
+two students review each other is essential to making this website’s
+purpose effective and efficient.  " 
+  tech: PHP, HTML/CSS/Javascript, MySQL
+  logo-full: images/flyer-project-review.jpg
+  logo-thumb: images/thumb-flyer-project-review.jpg
+  screencast-youtube: Pn5CEHVvSYk
+  repo-url: https://github.com/soft-eng-practicum/project-review
 
 - name: SmartVid
   title: "Make learning fun by giving students the best viewing & learning experience"
@@ -58,6 +119,7 @@ projects:
   logo-full: images/flyer-smartvid.jpg
   logo-thumb: images/thumb-flyer-smartvid.jpg
   screencast-youtube: l2tCRhr-2lY
+  repo-url: https://bitbucket.org/cgunay-ggc/smartvid
 
 ---
 
