@@ -5,15 +5,18 @@ date:   2017-11-30 14:00:00
 categories: itec3870 create
 collection: itec3870_fa16
 photos:
+- 24960882688_1b03c40551_o.jpg
+- 37946694695_60c8d9a787_o.jpg
+- 24960907228_4be8082c9e_o.jpg
+- 24960919378_06c0ed8ebe_o.jpg
+- 24960919508_6ff7c05418_o.jpg
+- 24960952738_e068307f20_o.jpg
 - IMG_20171130_140740485.jpg
 - IMG_20171130_140750901.jpg
 - IMG_20171130_140755482_HDR.jpg
-- IMG_20171130_140800295.jpg
-- IMG_20171130_141522309_HDR.jpg
-- IMG_20171130_141538247.jpg
-- IMG_20171130_141709149.jpg
-- IMG_20171130_141725331.jpg
-- IMG_20171130_141734571.jpg
+- 27057157559_358dbceee0_o.jpg
+- 27057246329_881b8cf4af_o.jpg
+- 38117417614_13af5d072f_o.jpg
 
 projects:
 - name: LipidLator
@@ -64,17 +67,17 @@ projects:
   screencast-youtube: 7Zr2xxn9mUw
   repo-url: https://github.com/soft-eng-practicum/xenon
 
-- name: BookSwap
-  title: "Need a textbook? Lending, swapping, trading, sharing books in our campus community"
-  demo-url: http://bookswap-dev.us-east-1.elasticbeanstalk.com/
-  members: "Team Mercury: Alek Gartland, Chelsea D'Alessandro, Sierra Williams, Waylon Lao"
-  client: "Student Hailey Montgomery"
-  description: "Continuation of project from Spring 2017 Software Development Project course. Changes: Database - Hosting, Amazon Web Services (AWS); UI/UX Complete redesign of entire site, Style: minimalist modern, Colors, Image assets; Pages: Blade template & usage, JavaScript, Bootstrap, → CSS ←"
-  tech: Amazon AWS (Elastic Beanstalk 2, Simple Email Service, Relational Data Service), PHP, Laravel, HTML/CSS, Javascript
-  logo-full: images/flyer-bookswap.png
-  logo-thumb: images/thumb-flyer-bookswap.png
-  screencast-youtube: OSNYOYd8ozk
-  repo-url: https://github.com/soft-eng-practicum/bookswap
+- name: The Drone Zone
+  title: AR Drone Controller Application
+  demo-url: https://bitbucket.org/cgunay-ggc/thedronezone
+  members: "The Drone Zone: Reuben Boima Massaquoi, Afeefa Firdaus, Brian Bailey"
+  client: Associate Professor of Mathematics Matthew Stackpole (left GGC in Dec 2017)
+  description: "Create an application that can control an AR drone via a controller. Log data in a csv file: X velocity, Y velocity, Z velocity, Altitude, Pitch, and Roll. Motivation - Graph and use the data to create math problems for students."
+  tech: Python, AR Drone, Sony PS1/2 game controller, Pygame, Python tkinter/tcl.
+  logo-full: images/flyer-thedronezone.png
+  logo-thumb: images/thumb-flyer-thedronezone.png
+  screencast-youtube: mx76xg2OJrg
+  repo-url: https://bitbucket.org/cgunay-ggc/thedronezone
 
 - name: "GameOfDrone"
   title: "Brace yourself GameofDrone is coming"
@@ -90,6 +93,43 @@ Dr. Stackpole hopes that this will change his student’s view on calculus, and 
   logo-thumb: images/thumb-flyer-gameofdrone-new.jpg
   screencast-youtube: KFycTiE1j-c
   repo-url: https://github.com/soft-eng-practicum/GameOfDrones
+
+- name: ChemXplosion
+  title: Make learning basic chemistry fun, interesting, and enticing
+  demo-url: https://github.com/soft-eng-practicum/tech-challenged/releases
+  members: "Team Tech Challenged: Anjan Panchatcharam, Armando Gonzalez, Eric Jenkins, Brendon Serrano"
+  client: Assistant Professor of Chemistry Thomas Gluick
+  client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+  description: Our purpose was to create a game that would make learning basic chemistry fun, interesting, and enticing for any user looking to learn. The game would primarily be focused upon chemical reactions.
+  tech: Unity, C#, Unity Collaboration Tool, Unity Test Tools
+  logo-full: images/flyer-chemXplosion.jpg
+  logo-thumb: images/thumb-flyer-chemXplosion.jpg
+  screencast-youtube: T6DWbuIMuR8
+  repo-url: https://github.com/soft-eng-practicum/tech-challenged
+
+- name: winRemote
+  title: Turn your phone into a shortcut/macro master
+  demo-url: https://github.com/aknobloch/WinRemote/releases
+  members: "Team disabledTech: Aaron Knobloch, Jeff Graves, Tobin Michael Crone"
+  client: IBM Advisory Developer/X-Force Security Scott Warfield
+  description: "Remote Shortcuts for the PC. Server/Client bluetooth connection interface. Graceful shutdowns and reconnects on both server and client. Data IO via connection on both server and client. Server execution framework constructed. Dynamic button creation framework constructed."
+  tech: Electron, C#, Bluetooth, Android, Java
+  logo-full: images/flyer-disabledTech.jpg
+  logo-thumb: images/thumb-flyer-disabledTech.jpg
+  screencast-youtube: Li0N2zdFWYY
+  repo-url: https://github.com/aknobloch/WinRemote
+
+- name: BookSwap
+  title: "Need a textbook? Lending, swapping, trading, sharing books in our campus community"
+  demo-url: http://bookswap-dev.us-east-1.elasticbeanstalk.com/
+  members: "Team Mercury: Alek Gartland, Chelsea D'Alessandro, Sierra Williams, Waylon Lao"
+  client: "Student Hailey Montgomery"
+  description: "Continuation of project from Spring 2017 Software Development Project course. Changes: Database - Hosting, Amazon Web Services (AWS); UI/UX Complete redesign of entire site, Style: minimalist modern, Colors, Image assets; Pages: Blade template & usage, JavaScript, Bootstrap, → CSS ←"
+  tech: Amazon AWS (Elastic Beanstalk 2, Simple Email Service, Relational Data Service), PHP, Laravel, HTML/CSS, Javascript
+  logo-full: images/flyer-bookswap.png
+  logo-thumb: images/thumb-flyer-bookswap.png
+  screencast-youtube: OSNYOYd8ozk
+  repo-url: https://github.com/soft-eng-practicum/bookswap
 
 - name: Project Review
   title: Students review each other's projects anonymously
