@@ -1,3 +1,15 @@
+#Project: OneFitness App
+##By: **ITEC 3870-01** -- The Iterators (*Wil Nazario, Ariella Hernandez, Katrina Smith*)
+###Repository: GitHub (https://github.com/soft-eng-practicum/soft-eng-practicum.github.io)
+###Progress Tracking: Trello (https://trello.com/theiterators2)
+###Technology: Ionic 2.2.0, Android Studio
+###Communication: Discord (https://discord.gg/Vmh44AV)
+###Members/Roles:
+1. Wil Nazario - Lead Programmer/Testing :thinking:
+2.
+3.
+
+
 ## Org Github Pages Website using Jekyll ##
 
 Change these files to update the documentation served
