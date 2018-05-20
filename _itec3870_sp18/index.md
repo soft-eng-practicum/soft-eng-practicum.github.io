@@ -1,10 +1,20 @@
 ---
 layout: projects
+
 title:  "Spring 2018 Software Projects"
 date:   2018-05-17 14:25:23
 categories: itec3870 create
 collection: itec3870_sp18
 photos:
+- IMAG2328.jpg
+- IMG_1677.jpg
+- IMG_1678.jpg
+- IMG_1683.jpg
+- IMG_1700.jpg
+- IMG_1703.jpg
+- IMG_1704.jpg
+- IMG_1718.jpg
+- IMG_1720.jpg
 
 projects:
 - name: MLStocks
@@ -98,8 +108,6 @@ projects:
   description: Auto Speaker is an accessibility app that will help users turn their speaker phone on with a single click of a reize-able widget and or within the app. The application will also be able to automatically answer the phone calls of people that were previously marked as favorite within the phone's contacts application.
   logo-full: images/flyer-autoSpeaker.jpg
   logo-thumb: images/thumb-flyer-autoSpeaker.jpg
-  repo-url:
-
 ---
 
 These projects were developed during the ITEC 3870 Software
