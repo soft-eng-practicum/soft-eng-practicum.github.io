@@ -7,14 +7,14 @@ categories: itec3870 create
 collection: itec3870_sp18
 photos:
 - IMAG2328.jpg
-- IMG_1677.jpg
-- IMG_1678.jpg
-- IMG_1683.jpg
-- IMG_1700.jpg
-- IMG_1703.jpg
-- IMG_1704.jpg
-- IMG_1718.jpg
-- IMG_1720.jpg
+- IMG_1677.JPG
+- IMG_1678.JPG
+- IMG_1683.JPG
+- IMG_1700.JPG
+- IMG_1703.JPG
+- IMG_1704.JPG
+- IMG_1718.JPG
+- IMG_1720.JPG
 
 projects:
 - name: MLStocks
