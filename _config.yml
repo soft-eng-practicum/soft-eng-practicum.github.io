@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://soft-eng-practicum.github.io/" # the base hostname & protocol for your site
 twitter_username: cengique
 github_username:  cengique
-theme: minima
 repository: soft-eng-practicum/soft-eng-practicum.github.io
 collections:
   itec3870_sp18:
