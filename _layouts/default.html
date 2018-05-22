@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+<div class="body-container container-fluid">
+  <a class="menu-btn" href="javascript:void(0)">
+    <i class="ion ion-grid"></i>
+  </a>
+  <div class="row justify-content-center">
+    <!--=================== side menu ====================-->
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    {% include sidemenu.html %}
+
+    <!--=================== side menu end====================-->
+
+    <!--=================== content body ====================-->
+    <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+      <div class="portfolio">
+        <div class="container-fluid">
+          {% include leftcol.html %}
+        </div>
       </div>
     </div>
+    <!--=================== content body end ====================-->
+  </div>
+</div>
 
-    {% include footer.html %}
 
-  </body>
-
+<!-- jquery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/slick.min.js"></script>
+<!--Portfolio Filter-->
+<script src="assets/js/imgloaded.js"></script>
+<script src="assets/js/isotope.js"></script>
+<!-- Magnific-popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--Counter-->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
