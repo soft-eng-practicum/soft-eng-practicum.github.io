@@ -5,7 +5,15 @@ date:   2018-05-17 14:25:23
 categories: itec3870 create
 collection: itec3870_sp18
 photos:
-
+- IMAG2328.jpg
+- IMG_1677.jpg
+- IMG_1678.jpg
+- IMG_1683.jpg
+- IMG_1700.jpg
+- IMG_1703.jpg
+- IMG_1704.jpg
+- IMG_1718.jpg
+- IMG_1720.jpg
 projects:
 - name: MLStocks
   title: "Exploring Financial Analysis"
