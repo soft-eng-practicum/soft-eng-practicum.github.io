@@ -21,62 +21,62 @@
 	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
 	------------------------------------- */
 
-@import "../assets/scss/base/variables";
+@import "../_sass/scss/base/variables";
 
 /*  ----------------------------------------------------
 1. GENERAL
 -------------------------------------------------------- */
-@import "../assets/scss/base/base";
+@import "../_sass/scss/base/base";
 
 /*  ----------------------------------------------------
 2. HEADER
 -------------------------------------------------------- */
-@import "../assets/scss/layout/side";
+@import "../_sass/scss/layout/side";
 
 /*  ----------------------------------------------------
 3 body
 -------------------------------------------------------- */
-@import "../assets/scss/layout/body";
+@import "../_sass/scss/layout/body";
 
 /*  ----------------------------------------------------
 4 buttons
 -------------------------------------------------------- */
 
-@import "../assets/scss/components/buttons";
+@import "../_sass/scss/components/buttons";
 /*  ----------------------------------------------------
 5 icon boxes
 -------------------------------------------------------- */
-@import "../assets/scss/components/icon_boxes";
+@import "../_sass/scss/components/icon_boxes";
 
 /*  ----------------------------------------------------
 6 portfolio
 -------------------------------------------------------- */
-@import "../assets/scss/components/portfolio";
+@import "../_sass/scss/components/portfolio";
 /*  ----------------------------------------------------
 7 counter
 -------------------------------------------------------- */
-@import "../assets/scss/components/counter";
+@import "../_sass/scss/components/counter";
 /*  ----------------------------------------------------
 8 tabs
 -------------------------------------------------------- */
-@import "../assets/scss/components/tabs";
+@import "../_sass/scss/components/tabs";
 /*  ----------------------------------------------------
 9 testimonial
 -------------------------------------------------------- */
-@import "../assets/scss/components/testimonial";
+@import "../_sass/scss/components/testimonial";
 /*  ----------------------------------------------------
 10 blog
 -------------------------------------------------------- */
-@import "../assets/scss/components/blog_box";
+@import "../_sass/scss/components/blog_box";
 
 /*  ----------------------------------------------------
 11 contact box
 -------------------------------------------------------- */
-@import "../assets/scss/components/contact";
+@import "../_sass/scss/components/contact";
 
 
 /*  ----------------------------------------------------
 12 progressbar
 -------------------------------------------------------- */
-@import "../assets/scss/components/progressbar";
+@import "../_sass/scss/components/progressbar";
 
