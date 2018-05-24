@@ -1592,6 +1592,8 @@ img {
 }
 .menu_block .side_menu_section {
   margin-top: 50px;
+  overflow: auto;
+  max-height: 250px;
 }
 .menu_block .side_title {
   padding-left: 50px;
@@ -2503,6 +2505,7 @@ textarea.form-control {
   grid-template-areas:
   "title title"
   "home_carousel home_carousel"
+  "project_demo featured_project"
 ;
 }
 .title {
@@ -2516,10 +2519,28 @@ textarea.form-control {
   text-align: center;
   font-style: italic;
 }
-.home_carousel {
-  grid-area: home_carousel;
-  margin-top:50px;
+.project_demo {
+  grid-area: project_demo;
 }
-.home_carousel h4{
-  text-align: center;
+.featured_project {
+  grid-area: featured_project;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display:none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b0aa90;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #746e56;
 }
