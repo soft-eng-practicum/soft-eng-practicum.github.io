@@ -1602,7 +1602,7 @@ img {
   font-weight: 500;
 }
 .menu_block .side_menu_bottom {
-  min-height: 300px;
+  min-height: 147px;
 }
 .menu_block .side_menu_bottom .side_menu_bottom_inner {
   position: absolute;
@@ -2493,5 +2493,33 @@ textarea.form-control {
 13 Other
 -------------------------------------------------------- */
 .sponsor-img {
-  width:25%;
+  width: 25%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  grid-template-areas:
+  "title title"
+  "home_carousel home_carousel"
+;
+}
+.title {
+  grid-area: title;
+
+}
+.title h2{
+  text-align: center;
+}
+.title h4 {
+  text-align: center;
+  font-style: italic;
+}
+.home_carousel {
+  grid-area: home_carousel;
+  margin-top:50px;
+}
+.home_carousel h4{
+  text-align: center;
 }
