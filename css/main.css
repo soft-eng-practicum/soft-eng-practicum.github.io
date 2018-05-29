@@ -1596,18 +1596,19 @@ img {
   text-align: center;
   padding: 25px 10px 10px 10px;
 }
-.menu_block .side_menu_section {
-  margin-top: 50px;
-  overflow: auto;
-  max-height:250px;
+.side_menu_section {
+    margin-top: 10px;
+    overflow: auto;
+    max-height:250px;
 }
 .menu_block .side_title {
   padding-left: 50px;
   color: #99896e;
   text-transform: capitalize;
   font-size: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-weight: 500;
+    background-color: #00704A;
 }
 .menu_block .side_menu_bottom {
   min-height: 100px;
@@ -1635,6 +1636,7 @@ img {
   padding: 0;
   list-style: none;
   margin-left: 0;
+    margin-top:20px;
 }
 .menu_nav li {
   width: 100%;
