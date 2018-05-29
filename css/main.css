@@ -2507,13 +2507,12 @@ textarea.form-control {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 300px;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr ;
 
   grid-template-areas:
-  "title title"
-  "home_carousel home_carousel"
-  "project_demo featured_project"
+  "title"
+  "project_demo"
 ;
 }
 .title {
@@ -2532,22 +2531,12 @@ textarea.form-control {
 
 .project_demo {
   grid-area: project_demo;
-  border-right: 2px solid #b0aa90;
 }
 .project_demo h2 {
   text-align: center;
 }
 
-.featured_project {
-  grid-area: featured_project;
-  text-align: center;
-  padding-top:20px;
-  background-color: #00a976;
-  border: 5px
-}
-.featured_project h3 {
-  color: #ffffff;
-}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
