@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h1 class="post-title">{{ page.title }}</h1>
-
+<h1 class="post-title" style="text-align: center">{{ page.title }}</h1>
+{{ content }}
 <p class="project-toc">Projects:
   <ul>
     {% for project in page.projects %}
@@ -13,15 +13,16 @@ layout: default
   </ul>
 </p>
 
-{{ content }}
+
 
 {% for project in page.photos %} 
 
-<a id="lightgallery" href="images/{{ project }}">
+<a href="images/{{ project }}">
   <img class="create-images logo-thumb" src="images/{{ project }}">
 </a>
 
 {% endfor %}
+
 
 {% for project in page.projects %} 
 
@@ -75,4 +76,6 @@ layout: default
 <hr class="project-sep">
     
 {% endfor %}
+
+</div>
 
