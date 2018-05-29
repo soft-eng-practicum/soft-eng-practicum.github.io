@@ -4,13 +4,9 @@
 
   <ul class="post-list">
     {% for projects in site.collections %}
-    <li>
-      <span class="post-meta">{{ projects.date | date: "%b %-d, %Y" }}</span>
-
       <h2>
         <a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a>
       </h2>
-    </li>
     {% endfor %}
   </ul>
 
