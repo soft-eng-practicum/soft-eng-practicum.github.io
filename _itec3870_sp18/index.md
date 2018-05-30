@@ -16,7 +16,6 @@ photos:
 - IMG_1718.JPG
 - IMG_1720.JPG
 
->>>>>>> b9952713c4f6bccd1c742f4c54aae2e20c226ffa
 projects:
 - name: MLStocks
   title: "Exploring Financial Analysis with Python"
