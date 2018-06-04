@@ -15,6 +15,14 @@ photos:
 - IMG_1704.JPG
 - IMG_1718.JPG
 - IMG_1720.JPG
+- 27964171048_1f7569a5b3_h.jpg
+- 27964217588_e49111f5fe_h.jpg
+- 40025738280_46bd34168e_h.jpg
+- 40025781130_55b2aec37b_h.jpg
+- 40025890060_fc09add195_h.jpg
+- 40025890180_220ec73c6e_h.jpg
+- 41790411242_2e81d17052_h.jpg
+- 41832258701_7c705a927a_h.jpg
 
 projects:
 - name: MLStocks
