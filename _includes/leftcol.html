@@ -1,5 +1,7 @@
-<div class="home">
+<div class ="home_grid">
 
+
+<div class="project_demo">
   <h1 class="page-heading">Project Demos</h1>
 
   <ul class="post-list">
@@ -9,10 +11,12 @@
       </h2>
     {% endfor %}
   </ul>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+    <div class = "post">
+    <h1 class="page-heading">Posts</h1>
 
-<div class = "post">  
+
     
 {% for category in site.categories %}
     <h3>&nbsp;&nbsp;{{category | first}}</h3>
@@ -28,9 +32,9 @@
         </ul>
 {% endfor %}    
     
-</div>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
   <!--<h1 class="page-heading">Sponsors</h1>-->
 
   <!--<div class="sponsor-img">-->

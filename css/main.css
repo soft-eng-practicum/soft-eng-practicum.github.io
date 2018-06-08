@@ -90,7 +90,7 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -1605,7 +1605,7 @@ img {
   padding-left: 50px;
   color: #99896e;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 10px;
   font-weight: 500;
     background-color: #00704A;
@@ -1626,7 +1626,7 @@ img {
 }
 .menu_block .copy_right p {
   color: #99896e;
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
   font-weight: 500;
 }
@@ -2512,7 +2512,7 @@ textarea.form-control {
 
   grid-template-areas:
   "title"
-  "project_demo"
+  "page_content"
 ;
 }
 .title {
@@ -2529,10 +2529,10 @@ textarea.form-control {
   font-style: italic;
 }
 
-.project_demo {
-  grid-area: project_demo;
+.page_content {
+  grid-area: page_content;
 }
-.project_demo h2 {
+.page_content h2 {
   text-align: center;
 }
 
@@ -2556,3 +2556,27 @@ textarea.form-control {
   background: #746e56;
 }
 
+.crlink {
+  font-size:10px;
+}
+
+.home_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  grid-template-areas:
+          "project_demo post"
+;
+}
+.project_demo {
+  grid-area: project_demo;
+}
+
+.post {
+  grid-area: post;
+}
+
+.post-list {
+  float:left;
+}
