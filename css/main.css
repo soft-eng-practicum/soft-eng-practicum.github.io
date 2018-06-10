@@ -2505,16 +2505,7 @@ textarea.form-control {
 .sponsor-img {
   width: 25%;
 }
-.grid {
-  display: grid;
-  grid-template-columns: 1fr ;
-  grid-template-rows: 1fr ;
 
-  grid-template-areas:
-  "title"
-  "page_content"
-;
-}
 .title {
   grid-area: title;
   text-align: center;
