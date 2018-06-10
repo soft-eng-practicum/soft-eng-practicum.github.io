@@ -35,18 +35,12 @@
     </div>
     <!--main menu end -->
     <!--filter menu -->
+    <h4 class="side_title" style="font-weight:bold; position:fixed;">Projects</h4>
     <div class="side_menu_section">
-        <h4 class="side_title" style="font-weight:bold; position:fixed; ">Projects</h4>
         <ul  class="menu_nav">
-            <li ><a href="javascript:void(0)" >2018</a></li>
-            <li ><a href="javascript:void(0)">2017</a></li>
-            <li ><a href="javascript:void(0)">2016</a></li>
-            <li ><a href="javascript:void(0)" >2018</a></li>
-            <li ><a href="javascript:void(0)">2017</a></li>
-            <li ><a href="javascript:void(0)">2016</a></li>
-            <li ><a href="javascript:void(0)" >2018</a></li>
-            <li ><a href="javascript:void(0)">2017</a></li>
-            <li ><a href="javascript:void(0)">2016</a></li>
+            {% for projects in site.collections %}
+            <li><a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a></li>
+            {% endfor %}
         </ul>
     </div>
     <!--filter menu end -->

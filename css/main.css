@@ -1609,6 +1609,8 @@ img {
   margin-bottom: 10px;
   font-weight: 500;
     background-color: #00704A;
+  width:200px;
+  height:25px;
 }
 .menu_block .side_menu_bottom {
   min-height: 100px;
