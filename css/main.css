@@ -2573,3 +2573,35 @@ textarea.form-control {
 .post-list {
   float:left;
 }
+
+.projects_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 350px;
+    grid-template-areas:
+            "project_links project_pictures"
+;
+}
+
+.project_links {
+    grid-area:project_links;
+    background: #bd4147;
+
+}
+.project_pictures {
+    grid-area:project_pictures;
+}
+
+#slideshow {
+    position: relative;
+    padding: 10px;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
