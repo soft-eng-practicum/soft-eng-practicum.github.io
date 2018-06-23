@@ -2605,3 +2605,10 @@ textarea.form-control {
     right: 10px;
     bottom: 10px;
 }
+
+.pictures {
+    height:325px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
