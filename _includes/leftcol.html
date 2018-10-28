@@ -1,19 +1,5 @@
 <div class="home">
 
-  <h1 class="page-heading">Project Demos</h1>
-
-  <ul class="post-list">
-    {% for projects in site.collections %}
-      <li>
-        <span class="post-meta">{{ projects.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
   <h1 class="page-heading">Posts</h1>
 
 <div class = "post">  
@@ -31,8 +17,24 @@
         {% endfor %}
         </ul>
 {% endfor %}    
-    
+
 </div>
+
+<h1 class="page-heading">Project Demos</h1>
+
+  <ul class="post-list">
+    {% for projects in site.collections %}
+      <li>
+        <span class="post-meta">{{ projects.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+    
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
   <h1 class="page-heading">Sponsors</h1>
