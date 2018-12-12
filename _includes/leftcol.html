@@ -22,8 +22,9 @@
 
 <h1 class="page-heading">Project Demos</h1>
 
-  <ul class="post-list">
-    {% for projects in site.collections %}
+<ul class="post-list">
+  {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
+    {% for projects in collections_list %}
       <li>
         <span class="post-meta">{{ projects.date | date: "%b %-d, %Y" }}</span>
 

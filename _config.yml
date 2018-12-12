@@ -10,6 +10,10 @@ github_username:  cengique
 theme: minima
 repository: soft-eng-practicum/soft-eng-practicum.github.io
 collections:
+  itec3870_fa18:
+    title: "Fall 2018 ITEC 3870 Soft Dev 2 course projects"
+    date: 2018-11-26
+    output: true
   itec3870_sp18:
     title: "Spring 2018 ITEC 3870 Soft Dev 2 course projects"
     date: 2018-05-17
