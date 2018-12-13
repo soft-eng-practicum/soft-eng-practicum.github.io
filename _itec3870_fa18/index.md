@@ -10,38 +10,42 @@ photos:
 - room-view-8-HD.jpg
 
 projects:
-- name: FreeRadicals
-  title: "Chemistry Quiz Generator"
+- name: "ChemGenApp"
+  title: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
   screencast-youtube: 3WPrGnkCGXY
-  members: "Ben Jackson, Trivon Etheridge, Bruce Carson, William Bullock"
+  members: "FreeRadicals: Ben Jackson, Trivon Etheridge, Bruce Carson, William Bullock"
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-  description: "TBD"
+  description: "ChemGenApp is a program/website that generates as much information regarding a chemical reaction as possible in order to assist Chemistry professors with making quizzes."
   logo-full: images/flyer-chemquiz.png
   logo-thumb: images/thumb-flyer-chemquiz.png
   repo-url: https://github.com/GGC-SD/FreeRadicals
-- name: EmailGuard
-  title: "Stops bad Emails!"
-  demo-url:
-  screencast-youtube: 8PYuHMCoQ-Y
-  members: "The EmailGuardians: Spencer Williams, Gilad Berman, Brandon Henry, Nishanth Mangineni"
-  client: "Dr. Thomas Gluick"
-  client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-  description: "Saves professors a headache and helps prepare students for the workforce."
-  logo-full: images/flyer-EmailGuard.jpg
-  logo-thumb: images/thumb-flyer-EmailGuard.jpg
-  repo-url:
-- name: ChemXplosion
-  title: 3D Chemistry Learning Module
-  demo-url: https://github.com/soft-eng-practicum/ChemXplosion/releases
-  screencast-youtube: JBfP3A0_Z-U
-  members: "Team ChemJam: Alex Croghan, Hieu Dinh, Evan Lamkie, Michael Lopez, Rae Vroman"
-  client: "Dr. Thomas Gluick"
-  client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-  description: "This project is to design a 3D based learning module that will be both fun and educational for Chemistry students beginning to learn chemical reactions. This project was started in Fall 2017 in collobartion with GGC Professor Thomas Gluick as a way to provide an educational and entertaining game for Chemistry students."
+- name: "GGC Intern App"
+  title: "Internship Application Forms (:crown: :crown: 2ND PLACE)"
+  demo-url: http://ggc-internapp.herokuapp.com/
+  screencast-youtube: bg5kknQzL-g
+  members: "Tech Titans: Anastasia Arnold, Kidus Dawit, Billy Pridgen, Edgar Juarez"
+  client: <a href="http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie" target="_blank">Dr. Latanya Hammonds-Odie (Biology)</a> and <a href="http://www.ggc.edu/about-ggc/directory/lissa-pollacia" target="_blank">Dr. Lissa Pollacia (IT)</a>
+  client-url: 
+  description: "GGC Intern App is a website where students are able to apply for either a Biology or Information Technology internship. They also have the option to upload other documents required including their resume, FERPA form, and essays."
+  logo-full: images/flyer-internapp.png
+  logo-thumb: images/thumb-flyer-internapp.png
+  repo-url: https://github.com/soft-eng-practicum/internapp
+- name: "What are my chances?"
+  title: "PA School Matcher (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
+  demo-url: 
+  screencast-youtube: DQcuT6XR8ag
+  members: "Match Makers: Breeona Day and Lauren Marsicano"
+  client: "External client Brian Palm, physician's assistant at
+Gwinnett Medical Center and Northside Hospital. Brian is a Board
+Certified Chief PA of Emergency Medicine. Member of the AAPA as well
+as Georgia Association of Physician Assistants. Former adjunct faculty
+and Admissions Panel member at an accredited PA school."
+  client-url: 
+  description: "The PA School Matcher is a user-friendly application that matches prospective Physician's Assistant school student's information with the requirements of selected schools and the demographics of accepted students into the program to show how likely the student is to be accepted. The results are displayed as GOOD, AVERAGE & POOR as far as changes of being accepted. The system also provides feedback on how the student could improve their chances of being accepted."
   logo-full: images/flyer-ChemXplosion.jpg
   logo-thumb: images/thumb-flyer-ChemXplosion.jpg
-  repo-url: https://github.com/soft-eng-practicum/ChemXplosion
+  repo-url: https://github.com/soft-eng-practicum/MatchMakers
 - name: STEC Research Portal
   title: A Replacement Web Interface For Our STEC Projects
   demo-url: https://etc.cardboard.software/stec
