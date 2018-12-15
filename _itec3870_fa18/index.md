@@ -6,7 +6,12 @@ date:   2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
 photos:
+- appfactory-room1-billy-door-blurred.jpg
+- appfactory-room2-bruce.jpg
 - ggcmaps-old-and-new-Prof-Moore-2.jpg
+- internapp-billy-edgar-HD-blurred.jpg
+- room-view-2-HD.jpg
+- room-view-5-HD.jpg
 - room-view-8-HD.jpg
 
 projects:
@@ -31,9 +36,8 @@ projects:
   logo-full: images/flyer-internapp.png
   logo-thumb: images/thumb-flyer-internapp.png
   repo-url: https://github.com/soft-eng-practicum/internapp
-- name: "What are my chances?"
+- name: "What are my chances - MatchMakers"
   title: "PA School Matcher (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
-  demo-url: 
   screencast-youtube: DQcuT6XR8ag
   members: "Match Makers: Breeona Day and Lauren Marsicano"
   client: "External client Brian Palm, physician's assistant at
@@ -41,67 +45,75 @@ Gwinnett Medical Center and Northside Hospital. Brian is a Board
 Certified Chief PA of Emergency Medicine. Member of the AAPA as well
 as Georgia Association of Physician Assistants. Former adjunct faculty
 and Admissions Panel member at an accredited PA school."
-  client-url: 
+  client-url: https://www.linkedin.com/in/brian-palm-0b0ba72b/
   description: "The PA School Matcher is a user-friendly application that matches prospective Physician's Assistant school student's information with the requirements of selected schools and the demographics of accepted students into the program to show how likely the student is to be accepted. The results are displayed as GOOD, AVERAGE & POOR as far as changes of being accepted. The system also provides feedback on how the student could improve their chances of being accepted."
-  logo-full: images/flyer-ChemXplosion.jpg
-  logo-thumb: images/thumb-flyer-ChemXplosion.jpg
+  logo-full: images/flyer-MatchMakers.png
+  logo-thumb: images/thumb-flyer-MatchMakers.png
   repo-url: https://github.com/soft-eng-practicum/MatchMakers
-- name: STEC Research Portal
-  title: A Replacement Web Interface For Our STEC Projects
-  demo-url: https://etc.cardboard.software/stec
-  members: "CardBoard Consultancy: Dave Chesser, Austin Bond, Jacky Sylvain"
-  client: "Dr. Michael Saum"
-  client-url: http://www.ggc.edu/about-ggc/directory/michael-saum
-  description: "This project was requested by Dr. Saum to create a more friendly interface to listings of the STEC research opportunities. Dr. Cengiz Günay is the one sponsoring the project with his Software Dev. II class."
-  logo-full: images/flyer-cardboard.png
-  logo-thumb: images/thumb-flyer-cardboard.png
-  repo-url: https://github.com/soft-eng-practicum/ChemXplosion
+- name: IDGMobile
+  title: Iglesia De Gwinnett Mobile App
+  screencast-youtube: 79McrxIbQWc
+  members: "S.T.A.R. Labs: Cesar M. Romero, Jose Castro, Juan Gomez, Boji Benji"
+  client: "Josue Rodriguez"
+  client-url: https://www.iglesiadegwinnett.com/
+  description: "IDGMobile is a app designed for a church called Iglesia De Gwinnett.The purpose of this app is to share weekly messages to anyone who would like to watch."
+  logo-full: images/flyer-IDG-StarLabs.png
+  logo-thumb: images/thumb-flyer-IDG-StarLabs.png
+  repo-url: https://github.com/soft-eng-practicum/STARlabs
+- name: VSEPR Venture
+  title: Chemistry-based 2D RPG
+  screencast-youtube: ulWh6GOae9g
+  members: "The Game Devs: Grace Ongchangco, Jeremiah Anderson, Lindsey Wade, Kaiser Smith"
+  client: "Dr. Thomas Gluick"
+  client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+  description: "VSEPR Venture is a Chemistry based 2D RPG style of game. The player is given the name of a molecule and then is required to collect atoms to create the molecular structure that represents that molecule using the VSEPR Theory. The levels require the player to assess the Lewis structures and the placement of the electrons around the atom to successfully solve a particular molecule. The game features six levels and then a test level in which the player will have to complete to beat the game. This project was created using GameMaker Studio 2 and is written in GameMakers proprietary programming language called GameMaker Language (GML)."
+  logo-full: images/flyer-vsepr-venture.png
+  logo-thumb: images/thumb-flyer-vsepr-venture.png
+  repo-url: https://github.com/soft-eng-practicum/VSEPR-Venture
 - name: GGC Maps
   title: "A Campus Map Persistent Web Application"
   demo-url: https://soft-eng-practicum.github.io/ggcmaps/
-  screencast-youtube: zIZ7P6UjL8E
-  members: "Team JPAN: Nabilah Lasker, Codjoe Jean-Paul Gamadeku, Andres Blandon"
-  client: "Dr. Catherine Moore"
-  client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
-  description: "GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests. This project was started by Mike Deiters et al, in Fall of 2016. It has since been picked up for continuation by David Rivera et al, to further develop its features, and fix bugs as our Software Development II project. This is the latest update to this project for adding a GGC logo, nearby building cues, new UI controls, and clickable parking lots."
-  logo-full: images/flyer-ggcmaps.png
-  logo-thumb: images/thumb-flyer-ggcmaps.png
+  screencast-youtube: ssZTyvGVXLw
+  members: "GGC Maps 3: David Hagerty, Travis Simmons, Sean Lomar Hutchinson, Alain Hirwa"
+  client: "Mike Deiters and David Rivera-Rocha"
+  description: "GGC Maps is a progressive web application designed to help students locate rooms in the various buildings on GGC’s campus from their computer or mobile device - with or without an internet connection."
+  logo-full: images/flyer-ggcmaps3.png
+  logo-thumb: images/thumb-flyer-ggcmaps3.png
   repo-url: https://github.com/soft-eng-practicum/ggcmaps
-- name: OneFitness
-  title: "GGC Exercise Science Discipline mobile fitness app"
-  demo-url:
-  screencast-youtube: JokdDdCyesY
-  members: Ariella Hernandez, Katrina Smith, Wil Nazario
-  client: "Dr. Pam Anderson"
+- name: "What are my chances - Fantastic Four"
+  title: "Physician Assistant School Matcher"
+  screencast-youtube: dACs_bAXd4Q
+  members: "Fantastic Four: Elizabeth Haynie, Bradform Mashlum, Dionne Mitchner, Nishanth Mangineni"
+  client: "External client Brian Palm, physician's assistant at
+Gwinnett Medical Center and Northside Hospital. Brian is a Board
+Certified Chief PA of Emergency Medicine. Member of the AAPA as well
+as Georgia Association of Physician Assistants. Former adjunct faculty
+and Admissions Panel member at an accredited PA school."
+  client-url: https://www.linkedin.com/in/brian-palm-0b0ba72b/
+  description: "We are building a mobile-friendly web application that assists with helping physician assistant students determine which schools they are eligible to get into. They can enter their GPA, GRE, healthcare hours. From there, graphs with be presented comparing them to students nationally."
+  logo-full: images/flyer-fantasticFour.png
+  logo-thumb: images/thumb-flyer-fantasticFour.png
+  repo-url: https://github.com/GGC-SD/FantasticFour
+- name: Grizzly Parking
+  title: "Mobile app that guesses free parking spots on campus"
+  screencast-youtube: 7anq8EQsdnY
+  members: "Code Wranglers: Jared Houseman, Jake Bradberry, Paul Cardenas"
+  client: "Gianluca Parilli, Joshua Tran, Chelsea D'Alessandro"
   client-url: http://www.ggc.edu/about-ggc/directory/pamela-anderson
-  description: "Get in shape & be healthy: flexible workout 
-  	       plans to help user plan their workouts while
-	       keeping track of their past performance!"
-  logo-full: images/flyer-OneFitness.jpg
-  logo-thumb: images/thumb-flyer-OneFitness.jpg
-  repo-url: https://github.com/soft-eng-practicum/OneFitness
-- name: VSEPR Venture
-  title: Chemistry-based 2D RPG
-  demo-url: https://github.com/soft-eng-practicum/VSEPR-Venture/releases
-  screencast-youtube: nARyMzLKXJ8
-  members: "Team Enigma: Sasa Mitrovic, Jason Yu, Viktor Gutsu"
-  client: "Dr. Thomas Gluick"
-  client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-  description: "VSEPR Venture is a chemistry-based game with a 2D RPG feel to it. The game revolves around the VSEPR Theory and provides users with a unique way to practice what they've learned in their chemistry classes. This project was created using GameMaker Studio 2 and is written in GameMakers proprietary programming language called GameMaker Language (GML)."
-  logo-full: images/flyer-VSEPR.png
-  logo-thumb: images/thumb-flyer-VSEPR.png
-  repo-url: https://github.com/soft-eng-practicum/VSEPR-Venture
-- name: AutoSpeaker
-  title: Widgets that help increase accessibility 
-  demo-url: https://play.google.com/store/apps/details?id=gluka.autospeakerphone
-  screencast-youtube: SqitDTqJCWw
-  members: Henry Huynh, Gianluca Parilli, Brian Torok, Sinna Uy
+  description: "GrizzlyParking is an app designed to assist with parking on GGC Campus by calculating the highest possible chance of a parking spot in different parking lots."
+  logo-full: images/flyer-grizzly-parking.png
+  logo-thumb: images/thumb-flyer-grizzly-parking.png
+  repo-url: https://github.com/soft-eng-practicum/GrizzlyParking
+- name: Event Tracking System
+  title: Web based event tracking built for organizers and volunteers
+  screencast-youtube: y3DbbyLo7-s
+  members: "Natanael V. Nistor, Yiet Mai, Ammar Huseinspahic"
   client: "IBM Engineer Scott Warfield"
   client-url:
-  description: Auto Speaker is an accessibility app that will help users turn their speaker phone on with a single click of a reize-able widget and or within the app. The application will also be able to automatically answer the phone calls of people that were previously marked as favorite within the phone's contacts application.
-  logo-full: images/flyer-autoSpeaker.jpg
-  logo-thumb: images/thumb-flyer-autoSpeaker.jpg
-  repo-url: https://github.com/soft-eng-practicum/autoSpeaker
+  description: Event tracker is a web application that aims to make it easier for organizers to manage events and allow for volunteers to be able to apply for the events all on one platform.
+  logo-full: images/flyer-event-tracker.png
+  logo-thumb: images/thumb-flyer-event-tracker.png
+  repo-url: https://github.com/soft-eng-practicum/event-tracker
 ---
 
 These projects were developed during the ITEC 3870 Software
@@ -122,6 +134,10 @@ here are the winning teams:
 2.    Tech Titans
 3.    MatchMakers
 	
+<div class="project-video"> 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yUNJx8oMoak" frameborder="0" allowfullscreen></iframe>
+</div>
+
   <!-- lightgallery -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>  
