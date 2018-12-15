@@ -7,7 +7,7 @@ layout: default
 <p class="project-toc">Projects:
   <ul>
     {% for project in page.projects %}
-    <li><a href="#{{ project.name | url_encode }}">
+    <li><a href="#{{ project.name | cgi_escape }}">
 	{{ project.name }} - {{ project.title }}</a></li>
     {% endfor %}
   </ul>
@@ -25,8 +25,10 @@ layout: default
 
 {% for project in page.projects %} 
 
-<h2 class="project-title"><a id="{{ project.name | url_encode }}" href="{{project.demo-url}}"
-			     target="_blank">
+<h2 class="project-title">
+  <a id="{{ project.name | cgi_escape }}"
+     href="{{project.demo-url}}"
+     target="_blank">
     {{ project.name }} - {{ project.title }}</a></h2>
   
 <div>
