@@ -17,8 +17,9 @@ photos:
 projects:
 - name: "ChemGenApp"
   title: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
+  tech: angular6
   screencast-youtube: 3WPrGnkCGXY
-  members: "FreeRadicals: Ben Jackson, Trivon Etheridge, Bruce Carson, William Bullock"
+  members: "Free Radicals: Ben Jackson, Trivon Etheridge, Bruce Carson, William Bullock"
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
   description: "ChemGenApp is a program/website that generates as much information regarding a chemical reaction as possible in order to assist Chemistry professors with making quizzes."
@@ -27,6 +28,7 @@ projects:
   repo-url: https://github.com/GGC-SD/FreeRadicals
 - name: "GGC Intern App"
   title: "Internship Application Forms (:crown: :crown: 2ND PLACE)"
+  tech: [ "node", "express", "ejs", "mongodb", "html/css" ] 
   demo-url: http://ggc-internapp.herokuapp.com/
   screencast-youtube: bg5kknQzL-g
   members: "Tech Titans: Anastasia Arnold, Kidus Dawit, Billy Pridgen, Edgar Juarez"
@@ -38,6 +40,7 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/internapp
 - name: "What are my chances - MatchMakers"
   title: "PA School Matcher (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
+  tech: [ "angular6", "html/css" ] 
   screencast-youtube: DQcuT6XR8ag
   members: "Match Makers: Breeona Day and Lauren Marsicano"
   client: "External client Brian Palm, physician's assistant at
@@ -52,6 +55,7 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/soft-eng-practicum/MatchMakers
 - name: IDGMobile
   title: Iglesia De Gwinnett Mobile App
+  tech: [ "android", "youtube-api" ] 
   screencast-youtube: 79McrxIbQWc
   members: "S.T.A.R. Labs: Cesar M. Romero, Jose Castro, Juan Gomez, Boji Benji"
   client: "Josue Rodriguez"
@@ -62,17 +66,20 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/soft-eng-practicum/STARlabs
 - name: VSEPR Venture
   title: Chemistry-based 2D RPG
+  tech: [ "game-maker-2" ] 
   screencast-youtube: ulWh6GOae9g
+  demo-url: http://gongchie.altervista.org/TestRPG/index.html
   members: "The Game Devs: Grace Ongchangco, Jeremiah Anderson, Lindsey Wade, Kaiser Smith"
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-  description: "VSEPR Venture is a Chemistry based 2D RPG style of game. The player is given the name of a molecule and then is required to collect atoms to create the molecular structure that represents that molecule using the VSEPR Theory. The levels require the player to assess the Lewis structures and the placement of the electrons around the atom to successfully solve a particular molecule. The game features six levels and then a test level in which the player will have to complete to beat the game. This project was created using GameMaker Studio 2 and is written in GameMakers proprietary programming language called GameMaker Language (GML)."
+  description: "VSEPR Venture is a Chemistry based 2D RPG style of game. The player is given the name of a molecule and then is required to collect atoms to create the molecular structure that represents that molecule using the VSEPR Theory. The levels require the player to assess the Lewis structures and the placement of the electrons around the atom to successfully solve a particular molecule. The game features six levels and then a test level in which the player will have to complete to beat the game. This project was created using GameMaker Studio 2 and is written in GameMaker's proprietary programming language called GameMaker Language (GML)."
   logo-full: images/flyer-vsepr-venture.png
   logo-thumb: images/thumb-flyer-vsepr-venture.png
   repo-url: https://github.com/soft-eng-practicum/VSEPR-Venture
 - name: GGC Maps
   title: "A Campus Map Persistent Web Application"
   demo-url: https://soft-eng-practicum.github.io/ggcmaps/
+  tech: [ "javascript", "html5", "sass", "svg" ] 
   screencast-youtube: ssZTyvGVXLw
   members: "GGC Maps 3: David Hagerty, Travis Simmons, Sean Lomar Hutchinson, Alain Hirwa"
   client: "Mike Deiters and David Rivera-Rocha"
@@ -82,6 +89,7 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/soft-eng-practicum/ggcmaps
 - name: "What are my chances - Fantastic Four"
   title: "Physician Assistant School Matcher"
+  tech: [ "angular6", "html/css" ] 
   screencast-youtube: dACs_bAXd4Q
   members: "Fantastic Four: Elizabeth Haynie, Bradform Mashlum, Dionne Mitchner, Nishanth Mangineni"
   client: "External client Brian Palm, physician's assistant at
@@ -96,6 +104,7 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/GGC-SD/FantasticFour
 - name: Grizzly Parking
   title: "Mobile app that guesses free parking spots on campus"
+  tech: [ "angular6", "ionic", "firebase", "html/css" ] 
   screencast-youtube: 7anq8EQsdnY
   members: "Code Wranglers: Jared Houseman, Jake Bradberry, Paul Cardenas"
   client: "Gianluca Parilli, Joshua Tran, Chelsea D'Alessandro"
@@ -106,6 +115,7 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/soft-eng-practicum/GrizzlyParking
 - name: Event Tracking System
   title: Web based event tracking built for organizers and volunteers
+  tech: [ "php", "mysql", "html/css" ] 
   screencast-youtube: y3DbbyLo7-s
   members: "Natanael V. Nistor, Yiet Mai, Ammar Huseinspahic"
   client: "IBM Engineer Scott Warfield"

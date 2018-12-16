@@ -50,7 +50,7 @@ layout: default
 <p> {{ project.description }}</p>
 
 {% if project.tech %}
-<p> <b class="project-tech">Technology:</b> {{ project.tech }}</p>
+<p> <b class="project-tech">Technology:</b> {{ project.tech | join: "; " }}</p>
 {% endif %}
 
 <div class="project-links">
