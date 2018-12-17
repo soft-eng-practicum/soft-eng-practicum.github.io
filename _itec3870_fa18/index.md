@@ -17,7 +17,7 @@ photos:
 projects:
 - name: "ChemGenApp"
   title: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
-  tech: angular6
+  tech: [ angular6, node, html/css ]
   screencast-youtube: 3WPrGnkCGXY
   members: "Free Radicals: Ben Jackson, Trivon Etheridge, Bruce Carson, William Bullock"
   client: "Dr. Thomas Gluick"
@@ -38,8 +38,8 @@ projects:
   logo-full: images/flyer-internapp.png
   logo-thumb: images/thumb-flyer-internapp.png
   repo-url: https://github.com/soft-eng-practicum/internapp
-- name: "What are my chances - MatchMakers"
-  title: "PA School Matcher (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
+- name: "What are my chances 2"
+  title: "PA School Matcher by MatchMakers (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
   tech: [ "angular6", "html/css" ] 
   screencast-youtube: DQcuT6XR8ag
   members: "Match Makers: Breeona Day and Lauren Marsicano"
@@ -49,7 +49,7 @@ Certified Chief PA of Emergency Medicine. Member of the AAPA as well
 as Georgia Association of Physician Assistants. Former adjunct faculty
 and Admissions Panel member at an accredited PA school."
   client-url: https://www.linkedin.com/in/brian-palm-0b0ba72b/
-  description: "The PA School Matcher is a user-friendly application that matches prospective Physician's Assistant school student's information with the requirements of selected schools and the demographics of accepted students into the program to show how likely the student is to be accepted. The results are displayed as GOOD, AVERAGE & POOR as far as changes of being accepted. The system also provides feedback on how the student could improve their chances of being accepted."
+  description: "The PA School Matcher is a user-friendly application that matches prospective Physician's Assistant school student's information with the requirements of selected schools and the demographics of accepted students into the program to show how likely the student is to be accepted. The results are displayed as GOOD, AVERAGE & POOR as far as chances of being accepted. The system also provides feedback on how the student could improve their chances of being accepted."
   logo-full: images/flyer-MatchMakers.png
   logo-thumb: images/thumb-flyer-MatchMakers.png
   repo-url: https://github.com/soft-eng-practicum/MatchMakers
@@ -72,7 +72,7 @@ and Admissions Panel member at an accredited PA school."
   members: "The Game Devs: Grace Ongchangco, Jeremiah Anderson, Lindsey Wade, Kaiser Smith"
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-  description: "VSEPR Venture is a Chemistry based 2D RPG style of game. The player is given the name of a molecule and then is required to collect atoms to create the molecular structure that represents that molecule using the VSEPR Theory. The levels require the player to assess the Lewis structures and the placement of the electrons around the atom to successfully solve a particular molecule. The game features six levels and then a test level in which the player will have to complete to beat the game. This project was created using GameMaker Studio 2 and is written in GameMaker's proprietary programming language called GameMaker Language (GML)."
+  description: "VSEPR Venture is a Chemistry based 2D RPG style of game. The player is given the name of a molecule and then is required to collect atoms to create the molecular structure that represents that molecule using the VSEPR Theory. The levels require the player to assess the Lewis structures and the placement of the electrons around the atom to successfully solve a particular molecule. The game features six levels, and then a test level that the player must complete to beat the game. This project was created using GameMaker Studio 2 and is written in GameMaker's proprietary programming language called GameMaker Language (GML)."
   logo-full: images/flyer-vsepr-venture.png
   logo-thumb: images/thumb-flyer-vsepr-venture.png
   repo-url: https://github.com/soft-eng-practicum/VSEPR-Venture
@@ -82,14 +82,14 @@ and Admissions Panel member at an accredited PA school."
   tech: [ "javascript", "html5", "sass", "svg" ] 
   screencast-youtube: ssZTyvGVXLw
   members: "GGC Maps 3: David Hagerty, Travis Simmons, Sean Lomar Hutchinson, Alain Hirwa"
-  client: "Mike Deiters and David Rivera-Rocha"
+  client: "<a href='http://deiters.me/' target='_blank'>Mike Deiters</a> and David Rivera-Rocha"
   description: "GGC Maps is a progressive web application designed to help students locate rooms in the various buildings on GGC’s campus from their computer or mobile device - with or without an internet connection."
   logo-full: images/flyer-ggcmaps3.png
   logo-thumb: images/thumb-flyer-ggcmaps3.png
   repo-url: https://github.com/soft-eng-practicum/ggcmaps
-- name: "What are my chances - Fantastic Four"
-  title: "Physician Assistant School Matcher"
-  tech: [ "angular6", "html/css" ] 
+- name: "What are my chances 1"
+  title: "PA School Matcher by Fantastic Four"
+  tech: [ "angular6", "mongodb", "mongoose", "node", "html/css" ] 
   screencast-youtube: dACs_bAXd4Q
   members: "Fantastic Four: Elizabeth Haynie, Bradform Mashlum, Dionne Mitchner, Nishanth Mangineni"
   client: "External client Brian Palm, physician's assistant at
@@ -118,8 +118,8 @@ and Admissions Panel member at an accredited PA school."
   tech: [ "php", "mysql", "html/css" ] 
   screencast-youtube: y3DbbyLo7-s
   members: "Natanael V. Nistor, Yiet Mai, Ammar Huseinspahic"
-  client: "IBM Engineer Scott Warfield"
-  client-url:
+  client: "Michael Holtmann"
+  client-url: https://www.linkedin.com/in/michael-holtmann-a4671173/
   description: Event tracker is a web application that aims to make it easier for organizers to manage events and allow for volunteers to be able to apply for the events all on one platform.
   logo-full: images/flyer-event-tracker.png
   logo-thumb: images/thumb-flyer-event-tracker.png
@@ -131,18 +131,18 @@ Development 2 course sections taught
 by [Dr. Anca Doloc-Mihu][doloc-ggc] and [Dr. Cengiz Gunay][gunay-ggc]
 in the Fall 2018 semester by [Georgia Gwinnett College][ggc]
 students. Each project was commissioned and supervised by a GGC
-professor or an external person who provided the idea, requirements,
+professor or an external client who provided the idea, requirements,
 and direction throughout the semester. Final products were
 demonstrated and tested by other students and faculty at
-the [GGC CREATE symposium][create] on November 29th. Click on titles
-to see their demo sites.
+the [GGC CREATE symposium][create] on November 29th, 2018. Click on
+titles to see their demo sites.
 
 Based on the votes of the guests testing the apps at the symposium,
 here are the winning teams:
 
-1.    Free Radicals
-2.    Tech Titans
-3.    MatchMakers
+1.    Free Radicals, with the ChemGenApp project
+2.    Tech Titans, with the "GGC Intern App" project
+3.    MatchMakers, with the "What are my Chances?" project
 	
 <div class="project-video"> 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/yUNJx8oMoak" frameborder="0" allowfullscreen></iframe>

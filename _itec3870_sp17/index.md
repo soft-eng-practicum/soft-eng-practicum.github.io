@@ -12,6 +12,7 @@ photos:
 - IMG_20170427_145050656.jpg
 - IMG_20170427_145114857.jpg
 - IMG_20170427_145202939_HDR.jpg
+
 projects:
 - name: GGCmaps
   title: "Search rooms. Find rooms. Don't get lost in A (even offline!)"
