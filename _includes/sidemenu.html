@@ -38,7 +38,8 @@
     <h4 class="side_title" style="font-weight:bold; position:fixed;">Projects</h4>
     <div class="side_menu_section">
         <ul  class="menu_nav">
-            {% for projects in site.collections %}
+	  {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
+          {% for projects in collections_list %}
             <li><a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a></li>
             {% endfor %}
         </ul>

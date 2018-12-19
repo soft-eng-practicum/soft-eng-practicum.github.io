@@ -2,6 +2,7 @@
 layout: projects
 
 title:  "Fall 2018 Software Projects"
+sidebartitle:  "Fall 2018 SD2"
 date:   2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
