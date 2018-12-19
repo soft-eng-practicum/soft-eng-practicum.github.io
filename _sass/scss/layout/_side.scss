@@ -23,7 +23,7 @@
     color: $color-black;
   }
 }
-sidebar {
+.sidebar {
     background-color: $color-ggc-green;
     height: 100%;
     width: 226px;
@@ -32,8 +32,6 @@ sidebar {
     left: 0;
 }
 .menu_block{
-  background-color: $color-black;
-  min-height: 100vh;
   padding: 0;
   .logo_box{
     text-align: center;
