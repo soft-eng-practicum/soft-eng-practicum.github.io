@@ -36,4 +36,4 @@ markdown: kramdown
 plugins:
   - jemoji
 sass:
-  sass_dir: _sass
+  style: expanded

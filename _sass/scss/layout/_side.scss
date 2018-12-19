@@ -23,27 +23,40 @@
     color: $color-black;
   }
 }
+sidebar {
+    background-color: $color-ggc-green;
+    height: 100%;
+    width: 226px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .menu_block{
   background-color: $color-black;
   min-height: 100vh;
   padding: 0;
   .logo_box{
     text-align: center;
-    padding: 25px 10px;
+    padding: 25px 10px 10px 10px;
   }
   .side_menu_section{
-    margin-top: 50px;
+    margin-top: 10px;
+    overflow: auto;
+    max-height: 250px;
   }
   .side_title{
     padding-left: 50px;
     color: $color-primary;
     text-transform: capitalize;
-    font-size: 15px;
-    margin-bottom: 25px;
+    font-size: 17px;
+    margin-bottom: 10px;
     font-weight: 500;
+    background-color: $color-ggc-green;
+    width: 200px;
+    height: 25px;
   }
   .side_menu_bottom{
-    min-height: 300px;
+    min-height: 100px;
     .side_menu_bottom_inner{
       position: absolute;
       left: 0;
@@ -52,12 +65,12 @@
     }
   }
   .copy_right{
-    padding: 25px;
+    padding: 15px 25px;
     color: $color-primary;
-    margin-top: 50px;
+    margin-top: 10px;
     p{
       color: $color-primary;
-      font-size: 12px;
+      font-size: 10px;
       text-align: center;
       font-weight: 500;
     }
@@ -69,6 +82,7 @@
   padding: 0;
   list-style: none;
   margin-left: 0;
+  margin-top: 20px;
   li{
     width: 100%;
     display: inline-block;
@@ -101,7 +115,7 @@
     right: 0;
     left: 100%;
     z-index: 999999;
-    background-color: #99896e;
+    background-color: $color-primary;
     padding: 10px;
     display: inline-block;
     min-width: 200px;
