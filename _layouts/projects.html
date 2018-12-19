@@ -1,54 +1,48 @@
 ---
 layout: default
 ---
-
-<h1 class="post-title">{{ page.title }}</h1>
-
-<p class="project-toc">Projects:
-  <ul>
-    {% for project in page.projects %}
-    <li><a href="#{{ project.name | cgi_escape }}">
-	{{ project.name }} - {{ project.title }}</a></li>
-    {% endfor %}
-  </ul>
-</p>
-
+{%include projects_sidemenu.html%}
+<h1 class="post-title" style="text-align: center">{{ page.title }}</h1>
 {{ content }}
 
-<h2 class="project-title">Photo Gallery</h2>
+<div class="projects_grid">
+    <div class="project_pictures">
+        <div id="slideshow">
+            {% for project in page.photos %}
+            <div class="pictures">
+            <a id="lightgallery" href="images/{{ project }}">
+                <img class="mySlides" src="images/{{ project }}">
+            </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 
-{% for project in page.photos %} 
-
-<a id="lightgallery" href="images/{{ project }}">
-  <img class="create-images logo-thumb" src="images/{{ project }}">
-</a>
-
-{% endfor %}
-
-{% for project in page.projects %} 
+</div>
+{% for project in page.projects %}
 
 <h2 class="project-title">
   <a id="{{ project.name | cgi_escape }}"
      href="{{project.demo-url}}"
      target="_blank">
     {{ project.name }} - {{ project.title }}</a></h2>
-  
+
 <div>
-  <a id="lightgallery" href="{{ project.logo-full }}">
-    <img class="logo-thumb" src="{{ project.logo-thumb }}">
-  </a>
+    <a id="lightgallery" href="{{ project.logo-full }}">
+        <img class="logo-thumb" src="{{ project.logo-thumb }}">
+    </a>
 </div>
 
 <p> Developed by <em>{{ project.members }}</em><br>
-  Lead by <em>
-    {% if project.client-url %}
-    <a href="{{ project.client-url }}" target="_blank">{{
-      project.client }}</a>
-    {% else %}
-    {{ project.client }}
-    {% endif %}
-  </em>
-  
+    Lead by <em>
+        {% if project.client-url %}
+        <a href="{{ project.client-url }}" target="_blank">{{
+            project.client }}</a>
+        {% else %}
+        {{ project.client }}
+        {% endif %}
+    </em>
+
 <p> {{ project.description }}</p>
 
 {% if project.tech %}
@@ -57,26 +51,42 @@ layout: default
 
 <div class="project-links">
 
-  <p>
-    {% if project.demo-url %}
-    <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a>, </em>
+    <p>
+        {% if project.demo-url %}
+        <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a>, </em>
+        {% endif %}
+
+        <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
+    </p>
+
+    {% if project.screencast-youtube %}
+    <div class="project-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+    {% if project.screencast-vimeo %}
+    <div class="project-video">
+        <iframe src="https://player.vimeo.com/video/{{ project.screencast-vimeo }}" width="640" height="360"
+                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
     {% endif %}
 
-    <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
-  </p>
+    <hr class="project-sep">
 
-{% if project.screencast-youtube %}
-<div class="project-video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}" frameborder="0" allowfullscreen></iframe>
+    {% endfor %}
+
 </div>
-{% endif %}
-{% if project.screencast-vimeo %}
-<div class="project-video">
-  <iframe src="https://player.vimeo.com/video/{{ project.screencast-vimeo }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-{% endif %}
 
-<hr class="project-sep">
-    
-{% endfor %}
+<script>
+    $("#slideshow > div:gt(0)").hide();
 
+    setInterval(function() {
+        $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+    }, 3000);
+</script>

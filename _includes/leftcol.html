@@ -1,8 +1,20 @@
-<div class="home">
+<div class ="home_grid">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="project_demo">
+  <h1 class="page-heading">Project Demos</h1>
 
-<div class = "post">  
+  <ul class="post-list">
+    {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
+    {% for projects in collections_list %}
+      <h2>
+        <a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a>
+      </h2>
+    {% endfor %}
+  </ul>
+</div>
+
+    <div class = "post">
+    <h1 class="page-heading">Posts</h1>
     
 {% for category in site.categories %}
     <h3>&nbsp;&nbsp;{{category | first}}</h3>
@@ -18,31 +30,13 @@
         </ul>
 {% endfor %}    
 
-</div>
-
-<h1 class="page-heading">Project Demos</h1>
-
-<ul class="post-list">
-  {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
-    {% for projects in collections_list %}
-      <li>
-        <span class="post-meta">{{ projects.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-    
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  <!--<h1 class="page-heading">Sponsors</h1>-->
 
-  <h1 class="page-heading">Sponsors</h1>
-
-  <p><a href="http://github.com"><img src="/assets/github-Octocat.png">GitHub</a></p>
-  
-  <p><a href="http://bitbucket.com"><img src="/assets/Atlassian-horizontal-blue-rgb.svg"> <img src="/assets/Jira Software-blue.svg"> <img src="/assets/Bitbucket-blue.svg"></a></p>
-  <p><a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a></p>
-
+  <!--<div class="sponsor-img">-->
+    <!--<p><a href="http://github.com"><img src="/assets/github-Octocat.png"></a></p>-->
+    <!--<p><a href="http://bitbucket.com"><img src="/assets/Atlassian-horizontal-blue-rgb.svg"> <img src="/assets/Jira Software-blue.svg"> <img src="/assets/Bitbucket-blue.svg"></a></p>-->
+    <!--<p><a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a></p>-->
+  <!--</div>-->
 </div>

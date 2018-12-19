@@ -1,90 +1,82 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
+/*
+ * Cocoon -  Portfolio html  Template
+ * Build Date: december 2017
+ * Author: colorlib
+ * Copyright (C) 2018 colorlib
+ */
+/* ------------------------------------- */
+/* TABLE OF CONTENTS
+/* -------------------------------------
+    . GENERAL
+    . SIDE MENU
+    . BODY SIDE GENEREL CLASSES
+    . BUTTONS
+    . ICON BOXES
+    . PROJECTS SECTION (PORTFOLIO)
+    . BLOG  SECTION
+    . COUNTER SECTION
+    . Testimonial SECTION
+	. Contact Section
+	.PROGRESSBAR
+	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
+	------------------------------------- */
+
+@import "../_sass/scss/base/variables";
+
+/*  ----------------------------------------------------
+1. GENERAL
+-------------------------------------------------------- */
+@import "../_sass/scss/base/base";
+
+/*  ----------------------------------------------------
+2. HEADER
+-------------------------------------------------------- */
+@import "../_sass/scss/layout/side";
+
+/*  ----------------------------------------------------
+3 body
+-------------------------------------------------------- */
+@import "../_sass/scss/layout/body";
+
+/*  ----------------------------------------------------
+4 buttons
+-------------------------------------------------------- */
+
+@import "../_sass/scss/components/buttons";
+/*  ----------------------------------------------------
+5 icon boxes
+-------------------------------------------------------- */
+@import "../_sass/scss/components/icon_boxes";
+
+/*  ----------------------------------------------------
+6 portfolio
+-------------------------------------------------------- */
+@import "../_sass/scss/components/portfolio";
+/*  ----------------------------------------------------
+7 counter
+-------------------------------------------------------- */
+@import "../_sass/scss/components/counter";
+/*  ----------------------------------------------------
+8 tabs
+-------------------------------------------------------- */
+@import "../_sass/scss/components/tabs";
+/*  ----------------------------------------------------
+9 testimonial
+-------------------------------------------------------- */
+@import "../_sass/scss/components/testimonial";
+/*  ----------------------------------------------------
+10 blog
+-------------------------------------------------------- */
+@import "../_sass/scss/components/blog_box";
+
+/*  ----------------------------------------------------
+11 contact box
+-------------------------------------------------------- */
+@import "../_sass/scss/components/contact";
 
 
+/*  ----------------------------------------------------
+12 progressbar
+-------------------------------------------------------- */
+@import "../_sass/scss/components/progressbar";
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-    .home-2col {
-	width: 45%;
-	max-width: ( $device - $spacing-unit ) / 2;
-	float: left;
-	padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-    .logo-thumb {
-	float: left;
-	padding-right: 10pt;
-	padding-bottom: 10pt;
-    }
-    .project-title {
-	clear: left;
-	@extend .post-title;
-    }
-    .create-images {
-	float: left;
-	width: 45%;
-	padding-right: $spacing-unit / 2;
-	padding-bottom: $spacing-unit / 2;
-    }
-    .project-video {
-	clear: left;
-    }
-    hr.project-sep {
-	clear: left;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	border-top: 1px solid #8c8b8b;
-	border-bottom: 1px solid #fff;
-	//border-top: 1px dashed #8c8b8b;
-	//border-bottom: 1px dashed #fff;
-	margin-bottom: 20px;
-    }
-    b.project-tech {
-	font-weight: 700;
-    }
-    .project-toc {
-	clear: left;
-    }
-}
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
