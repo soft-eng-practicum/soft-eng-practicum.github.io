@@ -36,4 +36,4 @@ markdown: kramdown
 plugins:
   - jemoji
 sass:
-  style: expanded
+  style: compressed # saves 25% space
