@@ -4,7 +4,7 @@ tagline: A collection of student created software projects
 email: cengique@users.sf.net
 description: > # this means to ignore newlines until "baseurl:"
         This is an educational organization to host software development/engineering projects.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://soft-eng-practicum.github.io/" # the base hostname & protocol for your site
 twitter_username: cengique
 github_username:  cengique
