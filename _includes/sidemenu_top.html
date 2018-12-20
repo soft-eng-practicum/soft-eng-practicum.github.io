@@ -11,7 +11,7 @@
     <!--main menu -->
     <div class="side_menu_section">
         <ul class="menu_nav">
-            <li class="active">
+            <li class="{% if page.title == "Home" %} active {% endif %}">
                 <a href="{{ site.baseurl }}">
                     Home
                 </a>
@@ -26,7 +26,7 @@
                     News
                 </a>
             </li>
-            <li>
+            <li class="{% if page.title == "About the Practicum Site" %} active {% endif %}">
                 <a href="{{ 'about/' | prepend: site.baseurl }}">
                     About
                 </a>

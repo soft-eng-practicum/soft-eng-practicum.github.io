@@ -1,11 +1,21 @@
 ---
 layout: page
-title: About
+title: About the Practicum Site
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is an educational site to exhibit student software project demos
+from various schools in the Metro Atlanta region. The site is
+maintained by [{{ site.author_name }}]({{ site.author_link }})
+from [Georgia Gwinnett College](http://www.ggc.edu/). Many of the
+projects were supervised by other faculty members or external
+collaborators of the organization.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+## Sponsors
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<div class="sponsor-img-section">
+    <div class="sponsor-img-float"><a href="http://github.com"><img src="/assets/github-Octocat.png"></a></div>
+	<div class="sponsor-img-float"><a href="http://bitbucket.com"><img src="/assets/Atlassian-horizontal-blue-rgb.svg"> <img src="/assets/Jira Software-blue.svg"> <img src="/assets/Bitbucket-blue.svg"></a></div>
+    <div class="sponsor-img-clear"><a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a></div>
+</div>
+

@@ -1,5 +1,18 @@
-.sponsor-img {
-  width: 25%;
+.sponsor-img-section {
+  text-align: center;
+  /* Need media query to center this on wide displays */
+  .sponsor-img-float {
+    width: 200px;
+    max-width: 50%;
+    float: left;
+    img {
+      padding-bottom: 20px;
+    }
+  }
+  .sponsor-img-clear {
+    float: none;
+    clear: left;
+  }
 }
 
 .title {
