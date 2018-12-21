@@ -141,28 +141,13 @@ titles to see their demo sites.
 Based on the votes of the guests testing the apps at the symposium,
 here are the winning teams:
 
-1.    Free Radicals, with the ChemGenApp project
-2.    Tech Titans, with the "GGC Intern App" project
-3.    MatchMakers, with the "What are my Chances?" project
+1.    Free Radicals, with ChemGenApp 
+2.    Tech Titans, with "GGC Intern App"
+3.    MatchMakers, with "What are my Chances?"
 	
 <div class="project-video"> 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/yUNJx8oMoak" frameborder="0" allowfullscreen></iframe>
 </div>
-
-  <!-- lightgallery -->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>  
-  <script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>  
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $("body").lightGallery({
-	zoom: true,
-	selector: 'a#lightgallery',
-	selectWithin: 'body'
-    }); 
-    });
-  </script>
 
 [ggc]:		http://www.ggc.edu
 [gunay-ggc]: 	http://www.ggc.edu/about-ggc/directory/cengiz-gunay

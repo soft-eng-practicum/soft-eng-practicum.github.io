@@ -4,22 +4,24 @@ layout: default
 {%include projects_sidemenu.html%}
 
 <h1 class="post-title" style="text-align: center">{{ page.title }}</h1>
+
 {{ content }}
 
-<div class="projects_grid">
-    <div class="project_pictures">
-        <div id="slideshow">
-            {% for project in page.photos %}
-            <div class="pictures">
-            <a id="lightgallery" href="images/{{ project }}">
-                <img class="mySlides" src="images/{{ project }}">
-            </a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
+<h2>Event Photos</h2>
 
-</div>
+  <div class="project_pictures">
+    <div id="slideshow">
+      {% for project in page.photos %}
+      <div class="pictures">
+        <a  id="lightgallery" href="images/{{ project }}">
+          <img src="images/{{ project }}">
+        </a>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+
 {% for project in page.projects %}
 
 <h2 class="project-title">
@@ -80,14 +82,32 @@ layout: default
 </div>
 
 <script>
-    $("#slideshow > div:gt(0)").hide();
-
-    setInterval(function() {
-        $('#slideshow > div:first')
-            .fadeOut(1000)
-            .next()
-            .fadeIn(1000)
-            .end()
-            .appendTo('#slideshow');
-    }, 3000);
+  
 </script>
+
+  <!-- lightgallery -->
+  <script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {      
+      // Slideshow setup
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function() {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      }, 3000);
+
+      // LightGallery
+      $("body").lightGallery({
+	zoom: true,
+	selector: 'a#lightgallery',
+	selectWithin: 'body'
+      });
+    });
+  </script>
