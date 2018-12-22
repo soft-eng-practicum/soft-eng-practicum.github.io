@@ -6,4 +6,39 @@ layout: default
     <h2>{{site.title}}</h2>
     <h4>{{site.tagline}}</h4>
 </div>
-{% include leftcol.html %}
+
+<div class ="home_grid">
+
+<div class="project_demo">
+  <h1 class="page-heading">Project Demos</h1>
+
+  <ul class="post-list">
+    {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
+    {% for projects in collections_list %}
+      <h2>
+        <a class="post-link" href="{{ projects.label | relative_url }}">{{ projects.title }}</a>
+      </h2>
+    {% endfor %}
+  </ul>
+</div>
+
+    <div class = "post">
+    <h1 class="page-heading">Posts</h1>
+    
+{% for category in site.categories %}
+    <h3>&nbsp;&nbsp;{{category | first}}</h3>
+        <ul>
+        {% for posts in category %}
+            {% for post in posts %}
+                {% if post.url %}
+               <li><a href = "{{post.url}}">{{post.title}}</a></li>
+                 <br/>
+            {% endif %}
+            {% endfor %}
+        {% endfor %}
+        </ul>
+{% endfor %}    
+
+  <p class="rss-subscribe">subscribe <a href="{{ 'feed.xml' | relative_url }}">via RSS</a></p>
+    </div>
+</div>
