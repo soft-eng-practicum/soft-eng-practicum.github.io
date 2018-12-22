@@ -16,12 +16,12 @@
                     Home
                 </a>
             </li>
-            <li>
+            <li class="{% if page.title == "Featured projects" %} active {% endif %}">
                 <a href="{{ '/featured/' | relative_url }}">
                     Featured Projects
                 </a>
             </li>
-            <li>
+            <li class="{% if page.title == "News" %} active {% endif %}">
                 <a href="{{ '/news/' | relative_url }}">
                     News
                 </a>
