@@ -7,7 +7,7 @@
         <ul  class="menu_nav">
 	  {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
           {% for projects in collections_list %}
-            <li><a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a></li>
+            <li><a class="post-link" href="{{ projects.label | relative_url }}">{{ projects.title }}</a></li>
             {% endfor %}
         </ul>
     </div>

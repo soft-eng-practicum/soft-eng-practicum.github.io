@@ -2,8 +2,8 @@
 <div class="sidebar">
     <!--logo -->
     <div class="logo_box">
-        <a href="{{site.baseurl}}">
-            <img src="{{ site.baseurl }}assets/img/arcade-font-writer_2.png" alt="Soft-Eng Practicum">
+        <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/img/arcade-font-writer_2.png' | relative_url}}" alt="Soft-Eng Practicum">
         </a>
     </div>
     <!--logo end-->
@@ -12,7 +12,7 @@
     <div class="side_menu_section">
         <ul class="menu_nav">
             <li class="{% if page.title == "Home" %} active {% endif %}">
-                <a href="{{ site.baseurl }}">
+                <a href="{{ '/' | relative_url }}">
                     Home
                 </a>
             </li>
@@ -27,7 +27,7 @@
                 </a>
             </li>
             <li class="{% if page.title == "About the Practicum Site" %} active {% endif %}">
-                <a href="{{ 'about/' | prepend: site.baseurl }}">
+                <a href="{{ '/about/' | relative_url }}">
                     About
                 </a>
             </li>

@@ -7,7 +7,7 @@
     {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
     {% for projects in collections_list %}
       <h2>
-        <a class="post-link" href="{{ projects.label | prepend: site.baseurl }}">{{ projects.title }}</a>
+        <a class="post-link" href="{{ projects.label | relative_url }}">{{ projects.title }}</a>
       </h2>
     {% endfor %}
   </ul>
@@ -30,6 +30,6 @@
         </ul>
 {% endfor %}    
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ 'feed.xml' | relative_url }}">via RSS</a></p>
     </div>
 </div>
