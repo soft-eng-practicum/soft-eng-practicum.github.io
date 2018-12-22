@@ -1,4 +1,26 @@
 ---
-layout: page
+layout: default
 ---
+
+{% for category in site.categories %}
+
+  {% if category[0] == page.listcategory %}
+
+    <h3>{{ page.listcategory }}</h3>
+        <ul>
+        {% for posts in category %}
+            {% for post in posts %}
+                {% if post.url %}
+               <li><a href = "{{post.url}}">{{post.title}}</a></li>
+                 <br/>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        </ul>
+	{% break %}
+	
+  {% endif %}
+
+{% endfor %} 
+	
 
