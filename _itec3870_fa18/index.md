@@ -79,12 +79,12 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/soft-eng-practicum/VSEPR-Venture
 - name: GGC Maps
   title: "A Campus Map Persistent Web Application"
-  demo-url: https://soft-eng-practicum.github.io/ggcmaps/
+  demo-url: https://ggc-sd.github.io/ggcmaps3/
   tech: [ "javascript", "html5", "sass", "svg" ] 
   screencast-youtube: ssZTyvGVXLw
   members: "GGC Maps 3: David Hagerty, Travis Simmons, Sean Lomar Hutchinson, Alain Hirwa"
   client: "<a href='http://deiters.me/' target='_blank'>Mike Deiters</a> and David Rivera-Rocha"
-  description: "GGC Maps is a progressive web application designed to help students locate rooms in the various buildings on GGC’s campus from their computer or mobile device - with or without an internet connection."
+  description: "GGC Maps is a progressive web application designed to help students locate rooms in the various buildings on GGC’s campus from their computer or mobile device - with or without an internet connection. New features: building W mapped (only the C3 portion and not the newly constructed wing). Safety toggle fixed and in working condition with a legend display."
   logo-full: images/flyer-ggcmaps3.png
   logo-thumb: images/thumb-flyer-ggcmaps3.png
   repo-url: https://github.com/soft-eng-practicum/ggcmaps

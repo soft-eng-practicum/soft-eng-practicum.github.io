@@ -19,3 +19,12 @@ collaborators of the organization.
     <div class="sponsor-img-clear"><a href="https://zenhub.com"><img src="https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png"></a></div>
 </div>
 
+## Credits
+
+The original Jekyll code for the website was authored by Cengiz
+Gunay. Colorlib template was adopted by <a
+href="https://www.linkedin.com/in/nilajawilliams/"
+target="_blank">Nilaja Williams</a>, and further developed by CG. We
+thank all of the project clients who devoted time to work with the
+students.
+
