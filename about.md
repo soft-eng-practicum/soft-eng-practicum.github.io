@@ -22,9 +22,8 @@ collaborators of the organization.
 ## Credits
 
 The original Jekyll code for the website was authored by Cengiz
-Gunay. Colorlib template was adopted by <a
-href="https://www.linkedin.com/in/nilajawilliams/"
-target="_blank">Nilaja Williams</a>, and further developed by CG. We
-thank all of the project clients who devoted time to work with the
-students.
+Gunay. Colorlib template was adopted
+by [Nilaja Williams](https://www.linkedin.com/in/nilajawilliams/), and
+further developed by CG. We thank all of the project clients who
+devoted time to work with the students.
 
