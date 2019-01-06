@@ -2,7 +2,6 @@
 layout: projects
 
 title:  "Fall 2018 Software Projects"
-sidebartitle:  "Fall 2018 SD2"
 date:   2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
@@ -20,7 +19,7 @@ projects:
   title: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
   tech: [ angular6, node, html/css ]
   screencast-youtube: 3WPrGnkCGXY
-  members: "Free Radicals: Ben Jackson, Trivon Etheridge, Bruce Carson, William Bullock"
+  members: "Free Radicals: Ben Jackson, William Bullock, Bruce Carson, Trivon Etheridge"
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
   description: "ChemGenApp is a program/website that generates as much information regarding a chemical reaction as possible in order to assist Chemistry professors with making quizzes."
@@ -127,16 +126,15 @@ and Admissions Panel member at an accredited PA school."
   repo-url: https://github.com/soft-eng-practicum/event-tracker
 ---
 
-These projects were developed during the ITEC 3870 Software
-Development 2 course sections taught
-by [Dr. Anca Doloc-Mihu][doloc-ggc] and [Dr. Cengiz Gunay][gunay-ggc]
-in the Fall 2018 semester by [Georgia Gwinnett College][ggc]
-students. Each project was commissioned and supervised by a GGC
-professor or an external client who provided the idea, requirements,
-and direction throughout the semester. Final products were
-demonstrated and tested by other students and faculty at
-the [GGC CREATE symposium][create] on November 29th, 2018. Click on
-titles to see their demo sites.
+These projects were developed by [Georgia Gwinnett College][ggc]
+students during the ITEC 3870 Software Development 2 course sections
+taught by [Dr. Anca Doloc-Mihu][doloc-ggc]
+and [Dr. Cengiz Gunay][gunay-ggc] in the Fall 2018 semester. Each
+project was commissioned and supervised by a GGC professor or an
+external client who provided the idea, requirements, and direction
+throughout the semester. Final products were demonstrated and tested
+by other students and faculty at the [GGC CREATE symposium][create] on
+November 29th, 2018. Click on titles to see their demo sites.
 
 Based on the votes of the guests testing the apps at the symposium,
 here are the winning teams:

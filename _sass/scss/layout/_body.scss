@@ -1,6 +1,13 @@
 .body_block{
   background-color: $color-light;
   padding: 25px 30px 50px 30px;
+  table, td, th {
+    border: 1px solid gray;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
 }
 .img_card{
   position: relative;

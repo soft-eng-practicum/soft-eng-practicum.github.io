@@ -3,9 +3,9 @@
 {% include sidemenu_top.html %}
 
 <!--filter menu -->
-<h4 class="side_title" style="font-weight:bold; position:fixed;">
+<h4 class="side_title">
   {% if page.sidebartitle %}{{ page.sidebartitle }}{% else %} Projects {% endif %}</h4>
-    <div class="side_menu_section">
+    <div class="side_menu_scroll">
         <ul  class="menu_nav">
             {% for project in page.projects %}
             <li><a class="post-link" href="#{{ project.name | url_encode }}">{{ project.name }}</a></li>

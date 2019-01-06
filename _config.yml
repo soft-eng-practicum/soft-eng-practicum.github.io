@@ -14,22 +14,27 @@ repository: soft-eng-practicum/soft-eng-practicum.github.io
 collections:
   itec3870_fa18:
     title: "Fall 2018 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Fall 2018 SD2"
     date: 2018-11-26
     output: true
   itec3870_sp18:
     title: "Spring 2018 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Spring 2018 SD2"
     date: 2018-05-17
     output: true
   itec3870_fa17:
     title: "Fall 2017 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Fall 2017 SD2"
     date: 2017-11-30
     output: true
   itec3870_sp17:
     title: "Spring 2017 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Spring 2017 SD2"
     date: 2017-05-10
     output: true
   itec3870_fa16:
     title: "Fall 2016 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Fall 2016 SD2"
     date: 2016-12-01
     output: true
 
