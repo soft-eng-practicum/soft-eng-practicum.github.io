@@ -14,8 +14,9 @@ categories:
 |:--
 |[SwampHacks](https://2019.swamphacks.com/){:target="_blank"}|Univ Florida at Gainesville|	Jan 18-20, 2019|	Dec 21st, 2018 | Charter bus available from GA Tech campus
 |[TAMUHack](https://tamuhack.com/){:target="_blank"}|Texas A&M Univ, Austin, TX|	Jan 26-27, 2019|	Jan 6th, 2019
+|[CUhackit](https://cuhack.it/){:target="_blank"}|Clemson Univ, SC|	Jan 26-27, 2019| Accepting applications | Only 24 hour event. 1.5 hours driving from ATL. 
 |[MangoHacks](https://mangohacks.com/){:target="_blank"}|Florida International University|Feb 1st - 3rd | Apply soon?? | Buses exist, and they also refund travel expenses
-|[UGAHacks](https://ugahacks.com/){:target="_blank"}|	UGA Campus, Athens, GA|	Feb 9-11, 2018|	Jan 26, 2018 | Must go!
+|[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|	Feb 9-11, 2018|	Jan 26, 2018 | Must go!
 |[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
 
  
