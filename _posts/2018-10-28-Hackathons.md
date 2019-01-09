@@ -3,10 +3,15 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
+last_modified_at: 2019-01-09
 categories:
 - Pinned
 
 ---
+
+<center>
+<em>Hackathon list last updated on {{ page.last_modified_at }}.</em>
+</center>
 
 ## Coming up
 
@@ -17,7 +22,7 @@ categories:
 |[CUhackit](https://cuhack.it/){:target="_blank"}|Clemson Univ, SC|	Jan 26-27 (24-hour), 2019| Accepting applications | Only 24 hour event. 1.5 hours driving from ATL. 
 |[MangoHacks](https://mangohacks.com/){:target="_blank"}|Florida International University|Feb 1st - 3rd | Apply soon?? | Buses exist, and they also refund travel expenses
 |[AuburnHacks](https://auburnhacks.com/){:target="_blank"}|Auburn Univ, AL|Feb 2-3 (24-hour), 2019|Apply soon??|Not so far from here!
-|[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|	Feb 9-11, 2018|	Jan 26, 2018 | Must go!
+|[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|Feb 8-10, 2019|	Jan 31, 2019 | Must go!
 |[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
 
  
