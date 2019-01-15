@@ -23,7 +23,7 @@ categories:
 |[MangoHacks](https://mangohacks.com/){:target="_blank"}|Florida International University|Feb 1st - 3rd | Apply soon?? | Buses exist, and they also refund travel expenses
 |[AuburnHacks](https://auburnhacks.com/){:target="_blank"}|Auburn Univ, AL|Feb 2-3 (24-hour), 2019|Apply soon??|Not so far from here!
 |[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|Feb 8-10, 2019|	Jan 31, 2019 | Must go!
-|[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
+|[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|Females or non-binary gender only. First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
 
  
 ## Past (but repeats yearly)
