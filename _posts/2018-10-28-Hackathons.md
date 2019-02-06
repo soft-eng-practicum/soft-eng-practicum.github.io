@@ -19,7 +19,8 @@ categories:
 |:--
 |[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|Feb 8-10, 2019|	Jan 31, 2019 | 1000+ participants. Must go!
 |[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|Females or non-binary gender only. Others can still volunteer/mentor. First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
-|[HooHacks](https://www.hoohacks.io/)|University of Virginia|March 2-3, 2019|Apply soon?|24 hour event.
+|[KnightHacks](https://knighthacks.org/)|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
+|[HooHacks](https://www.hoohacks.io/)|University of Virginia|March 2-3, 2019|Feb 14|24 hour event.
 |[CrimsonHacks](https://www.crimsonhacks.com/)|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away
 |[HackGSU](http://hackgsu.com/)|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
 
