@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2019-02-06
+last_modified_at: 2019-02-12
 categories:
 - Pinned
 
@@ -17,12 +17,14 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--
-|[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|Feb 8-10, 2019|	Jan 31, 2019 | 1000+ participants. Must go!
 |[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|Females or non-binary gender only. Others can still volunteer/mentor. First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
 |[KnightHacks](https://knighthacks.org/)|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
-|[HooHacks](https://www.hoohacks.io/)|University of Virginia|March 2-3, 2019|Feb 14|24 hour event.
-|[CrimsonHacks](https://www.crimsonhacks.com/)|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away
+|[HooHacks](https://www.hoohacks.io/)|University of Virginia, Charlottesville|March 2-3, 2019|Feb 14|24 hour event. 8 hours drive from ATL
+|[DiamondHacks]((see justification above))|North Carolina State University|March 2-3 (24-hour), 2019|Apply soon|For anyone who currently self-identifies, or has ever self-identified, as female, non-binary, or gender nonconforming.
+|[CrimsonHacks](https://www.crimsonhacks.com/)|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
+|[Hackabull](https://hackabull.io/#home)|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
 |[HackGSU](http://hackgsu.com/)|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
+|[CatHacks](http://cathacks.cs.uky.edu/)|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
 
 ## Past (but repeats yearly)
 
@@ -36,3 +38,4 @@ categories:
 |[CUhackit](https://cuhack.it/){:target="_blank"}|Clemson Univ, SC|	Jan 26-27 (24-hour), 2019| Accepting applications | Only 24 hour event. 1.5 hours driving from ATL. 
 |[MangoHacks](https://mangohacks.com/){:target="_blank"}|Florida International University|Feb 1st - 3rd |Jan 25, 2019| Buses exist, and they also refund travel expenses
 |[AuburnHacks](https://auburnhacks.com/){:target="_blank"}|Auburn Univ, AL|Feb 2-3 (24-hour), 2019|Jan 27, 2019|2 hours drive away
+|[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|Feb 8-10, 2019|	Jan 31, 2019 | 1000+ participants. Must go!
