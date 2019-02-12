@@ -16,15 +16,15 @@ categories:
 ## Coming up
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
-|:--
+|:--------| :---    | :---      | :---
 |[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|Females or non-binary gender only. Others can still volunteer/mentor. First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
-|[KnightHacks](https://knighthacks.org/)|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
-|[HooHacks](https://www.hoohacks.io/)|University of Virginia, Charlottesville|March 2-3, 2019|Feb 14|24 hour event. 8 hours drive from ATL
-|[DiamondHacks]((see justification above))|North Carolina State University|March 2-3 (24-hour), 2019|Apply soon|For anyone who currently self-identifies, or has ever self-identified, as female, non-binary, or gender nonconforming.
-|[CrimsonHacks](https://www.crimsonhacks.com/)|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
-|[Hackabull](https://hackabull.io/#home)|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
-|[HackGSU](http://hackgsu.com/)|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
-|[CatHacks](http://cathacks.cs.uky.edu/)|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
+|[KnightHacks](https://knighthacks.org/){:target="_blank"}|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
+|[HooHacks](https://www.hoohacks.io/){:target="_blank"}|University of Virginia, Charlottesville|March 2-3, 2019|Feb 14|24 hour event. 8 hours drive from ATL
+|[DiamondHacks](https://www.ncsudiamondhacks.com/){:target="_blank"}|North Carolina State University|March 2-3 (24-hour), 2019|Apply soon|For anyone who currently self-identifies, or has ever self-identified, as female, non-binary, or gender nonconforming.
+|[CrimsonHacks](https://www.crimsonhacks.com/){:target="_blank"}|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
+|[Hackabull](https://hackabull.io/#home){:target="_blank"}|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
+|[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
+|[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
 
 ## Past (but repeats yearly)
 
