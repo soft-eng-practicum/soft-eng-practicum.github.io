@@ -21,6 +21,7 @@ categories:
 |[KnightHacks](https://knighthacks.org/){:target="_blank"}|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
 |[HooHacks](https://www.hoohacks.io/){:target="_blank"}|University of Virginia, Charlottesville|March 2-3, 2019|Feb 14|24 hour event. 8 hours drive from ATL
 |[DiamondHacks](https://www.ncsudiamondhacks.com/){:target="_blank"}|North Carolina State University, Raleigh|March 2-3 (24-hour), 2019|Apply soon|For anyone who currently self-identifies, or has ever self-identified, as female, non-binary, or gender nonconforming. ~7 hours from ATL.
+|[hackathonCLT](http://hackathonclt.org/){:target="_blank"}|Discovery Place Science, Charlotte, NC|March 22-23 (13-hour), 2019|Apply soon|Accepts anyone 18 and above. 3.5 hours away from ATL
 |[CrimsonHacks](https://www.crimsonhacks.com/){:target="_blank"}|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
 |[Hackabull](https://hackabull.io/#home){:target="_blank"}|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
