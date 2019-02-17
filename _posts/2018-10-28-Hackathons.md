@@ -17,7 +17,6 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|Females or non-binary gender only. Others can still volunteer/mentor. First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
 |[KnightHacks](https://knighthacks.org/){:target="_blank"}|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
 |[HooHacks](https://www.hoohacks.io/){:target="_blank"}|University of Virginia, Charlottesville|March 2-3, 2019|Feb 14|24 hour event. 8 hours drive from ATL
 |[DiamondHacks](https://www.ncsudiamondhacks.com/){:target="_blank"}|North Carolina State University, Raleigh|March 2-3 (24-hour), 2019|Apply soon|For anyone who currently self-identifies, or has ever self-identified, as female, non-binary, or gender nonconforming. ~7 hours from ATL.
@@ -40,3 +39,4 @@ categories:
 |[MangoHacks](https://mangohacks.com/){:target="_blank"}|Florida International University|Feb 1st - 3rd |Jan 25, 2019| Buses exist, and they also refund travel expenses
 |[AuburnHacks](https://auburnhacks.com/){:target="_blank"}|Auburn Univ, AL|Feb 2-3 (24-hour), 2019|Jan 27, 2019|2 hours drive away
 |[UGAHacks](https://ugahacks.com/){:target="_blank"}|UGA Campus, Athens, GA|Feb 8-10, 2019|	Jan 31, 2019 | 1000+ participants. Must go!
+|[PEARL HACKS](https://pearlhacks.com/){:target="_blank"}|UNC-Chapel Hill|Feb.16-17, 2019|Apply soon??|Females or non-binary gender only. Others can still volunteer/mentor. First-time coder friendly! Buses from GA Tech, Emory, and GSU campuses
