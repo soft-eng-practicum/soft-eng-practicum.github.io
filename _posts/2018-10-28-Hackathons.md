@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2019-02-12
+last_modified_at: 2019-03-02
 categories:
 - Pinned
 
@@ -21,6 +21,7 @@ categories:
 |[KnightHacks](https://knighthacks.org/){:target="_blank"}|University of Central Florida, Orlando|March 1-3 (36-hour), 2019|Apply soon?|7 hour drive
 |[HooHacks](https://www.hoohacks.io/){:target="_blank"}|University of Virginia, Charlottesville|March 2-3, 2019|Feb 14|24 hour event. 8 hours drive from ATL
 |[DiamondHacks](https://www.ncsudiamondhacks.com/){:target="_blank"}|North Carolina State University, Raleigh|March 2-3 (24-hour), 2019|Apply soon|For anyone who currently self-identifies, or has ever self-identified, as female, non-binary, or gender nonconforming. ~7 hours from ATL.
+|[Startup Weekend](http://communities.techstars.com/usa/atlanta/startup-weekend/13924)|Downtown Atlanta|March 8-10 (54 hours), 2019|Apply soon|Not just a tech hackathon, but this is for building actual businesses! Open to everyone, but requires a fee for participation. 
 |[CrimsonHacks](https://www.crimsonhacks.com/){:target="_blank"}|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
 |[Hackabull](https://hackabull.io/#home){:target="_blank"}|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
@@ -28,8 +29,8 @@ categories:
 
 ## Past (but repeats yearly)
 
-|Hackathon|	Location|	Date	| Application deadline
-|:--------| :---    | :---      | :---
+|Hackathon|	Location|	Date	| Application deadline | Notes
+|:--------| :---    | :---      | :---                 | :---
 |[HackGT](https://2018.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 19-22, 2018|	Sep 30, 2018
 |[HackATL](https://www.hackatl.org/){:target="_blank"}|	Emory Univ Campus, Midtown Atlanta|	Oct 26-28, 2018|	Oct 19, 2018
 |[VandyHacks](https://vandyhacks.org/){:target="_blank"}|Vanderbilt Univ, Nashville, TN|	Nov 2-4, 2018|Walk-ins allowed<br>(but apply first)
