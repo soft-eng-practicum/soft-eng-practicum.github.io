@@ -24,7 +24,10 @@ categories:
 |[Hackabull](https://hackabull.io/#home){:target="_blank"}|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 17|Must go! 500+ participant event, don't apply late!
 |[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
+|[HatterHacks](http://greatercentralfloridatechfaire.com/){:target="_blank"}|Stetson University, DeLand, Florida|April 5-7 (36-hour), 2019|Apply soon|Travel reimbursements. ~7 hours from ATL
 |[PackHacks](http://ncsupackhacks.org/){:target="_blank"}|North Carolina State University, Raleigh|April 13-14 (24-hour), 2019|Apply soon|~6 hours from ATL
+
+
 
 ## Past (but repeats yearly)
 
