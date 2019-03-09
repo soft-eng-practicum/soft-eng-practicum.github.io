@@ -17,7 +17,6 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-
 |[Startup Weekend](http://communities.techstars.com/usa/atlanta/startup-weekend/13924)|Downtown Atlanta|March 8-10 (54 hours), 2019|Apply soon|Not just a tech hackathon, but this is for building actual businesses! Open to everyone, but requires a fee for participation. 
 |[hackathonCLT](http://hackathonclt.org/){:target="_blank"}|Discovery Place Science, Charlotte, NC|March 22-23 (13-hour), 2019|Apply soon|Accepts anyone 18 and above. 3.5 hours away from ATL
 |[CrimsonHacks](https://www.crimsonhacks.com/){:target="_blank"}|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
