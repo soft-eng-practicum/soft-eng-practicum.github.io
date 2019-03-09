@@ -18,6 +18,7 @@ categories:
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
 |[Startup Weekend](http://communities.techstars.com/usa/atlanta/startup-weekend/13924)|Downtown Atlanta|March 8-10 (54 hours), 2019|Apply soon|Not just a tech hackathon, but this is for building actual businesses! Open to everyone, but requires a fee for participation. 
+|[Code-A-Thon](https://docs.google.com/forms/d/1U79MwZJ2kMg4vRTbqtWb3_orr7l01lbIS-xwd0ocIyo/viewform?edit_requested=true){:target="_blank"}|Georgia Gwinnett College, Lawrenceville, GA, C-1125|March 23 (5 hour), 2019|Apply soon, spots are limited|Only GGC Students are accepted
 |[hackathonCLT](http://hackathonclt.org/){:target="_blank"}|Discovery Place Science, Charlotte, NC|March 22-23 (13-hour), 2019|Apply soon|Accepts anyone 18 and above. 3.5 hours away from ATL
 |[CrimsonHacks](https://www.crimsonhacks.com/){:target="_blank"}|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
 |[Hackabull](https://hackabull.io/#home){:target="_blank"}|University of South Florida, Tampa|March 23-24 (24-hour), 2019|Apply soon|~7 hours away
@@ -25,6 +26,7 @@ categories:
 |[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
 |[HatterHacks](http://greatercentralfloridatechfaire.com/){:target="_blank"}|Stetson University, DeLand, Florida|April 5-7 (36-hour), 2019|Apply soon|Travel reimbursements. ~7 hours from ATL
 |[PackHacks](http://ncsupackhacks.org/){:target="_blank"}|North Carolina State University, Raleigh|April 13-14 (24-hour), 2019|Apply soon|~6 hours from ATL
+
 
 
 
