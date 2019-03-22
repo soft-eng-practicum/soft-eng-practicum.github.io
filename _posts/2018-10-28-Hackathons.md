@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2019-03-03
+last_modified_at: 2019-03-22
 categories:
 - Pinned
 
@@ -26,6 +26,7 @@ categories:
 |[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
 |[HatterHacks](http://greatercentralfloridatechfaire.com/){:target="_blank"}|Stetson University, DeLand, Florida|April 5-7 (36-hour), 2019|Apply soon|Travel reimbursements. ~7 hours from ATL
 |[PackHacks](http://ncsupackhacks.org/){:target="_blank"}|North Carolina State University, Raleigh|April 13-14 (24-hour), 2019|Apply soon|~6 hours from ATL
+|[Run19Hacks](http://www.run19hacks.com/){:target="_blank"}|University of Louisville, Kentucky|April 26-28 (54-hour), 2019|Apply soon|Costs money to attend and only for students. ~7 hours from ATL
 
 
 
