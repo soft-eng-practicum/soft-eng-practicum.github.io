@@ -17,7 +17,7 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 23 11:59pm|Must go! 500+ participant event, don't apply late!
+|[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 25 11:59pm|Must go! 500+ participant event, don't apply late!
 |[AI @ T-Mobile](https://c2c-tmobile.weareasterisk.com/){:target="_blank"}|Georgia Tech, Atlanta|March 29-30, 2019|Apply soon|~21 hour hackathon
 |[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
 |[Horizons](https://horizons.hack.gt/){:target="_blank"}|Georgia Tech, Atlanta|April 5th-6th, 2019|Apply soon|Make-a-thon that incorporates art + tech
