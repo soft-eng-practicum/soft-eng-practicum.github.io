@@ -18,6 +18,7 @@ categories:
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|March 29-31, 2019|March 25 11:59pm|Must go! 500+ participant event, don't apply late!
+|[AngularAttack](https://www.angularattack.com/){:target="_blank"}|Anywhere|March 30-31 (48-hour), 2019 UTC|Apply Soon|Virtual hackathon. Anyone can particpate! 
 |[AI @ T-Mobile](https://c2c-tmobile.weareasterisk.com/){:target="_blank"}|Georgia Tech, Atlanta|March 29-30, 2019|Apply soon|~21 hour hackathon
 |[DragonHacks](https://www.eventbrite.com/e/dragon-hacks-spring-2019-tickets-57749373932){:target="_blank"}|The University of Alabama, Birmingham|March 30, 2019 (12-hour)|Apply soon|~3 hours from ATL
 |[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
