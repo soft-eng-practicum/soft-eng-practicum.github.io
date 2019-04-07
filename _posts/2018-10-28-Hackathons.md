@@ -17,8 +17,6 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[Horizons](https://horizons.hack.gt/){:target="_blank"}|Georgia Tech, Atlanta|April 5th-6th, 2019|April 3rd, 11:59pm|Make-a-thon that incorporates art + tech
-|[HatterHacks](http://greatercentralfloridatechfaire.com/){:target="_blank"}|Stetson University, DeLand, Florida|April 5-7 (36-hour), 2019|Apply soon|Travel reimbursements. ~7 hours from ATL
 |[PackHacks](http://ncsupackhacks.org/){:target="_blank"}|North Carolina State University, Raleigh|April 13-14 (24-hour), 2019|Apply soon|~6 hours from ATL
 |[AppianWorld](https://appian.devpost.com/){:target="_blank"}|Anywhere|submit before April 15, 2019|Apply soon|Virtual hackathon, winners get travel and ticket to [AppianWorld event in San Diego](https://appianworld.com/)
 |[Run19Hacks](http://www.run19hacks.com/){:target="_blank"}|University of Louisville, Kentucky|April 26-28 (54-hour), 2019|Apply soon|Costs money to attend and only for students. ~7 hours from ATL
@@ -55,3 +53,5 @@ categories:
 |[DragonHacks](https://www.eventbrite.com/e/dragon-hacks-spring-2019-tickets-57749373932){:target="_blank"}|The University of Alabama, Birmingham|March 30, 2019 (12-hour)|Apply soon|~3 hours from ATL
 |[CatHacks](http://cathacks.cs.uky.edu/){:target="_blank"}|University of Kentucky, Lexington|March 30-31 (24-hour), 2019|Apply soon|Accepts high-schoolers. Travel reimbursements available. 6 hours from ATL
 |[Alexa Skills for Students](https://awseducate.devpost.com/){:target="_blank"}|Anywhere|Finish by April 1st, 2019|Submit soon!|Virtual hackathon, organized by AWS Educate of Amazon. Need to submit a video showing product.
+|[Horizons](https://horizons.hack.gt/){:target="_blank"}|Georgia Tech, Atlanta|April 5th-6th, 2019|April 3rd, 11:59pm|Make-a-thon that incorporates art + tech
+|[HatterHacks](http://greatercentralfloridatechfaire.com/){:target="_blank"}|Stetson University, DeLand, Florida|April 5-7 (36-hour), 2019|Apply soon|Travel reimbursements. ~7 hours from ATL
