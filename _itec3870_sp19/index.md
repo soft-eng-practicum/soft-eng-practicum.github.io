@@ -14,6 +14,7 @@ photos:
 - 20190425-_RAW5558.jpg
 - 20190425-_RAW5660.jpg
 - 20190425-_RAW5662.jpg
+- 33858745738_2d84e86fb5_b.jpg
 
 projects:
 - name: "ClawConnect"
