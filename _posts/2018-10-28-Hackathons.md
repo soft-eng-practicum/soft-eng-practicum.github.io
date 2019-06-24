@@ -17,8 +17,7 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-
-
+|[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|N/A |Pre-registration starts now
 
 
 
