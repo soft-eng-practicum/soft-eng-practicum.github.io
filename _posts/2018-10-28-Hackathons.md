@@ -19,6 +19,7 @@ categories:
 |:--------| :---    | :---      | :---                 | :---
 |[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|N/A |Pre-registration starts now
 |[HackGT](https://2019.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 25-27, 2019|	August 20th deadline for travel reimbursement applicants, Sep 20th deadline for all other applicants
+|[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|Nov 1-3|N/A|Pre-registration starts now
 
 
 
