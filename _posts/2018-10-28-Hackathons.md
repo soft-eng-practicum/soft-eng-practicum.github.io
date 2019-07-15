@@ -18,6 +18,8 @@ categories:
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
 |[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|N/A |Pre-registration starts now
+|[HackGT](https://2019.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 25-27, 2019|	August 20th deadline for travel reimbursement applicants, Sep 20th deadline for all other applicants
+
 
 
 
@@ -25,7 +27,6 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[HackGT](https://2018.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 19-22, 2018|	Sep 30, 2018
 |[HackATL](https://www.hackatl.org/){:target="_blank"}|	Emory Univ Campus, Midtown Atlanta|	Oct 26-28, 2018|	Oct 19, 2018
 |[VandyHacks](https://vandyhacks.org/){:target="_blank"}|Vanderbilt Univ, Nashville, TN|	Nov 2-4, 2018|Walk-ins allowed<br>(but apply first)
 |[SwampHacks](https://2019.swamphacks.com/){:target="_blank"}|Univ Florida at Gainesville|	Jan 18-20, 2019|	Dec 21st, 2018 | Charter bus available from GA Tech campus
