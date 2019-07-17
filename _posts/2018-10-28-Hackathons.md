@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2019-03-31
+last_modified_at: 2019-07-17
 categories:
 - Pinned
 
@@ -18,6 +18,7 @@ categories:
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
 |[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|N/A |Pre-registration starts now
+|[HackATL](https://www.hackatl.org/){:target="_blank"}|Emory University, Atlanta, GA|	Oct 18-20, 2019|N/A|Business hackathon. Registration starts now
 |[HackGT](https://2019.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 25-27, 2019|	August 20th deadline for travel reimbursement applicants, Sep 20th deadline for all other applicants
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|Nov 1-3|N/A|Pre-registration starts now
 
