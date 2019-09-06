@@ -17,9 +17,9 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[ShellHacks](https://hacknc.com/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration starts now
+|[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration starts now
+|[VolHacks IV](https://volhacks.org/){:target="_blank"}|The University of Tennessee, Knoxville, TN|	Sept 27-29, 2019|N/A|Only 4 hours away! Travel reimbursements available. Registration starts now
 |[HackNC](https://hacknc.com/){:target="_blank"}|UNC-Chapel Hill, NC|Oct 12-13, 2019|N/A |Registration starts now, Travel reimbursements available
-|[VolHacks IV](https://volhacks.org/){:target="_blank"}|The University of Tennessee, Knoxville, TN|	Oct 27-29, 2019|N/A|Only 4 hours away! Travel reimbursements available. Registration starts now
 |[HackATL](https://www.hackatl.org/){:target="_blank"}|Emory University, Atlanta, GA|	Oct 18-20, 2019|N/A|Business hackathon. Registration starts now
 |[HackFSU](https://hackfsu.com/){:target="_blank"}|Florida State University, Tallahassee, FL|	Oct 18-20, 2019|N/A|36 hour hackathon, Registration starts now
 |[TAMU Datathon](https://tamudatathon.com/){:target="_blank"}|Texas A&M University, College Station, TX|	Oct 19-20, 2019|N/A|24 hour data science hackathon. Tracks available for beginners and competitors. Registration starts now
