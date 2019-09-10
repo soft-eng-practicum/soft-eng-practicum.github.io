@@ -20,6 +20,7 @@ on this topic by emailing cgunay AT ggc.edu.
 * [LeetCode](https://leetcode.com/)
 * [CodeEval/HireVue](https://www.hirevue.com/products/assessments)
 * [Topcoder](https://www.topcoder.com/)
+* [Hiring without whiteboards](https://github.com/poteto/hiring-without-whiteboards)
 * [Google Interview Prep Guide SWE](/assets/pdfs/Google Interview Prep Guide SWE .pdf)
 * [Lyft - Technical Interview Resources](/assets/pdfs/2019_Lyft_Technical_Interview_Resources.pdf)
 * [CS Career Questions subreddit](https://www.reddit.com/r/cscareerquestions/)
