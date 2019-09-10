@@ -21,6 +21,7 @@ on this topic by emailing cgunay AT ggc.edu.
 * [CodeEval/HireVue](https://www.hirevue.com/products/assessments)
 * [Topcoder](https://www.topcoder.com/)
 * [Google Interview Prep Guide SWE](/assets/pdfs/Google Interview Prep Guide SWE .pdf)
+* [Lyft - Technical Interview Resources](/assets/pdfs/2019_Lyft_Technical_Interview_Resources.pdf)
 * [CS Career Questions subreddit](https://www.reddit.com/r/cscareerquestions/)
 * [A Github repo full of interview resources](https://github.com/aknobloch/interviews) - Also see its [parent repo](https://github.com/kdn251/interviews)
 * [Top 10 algorithms for coding interviews](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
