@@ -18,6 +18,7 @@ categories:
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
 |[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration starts now
+|[dAppHack](https://hackmania.com/hackathons/dapphack){:target="_blank"}|InfoMart Marietta, GA|Sept 20-22, 2019|N/A |Blockchain hackathon.Registration starts now, you can work at the location or from home.
 |[VolHacks IV](https://volhacks.org/){:target="_blank"}|The University of Tennessee, Knoxville, TN|	Sept 27-29, 2019|N/A|Only 4 hours away! Travel reimbursements available. Registration starts now
 |[HackNC](https://hacknc.com/){:target="_blank"}|UNC-Chapel Hill, NC|Oct 12-13, 2019|N/A |Registration starts now, Travel reimbursements available
 |[HackATL](https://www.hackatl.org/){:target="_blank"}|Emory University, Atlanta, GA|	Oct 18-20, 2019|N/A|Business hackathon. Registration starts now
