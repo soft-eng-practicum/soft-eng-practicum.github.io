@@ -18,7 +18,7 @@ categories:
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
 |[Tapia 2019](http://tapiaconference.org/){:target="_blank"}|San Diego, CA|Sep 18-21, 2019| |Mission is to acknowledge, promote and celebrate diversity in computing.
-|[BSidesAugusta](https://bsidesaugusta.org/){:target="_blank"}|Augusta University, Harrison Education Commons Building, 1301 R.A. Dent Blvd, Augusta, GA 30901|Sat Oct 5, 2019| |Information security conference. 
+|[BSidesAugusta](https://bsidesaugusta.org/){:target="_blank"}|Augusta University, Harrison Education Commons Building, 1301 R.A. Dent Blvd, Augusta, GA 30901|Sat Oct 5, 2019| |Information security conference. [Tickets link](https://www.eventbrite.com/e/bsidesaugusta-2019-tickets-62744456358)
 |[Hacker Halted 2019](https://hackerhalted.com/){:target="_blank"}|Atlanta, GA|Oct 10-11, 2019| |Free student registration with [link](https://hackerhalted2019.eventbrite.com/?discount=AcademiaStudent)
 |[CCSC:SE](http://ccscse.org/conference.php?year=33rd){:target="_blank"}|Auburn University|Oct 25-26, 2019|Sep 16, 2019 |The Consortium for Computing Sciences in Colleges (CCSC) Southeastern region annual meeting, aims at small college students. Has poster and programming competitions.
 
