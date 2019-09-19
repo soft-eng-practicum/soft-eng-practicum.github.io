@@ -26,7 +26,7 @@ categories:
 |[TAMU Datathon](https://tamudatathon.com/){:target="_blank"}|Texas A&M University, College Station, TX|	Oct 19-20, 2019|N/A|24 hour data science hackathon. Tracks available for beginners and competitors. Registration starts now
 |[HackGT](https://2019.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 25-27, 2019|	August 14th deadline for travel reimbursement applicants, Sep 20th deadline for all other applicants
 |[YaleHacks](https://www.yhack.org/){:target="_blank"}| Yale University campus, New Haven, Connecticut |	Oct 25-27, 2019|	Over $35,000 in prizes, ranging from professional gaming keyboards to smart devices. Travel costs from all around US is supposed to be reimbursable.  13-hour drive from GGC.
-|HackDuke](https://hackduke.org/){:target="_blank"}| Duke University, Durham, NC |	Nov 2-3 2019|	Buses will be provided to certain colleges. Travel reimbursements available. Registration starts now. Theme is Code for Good.
+|[HackDuke](https://hackduke.org/){:target="_blank"}| Duke University, Durham, NC |	Nov 2-3 2019| N/A |Buses will be provided to certain colleges. Travel reimbursements available. Registration starts now. Theme is Code for Good.
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|Nov 1-3|N/A|Pre-registration starts now
 
 
