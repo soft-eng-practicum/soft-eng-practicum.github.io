@@ -17,8 +17,6 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration closed
-|[dAppHack](https://hackmania.com/hackathons/dapphack){:target="_blank"}|InfoMart Marietta, GA|Sept 20-22, 2019|N/A |Blockchain hackathon.Registration starts now, you can work at the location or from home.
 |[VolHacks IV](https://volhacks.org/){:target="_blank"}|The University of Tennessee, Knoxville, TN|	Sept 27-29, 2019|N/A|Only 4 hours away! Travel reimbursements available. Registration starts now
 |[HackNC](https://hacknc.com/){:target="_blank"}|UNC-Chapel Hill, NC|Oct 12-13, 2019|N/A |Registration starts now, Travel reimbursements available
 |[HackATL](https://www.hackatl.org/){:target="_blank"}|Emory University, Atlanta, GA|	Oct 18-20, 2019|N/A|Business hackathon. Registration starts now
@@ -53,3 +51,5 @@ categories:
 |[PackHacks](http://ncsupackhacks.org/){:target="_blank"}|North Carolina State University, Raleigh|April 13-14 (24-hour), 2019|Apply soon|~6 hours from ATL
 |[AppianWorld](https://appian.devpost.com/){:target="_blank"}|Anywhere|submit before April 15, 2019|Apply soon|Virtual hackathon, winners get travel and ticket to [AppianWorld event in San Diego](https://appianworld.com/)
 |[Run19Hacks](http://www.run19hacks.com/){:target="_blank"}|University of Louisville, Kentucky|April 26-28 (54-hour), 2019|Apply soon|Costs money to attend and only for students. ~7 hours from ATL
+|[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration closed
+|[dAppHack](https://hackmania.com/hackathons/dapphack){:target="_blank"}|InfoMart Marietta, GA|Sept 20-22, 2019|N/A |Blockchain hackathon.Registration starts now, you can work at the location or from home.
