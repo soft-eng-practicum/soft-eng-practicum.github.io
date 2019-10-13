@@ -17,8 +17,6 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration closed
-|[dAppHack](https://hackmania.com/hackathons/dapphack){:target="_blank"}|InfoMart Marietta, GA|Sept 20-22, 2019|N/A |Blockchain hackathon.Registration starts now, you can work at the location or from home.
 |[VolHacks IV](https://volhacks.org/){:target="_blank"}|The University of Tennessee, Knoxville, TN|	Sept 27-29, 2019|N/A|Only 4 hours away! Travel reimbursements available. Registration starts now
 |[HackNC](https://hacknc.com/){:target="_blank"}|UNC-Chapel Hill, NC|Oct 12-13, 2019|N/A |Registration starts now, Travel reimbursements available
 |[HackATL](https://www.hackatl.org/){:target="_blank"}|Emory University, Atlanta, GA|	Oct 18-20, 2019|N/A|Business hackathon. Registration starts now
@@ -26,6 +24,7 @@ categories:
 |[TAMU Datathon](https://tamudatathon.com/){:target="_blank"}|Texas A&M University, College Station, TX|	Oct 19-20, 2019|N/A|24 hour data science hackathon. Tracks available for beginners and competitors. Registration starts now
 |[HackGT](https://2019.hack.gt/){:target="_blank"}|	Georgia Tech Campus, Downtown Atlanta|	Oct 25-27, 2019|Sep 27th deadline for all non transportation reimbursement applicants
 |[YaleHacks](https://www.yhack.org/){:target="_blank"}| Yale University campus, New Haven, Connecticut |	Oct 25-27, 2019|	Over $35,000 in prizes, ranging from professional gaming keyboards to smart devices. Travel costs from all around US is supposed to be reimbursable.  13-hour drive from GGC.
+|[VandyHacks](https://vandyhacks.org/){:target="_blank"}| Vanderbilt University, Nashville, TN |	Nov 1-3, 2019| N/A |~4 hour drive from GGC.
 |[HackDuke](https://hackduke.org/){:target="_blank"}| Duke University, Durham, NC |	Nov 2-3 2019| N/A |Free bus will be provided from GATech to HackDuke and back. Travel reimbursements available. Registration starts now. Theme is Code for Good.
 |[HackGSU](http://hackgsu.com/){:target="_blank"}|Georgia State Univ, Atlanta|Nov 1-3|N/A|Pre-registration starts now
 
@@ -53,3 +52,5 @@ categories:
 |[PackHacks](http://ncsupackhacks.org/){:target="_blank"}|North Carolina State University, Raleigh|April 13-14 (24-hour), 2019|Apply soon|~6 hours from ATL
 |[AppianWorld](https://appian.devpost.com/){:target="_blank"}|Anywhere|submit before April 15, 2019|Apply soon|Virtual hackathon, winners get travel and ticket to [AppianWorld event in San Diego](https://appianworld.com/)
 |[Run19Hacks](http://www.run19hacks.com/){:target="_blank"}|University of Louisville, Kentucky|April 26-28 (54-hour), 2019|Apply soon|Costs money to attend and only for students. ~7 hours from ATL
+|[ShellHacks](https://shellhacks.net/){:target="_blank"}|Florida International University, Miami, FL|Sept 20-22, 2019|Sept 8th 11:59PM |Registration closed
+|[dAppHack](https://hackmania.com/hackathons/dapphack){:target="_blank"}|InfoMart Marietta, GA|Sept 20-22, 2019|N/A |Blockchain hackathon.Registration starts now, you can work at the location or from home.
