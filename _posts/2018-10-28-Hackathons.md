@@ -16,7 +16,11 @@ categories:
 ## Coming up
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
-|:--------| :---    | :---      | :---                 | :---
+|[BullyHack](https://www.bullyhack.com/) | Mississippi State University, Starkville, MS | Jan 11-12 | Apply Soon Limited | :---
+|[CUHackit](https://cuhack.it/)| Clemson University, Clemson, SC | Jan 25-26 | Registation Now Open | :---
+|[UGAHacks](https://ugahacks.com/)| University of Georgia, Athens, GA | Feb 7-9 | Jan 24 | :---
+|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC    | Feb 21-23 | Registration Now Open | For Female and Non-binary. Great for First Timers.
+
 
 
 
