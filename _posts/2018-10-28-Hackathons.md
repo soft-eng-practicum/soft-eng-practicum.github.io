@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2020-01-24
+last_modified_at: 2020-01-26
 categories:
 - Pinned
 
@@ -22,8 +22,9 @@ categories:
 |[SwampHacks](https://2020.swamphacks.com/)| University of Florida, Gainesville, FL | Jan 31-Feb 2, 2020 | Jan 10, 2020 | ~Over 5 hours away from GGC
 |[UGAHacks](https://ugahacks.com/)| University of Georgia, Athens, GA | Feb 7-9, 2020 | Jan 24, 2020 |
 |[AuburnHacks](http://www.auburnhacks.com/)| Auburn University, Auburn, AL | Feb 8-9, 2020 | TBA | ~About 2 hours and 30 minutes away from GGC
-|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC | Feb 21-23, 2020 | Registration is open | For Female and Non-binary only. Great for First Timers. ~About 5 hours and 30 minutes away from GGC
-|[Hacklytics](https://hacklytics.io/)| Georgia Tech, Atlanta, GA | Feb 22-23, 2020 | Registration is open | Data Science themed Hackathon.
+|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC | Feb 21-23, 2020 | N/A | For Female and Non-binary only. Great for First Timers. ~About 5 hours and 30 minutes away from GGC
+|[Hacklytics](https://hacklytics.io/)| Georgia Tech, Atlanta, GA | Feb 22-23, 2020 | TBA | Data Science themed Hackathon. Registration is open.
+|[DooleyHacks](https://dooleyhacks.com/) | Emory University, Atlanta, GA | Feb 22, 2020 | TBA | 24 hour Hackathon. Registration is open.
 
 
 
