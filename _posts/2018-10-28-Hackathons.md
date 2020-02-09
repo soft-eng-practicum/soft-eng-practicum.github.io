@@ -17,7 +17,7 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC | Feb 21-23, 2020 | N/A | For Female and Non-binary only. Great for First Timers. ~About 5 hours and 30 minutes away from GGC
+|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC | Feb 21-23, 2020 | N/A | For Female and Non-binary only. Great for First Timers. ~About 5.5 hours away from GGC
 |[Hacklytics](https://hacklytics.io/)| Georgia Tech, Atlanta, GA | Feb 22-23, 2020 | Feb 1, 2020 | Data Science themed Hackathon.
 |[DooleyHacks](https://dooleyhacks.com/) | Emory University, Atlanta, GA | Feb 22, 2020 | Feb 15, 2020 | 24 hour Hackathon.
 |[Horizons](https://horizons.hack.gt/) | Georgia Tech, Atlanta, GA | Feb 28-29, 2020 | TBA | Art & Tech Hackathon. Registration is open
