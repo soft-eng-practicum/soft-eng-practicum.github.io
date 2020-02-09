@@ -22,6 +22,7 @@ categories:
 |[DooleyHacks](https://dooleyhacks.com/) | Emory University, Atlanta, GA | Feb 22, 2020 | Feb 15, 2020 | 24 hour Hackathon.
 |[Horizons](https://horizons.hack.gt/) | Georgia Tech, Atlanta, GA | Feb 28-29, 2020 | TBA | Art & Tech Hackathon. Registration is open
 |[SouthernHacks](http://www.southernhacks.org/#home) | Georgia Southern University, Statesboro, GA | Feb 28-29, 2020 | TBA |~About 3.5 hours away from GGC. Registration is open
+|[DataFest](https://www.engage.emory.edu/s/1705/alumni/index3.aspx?sid=1705&gid=3&pgid=11397&content_id=9979) | Emory Universtiy, Atlanta, GA | March 20-22, 2020 | TBA | Registration is open.
 
 
 
