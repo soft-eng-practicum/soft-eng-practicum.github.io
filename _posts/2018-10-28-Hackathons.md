@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2020-02-09
+last_modified_at: 2020-03-01
 categories:
 - Pinned
 
@@ -17,12 +17,11 @@ categories:
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
-|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC | Feb 21-23, 2020 | N/A | For Female and Non-binary only. Great for First Timers. ~About 5.5 hours away from GGC
-|[Hacklytics](https://hacklytics.io/)| Georgia Tech, Atlanta, GA | Feb 22-23, 2020 | Feb 1, 2020 | Data Science themed Hackathon.
-|[DooleyHacks](https://dooleyhacks.com/) | Emory University, Atlanta, GA | Feb 22, 2020 | Feb 15, 2020 | 24 hour Hackathon.
-|[Horizons](https://horizons.hack.gt/) | Georgia Tech, Atlanta, GA | Feb 28-29, 2020 | TBA | Art & Tech Hackathon. Registration is open
-|[SouthernHacks](http://www.southernhacks.org/#home) | Georgia Southern University, Statesboro, GA | Feb 28-29, 2020 | TBA |~About 3.5 hours away from GGC. Registration is open
 |[DataFest](https://www.engage.emory.edu/s/1705/alumni/index3.aspx?sid=1705&gid=3&pgid=11397&content_id=9979) | Emory Universtiy, Atlanta, GA | March 20-22, 2020 | TBA | Registration is open.
+|[MiamiHacks](https://miamihacks.com/)| Florida International University, Miami, FL | March 20-22, 2020 | TBA | Registration is open. ~About 10 hours away from GGC.
+|[KnightHacks](https://knighthacks.org/)| Univeristy of Central Florida, Orlando, FL | March 27-29, 2020 | TBA | Registration is open. ~About 7 hours away from GGC.
+|[PackHacks](https://ncsupackhacks.org/)| NC State University, Raleigh, NC | April 4-5, 2020 | TBA | Registration is open. ~Abour 5.5 hours away from GGC.
+|[HealthHack](https://healthtech.hack.gt/)| Georgia Tech, Atlanta, GA | April 3-5, 2020 | TBA | :---
 
 
 
@@ -38,6 +37,11 @@ categories:
 |[SwampHacks](https://2020.swamphacks.com/)| University of Florida, Gainesville, FL | Jan 31-Feb 2, 2020 | Jan 10, 2020 | ~Over 5 hours away from GGC
 |[UGAHacks](https://ugahacks.com/)| University of Georgia, Athens, GA | Feb 7-9, 2020 | Jan 24, 2020 |
 |[AuburnHacks](http://www.auburnhacks.com/)| Auburn University, Auburn, AL | Feb 8-9, 2020 | TBA | ~About 2 hours and 30 minutes away from GGC
+|[PearlHacks](https://pearlhacks.com/)| UNC Chapel Hill, Chapel Hill, NC | Feb 21-23, 2020 | N/A | For Female and Non-binary only. Great for First Timers. ~About 5.5 hours away from GGC
+|[Hacklytics](https://hacklytics.io/)| Georgia Tech, Atlanta, GA | Feb 22-23, 2020 | Feb 1, 2020 | Data Science themed Hackathon.
+|[DooleyHacks](https://dooleyhacks.com/) | Emory University, Atlanta, GA | Feb 22, 2020 | Feb 15, 2020 | 24 hour Hackathon.
+|[Horizons](https://horizons.hack.gt/) | Georgia Tech, Atlanta, GA | Feb 28-29, 2020 | TBA | Art & Tech Hackathon. Registration is open
+|[SouthernHacks](http://www.southernhacks.org/#home) | Georgia Southern University, Statesboro, GA | Feb 28-29, 2020 | TBA |~About 3.5 hours away from GGC. Registration is open
 |[Code-A-Thon](https://docs.google.com/forms/d/1U79MwZJ2kMg4vRTbqtWb3_orr7l01lbIS-xwd0ocIyo/viewform?edit_requested=true){:target="_blank"}|Georgia Gwinnett College, Lawrenceville, GA, C-1125|March 23 (5 hour), 2019|Apply soon, spots are limited|Only GGC Students are accepted
 |[hackathonCLT](http://hackathonclt.org/){:target="_blank"}|Discovery Place Science, Charlotte, NC|March 22-23 (13-hour), 2019|Apply soon|Accepts anyone 18 and above. 3.5 hours away from ATL
 |[CrimsonHacks](https://www.crimsonhacks.com/){:target="_blank"}|The University of Alabama, Tuscaloosa|March 23 (24-hour), 2019|Apply soon|3.5 hours away from ATL
