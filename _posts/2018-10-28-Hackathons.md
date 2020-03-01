@@ -20,8 +20,8 @@ categories:
 |[DataFest](https://www.engage.emory.edu/s/1705/alumni/index3.aspx?sid=1705&gid=3&pgid=11397&content_id=9979) | Emory Universtiy, Atlanta, GA | March 20-22, 2020 | TBA | Registration is open.
 |[MiamiHacks](https://miamihacks.com/)| Florida International University, Miami, FL | March 20-22, 2020 | TBA | Registration is open. ~About 10 hours away from GGC.
 |[KnightHacks](https://knighthacks.org/)| Univeristy of Central Florida, Orlando, FL | March 27-29, 2020 | TBA | Registration is open. ~About 7 hours away from GGC.
-|[PackHacks](https://ncsupackhacks.org/)| NC State University, Raleigh, NC | April 4th-5th, 2020 | TBA | Registration is open. ~Abour 5.5 hours away from GGC.
-|[HealthHack](https://healthtech.hack.gt/)| Georgia Tech, Atlanta, GA | November 3-4, 2020 | TBA | :---
+|[PackHacks](https://ncsupackhacks.org/)| NC State University, Raleigh, NC | April 4-5, 2020 | TBA | Registration is open. ~Abour 5.5 hours away from GGC.
+|[HealthHack](https://healthtech.hack.gt/)| Georgia Tech, Atlanta, GA | April 3-5, 2020 | TBA | :---
 
 
 
