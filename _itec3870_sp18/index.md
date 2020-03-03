@@ -95,7 +95,6 @@ projects:
 - name: VSEPR Venture
   title: Chemistry-based 2D RPG
   demo-url: https://github.com/soft-eng-practicum/VSEPR-Venture/releases
-  screencast-youtube: nARyMzLKXJ8
   members: "Team Enigma: Sasa Mitrovic, Jason Yu, Viktor Gutsu"
   client: "Dr. Thomas Gluick"
   client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
