@@ -98,11 +98,11 @@ projects:
   title: "... (:crown: 3RD PLACE)"
   members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
   client: "Christy Conners, Commercial Photography Teacher in Gwinnett"
+  demo-url: https://shutterplug.herokuapp.com/
   description: "Shutter Plug is a web app that aims to connect potential customers with photographers and videographers, focusing on local and upcoming artists. These artists will have the ability to create a custom profile that highlights their areas of expertise and provide links to their social media accounts, thereby increasing their exposure to new clients. Potential clients can search for artists via different parameters such as: name, location and specialization."
   logo-full: images/flyer-Shadowfax_ShutterPlug_APP.png
   logo-thumb: images/thumb-flyer-Shadowfax_ShutterPlug_APP.png
   repo-url: https://github.com/GGC-SD/ShutterPlug
-  demo-link: https://shutterplug.herokuapp.com/
 - name: "Internapp"
   title: "Let GGC Find You an Internship!"
   tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
