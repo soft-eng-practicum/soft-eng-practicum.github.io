@@ -145,7 +145,14 @@ projects:
   logo-thumb: images/thumb-flyer-shutterplug-apollo.png
   repo-url: https://github.com/soft-eng-practicum/shutterplug
 - name: "STaRS Judging App by Penguins"
-  members: "Team Penguins: ..."
+  title: "A web/mobile app for judging scientific posters"
+  tech: [ node, ionic, react, html/css, couchdb, android ]
+  members: "Team Penguins: Anthony Morariu, Joel Garcia, Juan  Juarez, Ruth Whitehouse"
+  client: "[Dr Cengiz Gunay](http://www.ggc.edu/about-ggc/directory/cengiz-gunay) and [Dr Anca Doloc-Mihu](http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu)"
+  description: "The STaRS Judging App is designed to be used at events for easy and convenient judging of the content displayed. The powerful sync features allows for real time viewing of the incoming vote submissions. Administrators are able to sort and query the judging results using various criteria and view how each judge voted."
+  logo-full: images/flyer-Penguins_STARS_Judging_APP.png
+  logo-thumb: images/thumb-flyer-Polaris_STARS_Judging_APP.png
+  repo-url: https://github.com/GGC-SD/STaRS-Web-penguins
 - name: "GGC Maps by PlugIt"
   title: "Bugfixes and new safety/parking/vending toggle"
   tech: [ javascript, html/css]
