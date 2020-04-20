@@ -88,12 +88,28 @@ projects:
   logo-full: images/flyer-Polaris_STARS_Judging_APP.png
   logo-thumb: images/thumb-flyer-Polaris_STARS_Judging_APP.png
   repo-url: https://github.com/soft-eng-practicum/STaRS-judging-app
-- name: "GGC Maps by Vegan't "
+- name: "GGC Maps by Vegan't"
   title: "... (:crown::crown: 2ND PLACE)"
-  members: "Team Vegan't: ..." 
+  tech: [ javascript, html/css]
+  screencast-youtube: iGTNGJe5XmA 
+  members: "Team Vegan't: Marcelo Mariduena, Jonathan Mwizerwa, Graham Giles, Philip Wall" 
+  client: "GGC alumni Mike Deiters and David Rivera Rocha"
+  demo-url: http://ggcmaps.com
+  description: "GGCMaps is a web application displaying a useful map of the Georgia Gwinnett College (GGC) campus. Users are able to navigate buildings, parking lots, dining, fire routes, and other useful services on the app."
+  logo-full: images/flyer-Vegant_GGCmaps_APP.png
+  logo-thumb: images/thumb-flyer-Vegant_GGCmaps_APP.png
+  repo-url: https://github.com/GGC-SD/ggcmaps3
 - name: "Shutter Plug by ShadowFax"
   title: "... (:crown: 3RD PLACE)"
-  members: "Team ShadowFax: ..."
+  tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
+  screencast-youtube: BXEuS-EflOk
+  members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
+  client: "Christy Conners, Commercial Photography Teacher in Gwinnett"
+  demo-url: https://shutterplug.herokuapp.com/
+  description: "Shutter Plug is a web app that aims to connect potential customers with photographers and videographers, focusing on local and upcoming artists. These artists will have the ability to create a custom profile that highlights their areas of expertise and provide links to their social media accounts, thereby increasing their exposure to new clients. Potential clients can search for artists via different parameters such as: name, location and specialization."
+  logo-full: images/flyer-Shadowfax_ShutterPlug_APP.png
+  logo-thumb: images/thumb-flyer-Shadowfax_ShutterPlug_APP.png
+  repo-url: https://github.com/GGC-SD/ShutterPlug
 - name: "Internapp"
   title: "Let GGC Find You an Internship!"
   tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
@@ -126,7 +142,14 @@ projects:
   logo-thumb: images/thumb-flyer-shutterplug-apollo.png
   repo-url: https://github.com/soft-eng-practicum/shutterplug
 - name: "STaRS Judging App by Penguins"
-  members: "Team Penguins: ..."
+  title: "A web/mobile app for judging scientific posters"
+  tech: [ node, ionic, react, html/css, couchdb, android ]
+  members: "Team Penguins: Anthony Morariu, Joel Garcia, Juan  Juarez, Ruth Whitehouse"
+  client: "[Dr Cengiz Gunay](http://www.ggc.edu/about-ggc/directory/cengiz-gunay) and [Dr Anca Doloc-Mihu](http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu)"
+  description: "The STaRS Judging App is designed to be used at events for easy and convenient judging of the content displayed. The powerful sync features allows for real time viewing of the incoming vote submissions. Administrators are able to sort and query the judging results using various criteria and view how each judge voted."
+  logo-full: images/flyer-Penguins_STARS_Judging_APP.png
+  logo-thumb: images/thumb-flyer-Penguins_STARS_Judging_APP.png
+  repo-url: https://github.com/GGC-SD/STaRS-Web-penguins
 - name: "GGC Maps by PlugIt"
   title: "Bugfixes and new safety/parking/vending toggle"
   tech: [ javascript, html/css]
@@ -138,7 +161,14 @@ projects:
   logo-thumb: images/thumb-flyer-ggcmaps-plugIt.png
   repo-url: https://github.com/soft-eng-practicum/ggcmaps
 - name: "Scheduler for Faculty"
-  members: "Team ..."
+  title: "A web app for scheduling classes for faculty"
+  tech: [ angular, node, angularCI, express, html/css, mongoose, mongodb ]
+  members: "Team CyberATL: Juan Sebastian Perez, Victor Akinla, Terrance Perry"
+  client: "[Dr Sonal Dekhane](http://www.ggc.edu/about-ggc/directory/sonal-dekhane)"
+  description: "Scheduler is a web application designed to help Georgia Gwinnett College faculty members to efficiently register for courses, then, the system will be assisted by an administrator who is responsible for the correct assignment of course sections to finally establish the most appropriate schedule for the semester"
+  logo-full: images/flyer-CyberATL_STARS_Scheduler_APP.png
+  logo-thumb: images/thumb-flyer-CyberATL_Scheduler_APP.png
+  repo-url: https://github.com/GGC-SD/Scheduler-ThunderCats
 - name: "Oh Counter, My Counter"
   title: "A counter tool to track your Magic the Gathering game"
   tech: [ react, html/css ]
