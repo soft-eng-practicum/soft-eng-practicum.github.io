@@ -89,7 +89,7 @@ projects:
   logo-thumb: images/thumb-flyer-Polaris_STARS_Judging_APP.png
   repo-url: https://github.com/soft-eng-practicum/STaRS-judging-app
 - name: "GGC Maps by Vegan't"
-  title: "... (:crown::crown: 2ND PLACE)"
+  title: "Find your way on campus (:crown::crown: 2ND PLACE)"
   tech: [ javascript, html/css]
   screencast-youtube: iGTNGJe5XmA 
   members: "Team Vegan't: Marcelo Mariduena, Jonathan Mwizerwa, Graham Giles, Philip Wall" 
@@ -100,7 +100,7 @@ projects:
   logo-thumb: images/thumb-flyer-Vegant_GGCmaps_APP.png
   repo-url: https://github.com/GGC-SD/ggcmaps3
 - name: "Shutter Plug by ShadowFax"
-  title: "... (:crown: 3RD PLACE)"
+  title: "Plug-In (:crown: 3RD PLACE)"
   tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
   screencast-youtube: BXEuS-EflOk
   members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
