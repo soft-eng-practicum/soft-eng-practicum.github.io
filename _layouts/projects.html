@@ -42,11 +42,11 @@ layout: default
         <a href="{{ project.client-url }}" target="_blank">{{
             project.client }}</a>
         {% else %}
-        {{ project.client }}
+        {{ project.client | markdownify }}
         {% endif %}
     </em>
 
-<p> {{ project.description }}</p>
+<p> {{ project.description | markdownify  }}</p>
 
 {% if project.tech %}
 <p> <b class="project-tech">Technology:</b> {{ project.tech | join: "; " }}</p>
