@@ -100,7 +100,7 @@ projects:
   logo-thumb: images/thumb-flyer-Vegant_GGCmaps_APP.png
   repo-url: https://github.com/GGC-SD/ggcmaps3
 - name: "Shutter Plug by ShadowFax"
-  title: "Plug-In (:crown: 3RD PLACE)"
+  title: "Your High Speed Plug-In to Photographers (:crown: 3RD PLACE)"
   tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
   screencast-youtube: BXEuS-EflOk
   members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
