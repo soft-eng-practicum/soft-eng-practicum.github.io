@@ -56,10 +56,12 @@ layout: default
 
     <p>
         {% if project.demo-url %}
-        <em><a href="{{ project.demo-url }}" target="_blank">Demo link</a>, </em>
+        <em><a href="{{ project.demo-url }}" target="_blank">
+            <button type="button" class="btn btn-rounded btn-sm btn-dark">Demo site</button></a></em>
         {% endif %}
 
-        <em><a href="{{ project.repo-url }}" target="_blank">Source code</a></em>
+        <em><a href="{{ project.repo-url }}" target="_blank">
+            <button type="button" class="btn btn-rounded btn-sm btn-primary">Source code</button></a></em>
     </p>
 
     {% if project.screencast-youtube %}
