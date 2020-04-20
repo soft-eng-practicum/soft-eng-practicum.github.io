@@ -151,7 +151,7 @@ projects:
   client: "[Dr Cengiz Gunay](http://www.ggc.edu/about-ggc/directory/cengiz-gunay) and [Dr Anca Doloc-Mihu](http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu)"
   description: "The STaRS Judging App is designed to be used at events for easy and convenient judging of the content displayed. The powerful sync features allows for real time viewing of the incoming vote submissions. Administrators are able to sort and query the judging results using various criteria and view how each judge voted."
   logo-full: images/flyer-Penguins_STARS_Judging_APP.png
-  logo-thumb: images/thumb-flyer-Polaris_STARS_Judging_APP.png
+  logo-thumb: images/thumb-flyer-Penguins_STARS_Judging_APP.png
   repo-url: https://github.com/GGC-SD/STaRS-Web-penguins
 - name: "GGC Maps by PlugIt"
   title: "Bugfixes and new safety/parking/vending toggle"
@@ -164,7 +164,14 @@ projects:
   logo-thumb: images/thumb-flyer-ggcmaps-plugIt.png
   repo-url: https://github.com/soft-eng-practicum/ggcmaps
 - name: "Scheduler for Faculty"
-  members: "Team ..."
+  title: "A web app for scheduling classes for faculty"
+  tech: [ angular, node, angularCI, express, html/css, mongoose, mongodb ]
+  members: "Team CyberATL: Juan Sebastian Perez, Victor Akinla, Terrance Perry"
+  client: "[Dr Sonal Dekhane](http://www.ggc.edu/about-ggc/directory/sonal-dekhane)"
+  description: "Scheduler is a web application designed to help Georgia Gwinnett College faculty members to efficiently register for courses, then, the system will be assisted by an administrator who is responsible for the correct assignment of course sections to finally establish the most appropriate schedule for the semester"
+  logo-full: images/flyer-CyberATL_STARS_Scheduler_APP.png
+  logo-thumb: images/thumb-flyer-CyberATL_Scheduler_APP.png
+  repo-url: https://github.com/GGC-SD/Scheduler-ThunderCats
 - name: "Oh Counter, My Counter"
   title: "A counter tool to track your Magic the Gathering game"
   tech: [ react, html/css ]
