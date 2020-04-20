@@ -196,9 +196,9 @@ their scores for each app in the categories of *completeness*,
 *usefulness*, and *appearance*. Scores were summed and combined to
 find the following best teams and their products:
 
-1.    *Polaris*, with "STaRS Judging App"
-2.    *Vegan't*, with "GGC Maps"
-3.    *ShadowFax*, with "Shutter Plug"
+1.    STaRS Judging App by *Polaris*
+2.    GGC Maps by *Vegan't*
+3.    Shutter Plug by *ShadowFax*
 	
 [ggc]:		http://www.ggc.edu
 [gunay-ggc]: 	http://www.ggc.edu/about-ggc/directory/cengiz-gunay
