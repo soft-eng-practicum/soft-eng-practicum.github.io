@@ -91,9 +91,17 @@ projects:
   logo-full: images/flyer-Polaris_STARS_Judging_APP.png
   logo-thumb: images/thumb-flyer-Polaris_STARS_Judging_APP.png
   repo-url: https://github.com/soft-eng-practicum/STaRS-judging-app
-- name: "GGC Maps by Vegan't "
+- name: "GGC Maps by Vegan't"
   title: "... (:crown::crown: 2ND PLACE)"
-  members: "Team Vegan't: ..." 
+  tech: [ javascript, html/css]
+  screencast-youtube: iGTNGJe5XmA 
+  members: "Team Vegan't: Marcelo Mariduena, Jonathan Mwizerwa, Graham Giles, Philip Wall" 
+  client: "GGC alumni Mike Deiters and David Rivera Rocha"
+  demo-url: http://ggcmaps.com
+  description: "GGCMaps is a web application displaying a useful map of the Georgia Gwinnett College (GGC) campus. Users are able to navigate buildings, parking lots, dining, fire routes, and other useful services on the app."
+  logo-full: images/flyer-Vegant_GGCmaps_APP.png
+  logo-thumb: images/thumb-flyer-Vegant_GGCmaps_APP.png
+  repo-url: https://github.com/GGC-SD/ggcmaps3
 - name: "Shutter Plug by ShadowFax"
   title: "... (:crown: 3RD PLACE)"
   tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
