@@ -102,6 +102,7 @@ projects:
   logo-full: images/flyer-Shadowfax_ShutterPlug_APP.png
   logo-thumb: images/thumb-flyer-Shadowfax_ShutterPlug_APP.png
   repo-url: https://github.com/GGC-SD/ShutterPlug
+  demo-link: https://shutterplug.herokuapp.com/
 - name: "Internapp"
   title: "Let GGC Find You an Internship!"
   tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
