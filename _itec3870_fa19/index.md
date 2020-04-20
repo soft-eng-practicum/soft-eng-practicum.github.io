@@ -166,7 +166,7 @@ projects:
   members: "Team CyberATL: Juan Sebastian Perez, Victor Akinla, Terrance Perry"
   client: "[Dr Sonal Dekhane](http://www.ggc.edu/about-ggc/directory/sonal-dekhane)"
   description: "Scheduler is a web application designed to help Georgia Gwinnett College faculty members to efficiently register for courses, then, the system will be assisted by an administrator who is responsible for the correct assignment of course sections to finally establish the most appropriate schedule for the semester"
-  logo-full: images/flyer-CyberATL_STARS_Scheduler_APP.png
+  logo-full: images/flyer-CyberATL_Scheduler_APP.png
   logo-thumb: images/thumb-flyer-CyberATL_Scheduler_APP.png
   repo-url: https://github.com/GGC-SD/Scheduler-ThunderCats
 - name: "Oh Counter, My Counter"
