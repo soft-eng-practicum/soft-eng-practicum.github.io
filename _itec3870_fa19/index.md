@@ -96,6 +96,8 @@ projects:
   members: "Team Vegan't: ..." 
 - name: "Shutter Plug by ShadowFax"
   title: "... (:crown: 3RD PLACE)"
+  tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
+  screencast-youtube: BXEuS-EflOk
   members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
   client: "Christy Conners, Commercial Photography Teacher in Gwinnett"
   demo-url: https://shutterplug.herokuapp.com/
