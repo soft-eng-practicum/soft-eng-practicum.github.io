@@ -12,6 +12,11 @@ twitter_username: cengique
 github_username:  cengique
 repository: soft-eng-practicum/soft-eng-practicum.github.io
 collections:
+  itec3870_sp20:
+    title: "Spring 2020 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Spring 2020 SD2"
+    date: 2020-04-20
+    output: true
   itec3870_fa19:
     title: "Fall 2019 ITEC 3870 Soft Dev 2 course projects"
     menutitle:  "Fall 2019 SD2"
