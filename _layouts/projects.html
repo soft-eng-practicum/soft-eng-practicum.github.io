@@ -7,6 +7,7 @@ layout: default
 
 {{ content }}
 
+{% if page.photos %}
 <h2>Event Photos</h2>
 
   <div class="project_pictures">
@@ -21,6 +22,7 @@ layout: default
       {% endfor %}
     </div>
   </div>
+{% endif %}
 
 {% for project in page.projects %}
 
