@@ -21,7 +21,7 @@ projects:
   tech: [ node, angular, html/css, firebase]
   screencast-youtube: TkO5ufSxIkk
   members: "Chris Martinez, David Mercado, and Denzel Gomez" 
-  client: 'GGC student Le Quang Greatzel Unabia' and GGC faculty, Chair of Sustainability Committee [Dr. Elizabeth Sudduth](https://www.ggc.edu/about-ggc/directory/elizabeth-sudduth)
+  client: "GGC student Le Quang Greatzel Unabia and GGC faculty, Chair of Sustainability Committee [Dr. Elizabeth Sudduth](https://www.ggc.edu/about-ggc/directory/elizabeth-sudduth)"
   description: "We have been working on a Sustainability Pledge website for the GGC Sustainability Committee that aims to implement a comprehensive and strategic plan for the conservation and recycling of resources at GGC. The web application will allow users to take and manage their pledges to start or continue living a sustainable lifestyle."
   logo-full: images/flyer-SustainabilityPledge.png
   logo-thumb: images/thumb-flyer-SustainabilityPledge.png
