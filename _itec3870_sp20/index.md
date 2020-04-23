@@ -19,7 +19,7 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/GA-non-profits
 - name: "GGC Sustainability Pledge website"
   tech: [ node, angular, html/css, firebase]
-  screencast-youtube: TkO5ufSxIkk
+  screencast-youtube: VRr0vG4C6y8
   members: "Chris Martinez, David Mercado, and Denzel Gomez" 
   client: "GGC student Le Quang Greatzel Unabia and GGC faculty, Chair of Sustainability Committee [Dr. Elizabeth Sudduth](https://www.ggc.edu/about-ggc/directory/elizabeth-sudduth)"
   description: "We have been working on a Sustainability Pledge website for the GGC Sustainability Committee that aims to implement a comprehensive and strategic plan for the conservation and recycling of resources at GGC. The web application will allow users to take and manage their pledges to start or continue living a sustainable lifestyle."
