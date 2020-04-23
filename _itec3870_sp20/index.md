@@ -17,16 +17,21 @@ projects:
   logo-full: images/flyer-ga-nonprofits-it-crowd.png
   logo-thumb: images/thumb-flyer-ga-nonprofits-it-crowd.png
   repo-url: https://github.com/soft-eng-practicum/GA-non-profits
-- name: "Sustainability pledge website"
+- name: "GGC Sustainability Pledge website"
+  tech: [ node, angular, html/css, firebase]
+  screencast-youtube: TkO5ufSxIkk
+  members: "Chris Martinez, David Mercado, and Denzel Gomez" 
+  client: 'GGC student Le Quang Greatzel Unabia' and GGC faculty, Chair of Sustainability Committee [Dr. Elizabeth Sudduth](https://www.ggc.edu/about-ggc/directory/elizabeth-sudduth)
+  description: "We have been working on a Sustainability Pledge website for the GGC Sustainability Committee that aims to implement a comprehensive and strategic plan for the conservation and recycling of resources at GGC. The web application will allow users to take and manage their pledges to start or continue living a sustainable lifestyle."
   logo-full: images/flyer-SustainabilityPledge.png
   logo-thumb: images/thumb-flyer-SustainabilityPledge.png
+  repo-url: https://github.com/GGC-SD/SustainabilityWebsite.git
 - name: "Grizzly Hacks website by Evil"
-  title: "Grizzly Hacks Website"
-  tech: [ angular, bootstrap, html/css, firebase]
+  tech: [ node, angular, bootstrap, html/css, firebase]
   screencast-youtube: Yzh8gksAtMo
   members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle" 
   client: 'GGC student Vi "Jimmy" Nguyen'
-  description: "We developped the web application for the Grizzly Hacks RSO. The Grizzly Hacks web application allows users to access information about hackathons that the RSO will be hosting on campus. The application also allows users to register and apply for an upcoming hackathon. The web application gives administration n easy way to update the event calendar on the landing page and audit accounts and applications without database knowledge."
+  description: "We developped the web application for the Grizzly Hacks RSO. The Grizzly Hacks web application allows users to access information about hackathons that the RSO will be hosting on campus. The application also allows users to register and apply for an upcoming hackathon. The web application gives administration an easy way to update the event calendar on the landing page and audit accounts and applications without database knowledge."
   logo-full: images/flyer-GrizzlyHacksWebsite-Evil.png
   logo-thumb: images/thumb-flyer-GrizzlyHacksWebsite-Evil.png
   repo-url: https://github.com/GGC-SD/GrizzlyHacks
