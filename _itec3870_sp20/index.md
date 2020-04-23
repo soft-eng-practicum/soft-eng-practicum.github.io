@@ -66,9 +66,10 @@ projects:
   description: "For our Software Development 2 project, our group is developing an Android application that lets GGC users anonymously post their thoughts. The goal is for users to have a safe and open space for them to receive positive feedback on topics that they post, receiving help with any mental health issues or other struggles that they are going through. There will be an automatic text filter and manual reporting button for unsafe and toxic behaviors."
   logo-full: images/flyer-good-vibes.png
   logo-thumb: images/thumb-flyer-good-vibes.png
+  demo-url: https://drive.google.com/open?id=1cQ3S0eCEacD1vxasM3GFvXTvVMnPQW62
   repo-url: https://github.com/soft-eng-practicum/good-vibes
 - name: "Roster Sniper"
-  title: ""
+  title: "Notifies you for openings in full courses"
   tech: [ python, django, html/css, mysql ]
   screencast-streamable: s/ndkddh/ojasn
   members: "Thinking Code: Ryan Cosentino and Shaun Mitchell"
