@@ -31,6 +31,7 @@ projects:
   screencast-youtube: Yzh8gksAtMo
   members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle" 
   client: 'GGC student Vi "Jimmy" Nguyen'
+  demo-url: https://grizzly-hacks.web.app/home
   description: "We developped the web application for the Grizzly Hacks RSO. The Grizzly Hacks web application allows users to access information about hackathons that the RSO will be hosting on campus. The application also allows users to register and apply for an upcoming hackathon. The web application gives administration an easy way to update the event calendar on the landing page and audit accounts and applications without database knowledge."
   logo-full: images/flyer-GrizzlyHacksWebsite-Evil.png
   logo-thumb: images/thumb-flyer-GrizzlyHacksWebsite-Evil.png
