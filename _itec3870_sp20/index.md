@@ -21,8 +21,15 @@ projects:
   logo-full: images/flyer-SustainabilityPledge.png
   logo-thumb: images/thumb-flyer-SustainabilityPledge.png
 - name: "Grizzly Hacks website by Evil"
+  title: "Grizzly Hacks Website"
+  tech: [ angular, bootstrap, html/css, firebase]
+  screencast-youtube: Yzh8gksAtMo
+  members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle" 
+  client: 'GGC student Vi "Jimmy" Nguyen'
+  description: "We developped the web application for the Grizzly Hacks RSO. The Grizzly Hacks web application allows users to access information about hackathons that the RSO will be hosting on campus. The application also allows users to register and apply for an upcoming hackathon. The web application gives administration n easy way to update the event calendar on the landing page and audit accounts and applications without database knowledge."
   logo-full: images/flyer-GrizzlyHacksWebsite-Evil.png
   logo-thumb: images/thumb-flyer-GrizzlyHacksWebsite-Evil.png
+  repo-url: https://github.com/GGC-SD/GrizzlyHacks
 - name: "Grizzly Hacks website by Exodia"
   title: "Code like a Grizzly: Responsive, easy-to-use, efficient"
   tech: [ javascript, react, html/css, firebase]
