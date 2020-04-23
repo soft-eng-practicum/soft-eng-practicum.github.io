@@ -16,6 +16,7 @@ projects:
   description: "Our goal for this web app is to make information about non-profit organizations more accessible to the community and volunteers. The user will be able to search all non-profit organizations in Gwinnett County, the user will also have a filter feature where the user can filter the non - profit organizations based on their preferences. User can see details information of all the organizations with a link to access the organization website directly."
   logo-full: images/flyer-ga-nonprofits-it-crowd.png
   logo-thumb: images/thumb-flyer-ga-nonprofits-it-crowd.png
+  demo-url: https://jovial-keller-b0587c.netlify.app/
   repo-url: https://github.com/soft-eng-practicum/GA-non-profits
 - name: "GGC Sustainability Pledge website"
   tech: [ node, angular, html/css, firebase]
