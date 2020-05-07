@@ -7,6 +7,38 @@ categories: itec3870 create appfactory
 collection: itec3870_sp20
 
 projects:
+- name: "Grizzly Hacks website by Evil"
+  tech: [ node, angular, bootstrap, html/css, firebase]
+  screencast-youtube: Yzh8gksAtMo
+  members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle" 
+  client: 'GGC student Vi "Jimmy" Nguyen'
+  demo-url: https://grizzly-hacks.web.app/home
+  description: "We developped the web application for the Grizzly Hacks RSO. The Grizzly Hacks web application allows users to access information about hackathons that the RSO will be hosting on campus. The application also allows users to register and apply for an upcoming hackathon. The web application gives administration an easy way to update the event calendar on the landing page and audit accounts and applications without database knowledge."
+  logo-full: images/flyer-GrizzlyHacksWebsite-Evil.png
+  logo-thumb: images/thumb-flyer-GrizzlyHacksWebsite-Evil.png
+  repo-url: https://github.com/GGC-SD/GrizzlyHacks
+- name: "Roster Sniper"
+  title: "Notifies you for openings in full courses"
+  tech: [ python, django, html/css, mysql ]
+  screencast-streamable: s/ndkddh/ojasn
+  members: "Thinking Code: Ryan Cosentino and Shaun Mitchell"
+  client: "GGC IT faculty, [Dr. Binh Tran](https://www.ggc.edu/about-ggc/directory/binh-tran)"
+  description: "Have you ever found a course which matches your schedule perfectly only to realize it's run out of seats? Say goodbye to checking banner everyday for weeks and hello to Roster Sniper! Our website helps students track courses by sending email notifications once a particular course becomes available. Students are able to create accounts, login and logout, search for and track courses, and manage notifications through our easy to use web application developed with Django. Course data is stored in a MySQL database and is updated periodically by scraping data from banner."
+  logo-full: images/flyer-roster-sniper.png
+  logo-thumb: images/thumb-flyer-roster-sniper.png
+  demo-url: https://rostersniper.com/
+  repo-url: https://github.com/soft-eng-practicum/ggc-coursicle
+- name: "GGRA Non-profit Interactive Resource Map Web App"
+  title: "An interactive map and login portal for updating and displaying GGRA partners' locations and information"
+  tech: [ javascript, jquery, html/css, .netcore, c#, mssql, rest ]
+  screencast-youtube: XHLFTyXzt_4
+  members: "Team AmbigiousLarks: Khang Ho, Joshua Sales, and an anonymous member"
+  client: "Brendan Spaar, [Greater Gwinnett Reentry Alliance](https://www.gwinnettreentry.org/)"
+  demo-url: https://ggra-development.azurewebsites.net/
+  description: "Our group is continuing the development of a web app which assists ex offenders reintegrate into society listing public organizations and plotting them on an interactive map. The user may select an organization to view details: address, phone number, description and see that organization's location on a Google map. An administrator will be able to add new organizations to an SQL database through a web interface."
+  logo-full: images/flyer-GGRA.png
+  logo-thumb: images/thumb-flyer-GGRA.png
+  repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
 - name: "GA Non-Profits Web-App"
   title: "Interactive online map"
   tech: [ node, angular, html/css ]
@@ -27,16 +59,6 @@ projects:
   logo-full: images/flyer-SustainabilityPledge.png
   logo-thumb: images/thumb-flyer-SustainabilityPledge.png
   repo-url: https://github.com/GGC-SD/SustainabilityWebsite.git
-- name: "Grizzly Hacks website by Evil"
-  tech: [ node, angular, bootstrap, html/css, firebase]
-  screencast-youtube: Yzh8gksAtMo
-  members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle" 
-  client: 'GGC student Vi "Jimmy" Nguyen'
-  demo-url: https://grizzly-hacks.web.app/home
-  description: "We developped the web application for the Grizzly Hacks RSO. The Grizzly Hacks web application allows users to access information about hackathons that the RSO will be hosting on campus. The application also allows users to register and apply for an upcoming hackathon. The web application gives administration an easy way to update the event calendar on the landing page and audit accounts and applications without database knowledge."
-  logo-full: images/flyer-GrizzlyHacksWebsite-Evil.png
-  logo-thumb: images/thumb-flyer-GrizzlyHacksWebsite-Evil.png
-  repo-url: https://github.com/GGC-SD/GrizzlyHacks
 - name: "Grizzly Hacks website by Exodia"
   title: "Code like a Grizzly: Responsive, easy-to-use, efficient"
   tech: [ javascript, react, html/css, firebase]
@@ -47,17 +69,6 @@ projects:
   logo-full: images/flyer-Grizzly_Hacks_Exodia.png
   logo-thumb: images/thumb-flyer-Grizzly_Hacks_Exodia.png
   repo-url: https://github.com/soft-eng-practicum/grizzly-hacks-ws
-- name: "GGRA Non-profit Interactive Resource Map Web App"
-  title: "An interactive map and login portal for updating and displaying GGRA partners' locations and information"
-  tech: [ javascript, jquery, html/css, .netcore, c#, mssql, rest ]
-  screencast-youtube: XHLFTyXzt_4
-  members: "Team AmbigiousLarks: Khang Ho, Joshua Sales, and an anonymous member"
-  client: "Brendan Spaar, [Greater Gwinnett Reentry Alliance](https://www.gwinnettreentry.org/)"
-  demo-url: https://ggra-development.azurewebsites.net/
-  description: "Our group is continuing the development of a web app which assists ex offenders reintegrate into society listing public organizations and plotting them on an interactive map. The user may select an organization to view details: address, phone number, description and see that organization's location on a Google map. An administrator will be able to add new organizations to an SQL database through a web interface."
-  logo-full: images/flyer-GGRA.png
-  logo-thumb: images/thumb-flyer-GGRA.png
-  repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
 - name: "Good Vibes"
   title: "The positive, anonymous messaging app for GGC students"
   tech: [ android, unity, c#, mysql, php ]
@@ -69,17 +80,6 @@ projects:
   logo-thumb: images/thumb-flyer-good-vibes.png
   demo-url: https://drive.google.com/open?id=1cQ3S0eCEacD1vxasM3GFvXTvVMnPQW62
   repo-url: https://github.com/soft-eng-practicum/good-vibes
-- name: "Roster Sniper"
-  title: "Notifies you for openings in full courses"
-  tech: [ python, django, html/css, mysql ]
-  screencast-streamable: s/ndkddh/ojasn
-  members: "Thinking Code: Ryan Cosentino and Shaun Mitchell"
-  client: "GGC IT faculty, [Dr. Binh Tran](https://www.ggc.edu/about-ggc/directory/binh-tran)"
-  description: "Have you ever found a course which matches your schedule perfectly only to realize it's run out of seats? Say goodbye to checking banner everyday for weeks and hello to Roster Sniper! Our website helps students track courses by sending email notifications once a particular course becomes available. Students are able to create accounts, login and logout, search for and track courses, and manage notifications through our easy to use web application developed with Django. Course data is stored in a MySQL database and is updated periodically by scraping data from banner."
-  logo-full: images/flyer-roster-sniper.png
-  logo-thumb: images/thumb-flyer-roster-sniper.png
-  demo-url: https://rostersniper.com/
-  repo-url: https://github.com/soft-eng-practicum/ggc-coursicle
 ---
 
 These projects were developed by [Georgia Gwinnett College][ggc]
