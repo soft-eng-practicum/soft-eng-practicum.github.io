@@ -29,7 +29,7 @@ projects:
   demo-url: https://rostersniper.com/
   repo-url: https://github.com/soft-eng-practicum/ggc-coursicle
 - name: "GGRA Non-profit Interactive Resource Map Web App"
-  title: "An interactive map and login portal for updating and displaying GGRA partners' locations and information"
+  title: "For updating and displaying locations and information"
   tech: [ javascript, jquery, html/css, .netcore, c#, mssql, rest ]
   screencast-youtube: XHLFTyXzt_4
   members: "Team AmbigiousLarks: Khang Ho, Joshua Sales, and an anonymous member"
