@@ -35,7 +35,7 @@ projects:
   members: "Team AmbigiousLarks: Khang Ho, Joshua Sales, and an anonymous member"
   client: "Brendan Spaar, [Greater Gwinnett Reentry Alliance](https://www.gwinnettreentry.org/)"
   demo-url: https://ggra-development.azurewebsites.net/
-  description: "Our group is continuing the development of a web app which assists ex offenders reintegrate into society listing public organizations and plotting them on an interactive map. The user may select an organization to view details: address, phone number, description and see that organization's location on a Google map. An administrator will be able to add new organizations to an SQL database through a web interface."
+  description: "Our group is continuing the development of a web app which assists ex offenders reintegrate into society listing public organizations and plotting them on an interactive map. The user may select an organization to view details: address, phone number, description and see that organization's location on a Google map. An administrator will be able to add new organizations to an SQL database through a web interface. Our product was accepted by the GGRA organization to be [integrated into their website](https://www.gwinnettreentry.org/map/) at the end of the semester, and [showcased at their monthly meeting](https://youtu.be/uKt8GCaQ_YQ?t=958)."
   logo-full: images/flyer-GGRA.png
   logo-thumb: images/thumb-flyer-GGRA.png
   repo-url: https://github.com/soft-eng-practicum/GGRAwebsite
