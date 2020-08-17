@@ -13,7 +13,20 @@ categories:
 <em>Hackathon list last updated on {{ page.last_modified_at }}.</em>
 </center>
 
-## Coming up
+<!-- ## Coming up
+
+|Hackathon|	Location|	Date	| Application deadline | Notes
+|:--------| :---    | :---      | :---                 | :---
+-->
+
+## COVID'19-friendly Online Hackathons
+
+- Join our Grizzly Hacks student organization Discord (ask in class)
+- Check out the [Major League Hacking (MLH)](https://mlh.io/seasons/2021/events) 
+and [DevPost](https://devpost.com/) sites for upcoming hackathons 
+
+
+## Past Hackathons (but most repeat regularly)
 
 |Hackathon|	Location|	Date	| Application deadline | Notes
 |:--------| :---    | :---      | :---                 | :---
@@ -22,16 +35,6 @@ categories:
 |[KnightHacks](https://knighthacks.org/)| Univeristy of Central Florida, Orlando, FL | March 27-29, 2020 | TBA | Registration is open. ~About 7 hours away from GGC.
 |[PackHacks](https://ncsupackhacks.org/)| NC State University, Raleigh, NC | April 4-5, 2020 | TBA | Registration is open. ~Abour 5.5 hours away from GGC.
 |[HealthHack](https://healthtech.hack.gt/)| Georgia Tech, Atlanta, GA | April 3-5, 2020 | TBA | :---
-
-
-
-
-
-
-## Past (but repeats yearly)
-
-|Hackathon|	Location|	Date	| Application deadline | Notes
-|:--------| :---    | :---      | :---                 | :---
 |[BullyHack](https://www.bullyhack.com/) | Mississippi State University, Starkville, MS | Jan 11-12, 2020 | Apply Soon Limited | ~About 5 hours away from GGC
 |[CUHackit](https://cuhack.it/)| Clemson University, Clemson, SC | Jan 25-26, 2020 | Jan 10, 2020 | ~About 2 hours away from GGC
 |[SwampHacks](https://2020.swamphacks.com/)| University of Florida, Gainesville, FL | Jan 31-Feb 2, 2020 | Jan 10, 2020 | ~Over 5 hours away from GGC
