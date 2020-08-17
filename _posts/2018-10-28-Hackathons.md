@@ -3,7 +3,7 @@
 layout: post
 title: "Hackathons near the Atlanta Region"
 date: 2018-10-28 13:43:17
-last_modified_at: 2020-03-01
+last_modified_at: 2020-08-17
 categories:
 - Pinned
 
