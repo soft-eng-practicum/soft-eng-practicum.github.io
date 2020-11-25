@@ -39,19 +39,26 @@ layout: default
 </div>
 
 <p> Developed by <em>{{ project.members }}</em><br>
-    Lead by <em>
-        {% if project.client-url %}
+  {% if project.client-url %}
+    Directed by client, <em>
         <a href="{{ project.client-url }}" target="_blank">{{
-            project.client }}</a>
+            project.client }}</a></em>
         {% else %}
-        {{ project.client | markdownify }}
+        {{ "Directed by client, _" | append: project.client | append: "_" | markdownify }}
         {% endif %}
-    </em>
+    
+  {% if project.prof %}
+    {% assign prof = site.profs.[project.prof] %}
+    , in the course of professor <em>
+    <a href="{{ prof.url }}" target="_blank">{{
+      prof.name }}</a> </em>
+  {% endif %}
 
+  
 <p> {{ project.description | markdownify  }}</p>
 
 {% if project.tech %}
-<p> <b class="project-tech">Technology:</b> {{ project.tech | join: "; " }}</p>
+<p> <b class="project-tech">Technologies:</b> {{ project.tech | join: "; " }}</p>
 {% endif %}
 
 <div class="project-links">

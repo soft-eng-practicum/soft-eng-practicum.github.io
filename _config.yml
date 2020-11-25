@@ -11,7 +11,19 @@ url: "https://soft-eng-practicum.github.io/" # the base hostname & protocol for 
 twitter_username: cengique
 github_username:  cengique
 repository: soft-eng-practicum/soft-eng-practicum.github.io
+profs:
+  gunay:
+    name: "Cengiz Gunay"
+    url: https://www.ggc.edu/about-ggc/directory/cengiz-gunay
+  doloc-mihu:
+    name: "Anca Doloc-Mihu"
+    url: https://www.ggc.edu/about-ggc/directory/anca-doloc-mihu
 collections:
+  itec3870_fa20:
+    title: "Fall 2020 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Fall 2020 SD2"
+    date: 2020-11-23
+    output: true
   itec3870_sp20:
     title: "Spring 2020 ITEC 3870 Soft Dev 2 course projects"
     menutitle:  "Spring 2020 SD2"
