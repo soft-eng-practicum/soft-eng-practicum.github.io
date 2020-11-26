@@ -49,9 +49,9 @@ layout: default
     
   {% if project.prof %}
     {% assign prof = site.profs.[project.prof] %}
-    , in the course of professor <em>
+    <p>In the course of professor <em>
     <a href="{{ prof.url }}" target="_blank">{{
-      prof.name }}</a> </em>
+      prof.name }}</a> </em></p>
   {% endif %}
 
   

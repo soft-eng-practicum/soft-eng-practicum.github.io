@@ -13,10 +13,10 @@ github_username:  cengique
 repository: soft-eng-practicum/soft-eng-practicum.github.io
 profs:
   gunay:
-    name: "Cengiz Gunay"
+    name: "Dr. Cengiz Gunay"
     url: https://www.ggc.edu/about-ggc/directory/cengiz-gunay
   doloc-mihu:
-    name: "Anca Doloc-Mihu"
+    name: "Dr. Anca Doloc-Mihu"
     url: https://www.ggc.edu/about-ggc/directory/anca-doloc-mihu
 collections:
   itec3870_fa20:
