@@ -21,8 +21,8 @@ projects:
   logo-thumb: images/thumb-flyer-DSA2020.png
   repo-url: https://github.com/GGC-SD/
 - name: "Sustainability Pledge Website"
-  title: "SIOS (:crown: :crown: 2ND PLACE)"
-  tech: [ html/css ]
+  title: "Central hub for the Student Innovators Organization for Sustainability (SIOS) (:crown: :crown: 2ND PLACE)"
+  tech: [ angular, typescript, html/css, firebase, bootstrap ]
   screencast-youtube: a9Ixflzd_Ko
   members: "The Green Machine: Trevor Lee, Jonathan Roof, Cesar Lopez, Angel Mercado" 
   client: "Greatzel Unabia"
@@ -69,7 +69,7 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/Lawrenceville-Coop
 - name: "Professor Course Scheduler"
   title: "Helps administrators and professors to create an efficient teaching schedule"
-  tech: [ html/css ]
+  tech: [ angular, typescript, html/css ]
   screencast-youtube: NZKo_mkaoN0
   members: "Team Apple: Taylor Williams, Taisann Kham, Dustin Cofer, Christopher Jones" 
   client: "IT professor, Dr. Evelyn Brannock"
