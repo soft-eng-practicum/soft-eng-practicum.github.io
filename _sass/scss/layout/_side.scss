@@ -24,18 +24,17 @@
   }
 }
 .sidebar {
-    background-color: $color-ggc-green;
-    height: 100%;
-    width: 226px;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 .menu_block{
   padding: 0;
+  position: fixed;
+  background-color: $color-ggc-green;
+  top: 0;
+  bottom: 0;
+  left: 0;
   .logo_box{
     text-align: center;
-    padding: 25px 10px 10px 10px;
+    padding: 10px 10px 10px 25px;
   }
   .side_menu_section{
     overflow: auto;

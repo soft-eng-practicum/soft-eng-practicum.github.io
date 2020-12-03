@@ -1,7 +1,21 @@
 ---
 layout: default
 ---
-<!--=================== Page Title ====================-->
+  <div class="row justify-content-center">
+    <!--=================== side menu ====================-->
+
+    {% include sidemenu.html %}
+
+    <!--=================== side menu end====================-->
+
+    <!--=================== content body ====================-->
+    <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+      <div class="portfolio">
+        <div class="container-fluid">
+              <!--=================== Home Section ====================-->
+              <div class="page_content">
+
+                <!--=================== Page Title ====================-->
 <div class="title">
     <h2>{{site.title}}</h2>
     <h4>{{site.tagline}}</h4>
@@ -42,3 +56,12 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ 'feed.xml' | relative_url }}">via RSS</a></p>
     </div>
 </div>
+
+              </div>
+	      {% include footer.html %}
+        </div>
+      </div>
+    </div>
+    <!--=================== content body end ====================-->
+  </div>
+
