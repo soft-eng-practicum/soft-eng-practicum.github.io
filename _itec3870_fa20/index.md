@@ -40,7 +40,7 @@ projects:
   client-url: https://www.ggc.edu/about-ggc/directory/jason-palmer
   prof: gunay
   description: "Our team is updating and improving upon the existing [Grammark program](https://grammark.org/). The goal for this program is to help GGC students enrolled in ENG 1101 and 1102 develop persuasive, academic writing skills by flagging potential false positive grammar checks and offering corrective feedback. Ultimately, the user should be able to either take or leave the program’s feedback and/ or corrections based upon their knowledge of grammatical rules in the English language and the rules of academic writing."
-  logo-full: images/flyer-grammark.png
+  logo-full: images/flyer-grammark.jpg
   logo-thumb: images/thumb-flyer-grammark.png
   repo-url: https://github.com/soft-eng-practicum/grammark
   demo-url: https://grammark.herokuapp.com/
