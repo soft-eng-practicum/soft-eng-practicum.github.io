@@ -137,7 +137,15 @@ $on-laptop: 800px;
 	padding-bottom: $spacing-unit / 2;
     }
     .project-video {
-	clear: left;
+      clear: left;
+      width: 640px;
+      height: 360px;
+    }
+    @media (max-width: 768px){
+      .project-video {
+        width: 100%;
+        height: ( $device - $spacing-unit ) / 2;
+      }
     }
     hr.project-sep {
 	clear: left;
