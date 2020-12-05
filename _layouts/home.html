@@ -25,7 +25,7 @@ layout: default_menu
 </div>
 
     <div class = "post">
-    <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading">Contents</h1>
     
 {% for category in site.categories %}
     <h3>&nbsp;&nbsp;{{category | first}}</h3>
@@ -41,6 +41,5 @@ layout: default_menu
         </ul>
 {% endfor %}    
 
-  <p class="rss-subscribe">subscribe <a href="{{ 'feed.xml' | relative_url }}">via RSS</a></p>
     </div>
 </div>

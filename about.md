@@ -24,6 +24,8 @@ collaborators of the organization.
 The original Jekyll code for the website was authored by Cengiz
 Gunay. Colorlib template was adopted
 by [Nilaja Williams](https://www.linkedin.com/in/nilajawilliams/), and
-further developed by CG. We thank all of the project clients who
+further developed by
+CG. [Katherine Balsley, MFA](https://www.ggc.edu/about-ggc/directory/katherine-balsley) produced
+the video on the home page. We thank all of the project clients who
 devoted time to work with the students.
 
