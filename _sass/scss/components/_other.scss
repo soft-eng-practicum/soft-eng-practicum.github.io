@@ -62,13 +62,15 @@
 
 .home_grid {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-auto-flow: row;
-
+  row-gap: 1em;
+  
   grid-template-areas:
-          "project_demo project_demo post";
+          "project_demo post";
 }
+
 @media (max-width: 768px){
   .home_grid {
     grid-template-columns: 1fr;
@@ -76,13 +78,6 @@
       "project_demo"
         "post";
   }
-}
-
-.sd2_demos_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-auto-flow: row;
 }
 
 .project_demo {
@@ -93,10 +88,19 @@
   grid-area: post;
 }
 
+.sd2_demos_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-flow: row;
+}
+
+/* Unused
 .post-list {
   float:left;
 }
-/* Unused
+ 
 .projects_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
