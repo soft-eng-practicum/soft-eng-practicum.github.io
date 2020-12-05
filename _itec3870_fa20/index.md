@@ -11,7 +11,7 @@ projects:
   title: "Help DSA students with their courses and careers (:crown: :crown: :crown: 1ST PLACE)"
   tech: [ react, gatsby, discus, html/css, netlify ]
   screencast-youtube: -zeG6oWoiKI
-  members: "Cyber Chasers: Shababa Kamreen, Alex Abraham, Sebastien Pierre-Louis, Agapitus Iboro" 
+  members: "Cyber Chasers: Alex Abraham, Sebastien Pierre-Louis, Agapitus Iboro, and an anonymous member" 
   client: 'Dr. Cengiz Gunay'
   client-url: https://www.ggc.edu/about-ggc/directory/cengiz-gunay
   prof: doloc-mihu
