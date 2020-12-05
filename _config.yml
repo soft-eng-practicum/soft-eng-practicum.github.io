@@ -21,47 +21,56 @@ profs:
 collections:
   itec3870_fa20:
     title: "Fall 2020 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Fall 2020 SD2"
+    menutitle:  "Fall 2020"
+    course: "SD2"
     date: 2020-11-23
     output: true
   itec3870_sp20:
     title: "Spring 2020 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Spring 2020 SD2"
+    menutitle:  "Spring 2020"
+    course: "SD2"
     date: 2020-04-20
     output: true
   itec3870_fa19:
     title: "Fall 2019 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Fall 2019 SD2"
+    menutitle:  "Fall 2019"
+    course: "SD2"
     date: 2019-12-14
     output: true
   itec3870_sp19:
     title: "Spring 2019 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Spring 2019 SD2"
+    menutitle:  "Spring 2019"
+    course: "SD2"
     date: 2019-05-04
     output: true
   itec3870_fa18:
     title: "Fall 2018 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Fall 2018 SD2"
+    menutitle:  "Fall 2018"
+    course: "SD2"
     date: 2018-11-26
     output: true
   itec3870_sp18:
     title: "Spring 2018 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Spring 2018 SD2"
+    menutitle:  "Spring 2018"
+    course: "SD2"
     date: 2018-05-17
     output: true
   itec3870_fa17:
     title: "Fall 2017 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Fall 2017 SD2"
+    menutitle:  "Fall 2017"
+    course: "SD2"
     date: 2017-11-30
     output: true
   itec3870_sp17:
     title: "Spring 2017 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Spring 2017 SD2"
+    menutitle:  "Spring 2017"
+    course: "SD2"
     date: 2017-05-10
     output: true
   itec3870_fa16:
     title: "Fall 2016 ITEC 3870 Soft Dev 2 course projects"
-    menutitle:  "Fall 2016 SD2"
+    menutitle:  "Fall 2016"
+    course: "SD2"
     date: 2016-12-01
     output: true
 
