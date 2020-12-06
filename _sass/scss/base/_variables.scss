@@ -126,10 +126,6 @@ $on-laptop: 800px;
 	padding-right: 10pt;
 	padding-bottom: 10pt;
     }
-    .project-title {
-	clear: left;
-	@extend .post-title;
-    }
     .create-images {
 	float: left;
 	width: 45%;

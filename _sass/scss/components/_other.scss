@@ -96,6 +96,20 @@
   grid-auto-flow: row;
 }
 
+.post-link {
+  text-decoration: none;
+}
+
+.project-title {
+  clear: left;
+  a { text-decoration: none; }
+  @extend .post-title;
+}
+
+h1.post-title {
+  text-align: center;
+}
+
 /* Unused
 .post-list {
   float:left;
@@ -115,6 +129,10 @@
     background: $color-darker-red;
 
 }*/
+
+.project-links {
+  padding: 1em 0 1em 0;
+}
 
 .project_pictures {
     height: 350px;

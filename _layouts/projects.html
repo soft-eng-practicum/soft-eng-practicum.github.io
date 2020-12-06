@@ -7,7 +7,7 @@ layout: default
 
 <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
 
-<h1 class="post-title" style="text-align: center">{{ page.title }}</h1>
+<h1 class="post-title">{{ page.title }}</h1>
 
 {{ content }}
 
@@ -35,6 +35,37 @@ layout: default
      href="{{project.demo-url}}"
      target="_blank">
     {{ project.name }} - {{ project.title }}</a></h2>
+
+    {% if project.screencast-youtube %}
+    <div class="project-video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}"
+                frameborder="0" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+    {% if project.screencast-vimeo %}
+    <div class="project-video">
+      <iframe src="https://player.vimeo.com/video/{{ project.screencast-vimeo }}"
+	      width="100%" height="100%"
+              frameborder="0" webkitallowfullscreen mozallowfullscreen
+	      allowfullscreen></iframe>
+    </div>
+    {% endif %}
+
+    {% if project.screencast-streamable %}
+    <div style="width: 640; height: 0px; position: relative; padding-bottom: 54.265%;"><iframe src="https://streamable.com/{{ project.screencast-streamable }}" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
+    {% endif %}
+
+    <div class="project-links">
+
+        {% if project.demo-url %}
+        <em><a href="{{ project.demo-url }}" target="_blank">
+            <button type="button" class="btn btn-rounded btn-sm btn-dark">Demo site</button></a></em>
+        {% endif %}
+
+        <em><a href="{{ project.repo-url }}" target="_blank">
+            <button type="button" class="btn btn-rounded btn-sm btn-primary">Source code</button></a></em>
+    
+    </div>
 
 <div>
     <a id="lightgallery" href="{{ project.logo-full }}">
@@ -65,42 +96,10 @@ layout: default
 <p> <b class="project-tech">Technologies:</b> {{ project.tech | join: "; " }}</p>
 {% endif %}
 
-<div class="project-links">
-
-    <p>
-        {% if project.demo-url %}
-        <em><a href="{{ project.demo-url }}" target="_blank">
-            <button type="button" class="btn btn-rounded btn-sm btn-dark">Demo site</button></a></em>
-        {% endif %}
-
-        <em><a href="{{ project.repo-url }}" target="_blank">
-            <button type="button" class="btn btn-rounded btn-sm btn-primary">Source code</button></a></em>
-    </p>
-
-    {% if project.screencast-youtube %}
-    <div class="project-video">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}"
-                frameborder="0" allowfullscreen></iframe>
-    </div>
-    {% endif %}
-    {% if project.screencast-vimeo %}
-    <div class="project-video">
-      <iframe src="https://player.vimeo.com/video/{{ project.screencast-vimeo }}"
-	      width="100%" height="100%"
-              frameborder="0" webkitallowfullscreen mozallowfullscreen
-	      allowfullscreen></iframe>
-    </div>
-    {% endif %}
-
-    {% if project.screencast-streamable %}
-    <div style="width: 640; height: 0px; position: relative; padding-bottom: 54.265%;"><iframe src="https://streamable.com/{{ project.screencast-streamable }}" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
-    {% endif %}
-
     <hr class="project-sep">
 
     {% endfor %}
 
-</div>
 </div>
 </div>
 
