@@ -120,7 +120,7 @@ projects:
   tech: [ react native, android, ios, html/css, firebase ]
   screencast-youtube: VTJzBHplwR8
   members: "Team SMC: Gretchen Marie, Lillian Sheppard, Ching Vang" 
-  client: "IT professor, Dr. Anca Doloc-Mihu"
+  client: "GGC IT graduate, Joshua Walton"
   prof: gunay
   description: "The team is working on improving and updating the existing Grizzly Parking App. Grizzly Parking app is to help GGC students to find available parking space during busy and non-busy school hours and to improve the flow of traffic. The new features will give the User the ability to upload profile pictures, track parking history, view availability status based on colors, navigate in real time, and advanced security password."
   logo-full: images/flyer-Grizzly_Parking_App_2.jpg
