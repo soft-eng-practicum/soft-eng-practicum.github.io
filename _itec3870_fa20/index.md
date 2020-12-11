@@ -49,7 +49,7 @@ projects:
   tech: [ python, django, html/css ]
   screencast-youtube: UnhcAceFtYs
   members: "Team Technolo-G: Devin Rogers, Jeremy (Jeremia) Reyes, Joshua (Mart) Miller, Safiyullah (Safi) Khan" 
-  client: "GGC students, Shaun Mitchell and Ryan Consentino"
+  client: "GGC students, Shaun Mitchell and Ryan Cosentino"
   prof: gunay
   description: "For our Software Dev II project, our team is working on the Roster Sniper website. The purpose of this site is to assist students in finding and getting a spot in classes that they want and that best suit their needs, and the end goal is to help remove some of the stress that students have when picking courses. Traditionally, students would have to constantly check back on the course registration website if a class they want or need has any open spots. However, with Roster Sniper, students can now simply select classes that to “watch,” and they will be notified as soon as a spot opens up in that section."
   logo-full: images/flyer-roster_sniper_app.png
