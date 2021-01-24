@@ -7,6 +7,9 @@ categories:
 - News
 ---
 
+<center><a href="https://www.gwinnettreentry.org/resources/" target="_blank">
+<img src="https://www.ggc.edu/sebin/k/k/GGRA-Resource-Map.gif"></a></center>
+
 Our students were recently appeared in the news, thanks to an app they
 developed for a local non-profit organization, Greater Gwinnett Re-entry Alliance (GGRA). The article was
 published on the GGC News and Events page under the
