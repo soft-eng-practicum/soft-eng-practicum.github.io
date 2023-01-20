@@ -12,7 +12,7 @@ projects:
   tech: [ react, bootstrap, html/css ]
   screencast-youtube: c8pfxX6FkaM
   members: "Quaint Quartet: Michael Conner and Stephanie Mendiola-Tenorio" 
-  client: 'Amy Sol'
+  client: "Amy Sol and Ryan Gambrell"
   client-url: https://nextgenerationfocus.org/
   prof: doloc-mihu
   description: "NGF App will be a fully online record keeping system that will enable the many students, families, volunteers, part-time employees, and board members to have access through the web. This will allow individuals, via an account system, to add and update their own records, as well as give administrators the ability to manage the records of everyone in the system."
@@ -27,17 +27,16 @@ projects:
   description: "The Research App was created to streamline the process of assisting students, faculty, and the STEC Coordinator with applying for the STEC-4500 Undergrad Research Project class."
   logo-full: images/ResearchApp.png
   repo-url: https://github.com/GGC-SD/STEC4500-ResearchApp
-- name: "Roster Snipper"
-  title: "Let GGC Find You an Internship!"
-  tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
-  screencast-youtube: CB7A34H65l4
-  members: "Team Bancobanco: Matthew Rosario, Jordan Harrison, Michael Murillo"
-  client: "[Dr Lissa Pollacia](http://www.ggc.edu/about-ggc/directory/lissa-pollacia) and [Dr Latanya Hammonds-Odie](http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie)"
-  demo-url: http://ggc-internapp.herokuapp.com/
-  description: "The InternApp is a web application that helps juniors and seniors majoring in biology and information technology apply for internships and research opportunities. Students can access pertinent information for available internships, upload their resumes, fill out important forms, and send their applications to the biology and ITEC programs' respective internship coordinators all through the InternApp. Additionally, the InternApp gives internship coordinators a way to access student applications and forms in one place, helping them to organize, process, and expedite internship applications for GGC students."
-  logo-full: images/flyer-internapp-meraki.png
-  logo-thumb: images/thumb-flyer-internapp-meraki.png
-  repo-url: https://github.com/GGC-SD/internapp
+- name: "Roster Sniper"
+  title: "Get notified for openings in filled course sections"
+  tech: [ python, django, html/css ]
+  screencast-youtube: UnhcAceFtYs
+  members: "The Musketeers: Chenanniah Mac-Cephas, Alex, Ian Dowlatkhah, Justin Sandman" 
+  client: "Shaun Mitchell and Ryan Cosentino"
+  prof: doloc-mihu
+  description: "For our Software Dev II project, our team is working on the Roster Sniper website. The purpose of this site is to assist students in finding and getting a spot in classes that they want and that best suit their needs, and the end goal is to help remove some of the stress that students have when picking courses. Traditionally, students would have to constantly check back on the course registration website if a class they want or need has any open spots. However, with Roster Sniper, students can now simply select classes that to “watch,” and they will be notified as soon as a spot opens up in that section."
+  repo-url: https://github.com/soft-eng-practicum/rostersniper
+  demo-url: https://tech.rostersniper.com
 - name: "Visual Portfolio"
   title: "Helping STEC-4500 Undergrad Research Project class"
   tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
