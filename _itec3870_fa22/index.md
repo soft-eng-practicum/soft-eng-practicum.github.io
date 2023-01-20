@@ -20,7 +20,7 @@ projects:
 - name: "STEC Research App"
   title: "Helping STEC-4500 Undergrad Research Project class"
   tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
-  screencast-youtube: v=Z97aJVH2VHI
+  screencast-youtube: Z97aJVH2VHI
   members: "Wired Wires Experts: Jeancarlo Masciotti, Miranda Darlington, Andres Almaraz, Jafet Leon-Perez" 
   client: "Dr Wendy Dustman"
   prof: doloc-mihu
@@ -49,16 +49,15 @@ projects:
   repo-url: https://github.com/GGC-SD/STEC4500-ResearchApp
   demo-url: http://researchapp.netlify.app
 - name: "Walking Trails App"
-  title: "Helping STEC-4500 Undergrad Research Project class"
-  tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
-  screencast: https://web.microsoftstream.com/video/c2dbcd3b-c362-437f-9081-673c06fa993c
-  members: "Research Rats Team: Ching Vang, Kristoffer Hendricks, Terrance Perry" 
+  title: "Fitness App showcasing trails info and allowing for personalized workouts"
+  tech: [ react, typescript, html/css, MongoDB, NodeJS, Express, Googlemaps, Google Map API, material-ui ]
+  screencast-youtube: j3sLqDTzJUw
+  members: "Fanstatic 4: Charlie Chae, Serena Bonsu, Jardy Pery " 
   client: "Dr Karen Perell-Gerson"
   prof: doloc-mihu
-  description: "The Research App was created to streamline the process of assisting students, faculty, and the STEC Coordinator with applying for the STEC-4500 Undergrad Research Project class."
-  logo-full: images/stecResearch.png
-  repo-url: https://github.com/GGC-SD/STEC4500-ResearchApp
-  demo-url: http://researchapp.netlify.app
+  description: "A fitness app which allows users to experience trails through a digital experience. Users will be able to scan QR codes to learn about trails they are exploring, create blog posts, and begin personalized workouts."
+  logo-full: images/Grizzly_Fitness.jpg
+  repo-url: [https://github.com/GGC-SD/WalkingTrailApp](https://github.com/GGC-SD/WalkingTrailApp)
 
 ---
 
