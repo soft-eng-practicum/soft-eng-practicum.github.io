@@ -57,7 +57,7 @@ projects:
   prof: doloc-mihu
   description: "A fitness app which allows users to experience trails through a digital experience. Users will be able to scan QR codes to learn about trails they are exploring, create blog posts, and begin personalized workouts."
   logo-full: images/Grizzly_Fitness.jpg
-  repo-url: [https://github.com/GGC-SD/WalkingTrailApp](https://github.com/GGC-SD/WalkingTrailApp)
+  repo-url: https://github.com/GGC-SD/WalkingTrailApp
 
 ---
 
