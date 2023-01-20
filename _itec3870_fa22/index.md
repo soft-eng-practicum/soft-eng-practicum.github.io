@@ -27,7 +27,6 @@ projects:
   description: "The Research App was created to streamline the process of assisting students, faculty, and the STEC Coordinator with applying for the STEC-4500 Undergrad Research Project class."
   logo-full: images/ResearchApp.png
   repo-url: https://github.com/GGC-SD/STEC4500-ResearchApp
-  
 - name: "Roster Snipper"
   title: "Let GGC Find You an Internship!"
   tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
