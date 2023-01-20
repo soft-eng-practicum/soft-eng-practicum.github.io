@@ -38,22 +38,22 @@ projects:
   repo-url: https://github.com/soft-eng-practicum/rostersniper
   demo-url: https://tech.rostersniper.com
 - name: "Visual Portfolio"
-  title: "Helping STEC-4500 Undergrad Research Project class"
-  tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
-  screencast: https://web.microsoftstream.com/video/c2dbcd3b-c362-437f-9081-673c06fa993c
-  members: "Research Rats Team: Ching Vang, Kristoffer Hendricks, Terrance Perry" 
-  client: "Dr Anca Doloc-Mihu"
+  title: "A visually interactive tool to streamline the portfolio-making process"
+  tech: [ React, NodeJS, Tailwing, Firebase, Frameer-Motion, Jest-dom ]
+  screencast-youtube: a-qsBnKn9xU
+  members: "Business Casual: Robert Recallo, Benjamin Moreira, Canaan Hanley" 
+  client: "Dr. Anca Doloc-Mihu"
   prof: doloc-mihu
-  description: "The Research App was created to streamline the process of assisting students, faculty, and the STEC Coordinator with applying for the STEC-4500 Undergrad Research Project class."
-  logo-full: images/stecResearch.png
-  repo-url: https://github.com/GGC-SD/STEC4500-ResearchApp
-  demo-url: http://researchapp.netlify.app
+  description: "Visual Portfolio is a web application designed to streamline the portfolio-making process. It is a visually interactive tool that allows you to swiftly construct customizable resumes, CVs, etc. Users can create an account and fill out blocks of information that they can then reuse in any document they make. The user is able to build their document using the dynamic drag and drop functionality, allowing them to build multiple tailored documents. Once a resume is built, the user is able to export it in their preferred extension, and save it to their portfolio for editing in the future."
+  logo-full: images/VisualPortfolio.jpg
+  repo-url: https://github.com/GGC-SD/VisualPortofolioApp
+  demo-url: https://visual-portfolio.onrender.com/
 - name: "Walking Trails App"
   title: "Fitness App showcasing trails info and allowing for personalized workouts"
   tech: [ react, typescript, html/css, MongoDB, NodeJS, Express, Googlemaps, Google Map API, material-ui ]
   screencast-youtube: j3sLqDTzJUw
   members: "Fanstatic 4: Charlie Chae, Serena Bonsu, Jardy Pery " 
-  client: "Dr Karen Perell-Gerson"
+  client: "Dr. Karen Perell-Gerson"
   prof: doloc-mihu
   description: "A fitness app which allows users to experience trails through a digital experience. Users will be able to scan QR codes to learn about trails they are exploring, create blog posts, and begin personalized workouts."
   logo-full: images/Grizzly_Fitness.jpg
