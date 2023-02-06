@@ -1,19 +1,19 @@
 ## BB's Practium Wesbite Project Credits ##
 
-### Andres Sanchez ###
+###  1.) Andres Sanchez ###
 
 **Roles** :scroll:
 * *Client Liason*
 * *Data modeler*
 
-### Ahmed Mohamed ###
+###  2.) Ahmed Mohamed ###
 
 **Roles** :scroll:
 * *UI/UX design*
 * *Team manager*
 
-### Roberto Alvarado ###
+###  3.) Roberto Alvarado :blue_car: ###
 
 **Roles** :scroll:
-* *Lead Programmer*
-* *Documentation Lead*
+* *Lead Programmer (Primary role)*
+* *Documentation Lead (Secondary Role)*
