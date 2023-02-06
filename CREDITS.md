@@ -5,3 +5,9 @@
 **Roles** :scroll:
 * *Client Liason*
 * *Data modeler*
+
+### Ahmed Mohamed ###
+
+**Roles** :scroll:
+* *UI/UX design*
+* *Team manager*
