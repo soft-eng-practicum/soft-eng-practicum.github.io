@@ -11,3 +11,9 @@
 **Roles** :scroll:
 * *UI/UX design*
 * *Team manager*
+
+### Roberto Alvarado ###
+
+**Roles** :scroll:
+* *Lead Programmer*
+* *Documentation Lead*
