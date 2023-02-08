@@ -3,9 +3,9 @@
 ###  1.) Andres Sanchez ###
 
 **Roles** :scroll:
+* *Data modeler (Primary Role)*
+* *Testing Lead (Secondary Role)*
 * *Client Liason*
-* *Data modeler*
-* *Testing Lead*
 
 ###  2.) Ahmed Mohamed  :large_blue_diamond: ###
 
