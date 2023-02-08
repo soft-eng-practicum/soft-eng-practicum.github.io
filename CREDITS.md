@@ -5,6 +5,7 @@
 **Roles** :scroll:
 * *Client Liason*
 * *Data modeler*
+* *Testing Lead*
 
 ###  2.) Ahmed Mohamed  :large_blue_diamond: ###
 

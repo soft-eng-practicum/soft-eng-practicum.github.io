@@ -2,19 +2,17 @@
 ## Team Members- Ahmed Mohamed, Andres Sanchez, Roberto Alvarado ##
 
 **Selected Technology Stack**
-*
-*
-*
+* Jekyll 
+* Liquid Language 
+* Javascript/CSS/SCSS/HTML
 
 **Details**
-*
-*
-* 
+* Static site generator used for the base of the website
+* Main lanuage used for the framework of the site
+* Web technolgies mainly used for styling and format of the site 
 
 **Installation Instructions** 
-*
-*
-*
+* Jekyll can be downloaded via jekyllrb.com
 
 ## Org Github Pages Website using Jekyll ##
 
