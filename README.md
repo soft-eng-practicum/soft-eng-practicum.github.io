@@ -1,5 +1,4 @@
-## BB's Practium Wesbite Project - 2/6/2023 ##
-## Team Members- Ahmed Mohamed, Andres Sanchez, Roberto Alvarado ##
+## BB's Practium Website Project - 2/6/2023 ##
 
 **Selected Technology Stack**
 * Jekyll 
