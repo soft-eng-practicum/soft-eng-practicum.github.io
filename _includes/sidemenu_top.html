@@ -31,6 +31,21 @@
                     About
                 </a>
             </li>
+            <li class="{% if page.title == "Students" %} active {% endif %}">
+                <a href="{{ '/students/' | relative_url }}">
+                    Students
+                </a>
+            </li>
+            <li class="{% if page.title == "Faculty" %} active {% endif %}">
+                <a href="{{ '/faculty/' | relative_url }}">
+                    Faculty
+                </a>
+            </li>
+            <li class="{% if page.title == "Technologies" %} active {% endif %}">
+                <a href="{{ '/technologies/' | relative_url }}">
+                    Technologies
+                </a>
+            </li>
         </ul>
     </div>
     <!--main menu end -->
