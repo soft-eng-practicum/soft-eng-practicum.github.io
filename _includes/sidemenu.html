@@ -1,16 +1,23 @@
+
 {% include sidemenu_top.html %}
 
 <!--filter menu -->
+    <!-- <h4 class="side_title">SD2 Demos</h4> -->
     <div class="side_menu_scroll">
-        <ul  class="menu_nav">
-	  {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
-          {% for projects in collections_list %}
-          <li><a class="post-link" href="{{ projects.label | relative_url }}">
-	      {% if projects.menutitle %}{{ projects.menutitle }}
-	      {% else %}{{ projects.title }}
-	      {% endif %}</a></li>
-            {% endfor %}
-        </ul>
+        <div  class="dropdown">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Classes
+            </button>
+            <div class="dropdown-menu">
+                {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
+                {% for projects in collections_list %}
+                <a class="dropdown-item" href="{{ projects.label | relative_url }}">
+                {% if projects.menutitle %}{{ projects.menutitle }}
+                {% else %}{{ projects.title }}
+                {% endif %}</a>
+                  {% endfor %}
+            </div>
+          </div>
     </div>
     <!--filter menu end -->
 
