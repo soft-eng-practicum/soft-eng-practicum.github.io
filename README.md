@@ -7,9 +7,10 @@
 
 **Details**
 * Static site generator used for the base of the website
-* Main lanuage used for the framework of the site
+* Main lanuage used for the framework of the sitegi
 * Web technolgies mainly used for styling and format of the site 
-
+**License**
+ Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/ 
 **Installation Instructions** 
 * Jekyll can be downloaded via jekyllrb.com
 
