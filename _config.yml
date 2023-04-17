@@ -6,7 +6,7 @@ author_link: http://www.ggc.edu/about-ggc/directory/cengiz-gunay
 email: cengique@users.sf.net
 description: > # this means to ignore newlines until "baseurl:"
         This is an educational organization to host software development/engineering projects.
-baseurl: "" # baseurl is the subpath of your site, e.g. blog/ - not including initial /
+baseurl: "soft-eng-practicum-website/" # baseurl is the subpath of your site, e.g. blog/ - not including initial /
 url: "https://soft-eng-practicum.github.io/" # the base hostname & protocol for your site
 twitter_username: cengique
 github_username:  cengique
