@@ -28,6 +28,16 @@ To build and run the documentation locally, do:
 ```bash
 $ bundle exec jekyll serve --watch
 ```
+To build and run the documentation locally on mac m1 and m2, do:
+
+download Docker: https://docs.docker.com/desktop/install/mac-install/
+choose the apple silicon.
+And then run this command on your terminal:
+
+```bash
+$ docker run -it --rm -v "$PWD":/srv/jekyll -p "4000:4000" blafy/jekyll:latest-aarch64 jekyll  serve
+
+```
 
 More info can be found at [the Github Pages setup](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
 
