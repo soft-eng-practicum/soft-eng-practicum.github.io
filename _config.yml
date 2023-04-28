@@ -19,6 +19,12 @@ profs:
     name: "Dr. Anca Doloc-Mihu"
     url: https://www.ggc.edu/about-ggc/directory/anca-doloc-mihu
 collections:
+  itec3870_sp23:
+    title: "Spring 2023 ITEC 3870 Soft Dev 2 course projects"
+    menutitle:  "Spring 2023"
+    course: "SD2"
+    date: 2023-04-28
+    output: true
   itec3870_fa22:
     title: "Fall 2022 ITEC 3870 Soft Dev 2 course projects"
     menutitle:  "Fall 2022"
