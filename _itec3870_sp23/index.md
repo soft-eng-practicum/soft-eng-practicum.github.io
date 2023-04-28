@@ -46,7 +46,7 @@ projects:
   logo-full: images/flyer-GrizzlyHacksWebapp.png
   logo-thumb: images/thumb-flyer-GrizzlyHacksWebapp.png
   repo-url: https://github.com/soft-eng-practicum/GrizzlyHacks
-- name: "Revolutionizing Record-Keeping: NGF's Innovative Online Mobile App"
+- name: "Revolutionizing Record-Keeping: NGFs Innovative Online Mobile App"
   tech: [ android, react, bootstrap, html/css ]
   screencast-youtube: UOzs2U4Ia9s
   members: "Moises Pineda, Aroosa Saeed, Elleni Gidey"
@@ -55,6 +55,16 @@ projects:
   logo-full: images/flyer-NGFApp.jpg
   logo-thumb: images/thumb-flyer-NGFApp.jpg
   repo-url: https://github.com/soft-eng-practicum/NgfApp
+- name: "GGC Maps: Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
+  tech: [ javascript, grunt, sass, html ]
+  screencast-youtube: hVx8VQ5Y79M
+  members: "Nick Wen, Ryan Campbell, Ti Nguyen"
+  client: "Deputy Chief Carlos Llorens, Ashley Still, Mike Deiters, and David Rivera"
+  demo-url: https://soft-eng-practicum.github.io/ggcmaps/
+  description: "The Georgia Gwinnett College map application is an essential tool for anyone navigating the campus. It provides a comprehensive map of the entire campus, including detailed information on parking lots, buildings, and classrooms. Users can easily locate specific buildings and rooms, and even view a detailed layout of each building, including safety equipment and fire escape routes. The app is designed to help users find their way around campus quickly and efficiently, saving time and reducing stress. With its intuitive design and detailed information, the Georgia Gwinnett College map application is an indispensable tool for students, faculty, and visitors alike."
+  logo-full: images/flyer-GGCMaps.png
+  logo-thumb: images/thumb-flyer-GGCMaps.png
+  repo-url: https://github.com/soft-eng-practicum/ggcmaps
 ---
 
 These projects were developed by [Georgia Gwinnett College][ggc]
