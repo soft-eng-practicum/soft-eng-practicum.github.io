@@ -32,7 +32,8 @@ projects:
   logo-full: images/flyer-TTrails.png
   logo-thumb: images/thumb-flyer-TTrails.png
   repo-url: https://github.com/soft-eng-practicum/WalkingTrailApp
-- name: "SAUCE 2.0, A designed dashboard of the Structural Analysis Using Contactless Evaluation"
+- name: "SAUCE 2.0"
+  title: "A designed dashboard of the Structural Analysis Using Contactless Evaluation"
   tech: [ python, flask, jupyter-dash ]
   prof: gunay
   screencast-youtube: 01RToD-YbK4
@@ -42,7 +43,8 @@ projects:
   logo-full: images/flyer-SAUCE20.png
   logo-thumb: images/thumb-flyer-SAUCE20.png
   repo-url: https://github.com/soft-eng-practicum/Artemis
-- name: "Grizzly Hacks App: Modernization of an RSO Website"
+- name: "Grizzly Hacks App"
+  title: "Modernization of an RSO Website"
   tech: [ angular, firebase, bootstrap, html/css ]
   screencast-youtube: xRWk-yvL4Z4
   members: 'Szavior McRae, Justin Sandman, anonymous'
@@ -53,18 +55,20 @@ projects:
   logo-full: images/flyer-GrizzlyHacksWebapp.png
   logo-thumb: images/thumb-flyer-GrizzlyHacksWebapp.png
   repo-url: https://github.com/soft-eng-practicum/GrizzlyHacks
-- name: "Revolutionizing Record-Keeping: NGF's Innovative Online Mobile App"
+- name: "NGF Mobile App"
+  title: "Revolutionizing Record-Keeping"
   tech: [ android, react, bootstrap, html/css ]
   screencast-youtube: UOzs2U4Ia9s
   members: "Moises Pineda, Aroosa Saeed, Elleni Gidey"
   client: "Amy Sol and Ryan Gambrell"
   client-url: https://nextgenerationfocus.org/
   prof: gunay
-  description: "NGF (Next Generation Foundation) is a non-profit organization dedicated to supporting underserved communities and providing educational opportunities to children and young adults. In order to streamline their record keeping process and provide greater accessibility to their stakeholders, NGF is launching an innovative online platform called the NGF App. This fully online system will enable students, families, volunteers, part-time employees, and board members to access their records and manage them through a secure account system. The App will revolutionize the way NGF manages its records, giving administrators greater control and efficiency while empowering individuals to manage their own information."
+  description: "NGF (Next Generation Focus) is a non-profit organization dedicated to supporting underserved communities and providing educational opportunities to children and young adults. In order to streamline their record keeping process and provide greater accessibility to their stakeholders, NGF is launching an innovative online platform called the NGF App. This fully online system will enable students, families, volunteers, part-time employees, and board members to access their records and manage them through a secure account system. The App will revolutionize the way NGF manages its records, giving administrators greater control and efficiency while empowering individuals to manage their own information."
   logo-full: images/flyer-NGFApp.jpg
   logo-thumb: images/thumb-flyer-NGFApp.jpg
   repo-url: https://github.com/soft-eng-practicum/NgfApp
-- name: "GGC Maps: Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
+- name: "GGC Maps"
+  title: "Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
   tech: [ javascript, grunt, sass, html ]
   screencast-youtube: hVx8VQ5Y79M
   members: "Nick Wen, Ryan Campbell, Ti Nguyen"
