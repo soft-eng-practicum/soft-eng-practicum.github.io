@@ -23,11 +23,10 @@ projects:
   members: "Team TTrails: Nathan Nguyen, Peter Okolocha, Daniel Valencia"
   client: "Karen Perell-Gerson, Kristie Waldrof, and Jenny Dies"
   demo-url: https://ggctrail.onrender.com/
-  description: "Walking Trail is a web application made for GGC's walking trails: Gold, Green, and Gray. This application will show the path of GGC's trails and various exercises and activities for the selected trail. This application will make it easier for students or faculty to be able to navigate the trail and view certain exercises for a certain area on the trail. With the aid of this application, users will be able to be comfortable following the trail and improve their well being with selected activities from exercise science students. Along with the exercises and activities there will be nutritional facts and information about the biology around them."
   logo-full: images/flyer-TTrails.png
   logo-thumb: images/thumb-flyer-TTrails.png
   repo-url: https://github.com/soft-eng-practicum/WalkingTrailApp
-- name: "test"
+- name: "SAUCE 2.0, A designed dashboard of the Structural Analysis Using Contactless Evaluation"
   tech: [ python, flask, jupyter-dash ]
   screencast-youtube: 01RToD-YbK4
   members: "Kelvin Zetino, Jacob Franscoviak, Bradley Nguyen"
