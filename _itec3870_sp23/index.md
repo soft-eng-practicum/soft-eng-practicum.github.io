@@ -21,12 +21,21 @@ projects:
   tech: [ mongodb, express.JS, react, node.js, MERN, bootstrap, html/css ]
   screencast-youtube: dT2bphPeOrY
   members: 'Team TTrails: Nathan Nguyen, Peter Okolocha, Daniel Valencia'
-  client: Karen Perell-Gerson, Kristie Waldrof, and Jenny Dies'
+  client: "Karen Perell-Gerson, Kristie Waldrof, and Jenny Dies"
   demo-url: https://ggctrail.onrender.com/
   description: "Walking Trail is a web application made for GGC's walking trails: Gold, Green, and Gray. This application will show the path of GGC's trails and various exercises and activities for the selected trail. This application will make it easier for students or faculty to be able to navigate the trail and view certain exercises for a certain area on the trail. With the aid of this application, users will be able to be comfortable following the trail and improve their well being with selected activities from exercise science students . Along with the exercises and activities there will be nutritional facts and information about the biology around them."
   logo-full: images/flyer-TTrails.png
   logo-thumb: images/thumb-flyer-TTrails.png
   repo-url: https://github.com/soft-eng-practicum/WalkingTrailApp
+- name: "SAUCE 2.0, A designed dashboard of the Structural Analysis Using contactless Evaluation"
+  tech: [ python, flask, jupyter-dash ]
+  screencast-youtube: 01RToD-YbK4
+  members: "Kelvin Zetino, Jacob Franscoviak, Bradley Nguyen"
+  client: "Sairam Tangirala and Tae Song Lee"
+  description: "Our latest development, SAUCE 2.0, has transformed the already impressive Raspberry Pi and Python-based project into a powerful Android Web application, which now boasts an easy-to-use mobile platform, complete with a well-designed dashboard and intuitive user interface. The application allows users to collect data from various sensors such as cameras, temperature, and humidity, and store it seamlessly in the cloud. Our innovative approach includes interactive sliders for data viewing, providing users with an unparalleled on-the-go experience. We have leveraged Flask and Dash packages to create a functional, intuitive dashboard that uses a pioneering machine learning algorithm to detect "cracks" in images and tag high-probability images for easy analysis. The new mobile-tablet application is designed to provide new and exciting user interface experiences for the physics department and NASA projects. SAUCE 2.0 is the ideal solution for those seeking a modern, user-friendly approach to structural analysis."
+  logo-full: images/flyer-SAUCE20.png
+  logo-thumb: images/thumb-flyer-SAUCE20.png
+  repo-url: https://github.com/soft-eng-practicum/Artemis
 ---
 
 These projects were developed by [Georgia Gwinnett College][ggc]
