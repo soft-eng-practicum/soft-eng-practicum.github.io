@@ -20,14 +20,14 @@ projects:
 - name: "Walking Trail - GGC Trail Guide"
   tech: [ mongodb, express.JS, react, node.js, MERN, bootstrap, html/css ]
   screencast-youtube: dT2bphPeOrY
-  members: 'Team TTrails: Nathan Nguyen, Peter Okolocha, Daniel Valencia'
+  members: "Team TTrails: Nathan Nguyen, Peter Okolocha, Daniel Valencia"
   client: "Karen Perell-Gerson, Kristie Waldrof, and Jenny Dies"
   demo-url: https://ggctrail.onrender.com/
-  description: "Walking Trail is a web application made for GGC's walking trails: Gold, Green, and Gray. This application will show the path of GGC's trails and various exercises and activities for the selected trail. This application will make it easier for students or faculty to be able to navigate the trail and view certain exercises for a certain area on the trail. With the aid of this application, users will be able to be comfortable following the trail and improve their well being with selected activities from exercise science students . Along with the exercises and activities there will be nutritional facts and information about the biology around them."
+  description: "Walking Trail is a web application made for GGC's walking trails: Gold, Green, and Gray. This application will show the path of GGC's trails and various exercises and activities for the selected trail. This application will make it easier for students or faculty to be able to navigate the trail and view certain exercises for a certain area on the trail. With the aid of this application, users will be able to be comfortable following the trail and improve their well being with selected activities from exercise science students. Along with the exercises and activities there will be nutritional facts and information about the biology around them."
   logo-full: images/flyer-TTrails.png
   logo-thumb: images/thumb-flyer-TTrails.png
   repo-url: https://github.com/soft-eng-practicum/WalkingTrailApp
-- name: "SAUCE 2.0, A designed dashboard of the Structural Analysis Using Contactless Evaluation"
+- name: "test"
   tech: [ python, flask, jupyter-dash ]
   screencast-youtube: 01RToD-YbK4
   members: "Kelvin Zetino, Jacob Franscoviak, Bradley Nguyen"
@@ -36,6 +36,35 @@ projects:
   logo-full: images/flyer-SAUCE20.png
   logo-thumb: images/thumb-flyer-SAUCE20.png
   repo-url: https://github.com/soft-eng-practicum/Artemis
+- name: "Grizzly Hacks App: Modernization of an RSO Website"
+  tech: [ angular, firebase, bootstrap, html/css ]
+  screencast-youtube: xRWk-yvL4Z4
+  members: 'Szavior McRae, Justin Sandman, anonymous'
+  client: "Miranda Darlington"
+  demo-url: https://grizzly-hacks.web.app/home
+  description: "The Grizzly Hacks student organization has been developing a web application that will act as a one-stop shop for any information regarding their activities or hackathons. Significant progress has been made on this by previous groups, but when passed off to the Hackers much of this needed to be brought in line with modern requirements. To accomplish this we were tasked with bringing technologies in line with the latest versions, improving administration over hackathon events, and introducing a new section that would allow Grizzly Hacks to inform members about other events that may occur throughout the semester. By doing this the Grizzly Hacks website will become an essential tool for anyone interested in the organization or any of the happenings surrounding them."
+  logo-full: images/flyer-GrizzlyHacksWebapp.png
+  logo-thumb: images/thumb-flyer-GrizzlyHacksWebapp.png
+  repo-url: https://github.com/soft-eng-practicum/GrizzlyHacks
+- name: "Revolutionizing Record-Keeping: NGF's Innovative Online Mobile App"
+  tech: [ android, react, bootstrap, html/css ]
+  screencast-youtube: UOzs2U4Ia9s
+  members: "Moises Pineda, Aroosa Saeed, Elleni Gidey"
+  client: "Amy Sol and Ryan Gambrell"
+  description: "NGF (Next Generation Foundation) is a non-profit organization dedicated to supporting underserved communities and providing educational opportunities to children and young adults. In order to streamline their record keeping process and provide greater accessibility to their stakeholders, NGF is launching an innovative online platform called the NGF App. This fully online system will enable students, families, volunteers, part-time employees, and board members to access their records and manage them through a secure account system. The App will revolutionize the way NGF manages its records, giving administrators greater control and efficiency while empowering individuals to manage their own information."
+  logo-full: images/flyer-NGFApp.jpg
+  logo-thumb: images/thumb-flyer-NGFApp.jpg
+  repo-url: https://github.com/soft-eng-practicum/NgfApp
+- name: "GGC Maps: Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
+  tech: [ javascript, grunt, sass, html ]
+  screencast-youtube: hVx8VQ5Y79M
+  members: "Nick Wen, Ryan Campbell, Ti Nguyen"
+  client: "Deputy Chief Carlos Llorens, Ashley Still, Mike Deiters, and David Rivera"
+  demo-url: https://soft-eng-practicum.github.io/ggcmaps/
+  description: "The Georgia Gwinnett College map application is an essential tool for anyone navigating the campus. It provides a comprehensive map of the entire campus, including detailed information on parking lots, buildings, and classrooms. Users can easily locate specific buildings and rooms, and even view a detailed layout of each building, including safety equipment and fire escape routes. The app is designed to help users find their way around campus quickly and efficiently, saving time and reducing stress. With its intuitive design and detailed information, the Georgia Gwinnett College map application is an indispensable tool for students, faculty, and visitors alike."
+  logo-full: images/flyer-GGCMaps.png
+  logo-thumb: images/thumb-flyer-GGCMaps.png
+  repo-url: https://github.com/soft-eng-practicum/ggcmaps
 ---
 
 These projects were developed by [Georgia Gwinnett College][ggc]
