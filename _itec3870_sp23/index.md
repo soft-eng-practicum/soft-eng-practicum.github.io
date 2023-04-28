@@ -36,6 +36,25 @@ projects:
   logo-full: images/flyer-SAUCE20.png
   logo-thumb: images/thumb-flyer-SAUCE20.png
   repo-url: https://github.com/soft-eng-practicum/Artemis
+- name: "Grizzly Hacks App: Modernization of an RSO Website"
+  tech: [ angular, firebase, bootstrap, html/css ]
+  screencast-youtube: xRWk-yvL4Z4
+  members: 'Szavior McRae, Justin Sandman, anonymous'
+  client: "Miranda Darlington"
+  demo-url: https://grizzly-hacks.web.app/home
+  description: "The Grizzly Hacks student organization has been developing a web application that will act as a one-stop shop for any information regarding their activities or hackathons. Significant progress has been made on this by previous groups, but when passed off to the Hackers much of this needed to be brought in line with modern requirements. To accomplish this we were tasked with bringing technologies in line with the latest versions, improving administration over hackathon events, and introducing a new section that would allow Grizzly Hacks to inform members about other events that may occur throughout the semester. By doing this the Grizzly Hacks website will become an essential tool for anyone interested in the organization or any of the happenings surrounding them."
+  logo-full: images/flyer-GrizzlyHacksWebapp.png
+  logo-thumb: images/thumb-flyer-GrizzlyHacksWebapp.png
+  repo-url: https://github.com/soft-eng-practicum/GrizzlyHacks
+- name: "Revolutionizing Record-Keeping: NGF's Innovative Online Mobile App"
+  tech: [ android, react, bootstrap, html/css ]
+  screencast-youtube: UOzs2U4Ia9s
+  members: "Moises Pineda, Aroosa Saeed, Elleni Gidey"
+  client: "Amy Sol and Ryan Gambrell"
+  description: "NGF (Next Generation Foundation) is a non-profit organization dedicated to supporting underserved communities and providing educational opportunities to children and young adults. In order to streamline their record keeping process and provide greater accessibility to their stakeholders, NGF is launching an innovative online platform called the NGF App. This fully online system will enable students, families, volunteers, part-time employees, and board members to access their records and manage them through a secure account system. The App will revolutionize the way NGF manages its records, giving administrators greater control and efficiency while empowering individuals to manage their own information."
+  logo-full: images/flyer-NGFApp.jpg
+  logo-thumb: images/thumb-flyer-NGFApp.jpg
+  repo-url: https://github.com/soft-eng-practicum/NgfApp
 ---
 
 These projects were developed by [Georgia Gwinnett College][ggc]
