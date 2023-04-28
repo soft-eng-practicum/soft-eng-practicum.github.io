@@ -11,7 +11,7 @@ projects:
   title: "Friendly and improved useability"
   tech: [ bootstrap, html/css, jekyll, liquid, YAML ]
   screencast-youtube: 9iHkWCmnz-8
-  members: 'Team Bluez Boys: anonymous, Andres "Drey" Sanchez, Roberto Alvarado'
+  members: 'Team Bluez Boys: Ahmed Mohamed, Andres "Drey" Sanchez, Roberto Alvarado'
   client: 'Cengiz Gunay'
   client-url: http://www.ggc.edu/about-ggc/directory/cengiz-gunay
   prof: gunay
