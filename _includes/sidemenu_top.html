@@ -1,4 +1,4 @@
-<div class="col-lg-2 col-md-3 col-12 menu_block" >
+<div class="menu_block" >
 <div class="sidebar">
     <!--logo -->
     <div class="logo_box">
@@ -16,11 +16,27 @@
                     Home
                 </a>
             </li>
-            <li class="{% if page.title == "Featured projects" %} active {% endif %}">
+            <div class="side_menu_scroll">
+                <div  class="dropdown">
+                    <button class="dropdown-toggle dropdown-title" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Featured Classes
+                    </button>
+                    <div class="dropdown-menu">
+                        {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
+                        {% for projects in collections_list %}
+                        <a class="dropdown-item" href="{{ projects.label | relative_url }}">
+                        {% if projects.menutitle %}{{ projects.menutitle }}
+                        {% else %}{{ projects.title }}
+                        {% endif %}</a>
+                          {% endfor %}
+                    </div>
+                  </div>
+            </div>
+            <!-- <li class="{% if page.title == "Featured projects" %} active {% endif %}">
                 <a href="{{ '/featured/' | relative_url }}">
                     Featured Projects
                 </a>
-            </li>
+            </li> -->
             <li class="{% if page.title == "News" %} active {% endif %}">
                 <a href="{{ '/news/' | relative_url }}">
                     News
@@ -29,6 +45,21 @@
             <li class="{% if page.title == "About the Practicum Site" %} active {% endif %}">
                 <a href="{{ '/about/' | relative_url }}">
                     About
+                </a>
+            </li>
+            <li class="{% if page.title == "Students" %} active {% endif %}">
+                <a href="{{ '/students/' | relative_url }}">
+                    Students
+                </a>
+            </li>
+            <li class="{% if page.title == "Faculty" %} active {% endif %}">
+                <a href="{{ '/faculty/' | relative_url }}">
+                    Faculty
+                </a>
+            </li>
+            <li class="{% if page.title == "Technologies" %} active {% endif %}">
+                <a href="{{ '/technologies/' | relative_url }}">
+                    Technologies
                 </a>
             </li>
         </ul>
