@@ -51,3 +51,53 @@
     text-decoration: underline;
 
 }
+
+.horiz_nav {
+
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  margin-left: 0;
+
+  li {
+
+    width: 100%;
+    display: inline;
+    padding: 0;
+    margin-top: 2px;
+
+    a {
+
+      display: inline-block;
+      padding: 6px 6px 6px 6px;
+      background-color: transparent;
+      color: $color-light;
+
+      &:hover {
+
+        background-color: $color-primary;
+
+      }
+
+      &:focus {
+
+        background-color: $color-primary;
+
+      }
+
+    }
+
+  }
+
+  li.active {
+
+    a {
+
+      background-color: $color-primary;
+      color: $color-light;
+
+    }
+
+  }
+
+}
