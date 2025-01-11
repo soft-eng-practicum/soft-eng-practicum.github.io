@@ -19,10 +19,12 @@
     . BLOG  SECTION
     . COUNTER SECTION
     . Testimonial SECTION
-	. Contact Section
-	.PROGRESSBAR
-	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
-	------------------------------------- */
+    . Contact Section
+    . PROGRESSBAR
+    . SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
+    . HORIZONTAL MENU
+    . Projects Page Styles
+    ------------------------------------- */
 
 @import "../_sass/scss/base/variables";
 
@@ -97,3 +99,8 @@
 15. HORIZONTAL MENU
 -------------------------------------------------------- */
 @import "../_sass/scss/components/horizmenu";
+
+/*  ----------------------------------------------------
+16. Projects Page Styles
+-------------------------------------------------------- */
+@import "../_sass/scss/components/projects";
