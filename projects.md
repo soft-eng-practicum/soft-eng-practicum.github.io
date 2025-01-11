@@ -262,9 +262,6 @@ permalink: /projects/
 
 <p>Discover how GGC students are driving change and innovation in the non-profit sector. Use the directory to find projects, learn more about our program, or contact us to get involved today!</p>
 
-<!-- HTML !-->
-<!--<button class="ggc-button" role="button">Button 63</button>
--->
 <div class = "button-container">
     <button class = "ggc-button" role = "button" onclick = "window.location.href='#semester-directory'">
         Explore Projects
