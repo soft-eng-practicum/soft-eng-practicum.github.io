@@ -85,7 +85,7 @@ layout: default_menu
         {% assign cat_name = category | first %}
         <h4>&nbsp;&nbsp;{{ cat_name }}</h4>
             <ul class="post-list">
-                {% assign posts_sorted = site.categories.[cat_name] | sort: "date", "first" | reverse %}
+                {% assign posts_sorted = site.categories[cat_name] | sort: "date", "first" | reverse %}
                 {% for post in posts_sorted %}
                   {% if post.url %}
                   <li class="post-link"><a href="{{post.url}}">{{post.title}}</a> - <i>

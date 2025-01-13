@@ -1,3 +1,35 @@
+.ilb {
+
+    display: inline-block;
+
+}
+
+.m-0-auto {
+
+    margin: 0 auto;
+
+}
+
+.button-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+@media (min-width: 768px) {
+
+    .button-container {
+
+        gap: 75px;
+
+    }
+
+}
+
 .ggc-button {
 
     margin: auto;
@@ -7,7 +39,7 @@
     border-radius: 16px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #ffffff;
     display: flex;
     font-family: Phantomsans, sans-serif;
     font-size: 16px;
@@ -37,6 +69,67 @@
     .ggc-button {
 
         font-size: 20px;
+        min-width: 196px;
+
+    }
+
+}
+
+.ggc-btn-d {
+
+    align-items: center;
+    background-image: linear-gradient(144deg,#003d2b, #00704e 50%,#00b881);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
+.ggc-btn-d:active,
+.ggc-btn-d:hover {
+
+  outline: 0;
+
+}
+
+.ggc-btn-d span {
+
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+
+}
+
+.ggc-btn-d:hover span {
+
+    background: none;
+
+}
+
+@media (min-width: 768px) {
+
+    .ggc-btn-d {
+
+        font-size: 24px;
         min-width: 196px;
 
     }

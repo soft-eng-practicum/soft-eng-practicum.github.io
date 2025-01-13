@@ -73,15 +73,15 @@ layout: default
 
 <p> Developed by <em>{{ project.members }}</em><br>
   {% if project.client-url %}
-    Directed by client, <em>
+    Directed by client <em>
         <a href="{{ project.client-url }}" target="_blank">{{
             project.client }}</a></em>
         {% else %}
-        {{ "Directed by client, _" | append: project.client | append: "_" | markdownify }}
+        {{ "Directed by client _" | append: project.client | append: "_" | markdownify }}
         {% endif %}
     
   {% if project.prof %}
-    {% assign prof = site.profs.[project.prof] %}
+    {% assign prof = site.profs[project.prof] %}
     <p>In the course of professor <em>
     <a href="{{ prof.url }}" target="_blank">{{
       prof.name }}</a> </em></p>
@@ -94,7 +94,7 @@ layout: default
 <p> <b class="project-tech">Technologies:</b> {{ project.tech | join: "; " }}</p>
 {% endif %}
 
-        <div class = "button-container">
+        <div>
             <button class = "ggc-button" role = "button" onclick = "window.location.href='{{ project.name | remove: ' ' | remove: '.' | remove: '(' | remove: ')' }}/'">
                 Learn More
             </button>

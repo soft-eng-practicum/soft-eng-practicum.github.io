@@ -189,7 +189,7 @@ permalink: /projects/
 
 <p>Each semester, we highlight some of the most impactful student projects that have made a significant difference for non-profits. These featured projects demonstrate the high level of creativity and technical skill developed by our students throughout their academic journey.</p>
 
-<div class = "button-container">
+<div>
     <button class = "ggc-button" role = "button" onclick = "window.location.href='{{ '/featured/' | relative_url }}'">
         Featured Projects
     </button>
@@ -225,7 +225,7 @@ permalink: /projects/
 
 <p>If you are a non-profit organization interested in partnering with GGC for a software development project, get in touch with us today! Together, we can create innovative solutions that drive positive change.</p>
 
-<div class = "button-container">
+<div>
     <button class = "ggc-button" role = "button" onclick = "window.location.href='#'">
         Contact Us
     </button>
@@ -262,7 +262,7 @@ permalink: /projects/
 
 <p>Discover how GGC students are driving change and innovation in the non-profit sector. Use the directory to find projects, learn more about our program, or contact us to get involved today!</p>
 
-<div class = "button-container">
+<div>
     <button class = "ggc-button" role = "button" onclick = "window.location.href='#semester-directory'">
         Explore Projects
     </button>

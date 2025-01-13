@@ -23,8 +23,9 @@
     . PROGRESSBAR
     . SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
     . HORIZONTAL MENU
-    . PROJECTS PAGE STYLES
+    . PROJECTS OVERVIEW PAGE STYLES
     . GLOBAL STYLES
+    . PROJECT PAGE STYLES
     ------------------------------------- */
 
 @import "../_sass/scss/base/variables";
@@ -110,3 +111,8 @@
 17. GLOBAL STYLES
 -------------------------------------------------------- */
 @import "../_sass/scss/components/global_styles";
+
+/*  ----------------------------------------------------
+18. PROJECT-PAGE STYLES
+-------------------------------------------------------- */
+@import "../_sass/scss/components/project_page";

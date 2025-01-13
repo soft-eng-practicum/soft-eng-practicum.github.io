@@ -3,109 +3,170 @@ layout: default
 ---
 <div class="row justify-content-center">
 
-<div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+    <div class="col-lg-10 col-md-9 col-12 body_block align-content-center">
 
-<h1 class="post-title">{{ page.title }}</h1>
-<p>Hello World!</p>
+        <div class = "pp-header">
 
-{{ content }}
+            <h1 class = "pp-h1">{{ page.title }}
+                {% if page.phrase %}
+                    <span>{{ page.phrase }}</span>
+                {% endif %}
+            </h1>
 
-{% if page.photos %}
-<h2>Event Photos</h2>
-
-  <div class="project_pictures">
-    <div id="slideshow">
-      {% for project in page.photos %}
-      <div class="pictures">
-        <a  id="lightgallery" href="images/{{ project }}">
-          <img src="images/{{ project }}">
-        </a>
-      </div>
-
-      {% endfor %}
-    </div>
-  </div>
-{% endif %}
-
-{% for project in page.projects %}
-
-<h2 class="project-title">
-  <a id="{{ project.name | cgi_escape }}"
-     href="{{project.demo-url}}"
-     target="_blank">
-    {{ project.name }} - {{ project.title }}</a></h2>
-
-    {% if project.screencast-youtube %}
-    <div class="project-video">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ project.screencast-youtube }}"
-                frameborder="0" allowfullscreen></iframe>
-    </div>
-    {% endif %}
-    {% if project.screencast-vimeo %}
-    <div class="project-video">
-      <iframe src="https://player.vimeo.com/video/{{ project.screencast-vimeo }}"
-	      width="100%" height="100%"
-              frameborder="0" webkitallowfullscreen mozallowfullscreen
-	      allowfullscreen></iframe>
-    </div>
-    {% endif %}
-
-    {% if project.screencast-streamable %}
-    <div style="width: 640; height: 0px; position: relative; padding-bottom: 54.265%;"><iframe src="https://streamable.com/{{ project.screencast-streamable }}" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;"></iframe></div>
-    {% endif %}
-
-    <div class="project-links">
-
-        {% if project.demo-url %}
-        <em><a href="{{ project.demo-url }}" target="_blank">
-            <button type="button" class="btn btn-rounded btn-sm btn-dark">Demo site</button></a></em>
-        {% endif %}
-
-        <em><a href="{{ project.repo-url }}" target="_blank">
-            <button type="button" class="btn btn-rounded btn-sm btn-primary">Source code</button></a></em>
-    
-    </div>
-
-<div>
-    <a id="lightgallery" href="{{ project.logo-full }}">
-        <img class="logo-thumb" src="{{ project.logo-thumb }}">
-    </a>
-</div>
-
-<p> Developed by <em>{{ project.members }}</em><br>
-  {% if project.client-url %}
-    Directed by client, <em>
-        <a href="{{ project.client-url }}" target="_blank">{{
-            project.client }}</a></em>
-        {% else %}
-        {{ "Directed by client, _" | append: project.client | append: "_" | markdownify }}
-        {% endif %}
-    
-  {% if project.prof %}
-    {% assign prof = site.profs.[project.prof] %}
-    <p>In the course of professor <em>
-    <a href="{{ prof.url }}" target="_blank">{{
-      prof.name }}</a> </em></p>
-  {% endif %}
-
-  
-<p> {{ project.description | markdownify  }}</p>
-
-{% if project.tech %}
-<p> <b class="project-tech">Technologies:</b> {{ project.tech | join: "; " }}</p>
-{% endif %}
-
-        <div class = "button-container">
-            <button class = "ggc-button" role = "button" onclick = "window.location.href='{{ project.name | remove: ' ' | remove: '.' | remove: '(' | remove: ')' }}/'">
-                Learn More
-            </button>
         </div>
 
-    <hr class="project-sep">
+        {% if page.photos %}
+            <h2 class = "pp-align">The {{ page.title }} Development Process</h2>
 
-    {% endfor %}
+            <div class="project_pictures pp-mobile-pp">
 
-</div>
+                <div id="slideshow">
+
+                    {% for photo in page.photos %}
+
+                        <div class="pictures">
+                            <a id="lightgallery" href="../images/{{ photo }}">
+                                <img src="../images/{{ photo }}">
+                            </a>
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+        {% endif %}
+
+        <div class="project-links button-container pp-button-container">
+
+            {% if page.demo-url %}
+
+                <div class = "ilb">
+                    <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.demo-url }}', '_blank')">
+
+                        <span class="text">Demo Site</span>
+
+                    </button>
+                </div>
+
+            {% endif %}
+
+            <div class = "ilb">
+                <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.repo-url }}', '_blank')">
+
+                    <span class="text">Source Code</span>
+
+                </button>
+            </div>
+
+        </div>
+
+        <section class = "basic-bio">
+            <div>
+
+                <a id="lightgallery" href="../images/{{ page.logo-full }}">
+
+                    <img class="logo-thumb" src="../images/{{ page.logo-thumb }}">
+
+                </a>
+
+            </div>
+        </section>
+
+        <p>Developed by <em>{{ page.members }}</em><br>
+            {% if page.client-url %}
+                Directed by client <em>
+
+                    <a href="{{ page.client-url }}" target="_blank">
+
+                        {{ page.client }}
+
+                    </a>
+
+                </em>
+
+                    {% else %}
+
+                    {{ "Directed by client _" | append: page.client | append: "_" | markdownify }}
+
+            {% endif %}
+
+            {% if page.prof %}
+                {% assign prof = site.profs[page.prof] %}
+                <p>In the course of professor 
+
+                    <em>
+
+                        <a href="{{ prof.url }}" target="_blank">
+                            {{ prof.name }}
+                        </a>
+
+                    </em>
+
+                </p>
+            {% endif %}
+
+            <p> {{ page.description | markdownify  }}</p>
+
+        {% if page.tech %}
+
+            <p>
+
+                <b class="project-tech">Technologies:</b> {{ page.tech | join: "; " }}
+
+            </p>
+
+        {% endif %}
+
+        {% if page.screencast-youtube %}
+            <div class="project-video m-0-auto">
+
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.screencast-youtube }}" frameborder="0" allowfullscreen>
+
+                </iframe>
+
+            </div>
+        {% endif %}
+
+        {% if page.screencast-vimeo %}
+            <div class="project-video m-0-auto">
+
+                <iframe src="https://player.vimeo.com/video/{{ page.screencast-vimeo }}" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+
+                </iframe>
+
+            </div>
+        {% endif %}
+
+        {% if page.screencast-streamable %}
+            <div style="width: 640; height: 0px; position: relative; padding-bottom: 54.265%;" class = "m-0-auto">
+
+                <iframe src="https://streamable.com/{{ page.screencast-streamable }}" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;">
+
+                </iframe>
+
+            </div>
+        {% endif %}
+
+
+        {% if page.content %}
+            <div class = "pp-content-wrapper">
+                {{ content }}
+            </div>
+        {% endif %}
+
+        <div>
+
+            <button class = "ggc-button" role = "button" onclick = "window.location.href='../'">
+                    Back to {{ page.collection | upcase | replace: "ITEC", "ITEC " | replace: "_", " " | replace: "FA", "Fall " | replace: "SP", "Spring " }}
+            </button>
+
+        </div>
+
+        <hr class="project-sep">
+
+    </div>
+
 </div>
 
 <!-- lightgallery -->
