@@ -3,7 +3,7 @@ layout: project-page
 title: "Project Review"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
-collection: itec3870_fa16
+collection: itec3870_fa17
 photos:
 - 24960882688_1b03c40551_o.jpg
 - 37946694695_60c8d9a787_o.jpg
@@ -34,7 +34,6 @@ logo-full: flyer-project-review.jpg
 logo-thumb: thumb-flyer-project-review.jpg
 screencast-youtube: Pn5CEHVvSYk
 repo-url: https://github.com/soft-eng-practicum/project-review
-
 ---
 
 Detailed information about the Project Review development process.

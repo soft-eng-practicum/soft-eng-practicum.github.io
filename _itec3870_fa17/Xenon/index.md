@@ -3,7 +3,7 @@ layout: project-page
 title: "Xenon"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
-collection: itec3870_fa16
+collection: itec3870_fa17
 photos:
 - 24960882688_1b03c40551_o.jpg
 - 37946694695_60c8d9a787_o.jpg
@@ -28,7 +28,6 @@ logo-full: flyer-xenamorphs.jpg
 logo-thumb: thumb-flyer-xenamorphs.jpg
 screencast-youtube: 7Zr2xxn9mUw
 repo-url: https://github.com/soft-eng-practicum/xenon
-
 ---
 
 Detailed information about the Xenon development process.

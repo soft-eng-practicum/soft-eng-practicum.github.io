@@ -3,7 +3,7 @@ layout: project-page
 title: "LipidLator"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
-collection: itec3870_fa16
+collection: itec3870_fa17
 
 photos:
 - 24960882688_1b03c40551_o.jpg

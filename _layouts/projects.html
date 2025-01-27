@@ -1,6 +1,32 @@
 ---
 layout: default
 ---
+<div id = "test">
+
+    {% assign all_photos = "" | split: "," %}
+
+    {% for sub_page in site[page.collection] %}
+
+        {% unless sub_page.url == page.url %}
+            {{ sub_page.title }}
+            <br>
+        {% endunless %}
+
+        {% if sub_page.photos %}
+            {% for photo in sub_page.photos %}
+                {% assign all_photos = all_photos | push: photo %}
+            {% endfor %}
+        {% endif %}
+
+        {% for photo in all_photos %}
+            {{ photo }}
+        {% endfor %}
+
+    {% endfor %}
+
+</div>
+
+
 <div class="row justify-content-center">
 
 <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">

@@ -3,7 +3,7 @@ layout: project-page
 title: "SmartVid"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
-collection: itec3870_fa16
+collection: itec3870_fa17
 photos:
 - 24960882688_1b03c40551_o.jpg
 - 37946694695_60c8d9a787_o.jpg
@@ -28,7 +28,6 @@ logo-full: flyer-smartvid.jpg
 logo-thumb: thumb-flyer-smartvid.jpg
 screencast-youtube: l2tCRhr-2lY
 repo-url: https://bitbucket.org/cgunay-ggc/smartvid
-
 ---
 
 Detailed information about the SmartVid development process.

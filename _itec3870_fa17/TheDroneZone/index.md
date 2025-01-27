@@ -3,7 +3,7 @@ layout: project-page
 title: "The Drone Zone"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
-collection: itec3870_fa16
+collection: itec3870_fa17
 photos:
 - 24960882688_1b03c40551_o.jpg
 - 37946694695_60c8d9a787_o.jpg
@@ -28,7 +28,6 @@ logo-full: flyer-thedronezone.png
 logo-thumb: thumb-flyer-thedronezone.png
 screencast-youtube: mx76xg2OJrg
 repo-url: https://bitbucket.org/cgunay-ggc/thedronezone
-
 ---
 
 Detailed information about The Drone Zone development process.
