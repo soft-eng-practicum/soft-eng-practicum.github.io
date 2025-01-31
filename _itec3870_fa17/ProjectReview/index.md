@@ -40,8 +40,8 @@ Detailed information about the Project Review development process.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>  
-<script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>  
+<script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {

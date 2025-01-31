@@ -26,6 +26,7 @@
     . PROJECTS OVERVIEW PAGE STYLES
     . GLOBAL STYLES
     . PROJECT PAGE STYLES
+    . TEAM PROFILES STYLES
     ------------------------------------- */
 
 @import "../_sass/scss/base/variables";
@@ -113,6 +114,11 @@
 @import "../_sass/scss/components/global_styles";
 
 /*  ----------------------------------------------------
-18. PROJECT-PAGE STYLES
+18. PROJECT PAGE STYLES
 -------------------------------------------------------- */
 @import "../_sass/scss/components/project_page";
+
+/*  ----------------------------------------------------
+19. TEAM PROFILES STYLES
+-------------------------------------------------------- */
+@import "../_sass/scss/components/team_profiles";

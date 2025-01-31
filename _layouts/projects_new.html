@@ -20,11 +20,13 @@ layout: default
 
 <div class="row justify-content-center">
 
-    <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+    <div class="col-lg-10 col-md-9 col-12 body_block align-content-center">
 
         <h1 class="post-title">{{ page.title }}</h1>
 
         {{ content }}
+
+        <hr class="project-sep">
 
         {% if all_photos.size > 0 %}
 
@@ -81,7 +83,7 @@ layout: default
 
                     <div class="project-video">
 
-                        <iframe src="https://player.vimeo.com/video/{{ 
+                        <iframe src="https://player.vimeo.com/video/{{
                                 project.screencast-vimeo }}"
                             width="100%" height="100%"
                             frameborder="0"
@@ -97,7 +99,7 @@ layout: default
                     <div style="width: 640; height: 0px; position: relative;
                         padding-bottom: 54.265%;">
 
-                        <iframe src="https://streamable.com/{{ 
+                        <iframe src="https://streamable.com/{{
                                 project.screencast-streamable }}"
                             frameborder="0" width="100%" height="100%"
                             allowfullscreen style="width: 100%; height: 100%;
