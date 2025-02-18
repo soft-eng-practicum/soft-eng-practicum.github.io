@@ -1,9 +1,33 @@
 ---
 layout: default
 ---
-<div class="row justify-content-center">
+<div id = "test">
 
-{%include projects_sidemenu.html%}
+    {% assign all_photos = "" | split: "," %}
+
+    {% for sub_page in site[page.collection] %}
+
+        {% unless sub_page.url == page.url %}
+            {{ sub_page.title }}
+            <br>
+        {% endunless %}
+
+        {% if sub_page.photos %}
+            {% for photo in sub_page.photos %}
+                {% assign all_photos = all_photos | push: photo %}
+            {% endfor %}
+        {% endif %}
+
+        {% for photo in all_photos %}
+            {{ photo }}
+        {% endfor %}
+
+    {% endfor %}
+
+</div>
+
+
+<div class="row justify-content-center">
 
 <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
 
@@ -75,15 +99,15 @@ layout: default
 
 <p> Developed by <em>{{ project.members }}</em><br>
   {% if project.client-url %}
-    Directed by client, <em>
+    Directed by client <em>
         <a href="{{ project.client-url }}" target="_blank">{{
             project.client }}</a></em>
         {% else %}
-        {{ "Directed by client, _" | append: project.client | append: "_" | markdownify }}
+        {{ "Directed by client _" | append: project.client | append: "_" | markdownify }}
         {% endif %}
     
   {% if project.prof %}
-    {% assign prof = site.profs.[project.prof] %}
+    {% assign prof = site.profs[project.prof] %}
     <p>In the course of professor <em>
     <a href="{{ prof.url }}" target="_blank">{{
       prof.name }}</a> </em></p>
@@ -95,6 +119,12 @@ layout: default
 {% if project.tech %}
 <p> <b class="project-tech">Technologies:</b> {{ project.tech | join: "; " }}</p>
 {% endif %}
+
+        <div>
+            <button class = "ggc-button" role = "button" onclick = "window.location.href='{{ project.name | remove: ' ' | remove: '.' | remove: '(' | remove: ')' }}/'">
+                Learn More
+            </button>
+        </div>
 
     <hr class="project-sep">
 

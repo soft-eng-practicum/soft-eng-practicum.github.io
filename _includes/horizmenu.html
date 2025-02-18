@@ -1,0 +1,82 @@
+{% comment %} TODO: Create horizontal menu {% endcomment %}
+
+<nav class = "nav">
+
+    <ul class = "nav__menu">
+
+        <li class = "nav__menu-item">
+
+            <a href = "{{ '/' | relative_url }}">
+
+                <img src = "{{ '/assets/img/arcade-font-writer_2.png' | relative_url}}" alt = "Soft Eng Practicum Logo"/>
+
+            </a>
+
+        </li>
+
+        <li class = "nav__menu-item desktop-nav first">
+
+            <a href = "{{ '/featured/' | relative_url }}">
+
+                Featured
+
+            </a>
+
+        </li>
+
+        <li class = "nav__menu-item desktop-nav">
+
+            <a href = "{{ '/projects/' | relative_url }}">
+
+                Projects
+
+            </a>
+
+        </li>
+
+        <li class = "nav__menu-item desktop-nav">
+
+            <a href = "{{ '/news/' | relative_url }}">
+
+                News
+
+            </a>
+
+        </li>
+
+        <li class = "nav__menu-item desktop-nav last">
+
+            <a href = "{{ '/about/' | relative_url }}">
+
+                About
+
+            </a>
+
+        </li>
+
+        <li class = "nav__menu-item" id = "dropdown">
+
+            <a href = "#">Learn More
+
+                <span class = "arrow-down"></span>
+
+            </a>
+
+            <!--<SubMenu />-->
+            <ul class = "nav__submenu">
+
+                <li class = "nav__submenu-item"><a href = "{{ '/featured/' | relative_url }}">Featured</a></li>
+
+                <li class = "nav__submenu-item"><a href = "{{ '/projects/' | relative_url }}">Projects</a></li>
+
+                <li class = "nav__submenu-item"><a href = "{{ '/news/' | relative_url }}">News</a></li>
+
+                <li class = "nav__submenu-item"><a href = "{{ '/about/' | relative_url }}">About</a></li>
+
+            </ul>
+
+        </li>
+
+    </ul>
+
+</nav>

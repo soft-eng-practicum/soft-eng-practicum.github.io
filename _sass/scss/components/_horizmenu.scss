@@ -1,0 +1,249 @@
+.menu-container {
+
+    text-align: center;
+
+}
+
+nav ul {
+
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.nav {
+
+    display: inline-block;
+    margin: 0;
+    background: #000;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+
+}
+
+.nav a {
+
+    display: block;
+    padding: 0 16px;
+    line-height: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    color: #78f047;
+
+}
+
+.nav__menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.nav__menu-item {
+
+    display: inline-block;
+    position: relative;
+    transition: all 0.4s ease;
+
+}
+
+/* Position logo */
+.nav__menu-item:first-child {
+
+    float: left;
+
+}
+
+.nav__menu-item:first-child img {
+
+    display: list-item; width: auto; height: 25px;
+
+}
+
+#dropdown * {
+
+    margin-right: -10px;
+
+}
+
+.nav__menu-item.clicked:nth-child(n+2) {
+
+    background-color: #111;
+
+}
+
+.nav__menu-item.clicked .nav__submenu {
+
+    display: block;
+    transition: all 0.4s ease;
+
+}
+
+.nav__submenu {
+
+    z-index: 999;
+    display: none;
+    font-weight: 300;
+    text-transform: none;
+    position: absolute;
+    width: 100%;
+    background-color: #111;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+
+}
+
+.arrow-down {
+
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #78f047;
+    position: absolute;
+    top: 42%;
+    right: 40px;
+    transition: all 0.4s ease;
+
+}
+
+.nav__menu-item.clicked .arrow-down {
+
+    transform: rotateZ(180deg);
+    transition: all 0.4s ease;
+
+}
+
+/* Turn on active selector for mobile devices */
+@media (max-width: 1024px) {
+
+}
+
+.desktop-nav.last {
+
+    margin-right: 75px;
+
+}
+
+/* Position dropdown menu on mobile devices */
+@media (max-width: 861px) {
+
+    #dropdown {
+
+        float: right;
+        padding-right: 50px;
+
+    }
+
+}
+
+/* Flexbox wraps under 526px */
+@media (max-width: 525px) {
+
+    .nav__menu-item:first-child {
+
+        padding-top: 10px;
+
+    }
+
+    #dropdown {
+
+        margin-top: 10px;
+
+    }
+
+    #dropdown, #dropdown * {
+
+        flex-grow: 2;
+
+    }
+
+}
+
+
+/* Reduce space between desktop-nav items on big screens */
+@media (min-width: 1270px) {
+
+    .nav__menu {
+
+        flex-wrap: nowrap;
+
+    }
+
+    .nav__menu-item:first-child ~ .first {
+
+        margin-left: 30vw;
+
+    }
+
+}
+
+/* Turn off horizontal menu items for small screens */
+@media (max-width: 861px) {
+
+    .desktop-nav {
+
+        display: none;
+
+    }
+
+}
+
+/* Turn off dropdown for big screens */
+@media (min-width: 862px) {
+
+    #dropdown {
+
+        display: none;
+
+    }
+
+}
+
+/* Disable all hover styles on devices that can't hover */
+@media(hover: hover) {
+
+    #dropdown:hover {
+
+        background-color: #111;
+        transition: all 0.4s ease;
+
+    }
+
+    #dropdown:hover .nav__submenu {
+
+        display: block;
+        transition: all 0.4s ease;
+
+    }
+
+    #dropdown:hover .arrow-down {
+
+        transform: rotateZ(180deg);
+        transition: all 0.4s ease;
+
+    }
+
+
+    .nav__submenu-item:hover {
+
+        background-color: #333;
+
+    }
+
+    .desktop-nav:hover * {
+
+        background: #111111;
+
+    }
+
+}

@@ -19,10 +19,15 @@
     . BLOG  SECTION
     . COUNTER SECTION
     . Testimonial SECTION
-	. Contact Section
-	.PROGRESSBAR
-	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
-	------------------------------------- */
+    . Contact Section
+    . PROGRESSBAR
+    . SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
+    . HORIZONTAL MENU
+    . PROJECTS OVERVIEW PAGE STYLES
+    . GLOBAL STYLES
+    . PROJECT PAGE STYLES
+    . TEAM PROFILES STYLES
+    ------------------------------------- */
 
 @import "../_sass/scss/base/variables";
 
@@ -93,3 +98,27 @@
 -------------------------------------------------------- */
 @import "../_sass/scss/components/other";
 
+/*  ----------------------------------------------------
+15. HORIZONTAL MENU
+-------------------------------------------------------- */
+@import "../_sass/scss/components/horizmenu";
+
+/*  ----------------------------------------------------
+16. PROJECTS PAGE STYLES
+-------------------------------------------------------- */
+@import "../_sass/scss/components/projects";
+
+/*  ----------------------------------------------------
+17. GLOBAL STYLES
+-------------------------------------------------------- */
+@import "../_sass/scss/components/global_styles";
+
+/*  ----------------------------------------------------
+18. PROJECT PAGE STYLES
+-------------------------------------------------------- */
+@import "../_sass/scss/components/project_page";
+
+/*  ----------------------------------------------------
+19. TEAM PROFILES STYLES
+-------------------------------------------------------- */
+@import "../_sass/scss/components/team_profiles";
