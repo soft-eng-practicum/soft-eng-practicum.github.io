@@ -24,6 +24,8 @@ layout: default
 
         <h1 class="post-title">{{ page.title }}</h1>
 
+        <br>
+
         {{ content }}
 
         <hr class="project-sep">
@@ -132,7 +134,11 @@ layout: default
                     </a>
                 </div>
 
+                {% if project.members %}
                 <p>Developed by <em>{{ project.members }}</em></p>
+                {% else %}
+                <p>Developed by <em>{{ project.cohort }}</em></p>
+                {% endif %}
 
                 {% if project.client-url %}
                     Directed by client <em>

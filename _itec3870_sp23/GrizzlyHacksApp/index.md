@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "Grizzly Hacks App"
 date: 2023-04-28 14:00:00
 categories: itec3870 create

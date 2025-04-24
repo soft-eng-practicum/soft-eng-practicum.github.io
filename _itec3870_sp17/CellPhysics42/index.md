@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: CellPhysics42
 date: 2017-08-16 14:49:25
 categories: itec3870 create

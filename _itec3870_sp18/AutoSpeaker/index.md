@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: AutoSpeaker
 date: 2018-05-17 14:25:23
 categories: itec3870 create

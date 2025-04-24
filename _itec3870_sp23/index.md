@@ -5,7 +5,6 @@ date: 2023-04-28 14:00:00
 categories: itec3870 create appfactory
 collection: itec3870_sp23
 ---
-
 These projects were developed by [Georgia Gwinnett College][ggc]
 students during the ITEC 3870 Software Development 2 course section
 taught by [Dr. Cengiz Gunay][gunay-ggc] in the Spring 2023

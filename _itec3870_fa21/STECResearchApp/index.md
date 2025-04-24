@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "STEC Research App"
 date: 2021-11-23 14:00:00
 categories: itec3870 create

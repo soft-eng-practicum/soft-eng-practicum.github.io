@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "Campus Maps 1"
 date: 2016-12-07 14:49:25
 categories: itec3870 create

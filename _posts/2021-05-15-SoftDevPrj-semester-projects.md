@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Capstone course final projects summary from Spring 2021"
-date: 2021-05-15 
+date: 2021-05-15
 last_modified_at: 2021-11-14
 author: Cengiz Gunay
 categories:

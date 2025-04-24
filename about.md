@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main_page
 title: About the Practicum Site
 permalink: /about/
 ---

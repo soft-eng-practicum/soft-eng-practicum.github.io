@@ -1,15 +1,131 @@
 ---
-layout: default_menu
+layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+    <div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <br>
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
 
+        <article class="post-content">
+            {{ content }}
+        </article>
+
+        <div class ="home_grid">
+
+            <div class = "">
+
+                <h3 style = "text-align: center; margin-bottom: 0px;">Read More</h3>
+                <hr style = "width: 15%;">
+                <br>
+
+                <h4>Pinned<h4>
+                <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: left; margin-left: -2.5%;">
+                <ul class = "post-list">
+
+                    {% assign sorted_posts = site.categories["Pinned"]
+                        | sort: "date", "first" | reverse %}
+
+                    {% for post in sorted_posts %}
+                        {% if post.url %}
+                            <li class = "post-link"><a
+                                href = "{{ post.url }}">
+                            {{ post.title }}</a> - <i>
+                            {% if post.last_modified %}
+                                {{ post.last_modified
+                                    | date_to_string: "ordinal", "US" }} (updated)
+                            {% else %}
+                                {{ post.date | date_to_string: "ordinal", "US" }}
+                            {% endif %}
+                            </i></li>
+                        {% endif %}
+                    {% endfor %}
+
+                </ul>
+
+                {% comment %}
+                    Alphabetize categories before displaying them
+                {% endcomment %}
+
+                {% assign cats = "" | split: "," %}
+                {% for category in site.categories %}
+                    {% assign name = category | first %}
+                    {% assign cats = cats | push: name %}
+                {% endfor %}
+                {% assign cats = cats | sort %}
+                {% for category in cats %}
+
+                    {% assign name = category %}
+                    {% if name != "Pinned" %}
+
+                        <br>
+                        <h4>{{ name }}<h4>
+                        <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: left; margin-left: -2.5%;">
+
+                        <ul class = "post-list">
+
+                            {% assign all_posts = site.categories[name]
+                                | sort: "date", "first" | reverse %}
+
+                            {% assign sorted_posts = "" | split: "," %}
+                            {% assign sorted_modified = "" | split: "," %}
+
+                            {% for post in all_posts %}
+                                {% if post.last_modified %}
+                                    {% assign sorted_modified = sorted_modified
+                                        | push: post %}
+                                {% else %}
+                                    {% assign sorted_posts = sorted_posts
+                                        | push: post %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% assign sorted_modified = sorted_modified
+                                | sort: "last_modified", "first" | reverse %}
+
+                            {% if sorted_modified.size > 0 %}
+                                <p style = "text-align: center;"><em>Recently updated:</em></p>
+                                {% for post in sorted_modified %}
+                                    {% if post.url %}
+                                        <li class = "post-link"><a
+                                            href = "{{ post.url }}">
+                                        {{ post.title }}</a> - <i>
+                                        {{ post.last_modified
+                                            | date_to_string: "ordinal", "US" }} (updated)
+                                        </i></li>
+                                    {% endif %}
+                                {% endfor %}
+                                <hr style = "width: 50%;">
+                            {% endif %}
+
+                            {% for post in sorted_posts %}
+                                {% if post.url %}
+                                    <li class = "post-link"><a
+                                        href = "{{ post.url }}">
+                                    {{ post.title }}</a> - <i>
+                                    {{ post.date | date_to_string: "ordinal", "US" }}
+                                    </i></li>
+                                {% endif %}
+                            {% endfor %}
+
+                        </ul>
+
+                    {% endif %}
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class = "row justify-content-center">
+    {% include footer.html %}
 </div>

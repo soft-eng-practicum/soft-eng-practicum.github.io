@@ -1,0 +1,310 @@
+---
+layout: default
+---
+<div class="justify-content-center">
+
+    <div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
+
+        <div class = "pp-header">
+
+            <h1 class = "pp-h1">{{ page.title }}
+                {% if page.phrase %}
+                    <span>{{ page.phrase }}</span>
+                {% endif %}
+            </h1>
+
+        </div>
+
+        {% if page.photos %}
+            <h2 class = "pp-align">The {{ page.title }} Development Process</h2>
+
+            <div class="project_pictures pp-mobile-pp">
+
+                <div id="slideshow">
+
+                    {% for photo in page.photos %}
+
+                        <div class="pictures">
+                            <a id="lightgallery" href="../images/{{ photo }}">
+                                <img src="../images/{{ photo }}">
+                            </a>
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+        {% endif %}
+
+        <div class="project-links button-container pp-button-container">
+
+            {% if page.demo-url %}
+
+                <div class = "ilb">
+                    <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.demo-url }}', '_blank')">
+
+                        <span class="text">Demo Site</span>
+
+                    </button>
+                </div>
+
+            {% endif %}
+
+            <div class = "ilb">
+                <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.repo-url }}', '_blank')">
+
+                    <span class="text">Source Code</span>
+
+                </button>
+            </div>
+
+        </div>
+
+        <section class = "basic-bio">
+
+            <div>
+
+                <a id="lightgallery" href="../images/{{ page.logo-full }}">
+
+                    <img class="logo-thumb" src="../images/{{ page.logo-thumb }}">
+
+                </a>
+
+            </div>
+
+        </section>
+
+        {% if page.members %}
+        <p>Developed by <em>{{ page.members }}</em><br>
+        {% else %}
+        <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}</a></em><br>
+        {% endif %}
+
+        {% if page.client-url %}
+            Directed by client <em>
+
+                <a href="{{ page.client-url }}" target="_blank">
+
+                    {{ page.client }}
+
+                </a>
+
+            </em>
+
+                {% else %}
+
+                {{ "Directed by client _" | append: page.client | append: "_" | markdownify }}
+
+        {% endif %}
+
+        {% if page.prof %}
+            {% assign prof = site.profs[page.prof] %}
+            <p>In the course of professor 
+
+                <em>
+
+                    <a href="{{ prof.url }}" target="_blank">
+                        {{ prof.name }}
+                    </a>
+
+                </em>
+
+            </p>
+        {% endif %}
+
+        <p> {{ page.description | markdownify  }}</p>
+
+        {% if page.tech %}
+
+            <p>
+
+                <b class="project-tech">Technologies:</b> {{ page.tech | join: "; " }}
+
+            </p>
+
+        {% endif %}
+
+        {% if page.screencast-youtube %}
+            <div class="project-video m-0-auto">
+
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.screencast-youtube }}" frameborder="0" allowfullscreen>
+
+                </iframe>
+
+            </div>
+        {% endif %}
+
+        {% if page.screencast-vimeo %}
+            <div class="project-video m-0-auto">
+
+                <iframe src="https://player.vimeo.com/video/{{ page.screencast-vimeo }}" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+
+                </iframe>
+
+            </div>
+        {% endif %}
+
+        {% if page.screencast-streamable %}
+            <div style="width: 640; height: 0px; position: relative; padding-bottom: 54.265%;" class = "m-0-auto">
+
+                <iframe src="https://streamable.com/{{ page.screencast-streamable }}" frameborder="0" width="100%" height="100%" allowfullscreen style="width: 100%; height: 100%; position: absolute;">
+
+                </iframe>
+
+            </div>
+        {% endif %}
+
+
+        {% if page.content %}
+            <div class = "pp-content-wrapper">
+                {{ content }}
+            </div>
+        {% endif %}
+
+    </div>
+
+
+    {% if page.cohort %}
+
+        <section class="section-team" id = "cohort-section">
+
+            <div class="container">
+
+                <!-- Start Header Section -->
+
+                <div class="row justify-content-center text-center">
+
+                    <div class="col-md-8 col-lg-6">
+
+                        <div class="header-section">
+
+                            <h3 class="small-title">Our Experts</h3>
+                            <h2 class="title">Meet the team!</h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- / End Header Section -->
+
+                <div class="row justify-content-center">
+
+                    {% assign related_students = site.students
+                        | where: "project_key", page.project_key %}
+                    {% if related_students.size > 0 %}
+
+
+                        {% for s in related_students %}
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <a href = "{{s.url}}" class = "text-decoration-none d-block">
+                                <div>
+                                    <div class="single-person">
+                                        <div class="person-image">
+                                            <img src="/assets/img/students/{{ s.picture }}"
+                                                alt="{{ s.title }}">
+                                            <span class="icon">
+                                                <i class="fa fa-code"></i>
+                                            </span>
+                                        </div>
+                                        <div class="person-info">
+                                            <h3 class="full-name">{{ s.title }}</h3>
+                                            <span class="speciality">{{ s.role }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {% endfor %}
+
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        </section>
+
+    {% endif %}
+
+    <br>
+
+    {% if page.sponsor_key %}
+
+    {% assign s = site.sponsors
+        | where: "sponsor_key", page.sponsor_key %}
+
+    <!-- Start Header Section -->
+    <section class="section-team">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="header-section">
+                    <h3 class="small-title">And a special thanks to...</h3>
+                    <h2 class="title">Our Sponsor!</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / End Header Section -->
+
+    <div class = "sponsor-card-wrapper">
+        <a href = "{{ s[0].url }}" target = "_blank">
+        <div class="sponsor-card-container">
+            <div class="sponsor-card">
+                <h3 style = "text-align: center;">{{ s[0].title }}</h3>
+                <br>
+                <img src = "https://baconmockup.com/300/200">
+                <p>{{ s[0].description }}</p>
+                <div class="sponsor-card_layers">
+                    <div class="sponsor-card_layer"></div>
+                    <div class="sponsor-card_layer"></div>
+                    <div class="sponsor-card_layer"></div>
+                    <div class="sponsor-card_layer"></div>
+                    <div class="sponsor-card_layer"></div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>
+
+    {% endif %}
+
+    <div style = "margin: 80px 0;">
+
+        <button class = "ggc-button" role = "button" onclick = "window.location.href='../'">
+                Back to {{ page.collection | upcase | replace: "ITEC", "ITEC " | replace: "_", " " | replace: "FA", "Fall " | replace: "SP", "Spring " }}
+        </button>
+
+    </div>
+
+
+</div>
+
+<!-- lightgallery -->
+    <script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Slideshow setup
+            $("#slideshow > div:gt(0)").hide();
+
+            setInterval(function() {
+                $('#slideshow > div:first')
+                    .fadeOut(1000)
+                    .next()
+                    .fadeIn(1000)
+                    .end()
+                    .appendTo('#slideshow');
+            }, 3000);
+
+            // LightGallery
+            $("body").lightGallery({
+                zoom: true,
+                selector: 'a#lightgallery',
+                selectWithin: 'body'
+            });
+        });
+    </script>

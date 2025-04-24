@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: main_page
 title: Connecting Academic Excellence with Non-Profit Impact
 permalink: /projects/
 ---
@@ -93,6 +93,13 @@ permalink: /projects/
             </h1>
         </header>
         <section class="directory__profiles">
+            <a href = "{{ '/itec3870_sp25/' | relative_url }}" class = "section-link">
+                <section class="directory__profile">
+                    <img src="{{ '/assets/img/nav_logo.webp' | relative_url}}" alt="GGC Grizzlies Icon" class="directory__picture">
+                    <span class="directory__name">Spring 2025</span>
+                    <span class="directory__value">1<span>Project</span></span>
+                </section>
+            </a>
             <a href = "{{ '/itec3870_sp23/' | relative_url }}" class = "section-link">
                 <section class="directory__profile">
                     <img src="{{ '/assets/img/nav_logo.webp' | relative_url}}" alt="GGC Grizzlies Icon" class="directory__picture">

@@ -17,6 +17,7 @@ throughout the semester. Final products were demonstrated and tested
 by other students and faculty at the GGC App Factory event during the
 GGC CREATE Symposium on November 12th and 13th, 2020, which was held
 online for the first time because of the COVID-19 concerns.
+
 [ggc]: http://www.ggc.edu
 [gunay-ggc]: http://www.ggc.edu/about-ggc/directory/cengiz-gunay
 [doloc-ggc]: http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu

@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "Grizzly Hacks Website 2"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
