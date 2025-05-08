@@ -17,7 +17,7 @@ logo-thumb: thumb-flyer-GGCMaps.png
 repo-url: https://github.com/soft-eng-practicum/sample
 
 project_key: project-name
-sponsor_key: sponsor-name
+sponsor_key: cengiz-gunay
 cohort: "Group Name"
 ---
 

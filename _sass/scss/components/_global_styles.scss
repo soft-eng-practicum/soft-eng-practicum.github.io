@@ -38,7 +38,7 @@
 
     margin: auto;
     align-items: center;
-    background-image: linear-gradient(144deg,#003d2b, #00704e 50%,#00b881);
+    background-image: linear-gradient(144deg, #003d2b, #00704e 50%,#00b881);
     border: 0;
     border-radius: 16px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -148,6 +148,7 @@
     word-wrap: break-word;
     background-clip: border-box;
     background-color: rgb(30, 41, 59) !important;
+    background-image: linear-gradient(0deg, #003d2b, #00704e 50%,#00b881);
     border-radius: 16px !important;
     box-shadow: 0 15px 19px 2px rgba(51, 51, 51, 0.45);
 }
@@ -203,29 +204,29 @@
 
 .btn-outline-white {
   background-color: rgba(0, 0, 0, 0);
-  border-bottom-color: rgb(51, 65, 85);
+  border-bottom-color: rgb(5, 6, 45);
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   border-image-outset: 0;
   border-image-repeat: stretch;
   border-image-slice: 100%;
   border-image-source: none;
   border-image-width: 1;
-  border-left-color: rgb(51, 65, 85);
+  border-left-color: rgb(5, 6, 45);
   border-left-style: solid;
   border-left-width: 1px;
-  border-right-color: rgb(51, 65, 85);
+  border-right-color: rgb(5, 6, 45);
   border-right-style: solid;
-  border-right-width: 1px;
-  border-top-color: rgb(51, 65, 85);
+  border-right-width: 2px;
+  border-top-color: rgb(5, 6, 45);
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-top-style: solid;
   border-top-width: 1px;
   box-sizing: border-box;
-  color: rgb(100, 116, 139);
+  color: #fff;
   color-scheme: dark;
   cursor: pointer;
   display: block;
@@ -273,6 +274,10 @@
 .profile-metrics {
     font-family: "Inter", sans-serif;
     font-size: 15px;
+}
+
+.profile-metrics span {
+    color: #ddd;
 }
 
 .btn-tag {

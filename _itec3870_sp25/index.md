@@ -3,7 +3,7 @@ layout: projects_new
 title: "Spring 2025 Software Projects"
 date: 2023-04-28 14:00:00
 categories: itec3870 create appfactory
-collection: itec3870_sp23
+collection: itec3870_sp25
 ---
 These projects were developed by [Georgia Gwinnett College][ggc]
 students during the ITEC 3870 Software Development 2 course section

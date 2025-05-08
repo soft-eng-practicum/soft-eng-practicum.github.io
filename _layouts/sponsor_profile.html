@@ -6,12 +6,12 @@ layout: main_page
 <div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
 <div class="profile-card">
     <!--img-->
-    <div class="rounded-top-3" style="background-image: url(https://baconmockup.com/900/300); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+    <div class="rounded-top-3" style="background-image: url(/assets/img/sponsors/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
     <div class="card-body p-md-5">
         <div class="d-flex flex-column gap-5">
             <!--img-->
             <div class="mt-n8">
-                <img src="https://baconmockup.com/300/300" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture">
+                <img src="/assets/img/sponsors/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
             </div>
             <div class="d-flex flex-column gap-5">
                 <div class="d-flex flex-column gap-3">
@@ -22,7 +22,7 @@ layout: main_page
                             <!--content-->
                             <div class="d-flex flex-lg-row flex-column gap-2" style = "font-family: 'Inter', sans-serif;">
                                 <small class="fw-medium text-gray-800" style = "color: #fff !important;">{{ page.industry }}</small>
-                                <small class="fw-medium text-success">{{ page.sponsor_type }}</small>
+                                <small class="fw-medium text-success" style = "background-color: black; border-radius: 16px; padding: 0 10px;">{{ page.sponsor_type }}</small>
                             </div>
                         </div>
                         <!--button-->
@@ -30,7 +30,7 @@ layout: main_page
                             <a href="{{ page.website }}" class="btn btn-outline-white">
                                 Website
                             </a>
-                            <a href="mailto:{{ page.email }}" class="btn btn-outline-white">Contact</a>
+                            <a href="mailto:{{ page.contact_email }}" class="btn btn-outline-white">Contact</a>
                         </div>
                     </div>
                     <div class="d-flex flex-md-row flex-column gap-md-4 gap-2">
@@ -77,28 +77,48 @@ layout: main_page
                     <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Skills</h3>
 
                     <div class="gap-2 d-flex flex-wrap">
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">Frontend</a>
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">HTML</a>
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">CSS</a>
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">React</a>
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">Javascript</a>
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">Vuejs</a>
-                        <a href="#!" class="btn btn-tag btn-sm" style = "text-decoration: none;">Next.js</a>
+                        {% for skill in page.skills %}
+                            <a href="#" class="btn btn-tag btn-sm" style = "text-decoration: none;">{{skill}}</a>
+                        {% endfor %}
                     </div>
                 </div>
+                {% assign sponsored_projects = site.itec3870_sp25
+                    | where: "sponsor_key", page.sponsor_key %}
+                {% if sponsored_projects.size > 0 %}
+                <div class="d-flex flex-column gap-2">
+                    <!--heading-->
+                    <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Project History</h3>
+
+                    <div class="gap-2 d-flex flex-wrap">
+                        {% for p in sponsored_projects %}
+                        <a href="{{ p.url }}" class="btn btn-tag btn-sm" style = "text-decoration: none;">{{ p.title }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
                 <div>
+                    {% for highlight in page.highlights %}
                     <span class="badge rounded-pill text-success-emphasis bg-success-subtle border border-success align-items-center profile-highlights">
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-reply-fill me-1 align-text-top" viewBox="0 0 16 16">
                                 <path d="M5.921 11.9 1.353 8.62a.72.72 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"></path>
                             </svg>
                         </span>
-                        Platinum Sponsor&nbsp;
+                        {{ highlight }}&nbsp;
                     </span>
+                    {% endfor %}
                 </div>
             </div>
         </div>
-        {{ content }}
+        {% if page.content %}
+            <br>
+            <br>
+            <div>
+                <h4 style = "color: white;">About me</h4>
+                <hr style = "border: none; border: 1px solid rgb(24, 24, 28); width: 30%; text-align: left; margin: 2% 0;">
+                <p style = "color: white;">{{ content | strip_html }}</p>
+            </div>
+        {% endif %}
     </div>
 </div>
 </div>

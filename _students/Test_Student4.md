@@ -6,8 +6,6 @@ name: "First Last"
 major: "Your Major (e.g., Computer Science)"
 graduation_year: 2026
 cohort: "Summer 2025 Internship"
-project_title: "Title of Your Internship Project"
-project_link: "/projects/project-name"
 sponsor: "Organization Name"
 skills: ["React", "Python", "Data Analysis", "Figma"]
 profile_image: "/assets/images/students/first-last.jpg"
@@ -22,13 +20,13 @@ project_key: project-name
 Write a brief introduction about who you are, your academic interests, and what motivates you. Feel free to share any relevant passions or extracurriculars.
 
 > Example:  
-> I'm a third-year Computer Science major passionate about building tools that solve real-world problems. Outside of school, I enjoy hackathons, fitness tech, and mentoring new coders.
+> I'm a third-year Software Development major passionate about building tools that solve real-world problems. Outside of school, I enjoy hackathons, fitness tech, and mentoring new coders.
 
 ---
 
 ## Internship Project
 
-### **Project Title:** [Insert the same as in front matter]
+### **Project Title:**
 
 Provide a short summary of your internship project—what it was, what problem it solved, and what your role was.
 

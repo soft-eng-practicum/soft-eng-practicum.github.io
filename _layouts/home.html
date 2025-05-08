@@ -26,7 +26,7 @@ layout: default
 
                         <h5>
 
-                            <a href="https://www.ggc.edu/directory/anca-doloc-mihu" target = "_blank">Dr. Anca Doloc-Mihu</a>
+                            <a href="/sponsors/Anca_Doloc_Mihu.html" target = "_blank">Dr. Anca Doloc-Mihu</a>
 
                         </h5>
 
@@ -46,7 +46,7 @@ layout: default
 
                         <h5>
 
-                            <a href="https://www.ggc.edu/directory/cengiz-gunay" target = "_blank">Dr. Cengiz Gunay</a>
+                            <a href="/sponsors/Cengiz_Gunay.html" target = "_blank">Dr. Cengiz Gunay</a>
 
                         </h5>
 
@@ -68,110 +68,172 @@ layout: default
 
             </section>
 
-            <div class ="home_grid">
+            <h3 style = "text-align: center; margin-bottom: 0px;">Read More</h3>
+            <hr style = "width: 15%;">
+            <br>
 
-                <div class = "">
+            <div class ="home_grid" style = "align-items: flex-start;">
 
-                    <h3 style = "text-align: center; margin-bottom: 0px;">Read More</h3>
-                    <hr style = "width: 15%;">
-                    <br>
+                        <p>
+                            <div class = "ilb" style = "width: 100%;">
+                            <button class="ggc-btn-d" type="button"
+                                style = " width: 100%;"
+                                data-toggle="collapse"
+                                data-target="#pinned-accordion"
+                                aria-expanded="false"
+                                aria-controls="pinned-news">
+                                <span class = "text">
+                                    Pinned
+                                </span>
+                            </button>
+                            </div>
+                        </p>
+                        <div class="collapse"
+                            id="pinned-accordion"
+                            style = "width: 80%; margin: 0 auto;">
 
-                    <h4>Pinned<h4>
-                    <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: left; margin-left: -2.5%;">
-                    <ul class = "post-list">
+                            {% assign all_posts = site.categories["Pinned"]
+                                | sort: "date", "first" | reverse %}
+                            {% assign sorted_posts = "" | split: "," %}
+                            {% assign sorted_modified = "" | split: "," %}
 
-                        {% assign sorted_posts = site.categories["Pinned"]
-                            | sort: "date", "first" | reverse %}
-
-                        {% for post in sorted_posts %}
-                            {% if post.url %}
-                                <li class = "post-link"><a
-                                    href = "{{ post.url }}">
-                                {{ post.title }}</a> - <i>
+                            {% for post in all_posts %}
                                 {% if post.last_modified %}
-                                    {{ post.last_modified
-                                        | date_to_string: "ordinal", "US" }} (updated)
-                                {% else %}
-                                    {{ post.date | date_to_string: "ordinal", "US" }}
-                                {% endif %}
-                                </i></li>
-                            {% endif %}
-                        {% endfor %}
-
-                    </ul>
-
-                    {% comment %}
-                        Alphabetize categories before displaying them
-                    {% endcomment %}
-
-                    {% assign cats = "" | split: "," %}
-                    {% for category in site.categories %}
-                        {% assign name = category | first %}
-                        {% assign cats = cats | push: name %}
-                    {% endfor %}
-                    {% assign cats = cats | sort %}
-                    {% for category in cats %}
-
-                        {% assign name = category %}
-                        {% if name != "Pinned" %}
-
-                            <br>
-                            <h4>{{ name }}<h4>
-                            <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: left; margin-left: -2.5%;">
-
-                            <ul class = "post-list">
-
-                                {% assign all_posts = site.categories[name]
-                                    | sort: "date", "first" | reverse %}
-
-                                {% assign sorted_posts = "" | split: "," %}
-                                {% assign sorted_modified = "" | split: "," %}
-
-                                {% for post in all_posts %}
-                                    {% if post.last_modified %}
+                                    {% assign testDate = site.time
+                                        | date: "%s" %}
+                                    {% assign cutoff = testDate
+                                        | minus: 2592000 %}
+                                    {% assign testPost = post.last_modified
+                                        | date: "%s" | minus: 0 %}
+                                    {% if testPost >= cutoff %}
                                         {% assign sorted_modified = sorted_modified
                                             | push: post %}
                                     {% else %}
                                         {% assign sorted_posts = sorted_posts
                                             | push: post %}
                                     {% endif %}
-                                {% endfor %}
-
-                                {% assign sorted_modified = sorted_modified
-                                    | sort: "last_modified", "first" | reverse %}
-
-                                {% if sorted_modified.size > 0 %}
-                                    <p style = "text-align: center;"><em>Recently updated:</em></p>
-                                    {% for post in sorted_modified %}
-                                        {% if post.url %}
-                                            <li class = "post-link"><a
-                                                href = "{{ post.url }}">
-                                            {{ post.title }}</a> - <i>
-                                            {{ post.last_modified
-                                                | date_to_string: "ordinal", "US" }} (updated)
-                                            </i></li>
-                                        {% endif %}
-                                    {% endfor %}
-                                    <hr style = "width: 50%;">
+                                {% else %}
+                                    {% assign sorted_posts = sorted_posts
+                                        | push: post %}
                                 {% endif %}
+                            {% endfor %}
 
-                                {% for post in sorted_posts %}
+                            {% assign sorted_modified = sorted_modified
+                                | sort: "last_modified", "first" | reverse %}
+
+                            {% if sorted_modified.size > 0 %}
+                            <div class="card card-body">
+                                <p style = "text-align: center;"><em>Recently updated:</em></p>
+                                {% for post in sorted_modified %}
                                     {% if post.url %}
-                                        <li class = "post-link"><a
-                                            href = "{{ post.url }}">
-                                        {{ post.title }}</a> - <i>
-                                        {{ post.date | date_to_string: "ordinal", "US" }}
-                                        </i></li>
+                                    <a href = "{{ post.url }}">{{ post.title }} - <i>{{ post.last_modified | date_to_string: "ordinal", "US" }} (updated)</i></a>
+                                    <br>
                                     {% endif %}
                                 {% endfor %}
+                            </div>
 
-                            </ul>
+                            <br>
+                            {% endif %}
 
-                        {% endif %}
+                            <div class="card card-body">
+                            {% for post in sorted_posts %}
+                                {% if post.url %}
+                                <a href = "{{ post.url }}">{{ post.title }} - <i>{{ post.date | date_to_string: "ordinal", "US" }}</i></a>
+                                <br>
+                                {% endif %}
+                            {% endfor %}
+                            </div>
+                        </div>
 
-                    {% endfor %}
+                {% comment %}
+                    Alphabetize categories before displaying them
+                {% endcomment %}
 
-                </div>
+                {% assign cats = "" | split: "," %}
+                {% for category in site.categories %}
+                    {% assign name = category | first %}
+                    {% assign cats = cats | push: name %}
+                {% endfor %}
+                {% assign cats = cats | sort %}
+                {% for category in cats %}
+
+                    {% assign name = category %}
+                    {% if name != "Pinned" %}
+
+                        <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: center; margin: 2% auto;">
+
+                        <p>
+                            <div class = "ilb" style = "width: 100%;">
+                            <button class="ggc-btn-d" type="button"
+                                style = " width: 100%;"
+                                data-toggle="collapse"
+                                data-target="#{{name | replace: ' ', '-'}}-accordion"
+                                aria-expanded="false"
+                                aria-controls="{{ name | replace: ' ', '-' }}-news">
+                                <span class = "text">
+                                    {{ name }}
+                                </span>
+                            </button>
+                            </div>
+                        </p>
+                        <div class="collapse"
+                            id="{{ name | replace: ' ', '-' }}-accordion"
+                            style = "width: 80%; margin: 0 auto;">
+
+                            {% assign all_posts = site.categories[name]
+                                | sort: "date", "first" | reverse %}
+                            {% assign sorted_posts = "" | split: "," %}
+                            {% assign sorted_modified = "" | split: "," %}
+
+                            {% for post in all_posts %}
+                                {% if post.last_modified %}
+                                    {% assign testDate = site.time
+                                        | date: "%s" %}
+                                    {% assign cutoff = testDate
+                                        | minus: 2592000 %}
+                                    {% assign testPost = post.last_modified
+                                        | date: "%s" | minus: 0 %}
+                                    {% if testPost >= cutoff %}
+                                        {% assign sorted_modified = sorted_modified
+                                            | push: post %}
+                                    {% endif %}
+                                {% else %}
+                                    {% assign sorted_posts = sorted_posts
+                                        | push: post %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% assign sorted_modified = sorted_modified
+                                | sort: "last_modified", "first" | reverse %}
+
+                            {% if sorted_modified.size > 0 %}
+                            <div class="card card-body">
+                                <p style = "text-align: center;"><em>Recently updated:</em></p>
+                                {% for post in sorted_modified %}
+                                    {% if post.url %}
+                                    <a href = "{{ post.url }}">{{ post.title }} - <i>{{ post.last_modified | date_to_string: "ordinal", "US" }} (updated)</i></a>
+                                    <br>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+
+                            <br>
+                            {% endif %}
+
+                            <div class="card card-body">
+                            {% for post in sorted_posts %}
+                                {% if post.url %}
+                                <a href = "{{ post.url }}">{{ post.title }} - <i>{{ post.date | date_to_string: "ordinal", "US" }}</i></a>
+                                <br>
+                                {% endif %}
+                            {% endfor %}
+                            </div>
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+                <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: center; margin: 2% auto;">
 
             </div>
 
