@@ -102,7 +102,7 @@ layout: default
             {% assign related_sponsors = site.sponsors
                 | where: "sponsor_key", page.sponsor_key %}
             {% if related_sponsors.size > 0 %}
-                <p>Sponsored by:&nbsp;
+                <p>In partnership with:&nbsp;
                 {% for s in related_sponsors %}
 
                         <em>
@@ -219,7 +219,7 @@ layout: default
                                 <div>
                                     <div class="single-person">
                                         <div class="person-image">
-                                            <img src="/assets/img/students/{{ s.picture }}"
+                                            <img src="/assets/img/students/{{ s.logo }}"
                                                 alt="{{ s.title }}">
                                             <span class="icon">
                                                 <i class="fa fa-code"></i>
@@ -258,7 +258,7 @@ layout: default
             <div class="col-md-8 col-lg-6">
                 <div class="header-section">
                     <h3 class="small-title">And a special thanks to...</h3>
-                    <h2 class="title">Our Sponsor!</h2>
+                    <h2 class="title">Our Partner!</h2>
                 </div>
             </div>
         </div>

@@ -1,13 +1,9 @@
 .ilb {
-
     display: inline-block;
-
 }
 
 .m-0-auto {
-
     margin: 0 auto;
-
 }
 
 .unset-all {
@@ -15,13 +11,11 @@
 }
 
 .button-container {
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-
 }
 
 @media (min-width: 768px) {
@@ -292,4 +286,22 @@
     color: rgb(136, 199, 165);
     font-family: "Inter", sans-serif;
     padding: 5px;
+}
+
+.bs-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
 }

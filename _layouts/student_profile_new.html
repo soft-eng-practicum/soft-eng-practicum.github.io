@@ -6,12 +6,12 @@ layout: main_page
 <div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
 <div class="profile-card">
     <!--img-->
-    <div class="rounded-top-3" style="background-image: url(/assets/img/sponsors/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+    <div class="rounded-top-3" style="background-image: url(/assets/img/students/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
     <div class="card-body p-md-5">
         <div class="d-flex flex-column gap-5">
             <!--img-->
             <div class="mt-n8">
-                <img src="/assets/img/sponsors/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
+                <img src="/assets/img/students/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
             </div>
             <div class="d-flex flex-column gap-5">
                 <div class="d-flex flex-column gap-3">
@@ -21,16 +21,18 @@ layout: main_page
                             <h1 class="mb-0" style = "font-size: 32px; color: #fff;">{{ page.title }}</h1>
                             <!--content-->
                             <div class="d-flex flex-lg-row flex-column gap-2" style = "font-family: 'Inter', sans-serif; margin-top: 16px;">
-                                <small class="fw-medium text-gray-800" style = "color: #fff !important; font-size: 16px;">{{ page.industry }}</small>
-                                <small class="fw-bold profile-highlights" style = "background-color: black; border-radius: 16px; padding: 0 10px; font-size: 16px;">{{ page.sponsor_type }}</small>
+                                <small class="fw-medium text-gray-800" style = "color: #fff !important; font-size: 16px;">{{ page.major }}</small>
+                                <small class="fw-bold profile-highlights" style = "background-color: black; border-radius: 16px; padding: 0 10px; font-size: 16px;">{{ page.project_role }}</small>
                             </div>
                         </div>
                         <!--button-->
                         <div class="d-flex flex-row gap-3 align-items-center">
+                            {% if page.website %}
                             <a href="{{ page.website }}" target = "_blank"
                                 class="btn btn-outline-white">
                                 Website
                             </a>
+                            {% endif %}
                             <a href="mailto:{{ page.contact_email }}" class="btn btn-outline-white">Contact</a>
                         </div>
                     </div>
@@ -58,7 +60,7 @@ layout: main_page
                             <!--text-->
                             <span style = "font-size: 18px;">
                                 <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ page.sponsorships }}</span>
-                                Partnerships
+                                Sponsorships
                             </span>
                         </div>
                         <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
@@ -79,12 +81,12 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for skill in page.skills %}
-                            <a href="#" class="btn btn-tag btn-sm" style = "text-decoration: none;">{{skill}}</a>
+                            <a href="#" class="btn btn-tag btn-sm" style = "text-decoration: none; font-size: 14px;">{{skill}}</a>
                         {% endfor %}
                     </div>
                 </div>
                 {% assign sponsored_projects = site.itec3870_sp25
-                    | where: "sponsor_key", page.sponsor_key %}
+                    | where: "project_key", page.project_key %}
                 {% if sponsored_projects.size > 0 %}
                 <div class="d-flex flex-column gap-2">
                     <!--heading-->
@@ -92,7 +94,7 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for p in sponsored_projects %}
-                        <a href="{{ p.url }}" class="btn btn-tag btn-sm" style = "text-decoration: none;">{{ p.title }}</a>
+                        <a href="{{ p.url }}" class="btn btn-tag btn-sm" style = "text-decoration: none; font-size: 14px;">{{ p.title }}</a>
                         {% endfor %}
                     </div>
                 </div>
@@ -111,6 +113,7 @@ layout: main_page
                 </div>
             </div>
         </div>
+
         {% assign page_content = page.content | strip_newlines %}
         {% if page_content != "" or page_content != null
             or page.linkedin or page.git or page.x or page.instagram

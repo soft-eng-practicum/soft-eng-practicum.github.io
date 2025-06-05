@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Code interviews resources"
+title: "Code Interview Resources"
 date: 2019-08-18 13:43:17
 author: Cengiz Gunay
 categories:

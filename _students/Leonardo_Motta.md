@@ -2,7 +2,7 @@
 layout: student_profile_new
 title: "Leonardo Motta"
 description: ""
-logo: "defaultProfile.jpg"
+logo: "leoMotta.jpeg"
 header: "defaultProfile.jpg"
 website: "https://ggc.edu"
 project_role: "Student Assistant"
@@ -13,6 +13,7 @@ cohort: "Summer 2025 Internship"
 skills: [ "Java", "Rust", "ANSI C", "Product Management" ]
 highlights: [ "President's List x2", "Dean's List x2" ]
 project_key: project-name
+location: "Lawrenceville, GA"
 
 git: "https://github.com/bytecodebitbang"
 linkedin: "https://linkedin.com/in/yourname"

@@ -22,7 +22,7 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
 
     <div class = "div-btn">
         <a href = "#">
-            <span class = "">🤝 Our Sponsors</span>
+            <span class = "">🤝 Our Partners</span>
         </a>
     </div>
 
@@ -33,7 +33,7 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
 ---
 <br>
 
-This directory highlights internship projects created by students in software development and adjacent STEM fields. These real-world experiences are more than academic exercises—they’re opportunities for students to collaborate with sponsors, solve tangible problems, and build products with lasting impact.
+This directory highlights internship projects created by students in software development and adjacent STEM fields. These real-world experiences are more than academic exercises—they’re opportunities for students to collaborate with partners, solve tangible problems, and build products with lasting impact.
 
 Each project featured here tells a story of innovation, mentorship, and the technical talent emerging from our college.
 <br>
@@ -81,7 +81,7 @@ Whether you're scouting talent or celebrating past success, this section offers 
 ---
 <br>
 
-From local startups to national research labs, our sponsors fuel the creativity and rigor behind every internship. Their mentorship provides students with crucial feedback, industry insights, and real-world stakes.
+From local startups to national research labs, our partners fuel the creativity and rigor behind every internship. Their mentorship provides students with crucial feedback, industry insights, and real-world stakes.
 
 We’re proud to showcase our partners—past and present—who believe in nurturing the next generation of tech talent.
 
@@ -89,7 +89,7 @@ We’re proud to showcase our partners—past and present—who believe in nurtu
 
     <div class = "div-btn">
         <a href = "#">
-            <span class = "">🏷️ Browse Sponsors</span>
+            <span class = "">🏷️ Browse Partners</span>
         </a>
     </div>
 
@@ -106,13 +106,13 @@ We’re proud to showcase our partners—past and present—who believe in nurtu
 ---
 <br>
 
-Whether you’re a prospective sponsor with a project idea or a student eager to join the next cohort, we’d love to hear from you. Let’s build something remarkable together.
+Whether you’re a prospective partner with a project idea or a student eager to join the next cohort, we’d love to hear from you. Let’s build something remarkable together.
 
 <div class = "div-btn-display">
 
     <div class = "div-btn">
-        <a href = "mailto:cgunay@ggc.edu?subject=Sponsorship Inquiry">
-            <span class = "">🏢 Become a Sponsor</span>
+        <a href = "mailto:cgunay@ggc.edu?subject=Partnership Inquiry">
+            <span class = "">🏢 Become a Partner</span>
         </a>
     </div>
 
