@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🚀 A Look Back on HackGGC III"
+title: "<i class='mr-1'>:rocket:</i>A Look Back on HackGGC III"
 date: 2025-2-27
 author: Leonardo Motta
 categories:

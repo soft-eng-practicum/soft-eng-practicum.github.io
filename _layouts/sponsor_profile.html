@@ -3,15 +3,15 @@ layout: main_page
 ---
 <div class="justify-content-center">
 
-<div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
+<div class="col-lg-10 col-md-9 col-12 body_block align-content-center" style = "max-width: 100% !important;">
 <div class="profile-card">
     <!--img-->
-    <div class="rounded-top-3" style="background-image: url(/assets/img/sponsors/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+    <div class="rounded-top-3" style="background-image: url(/assets/img/partners/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
     <div class="card-body p-md-5">
         <div class="d-flex flex-column gap-5">
             <!--img-->
             <div class="mt-n8">
-                <img src="/assets/img/sponsors/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
+                <img src="/assets/img/partners/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
             </div>
             <div class="d-flex flex-column gap-5">
                 <div class="d-flex flex-column gap-3">
@@ -83,7 +83,7 @@ layout: main_page
                         {% endfor %}
                     </div>
                 </div>
-                {% assign sponsored_projects = site.itec3870_sp25
+                {% assign sponsored_projects = site.projects
                     | where: "sponsor_key", page.sponsor_key %}
                 {% if sponsored_projects.size > 0 %}
                 <div class="d-flex flex-column gap-2">
@@ -111,8 +111,12 @@ layout: main_page
                 </div>
             </div>
         </div>
-        {% assign page_content = page.content | strip_newlines %}
-        {% if page_content != "" or page_content != null
+        {% assign page_content = page.content | strip_newlines | strip %}
+        {% assign not_blank = false %}
+        {% if page_content != "" and page_content != nil %}
+            {% assign not_blank = true %}
+        {% endif %}
+        {% if not_blank
             or page.linkedin or page.git or page.x or page.instagram
             or page.facebook %}
             <br>
@@ -121,9 +125,9 @@ layout: main_page
             <hr style = "border: none; border: 1px solid rgb(24, 24, 28); width: 30%; text-align: left; margin: 2% 0;">
             <div style = "background-color: white; border-radius: 16px;
                 padding: 22px; margin-top: 32px;box-shadow: 0 10px 7px 7px rgba(51, 51, 51, 0.62);">
-                {% unless page_content == "" or page_content == null %}
-                {{ content }}
-                {% endunless %}
+                {% if not_blank %}
+                    {{ content }}
+                {% endif %}
                 <div class="bg-body-tertiary text-center text-white">
                     <!-- Grid container -->
                     <div class="container p-4 pb-0">

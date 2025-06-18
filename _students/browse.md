@@ -20,6 +20,8 @@ title: "Browse All Student Participants"
                   </div>
                 </div>
                 <div class="back">
+                  <p class = "text-white fw-bold h5 badge bg-gradient">{{ student.title }}</p>
+                  <br>
                   <div class="social-media-wrapper">
                     <a href="{{ student.url }}" class="social-icon"><i class="bc-fab fas fa-solid fa-address-card" aria-hidden="true"></i></a>
                     {% if student.git %}

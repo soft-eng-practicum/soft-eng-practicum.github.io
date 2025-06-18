@@ -73,8 +73,10 @@
 }
 
 .section-team .single-person .person-image img {
-    width: 100%;
+    width: 163px;
+    height: 163px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .section-team .single-person .person-image .icon {

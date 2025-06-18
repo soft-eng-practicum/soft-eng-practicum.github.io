@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⚽ Hack the Pitch: A Retrospective on HackGGCIV"
+title: "<i class='mr-1'>:soccer:</i>Hack the Pitch: A Retrospective on HackGGCIV"
 date: 2025-3-22
 author: Leonardo Motta
 categories:

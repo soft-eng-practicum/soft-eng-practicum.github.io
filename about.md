@@ -20,7 +20,7 @@ collaborators of the organization.
 </div>
 
 ## Credits
-The original Jekyll code for the website was authored by [Dr. Cengiz Gunay](/sponsors/Cengiz_Gunay.html).  
+The original Jekyll code for the website was authored by [Dr. Cengiz Gunay](/partners/Cengiz_Gunay.html).  
 Colorlib template adopted by [Nilaja Williams](https://www.linkedin.com/in/nilajawilliams/), and further developed by Dr. Gunay.  
 [Katherine Balsley, MFA](https://www.ggc.edu/about-ggc/directory/katherine-balsley) produced the video on the home page.  
 Website overhaul (🌟 you are here!) by [Leonardo Motta](/students/Leonardo_Motta.html).  

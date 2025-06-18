@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Fall 2017 Software Development 2 Course Projects"
 date: 2017-11-30 14:00:00
 categories: itec3870 create

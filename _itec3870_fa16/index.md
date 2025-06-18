@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Fall 2016 Software Projects"
 date: 2016-12-07 14:49:25
 categories: itec3870 create

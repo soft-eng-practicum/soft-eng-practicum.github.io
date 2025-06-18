@@ -371,10 +371,12 @@ $card-width: 300px;
 
 .outer-div,
 .inner-div {
-  height: $card-height;
-  max-width: $card-width;
-  margin: 0 auto;
-  position: relative;
+    height: $card-height;
+    max-width: $card-width;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
 }
 
 .outer-div {
@@ -536,7 +538,7 @@ $card-width: 300px;
     background-color: $black;
     border-radius: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

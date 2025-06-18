@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Spring 2023 Software Projects"
 date: 2023-04-28 14:00:00
 categories: itec3870 create appfactory

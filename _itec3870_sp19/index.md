@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Spring 2019 Software Projects"
 date: 2019-05-04 14:00:00
 categories: itec3870 create

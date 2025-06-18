@@ -97,16 +97,14 @@ collections:
     course: "SD2"
     date: 2016-12-01
     output: true
-  internships:
-    title: "Internships"
-    menutitle: "Internships"
-    course: "TAP"
+  projects:
+    title: "Projects"
+    menutitle: "Projects"
     date: 2025-01-01
     output: true
-  sponsors:
-    title: "Sponsors"
-    menutitle: "Sponsors"
-    course: "TAP"
+  partners:
+    title: "Partners"
+    menutitle: "Partners"
     date: 2025-01-01
     output: true
   students:

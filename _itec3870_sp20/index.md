@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Spring 2020 Software Projects"
 date: 2020-04-22 14:00:00
 categories: itec3870 create appfactory
