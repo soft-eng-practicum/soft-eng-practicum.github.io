@@ -113,6 +113,7 @@ collections:
     date: 2025-01-01
     output: true
 
+exclude: [ "README.md", "**/README.md", "**/*.template.md" ]
 # Build settings
 markdown: kramdown
 plugins:

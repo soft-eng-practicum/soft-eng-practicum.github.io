@@ -1,7 +1,6 @@
 ---
 layout: project_page
 title: "Sample Project"
-date: 2025-01-01 14:00:00
 phrase: "Sample Project Phrase"
 tech: [ JavaScript, Jekyll, HTML ]
 screencast-youtube: hVx8VQ5Y79M
