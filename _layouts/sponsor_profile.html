@@ -6,12 +6,21 @@ layout: main_page
 <div class="col-lg-10 col-md-9 col-12 body_block align-content-center" style = "max-width: 100% !important;">
 <div class="profile-card">
     <!--img-->
+    {% if page.header.size > 4 %}
     <div class="rounded-top-3" style="background-image: url(/assets/img/partners/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+    {% else %}
+    <div class="rounded-top-3" style="background-image: url(/assets/img/partners/GGC.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+    {% endif %}
+
     <div class="card-body p-md-5">
         <div class="d-flex flex-column gap-5">
             <!--img-->
             <div class="mt-n8">
+                {% if page.logo.size >4 %}
                 <img src="/assets/img/partners/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
+                {% else %}
+                        <img src="/assets/img/partners/GGC.jpg" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
+                {% endif %}
             </div>
             <div class="d-flex flex-column gap-5">
                 <div class="d-flex flex-column gap-3">
@@ -128,66 +137,70 @@ layout: main_page
                 {% if not_blank %}
                     {{ content }}
                 {% endif %}
+                {% if page.linkedin.size > 0 or page.git.size > 0
+                    or page.x.size > 0 or page.facebook.size > 0
+                    or page.instagram.size > 0 %}
                 <div class="bg-body-tertiary text-center text-white">
                     <!-- Grid container -->
                     <div class="container p-4 pb-0">
-                      <!-- Section: Social media -->
-                      <section class="mb-0">
-                        {% if page.linkedin %}
-                        <!-- Linkedin -->
-                        <a
-                          data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                          style="background-color: #0082ca;"
-                          href="{{ page.linkedin }}"
-                          role="button"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                        {% endif %}
-                        {% if page.git %}
-                        <!-- Github -->
-                        <a
-                          data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                          style="background-color: #333333;"
-                          href="{{ page.git }}"
-                          role="button"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                        {% endif %}
-                        {% if page.x %}
-                        <!-- X -->
-                        <a
-                          data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                          style="background-color: #55acee;"
-                          href="{{ page.x }}"
-                          role="button"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                        {% endif %}
-                        {% if page.instagram %}
-                        <!-- Instagram -->
-                        <a
-                          data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                          style="background-color: #ac2bac;"
-                          href="{{ page.instagram }}"
-                          role="button"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                        {% endif %}
-                        {% if page.facebook %}
-                        <!-- Facebook -->
-                        <a
-                          data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                          style="background-color: #3b5998;"
-                          href="{{ page.facebook }}"
-                          role="button"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                        {% endif %}
-                      </section>
-                      <!-- Section: Social media -->
+                        <!-- Section: Social media -->
+                        <section class="mb-0">
+                            {% if page.linkedin.size > 0 %}
+                            <!-- Linkedin -->
+                            <a
+                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                              style="background-color: #0082ca;"
+                              href="{{ page.linkedin }}"
+                              role="button"
+                              ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            {% endif %}
+                            {% if page.git.size > 0 %}
+                            <!-- Github -->
+                            <a
+                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                              style="background-color: #333333;"
+                              href="{{ page.git }}"
+                              role="button"
+                              ><i class="fab fa-github"></i
+                            ></a>
+                            {% endif %}
+                            {% if page.x.size > 0 %}
+                            <!-- X -->
+                            <a
+                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                              style="background-color: #55acee;"
+                              href="{{ page.x }}"
+                              role="button"
+                              ><i class="fab fa-twitter"></i
+                            ></a>
+                            {% endif %}
+                            {% if page.instagram.size > 0 %}
+                            <!-- Instagram -->
+                            <a
+                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                              style="background-color: #ac2bac;"
+                              href="{{ page.instagram }}"
+                              role="button"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                            {% endif %}
+                            {% if page.facebook.size > 0 %}
+                            <!-- Facebook -->
+                            <a
+                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                              style="background-color: #3b5998;"
+                              href="{{ page.facebook }}"
+                              role="button"
+                              ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            {% endif %}
+                        </section>
+                        <!-- Section: Social media -->
                     </div>
                     <!-- Grid container -->
-                  </div>
+                </div>
+                {% endif %}
             </div>
         {% endif %}
     </div>

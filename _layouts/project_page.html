@@ -308,28 +308,28 @@ layout: default
 </div>
 
 <!-- lightgallery -->
-    <script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
+<script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Slideshow setup
-            $("#slideshow > div:gt(0)").hide();
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Slideshow setup
+        $("#slideshow > div:gt(0)").hide();
 
-            setInterval(function() {
-                $('#slideshow > div:first')
-                    .fadeOut(1000)
-                    .next()
-                    .fadeIn(1000)
-                    .end()
-                    .appendTo('#slideshow');
-            }, 3000);
+        setInterval(function() {
+            $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+        }, 3000);
 
-            // LightGallery
-            $("body").lightGallery({
-                zoom: true,
-                selector: 'a#lightgallery',
-                selectWithin: 'body'
-            });
+        // LightGallery
+        $("body").lightGallery({
+            zoom: true,
+            selector: 'a#lightgallery',
+            selectWithin: 'body'
         });
-    </script>
+    });
+</script>

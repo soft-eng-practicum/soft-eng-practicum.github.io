@@ -16,11 +16,9 @@ skills: [ "Machine Learning", "Data Mining", "Artificial/Computational Intellige
 highlights: [ "15+ Academic Publications", "Postdoctoral Research Fellow" ]
 #featured: true
 
-sponsor_key: cengiz-gunay
 git: "https://github.com/cengique"
 x: "https://x.com/cengique"
 ---
-
 Dr. Cengiz Gunay is a self-taught computer programmer. Born in Turkey, he completed a bachelor's degree with an electronics and telecommunications focus, while also training in software engineering and open source software. After moving to the U.S. for graduate school, he switched to computer science and specialized in artificial intelligence and neural networks. After this, he pursued postdoctoral research in computational neuroscience, which is the study of the brain using computers. Gunay's webpage at the Prinz Lab details his research and teaching experience. Also see his software development projects page for past students projects and events.
 
 ### Education
@@ -46,8 +44,6 @@ Selected publications in *machine learning*, *data mining*, and *artificial/comp
 - Cengiz Günay, Astrid A. Prinz (2009). “Finding sensors for homeostasis of biological neuronal networks using artificial neural networks,” Proc. 2009 Intl Joint Conf. Neural Nets (IJCNN), pp. 1025-1032
 - Cengiz Günay and Anthony S. Maida (2006a). “A stochastic population approach to the problem of stable recruitment hierarchies in spiking neural networks.” Biological Cybernetics, 94(1): 33–45
 - Cengiz Günay and Anthony S. Maida (2006b). “Using temporal binding for hierarchical recruitment of conjunctive concepts over delayed lines.” Neurocomputing, 69(4–6): 317–367
-
-### Distinctions
 
 ##### Academic Honors
 

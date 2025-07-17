@@ -16,3 +16,9 @@ skills: [ "Computer Science", "Mathematics" ]
 highlights: [ ]
 #featured: true
 ---
+### Education
+
+- Doctorate - Computer Science - University of Louisiana at Lafayette
+- Master's - Computer Science - University of Louisiana at Lafayette
+- Master's - Computer Science - University of Bucharest, Romania
+- Bachelor's - Mathematics and Computer Science - University of Bucharest, Romania

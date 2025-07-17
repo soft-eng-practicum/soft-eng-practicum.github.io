@@ -1,0 +1,45 @@
+<div class="input-group">
+    <input type = "text" name = "search" class = "form-control"
+        placeholder = "Search..." aria-label = "Search Query"
+        aria-describedby = "basic-addon2"
+        style = "border-radius: 24px; max-height: 50px; font-size: 14px;">
+</div>
+
+<br>
+
+<div class = "d-flex justify-content-center">
+    <div class="dropdown" style = "max-width: 250px;">
+        <button class="btn btn-secondary dd-arrow w-100" type="button" id="sortMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = "border-radius: .25rem; font-size: 14px; background-color: #00704a;">
+            <i class = "fas fa-sort"></i>
+            Sort by:
+        </button>
+        <div class="dropdown-menu w-100" aria-labelledby="sortMenuButton">
+            <a class="dropdown-item" href="#" data-sort = "name-asc"><i class="fas fa-arrow-down-a-z" style = "margin-right: 4px;"></i>Name: A to Z</a>
+            <a class="dropdown-item" href="#" data-sort = "name-desc"><i class="fas fa-arrow-up-a-z" style = "margin-right: 4px;"></i>Name: Z to A</a>
+            {% unless page.path contains "partners" %}
+                <a class="dropdown-item" href="#" data-sort = "class-asc"><i class="fas fa-arrow-down-short-wide" style = "margin-right: 4px;"></i>Class: Ascending</a>
+                <a class="dropdown-item" href="#" data-sort = "class-desc"><i class="fas fa-arrow-up-short-wide" style = "margin-right: 4px;"></i>Class: Descending</a>
+            {% endunless %}
+        </div>
+    </div>
+    {% if page.path contains "partners" %}
+    <div class="dropdown ml-4" style = "max-width: 250px;">
+        <button class="btn btn-secondary dd-arrow w-100" type="button" id="filterMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = "border-radius: .25rem; font-size: 14px; background-color: #00704a;">
+            <i class = "fas fa-filter"></i>
+            Filter by:
+        </button>
+        <div class="dropdown-menu w-100" aria-labelledby="filterMenuButton">
+            <a class="dropdown-item" href="#" data-filter = "client"><i class="fas fa-user-tie" style = "margin-right: 4px;"></i>Client</a>
+            <a class="dropdown-item" href="#" data-filter = "faculty"><i class="fas fa-user-graduate" style = "margin-right: 4px;"></i>Faculty</a>
+        </div>
+    </div>
+    {% endif %}
+    <div class="dropdown ml-4" style = "max-width: 250px;">
+        <button class="btn btn-secondary" type="button" id="clearFiltersButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = "border-radius: .25rem; font-size: 14px; background-color: #a5acb0;">
+            <i class = "fas fa-circle-xmark"></i>
+            Clear Filters
+        </button>
+    </div>
+</div>
+
+<script src = "/assets/js/misc/cards.js"></script>

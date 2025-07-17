@@ -279,6 +279,14 @@ layout: projects_overview # No other value should be given.
 title: "" # The title for this page.
 course_key: "" # The unique value that corresponds to a specific course (e.g., "sd2").
 semester_key: "" # The unique value that corresponds to a specific semester (e.g., "sp25").
+
+# ⚠️ IMPORTANT: ⚠️
+# The 5 digit value provided for sort_val should be composed like
+# YYYY<1|2>, where 'YYYY' is the four digit year, and <1|2> is either
+# 1 for spring semesters and 2 for fall semesters.
+# ⚠️ Dynamic collection aggregation will break
+# if this value is set incorrectly.
+sort_val: "" # A 5 digit value used for automated sorting.
 ```
 
 ---

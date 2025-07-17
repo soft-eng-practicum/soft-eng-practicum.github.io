@@ -96,9 +96,10 @@
     margin-left: .5rem;
     margin-right: .5rem;
     transition: transform .25s ease;
+    display: inline-block;
 }
 
-.ggc-btn-d[aria-expanded="true"].dd-arrow::after {
+.dd-arrow[aria-expanded="true"]::after {
     transform: rotate(180deg);
 }
 

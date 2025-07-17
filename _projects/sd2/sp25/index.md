@@ -5,6 +5,7 @@ date: 2023-04-28 14:00:00
 
 course_key: sd2
 semester_key: sp25
+sort_val: "20251"
 ---
 These projects were developed by [Georgia Gwinnett College][ggc]
 students during the ITEC 3870 Software Development 2 course section

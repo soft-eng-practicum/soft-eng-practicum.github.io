@@ -11,6 +11,21 @@ layout: default
             <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
+        {% if page.photos %}
+            <div class="project_pictures pp-mobile-pp">
+                <div id="slideshow">
+                    {% for photo in page.photos %}
+                        <div class="pictures">
+                            <a id="lightgallery" href="/assets/img/posts/{{ photo }}">
+                                <img src="/assets/img/posts/{{ photo }}">
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <br>
+        {% endif %}
+
         <article class="post-content">
             {{ content }}
         </article>
@@ -24,3 +39,30 @@ layout: default
 <div class = "row justify-content-center">
     {% include footer.html %}
 </div>
+
+<!-- lightgallery -->
+<script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Slideshow setup
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function() {
+            $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+        }, 3000);
+
+        // LightGallery
+        $("body").lightGallery({
+            zoom: true,
+            selector: 'a#lightgallery',
+            selectWithin: 'body'
+        });
+    });
+</script>
