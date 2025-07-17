@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "Internapp"
 date: 2019-12-14 14:00:00
 categories: itec3870 create

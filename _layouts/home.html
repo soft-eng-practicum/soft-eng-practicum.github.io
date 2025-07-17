@@ -1,106 +1,79 @@
 ---
-layout: default_menu
+layout: default
 ---
-<!--=================== Page Title ====================-->
-<div class="title">
+<div class="justify-content-center">
 
-    <h2>{{site.title}}</h2>
-    <h4>{{site.tagline}}</h4>
+    <div class = "row justify-content-center">
 
-</div>
+        <div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
 
-{{content}}
+            <div class="title">
 
-<section id = "meet_professors">
+                <h2>{{site.title}}</h2>
+                <h4>{{site.tagline}}</h4>
 
-  <h3>Meet our Professors!</h3>
+            </div>
 
-  <div id = "professors">
+            {{content}}
 
-    <div class = "professor">
+            <section id = "meet_professors">
 
-      <h5>
+                <h3>Meet our Professors!</h3>
 
-        <a href="https://www.ggc.edu/directory/anca-doloc-mihu" target = "_blank">Dr. Anca Doloc-Mihu</a>
+                <div id = "professors">
 
-      </h5>
+                    <div class = "professor">
 
-      <img src = "https://avatar.iran.liara.run/public/63" alt = "Dr. Anca Doloc-Mihu">
+                        <h5>
 
-      <p class = "description">Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.</p>
+                            <a href="/partners/Anca_Doloc_Mihu.html">Dr. Anca Doloc-Mihu</a>
 
-      <p class = "tiny-link">
+                        </h5>
 
-        <a href="https://www.ggc.edu/directory/anca-doloc-mihu" target = "_blank">View on ggc.edu</a>
+                        <img src = "/assets/img/portfolio/adolocmihu.jpg" alt = "Headshot of Dr. Anca Doloc-Mihu">
 
-      </p>
+                        <p class = "description">Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives.</p>
+
+                        <p class = "tiny-link">
+
+                          <a href="https://www.ggc.edu/directory/anca-doloc-mihu" target = "_blank">View on ggc.edu</a>
+
+                        </p>
+
+                    </div>
+
+                    <div class = "professor">
+
+                        <h5>
+
+                            <a href="/partners/Cengiz_Gunay.html">Dr. Cengiz Gunay</a>
+
+                        </h5>
+
+                        <img src = "/assets/img/portfolio/cgunay.jpeg" alt = "Headshot of Dr. Cengiz Gunay">
+
+                        <p class = "description">To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.</p>
+
+                        <p class = "tiny-link">
+
+                            <a href="https://www.ggc.edu/directory/cengiz-gunay" target = "_blank">View on ggc.edu</a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+              <hr style = "width: 80%;">
+
+            </section>
+
+            {% include news_bulletin.html %}
+
+        </div>
+
+        {% include footer.html %}
 
     </div>
-
-    <div class = "professor">
-
-      <h5>
-
-        <a href="https://www.ggc.edu/directory/cengiz-gunay" target = "_blank">Dr. Cengiz Gunay</a>
-
-      </h5>
-
-      <img src = "https://avatar.iran.liara.run/public/5" alt = "Dr. Anca Doloc-Mihu">
-
-      <p class = "description">To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.</p>
-
-      <p class = "tiny-link">
-
-        <a href="https://www.ggc.edu/directory/cengiz-gunay" target = "_blank">View on ggc.edu</a>
-
-      </p>
-
-    </div>
-
-  </div>
-
-  <hr style = "width: 80%;">
-
-</section>
-
-<div class ="home_grid">
-
-  <div class="project_demo">
-    <h3>Soft Dev 2 Course Project Demos</h3>
-
-    <ul class="post-list sd2_demos_grid">
-      {% assign collections_list = site.collections | sort: "date", "first" | reverse %}
-      {% for projects in collections_list %}
-        <li>
-          <a class="post-link" href="{{ projects.label | relative_url }}">{{ projects.menutitle }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class = "post">
-    <h3>Other Posts</h3>
-      
-    {% for category in site.categories %}
-        {% assign cat_name = category | first %}
-        <h4>&nbsp;&nbsp;{{ cat_name }}</h4>
-            <ul class="post-list">
-                {% assign posts_sorted = site.categories[cat_name] | sort: "date", "first" | reverse %}
-                {% for post in posts_sorted %}
-                  {% if post.url %}
-                  <li class="post-link"><a href="{{post.url}}">{{post.title}}</a> - <i>
-                    {%- if post.last_modified_at -%}
-                      {{ post.last_modified_at | date_to_string: "ordinal", "US" }} (updated)
-                    {%- else -%}
-                      {{ post.date | date_to_string: "ordinal", "US" }}
-                    {%- endif -%}
-                  </i></li>
-                  {% endif %}
-                {% endfor %}
-
-            </ul>
-    {% endfor %}    
-
-  </div>
 
 </div>

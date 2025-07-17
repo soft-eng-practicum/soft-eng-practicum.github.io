@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Capstone course final projects summary from Fall 2019"
-date: 2019-12-15 
-last_modified_at: 2021-01-24
+date: 2019-12-15
+last_modified: 2021-01-24
 author: Cengiz Gunay
 categories:
 - News

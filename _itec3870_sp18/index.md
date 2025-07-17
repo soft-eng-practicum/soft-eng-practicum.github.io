@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Spring 2018 Software Projects"
 date: 2018-05-17 14:25:23
 categories: itec3870 create

@@ -1,28 +1,62 @@
-## Org Github Pages Website using Jekyll ##
+<div align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://www.ggc.edu/sites/default/files/styles/coh_small/public/2023-01/horizontal-logo-white.png">
+        <source media="(prefers-color-scheme: light)" srcset="https://www.ggc.edu/sites/default/files/styles/coh_small/public/2022-12/ggc-horizontal-logo-green.png">
+        <img alt="Software Engineering Practicum: A place to share and celebrate our students' work!"
+             src="https://soft-eng-practicum.github.io"
+             width="50%">
+    </picture>
 
-Change these files to update the documentation served
-[here](https://soft-eng-practicum.github.io/).
+[Website][Soft-Eng-Practicum] | [About] | [Contributing/Documentation][Contributing]
+</div>
 
-Here's the [Github repo
-metadata](https://help.github.com/articles/repository-metadata-on-github-pages/)
-we can use in the use in the pages.
+---
 
-To build and run the documentation locally, do:
+<div align = "center">
+    <h1>Software Engineering Practice</h1>
+    <h2>(Soft-Eng-Practicum)</h2>
+</div>
 
-```bash
-$ bundle exec jekyll serve --watch
-```
+This is the main source code repository for [Soft-Eng-Practicum],
+[GGC's][GGC] public-facing student-project showcase website, built
+with the power of [Jekyll] and [Liquid]. 🚀
+This repository contains all of the site's data and documentation.
 
-More info can be found at [the Github Pages setup](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
+[Soft-Eng-Practicum]: https://soft-eng-practicum.github.io/
+[About]: https://soft-eng-practicum.github.io/about/
+[Contributing]: CONTRIBUTING.md
+[GGC]: https://ggc.edu
+[Jekyll]: https://jekyllrb.com/
+[Liquid]: https://shopify.github.io/liquid/
 
-And here are the [Markdown help](https://daringfireball.net/projects/markdown/syntax), [Sass guide](http://sass-lang.com/guide), and [Jekyll docs](https://jekyllrb.com/docs/usage/).
+## Why [Soft-Eng-Practicum]?
 
-To add content, either add new files under `_posts/` or define
-collections in `_config.yml` and add a corresponding folder structure
-like that in `_itec3870_fa16/`.
+- **Community:** Faculty, alumni, and students all come together to create
+bespoke software solutions to tackle challenging, nuanced problems. By making
+their academic work visible, we aim to inspire future students, encourage
+interdisciplinary learning, and demonstrate the diversity of thought within
+our programs.
 
-### TODO ###
+- **Experience:** Students complete these projects in a simulated workplace
+environment that mirrors professional software development. Through this
+experience, they gain hands-on exposure to tools like Git and GitHub, modern
+frontend frameworks such as React and Angular, cloud platforms like Firebase,
+and agile collaboration practices used in industry today.
 
-* Make individual pages for each project by using `@include index.md`
-  and then picking up the item with a parameter?
-* Upload the screencast videos to Youtube and link them from here.
+- **Showcase:** This site highlights our students' successes across many courses and
+semesters, offering a public platform to celebrate their creativity,
+technical achievement, and teamwork.
+
+## Get in Touch
+
+Questions, suggestions, or something else? [Contact Us!][Contact]
+
+[Contact]: mailto:cgunay@ggc.edu?subject=Soft%20Eng%20Practicum%20Website%20Inquiry
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## License
+
+## Trademark

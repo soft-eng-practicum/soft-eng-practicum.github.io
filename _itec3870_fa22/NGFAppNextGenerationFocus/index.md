@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "NGF App (Next Generation Focus)"
 date: 2022-11-23 14:00:00
 categories: itec3870 create

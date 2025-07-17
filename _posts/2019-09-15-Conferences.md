@@ -1,12 +1,9 @@
 ---
-
 layout: post
 title: "IT-related conferences and meetings near the Atlanta Region"
 date: 2019-09-15 13:43:17
-last_modified_at: 2019-09-15
 categories:
-- Pinned
-
+- Resources
 ---
 
 <center>

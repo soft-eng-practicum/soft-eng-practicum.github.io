@@ -1,5 +1,5 @@
 ---
-layout: projects_new
+layout: projects_overview
 title: "Fall 2021 Software Projects"
 date: 2021-11-23 14:00:00
 categories: itec3870 create appfactory

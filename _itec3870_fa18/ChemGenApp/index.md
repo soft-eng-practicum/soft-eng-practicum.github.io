@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "ChemGenApp"
 date: 2018-11-29 14:00:00
 categories: itec3870 create

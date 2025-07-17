@@ -1,10 +1,9 @@
 ---
-layout: project-page
+layout: project_page
 title: "GGC Maps"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
-
 phrase: "Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
 tech: [ javascript, grunt, sass, html ]
 screencast-youtube: hVx8VQ5Y79M
@@ -17,17 +16,6 @@ description: "The Georgia Gwinnett College map application is an essential tool 
 logo-full: flyer-GGCMaps.png
 logo-thumb: thumb-flyer-GGCMaps.png
 repo-url: https://github.com/soft-eng-practicum/ggcmaps
-
-team_members:
-- name: "Nick Wen"
-  role: "Database Admin"
-  picture: defaultProfile.jpg
-- name: "Ryan Campbell"
-  role: "Backend Engineer"
-  picture: defaultProfile.jpg
-- name: "Ti Nguyen"
-  role: "Frontend Engineer"
-  picture: defaultProfile.jpg
 ---
 
 Detailed information about the {{ page.title }} development process.

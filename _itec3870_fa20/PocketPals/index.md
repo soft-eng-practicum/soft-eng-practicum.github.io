@@ -1,11 +1,11 @@
 ---
-layout: project-page
+layout: project_page
 title: "Pocket Pals"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
 
-title: "2D top-down open world video game inspired by Pokémon"
+phrase: "2D top-down open world video game inspired by Pokémon"
 tech: [ unity, html/css ]
 screencast-youtube: UTw_G8459uQ
 members: "Aqua Team Thunder Force: Dennis Dalton and anonymous members"

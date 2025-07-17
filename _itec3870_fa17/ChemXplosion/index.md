@@ -1,5 +1,5 @@
 ---
-layout: project-page
+layout: project_page
 title: "ChemXplosion"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
