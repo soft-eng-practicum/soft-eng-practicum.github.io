@@ -39,7 +39,7 @@ title: "Browse All Institutional Participants"
                             <a href="{{ org.git }}" class="social-icon"><i class="bc-fab fab fa-github-square" aria-hidden="true"></i></a>
                             {% endif %}
                             {% if org.linkedin.size > 0 %}
-                            <a href="{{ org.linkedin }}" class="social-icon"><i class="bc-fab fab fa-linkedin-square" aria-hidden="true"></i></a>
+                            <a href="{{ org.linkedin }}" class="social-icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
                             {% endif %}
                             {% if org.x.size > 0 %}
                             <a href="{{ org.x }}" class="social-icon"><i class="bc-fab fab fa-twitter-square" aria-hidden="true"></i></a>

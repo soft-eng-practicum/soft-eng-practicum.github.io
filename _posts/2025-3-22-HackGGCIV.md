@@ -6,6 +6,13 @@ author: Leonardo Motta
 categories:
 - News
 - Pinned
+photos:
+- 1.jpeg
+- 2.jpeg
+- 3.jpeg
+- 4.jpeg
+picture_dir: "hackggc-iv"
+li_post: "https://www.linkedin.com/posts/cengiz-gunay-5010a89_grizzlyhacks-hackggc-ggc-activity-7264413772037992448-zAVH"
 ---
 
 From electrifying workshops to powerful community-driven innovation, this year's campus hackathon was one for the books. With a theme inspired by the upcoming FIFA World Cup and a unique partnership with the campus Hispanic Outreach Club, the event brought together students, faculty, alumni, and a shared vision of tech for impact.

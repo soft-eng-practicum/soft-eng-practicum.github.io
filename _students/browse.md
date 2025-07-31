@@ -38,7 +38,7 @@ title: "Browse All Student Participants"
                             <a href="{{ student.git }}" class="social-icon"><i class="bc-fab fab fa-github-square" aria-hidden="true"></i></a>
                             {% endif %}
                             {% if student.linkedin.size > 0 %}
-                            <a href="{{ student.linkedin }}" class="social-icon"><i class="bc-fab fab fa-linkedin-square" aria-hidden="true"></i></a>
+                            <a href="{{ student.linkedin }}" class="social-icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
                             {% endif %}
                             {% if student.x.size > 0 %}
                             <a href="{{ student.x }}" class="social-icon"><i class="bc-fab fab fa-twitter-square" aria-hidden="true"></i></a>

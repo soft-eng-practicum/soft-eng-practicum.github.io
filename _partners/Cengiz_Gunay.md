@@ -2,7 +2,7 @@
 layout: sponsor_profile
 title: "Dr. Cengiz Gunay"
 sponsor_key: cengiz-gunay
-description: "This sponsor does really amazing things for a lot of people!"
+description: "Principal Investigator"
 logo: cgunay.jpeg
 header: GGC.jpg
 website: https://www.ggc.edu/directory/cengiz-gunay
@@ -18,6 +18,7 @@ highlights: [ "15+ Academic Publications", "Postdoctoral Research Fellow" ]
 
 git: "https://github.com/cengique"
 x: "https://x.com/cengique"
+linkedin: "https://www.linkedin.com/in/cengiz-gunay-5010a89"
 ---
 Dr. Cengiz Gunay is a self-taught computer programmer. Born in Turkey, he completed a bachelor's degree with an electronics and telecommunications focus, while also training in software engineering and open source software. After moving to the U.S. for graduate school, he switched to computer science and specialized in artificial intelligence and neural networks. After this, he pursued postdoctoral research in computational neuroscience, which is the study of the brain using computers. Gunay's webpage at the Prinz Lab details his research and teaching experience. Also see his software development projects page for past students projects and events.
 

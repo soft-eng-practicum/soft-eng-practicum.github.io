@@ -67,8 +67,17 @@ layout: main_page
                             </span>
                             <!--text-->
                             <span style = "font-size: 18px;">
-                                <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ page.sponsorships }}</span>
-                                Sponsorships
+                                {% assign all_projects = "" | split: "," %}
+                                {% for p in site.projects %}
+                                    {% for k in page.project_key %}
+                                        {% if k == p.project_key %}
+                                            {% assign all_projects = all_projects
+                                                | push: p %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                                    <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ all_projects.size }}</span>
+                                Projects
                             </span>
                         </div>
                         <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
@@ -93,8 +102,19 @@ layout: main_page
                         {% endfor %}
                     </div>
                 </div>
+                {% assign sponsored_projects = "" | split: "," %}
+                {% for key in page.project_key %}
+                    {% assign tmp = site.projects
+                        | where: "project_key", key %}
+                    {% for p in tmp %}
+                        {% assign sponsored_projects = sponsored_projects
+                            | push: p %}
+                    {% endfor %}
+                {% endfor %}
+                {% comment %}
                 {% assign sponsored_projects = site.projects
                     | where: "project_key", page.project_key %}
+                {% endcomment %}
                 {% if sponsored_projects.size > 0 %}
                 <div class="d-flex flex-column gap-2">
                     <!--heading-->

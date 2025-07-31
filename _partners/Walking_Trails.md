@@ -1,7 +1,7 @@
 ---
 layout: sponsor_profile
 title: "Walking Trails"
-sponsor_key: walking-trails
+sponsor_key: "walking-trails"
 description: "Walking Trails is an initiative formed by Georgia Gwinnett College, in partnership with the Gwinnett Parks and Recreation Department."
 logo: ""
 header: ""

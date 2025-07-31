@@ -31,24 +31,72 @@ layout: default
 
     <div class="col-lg-10 col-md-9 col-12 body_block align-content-center">
 
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title" id = "top-title">{{ page.title }}</h1>
         <br>
         {{ content }}
-        <hr class="project-sep">
 
-        {% if all_photos.size > 0 %}
-            <h2>Event Photos</h2>
-                <div class="project_pictures">
-                    <div id="slideshow">
-                        {% for photo in all_photos %}
-                            <div class="pictures">
-                                <a id="lightgallery" href="images/{{ photo }}">
-                                    <img src="images/{{ photo }}">
-                                </a>
+        {% if page.course_key and page.semester_key %}
+            {% assign all_projects = "" | split: "," %}
+            {% for p in site.projects %}
+                {% if p.course_key == page.course_key
+                    and p.semester_key == page.semester_key
+                    and p.url != page.url %}
+                    {% assign all_projects = all_projects | push: p %}
+                {% endif %}
+            {% endfor %}
+            {% if all_projects.size > 0 %}
+                <div class = "container">
+                    <div class = "row">
+                        {% for p in all_projects %}
+                            <div class = "col d-flex justify-content-center">
+                                <a href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
                             </div>
                         {% endfor %}
                     </div>
                 </div>
+            {% endif %}
+        {% elsif page.collection and page.course_key == nil
+            and page.semester_key == nil %}
+            {% assign all_projects = "" | split: "," %}
+
+            {% comment %}
+                `for p in site[page.collection]` doesn't work here.
+                This is a workaround.
+            {% endcomment %}
+            {% assign collection_projects = site[page.collection] %}
+            {% for p in collection_projects %}
+                {% if p.url != page.url %}
+                    {% assign all_projects = all_projects | push: p %}
+                {% endif %}
+            {% endfor %}
+            {% if all_projects.size > 0 %}
+                <div class = "container">
+                    <div class = "row">
+                        {% for p in all_projects %}
+                            <div class = "col d-flex justify-content-center">
+                                <a href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+        <hr class="project-sep">
+
+        {% if all_photos.size > 0 %}
+            <h2 class = "display-5 text-center mb-4">Event Photos</h2>
+            <div class="project_pictures mb-4">
+                <div id="slideshow">
+                    {% for photo in all_photos %}
+                        <div class="pictures">
+                            <a id="lightgallery" href="images/{{ photo }}">
+                                <img src="images/{{ photo }}">
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <br>
         {% endif %}
 
         {% if page.course_key and page.semester_key %}
@@ -119,9 +167,232 @@ layout: default
                     </div>
 
                     {% if project.members %}
-                    <p>Developed by <em>{{ project.members }}</em></p>
+                        <p>Developed by <em>{{ project.members }}</em></p>
                     {% else %}
-                    <p>Developed by <em>{{ project.cohort }}</em></p>
+                        {% assign students = "" | split: "," %}
+                        {% for s in site.students %}
+                            {% for key in s.project_key %}
+                                {% if key == project.project_key %}
+                                    {% assign students = students | push: s %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                        {% if students.size > 0 %}
+                            {% assign max = students.size | minus: 1 %}
+                            {% assign count = 0 %}
+                            <p>Developed by
+                                {% for s in students %}
+                                    {% if count < max %}
+                                        <em>
+                                            <a href = "{{ s.url }}">
+                                                {{ s.title }}
+                                            </a>,
+                                        </em>
+                                        {% assign count = count | plus: 1 %}
+                                    {% else %}
+                                        <em>
+                                            <a href = "{{ s.url }}">
+                                                {{ s.title }}
+                                            </a>
+                                        </em>
+                                    {% endif %}
+                                {% endfor %}
+                            </p>
+                        {% endif %}
+                    {% endif %}
+
+                    {% if project.client-url %}
+                        {% if project.client-url.size > 0 %}
+                            <p>Directed by client <em>
+                                <a href="{{ project.client-url }}" target="_blank">{{
+                                    project.client }}</a></em>
+                            </p>
+                        {% else %}
+                            {% assign clients = "" | split: "," %}
+                            {% for p in site.partners %}
+                                {% if p.sponsor_type == "Client" %}
+                                    {% for key in project.sponsor_key %}
+                                        {% if p.sponsor_key == key %}
+                                            {% assign clients = clients | push: p %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                            {% if clients.size > 0 %}
+                                {% if clients.size == 1 %}
+                                    <p>Directed by client
+                                        <em>
+                                            <a href="{{ clients[0].url }}">
+                                                {{ clients[0].title }}
+                                            </a>
+                                        </em>
+                                    </p>
+                                {% elsif clients.size > 1 %}
+                                    {% assign max = clients.size | minus: 1 %}
+                                    {% assign count = 0 %}
+                                    <p>Directed by clients
+                                        {% for c in clients %}
+                                            {% if count < max %}
+                                                <em>
+                                                    <a href="{{ c.url }}">
+                                                        {{ c.title }}
+                                                    </a>,
+                                                </em>
+                                                {% assign count = count | plus: 1 %}
+                                            {% else %}
+                                                <em>
+                                                    <a href="{{ c.url }}">
+                                                        {{ c.title }}
+                                                    </a>
+                                                </em>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </p>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% else %}
+                            {{ "Directed by client _" | append: project.client
+                                | append: "_" | markdownify }}
+                    {% endif %}
+
+                    {% if project.prof %}
+                        {% unless project.project_key %}
+                            {% assign prof = site.profs[project.prof] %}
+                            <p>In the course of professor <em>
+                            <a href="{{ prof.url }}" target="_blank">{{
+                              prof.name }}</a> </em></p>
+                        {% else %}
+                            {% assign professor = "" | split: "," %}
+                            {% for p in site.partners %}
+                                {% for key in project.sponsor_key %}
+                                    {% if p.sponsor_key contains project.prof %}
+                                        {% assign professor = professor
+                                            | push: p %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                            {% if professor.size > 0 %}
+                                <p>In the course of professor <em>
+                                <a href="{{ professor[0].url }}" target="_blank">{{
+                                  professor[0].title }}</a></em></p>
+                            {% endif %}
+                        {% endunless %}
+                    {% endif %}
+
+                    <p> {{ project.description | markdownify  }}</p>
+
+                    {% if project.tech %}
+                        <p>
+                            <b class="project-tech">Technologies: </b>
+                            {{ project.tech | join: "; " }}
+                        </p>
+                    {% endif %}
+
+                    <div class = "m-0-auto" style = "width: 25%;">
+                        <button class="ggc-btn-d" type = "button"
+                            style = "width: 100%;"
+                            data-toggle = "collapse"
+                            data-target = "#pinned-accordion"
+                            aria-expanded = "false"
+                            aria-controls = "pinned-news"
+                            onclick = "window.location.href = '{{ project.title
+                                | remove: ' ' | remove: '.'
+                                | remove: '(' | remove: ')' }}/'">
+                            <span class = "text">
+                                Learn More
+                            </span>
+                        </button>
+                    </div>
+
+                    <hr class="project-sep">
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+        {% for project in site[page.collection] %}
+
+            {% comment %}
+                Extract this comparison into a separate condition,
+                because `... or project.url == page.url` and similar
+                didn't work as expected.
+            {% endcomment %}
+            {% assign test_url = "/" | append: page.collection
+                | append: "/index.html" %}
+            {% assign is_index = false %}
+            {% if project.url contains test_url %}
+                {% assign is_index = true %}
+            {% endif %}
+
+            {% unless page.course_key and page.semester_key %}
+                {% unless is_index %}
+
+                    <h2 class="project-title">
+                        <a id="{{ project.title | cgi_escape }}"
+                            href="{{project.demo-url}}"
+                            target="_blank">{{ project.title }} - {{
+                                project.phrase }}
+                        </a>
+                    </h2>
+                    <br>
+
+                    {% if project.screencast-youtube %}
+                        <div class="project-video">
+                            <iframe width="100%" height="100%"
+                                src="https://www.youtube.com/embed/{{
+                                    project.screencast-youtube }}"
+                                frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    {% endif %}
+
+                    {% if project.screencast-vimeo %}
+                        <div class="project-video">
+                            <iframe src="https://player.vimeo.com/video/{{
+                                    project.screencast-vimeo }}"
+                                width="100%" height="100%"
+                                frameborder="0"
+                                webkitallowfullscreen mozallowfullscreen
+                                allowfullscreen></iframe>
+                        </div>
+                    {% endif %}
+
+                    {% if project.screencast-streamable %}
+                        <div style="width: 640; height: 0px; position: relative;
+                            padding-bottom: 54.265%;">
+                            <iframe src="https://streamable.com/{{
+                                    project.screencast-streamable }}"
+                                frameborder="0" width="100%" height="100%"
+                                allowfullscreen style="width: 100%; height: 100%;
+                                    position: absolute;">
+                            </iframe>
+                        </div>
+                    {% endif %}
+
+                    <div class="project-links">
+                        {% if project.demo-url %}
+                        <em><a href="{{ project.demo-url }}" target="_blank">
+                            <button type="button" class="btn btn-rounded btn-sm
+                                btn-dark">Demo site</button></a></em>
+                        {% endif %}
+
+                        {% if project.repo-url %}
+                        <em><a href="{{ project.repo-url }}" target="_blank">
+                            <button type="button" class="btn btn-rounded btn-sm
+                                btn-primary">Source code</button></a></em>
+                        {% endif %}
+                    </div>
+
+                    <div>
+                        <a id="lightgallery" href="images/{{ project.logo-full }}">
+                            <img class="logo-thumb" src="images/{{
+                                project.logo-thumb }}">
+                        </a>
+                    </div>
+
+                    {% if project.members %}
+                        <p>Developed by <em>{{ project.members }}</em></p>
+                    {% elsif page.cohort.size > 0 %}
+                        <p>Developed by <em>{{ project.cohort }}</em></p>
                     {% endif %}
 
                     {% if project.client-url %}
@@ -166,130 +437,16 @@ layout: default
                     </div>
 
                     <hr class="project-sep">
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-
-        {% for project in site[page.collection] %}
-            {% unless page.course_key and page.semester_key
-                or project.url == page.url %}
-
-                <h2 class="project-title">
-                    <a id="{{ project.title | cgi_escape }}"
-                        href="{{project.demo-url}}"
-                        target="_blank">{{ project.title }} - {{
-                            project.phrase }}
-                    </a>
-                </h2>
-                <br>
-
-                {% if project.screencast-youtube %}
-                    <div class="project-video">
-                        <iframe width="100%" height="100%"
-                            src="https://www.youtube.com/embed/{{
-                                project.screencast-youtube }}"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                {% endif %}
-
-                {% if project.screencast-vimeo %}
-                    <div class="project-video">
-                        <iframe src="https://player.vimeo.com/video/{{
-                                project.screencast-vimeo }}"
-                            width="100%" height="100%"
-                            frameborder="0"
-                            webkitallowfullscreen mozallowfullscreen
-                            allowfullscreen></iframe>
-                    </div>
-                {% endif %}
-
-                {% if project.screencast-streamable %}
-                    <div style="width: 640; height: 0px; position: relative;
-                        padding-bottom: 54.265%;">
-                        <iframe src="https://streamable.com/{{
-                                project.screencast-streamable }}"
-                            frameborder="0" width="100%" height="100%"
-                            allowfullscreen style="width: 100%; height: 100%;
-                                position: absolute;">
-                        </iframe>
-                    </div>
-                {% endif %}
-
-                <div class="project-links">
-                    {% if project.demo-url %}
-                    <em><a href="{{ project.demo-url }}" target="_blank">
-                        <button type="button" class="btn btn-rounded btn-sm
-                            btn-dark">Demo site</button></a></em>
-                    {% endif %}
-
-                    {% if project.repo-url %}
-                    <em><a href="{{ project.repo-url }}" target="_blank">
-                        <button type="button" class="btn btn-rounded btn-sm
-                            btn-primary">Source code</button></a></em>
-                    {% endif %}
-                </div>
-
-                <div>
-                    <a id="lightgallery" href="images/{{ project.logo-full }}">
-                        <img class="logo-thumb" src="images/{{
-                            project.logo-thumb }}">
-                    </a>
-                </div>
-
-                {% if project.members %}
-                <p>Developed by <em>{{ project.members }}</em></p>
-                {% else %}
-                <p>Developed by <em>{{ project.cohort }}</em></p>
-                {% endif %}
-
-                {% if project.client-url %}
-                    Directed by client <em>
-                        <a href="{{ project.client-url }}" target="_blank">{{
-                            project.client }}</a></em>
-                        {% else %}
-                        {{ "Directed by client _" | append: project.client
-                            | append: "_" | markdownify }}
-                {% endif %}
-
-                {% if project.prof %}
-                    {% assign prof = site.profs[project.prof] %}
-                    <p>In the course of professor <em>
-                    <a href="{{ prof.url }}" target="_blank">{{
-                      prof.name }}</a> </em></p>
-                {% endif %}
-
-                <p> {{ project.description | markdownify  }}</p>
-
-                {% if project.tech %}
-                    <p>
-                        <b class="project-tech">Technologies: </b>
-                        {{ project.tech | join: "; " }}
-                    </p>
-                {% endif %}
-
-                <div class = "m-0-auto" style = "width: 25%;">
-                    <button class="ggc-btn-d" type = "button"
-                        style = "width: 100%;"
-                        data-toggle = "collapse"
-                        data-target = "#pinned-accordion"
-                        aria-expanded = "false"
-                        aria-controls = "pinned-news"
-                        onclick = "window.location.href = '{{ project.title
-                            | remove: ' ' | remove: '.'
-                            | remove: '(' | remove: ')' }}/'">
-                        <span class = "text">
-                            Learn More
-                        </span>
-                    </button>
-                </div>
-
-                <hr class="project-sep">
-
+                {% endunless %}
             {% endunless %}
         {% endfor %}
 
     </div>
 
+</div>
+
+<div class = "d-flex justify-content-center">
+    <a href = "#top-title"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">Back to top<i class = "fa-solid fa-circle-up ml-2 pr-3"></i></span></a>
 </div>
 
 <!-- lightgallery -->

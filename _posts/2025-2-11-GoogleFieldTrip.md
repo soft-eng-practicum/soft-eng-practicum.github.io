@@ -17,6 +17,8 @@ photos:
 - google8.webp
 - google10.webp
 - google11.webp
+picture_dir: "google-sp25"
+li_post: "https://www.linkedin.com/posts/cengiz-gunay-5010a89_ggchsisd-sdfieldtrip-softwaredevelopment-activity-7296011215569375232-Np92"
 ---
 On February 11th, 2025, a group of our university students had the opportunity to
 visit Google's regional campus in Atlanta, GA. The visit offered an in-depth

@@ -59,7 +59,7 @@
             {% for semester in sorted_semesters %}
                 {% unless semester.name == "" or semester.name == nil %}
                     {% assign total_projects = site.projects
-                        | where: "course_key", page.course_key 
+                        | where: "course_key", page.course_key
                         | where: "semester_key", semester.items[0].semester_key %}
                     {% assign total_num = total_projects | size | minus: 1 %}
                     {% assign all_projects_total = all_projects_total

@@ -230,7 +230,7 @@ logo-thumb: "" # The full filename of the project picture's thumbnail to be used
 repo-url: "" # The website link to the project's remote repository (e.g., "https://github.com/username/project.git").
 photos: [] # A list of full filenames of pictures to be shown on the project page (e.g., [ "clientPicture.jpg", "groupPicture.jpg" ]).
 project_key: "" # A completely unique value that corresponds to only this project. Used in many places to reference this project (e.g., "unique-value").
-sponsor_key: "" # A unique value that corresponds to the partner responsible for this project (e.g., "charity-organization").
+sponsor_key: [] # The unique values that corresponds to the partner(s) responsible for this project (e.g., [ "charity-organization", "faculty-advisor" ]).
 course_key: "" # A unique value that corresponds to the course in which this project was worked on (e.g., "sd2" or "internship").
 semester_key: "" # A unique value that corresponds to the semester during which this project was worked on (e.g., "sp25" or "fa24").
 cohort: "" # The name of the group that worked on this project (e.g., "ABBA").
@@ -241,6 +241,9 @@ The following variables are **optional** for each project profile:
 ```yaml
 screencast-youtube: "" # The unique video I.D. of the project showcase on YouTube (e.g., hVx8VQ5Y79M).
 client-url: "" # The website link of the client for this project (e.g., "https://charity.org").
+# 💡 Assign `client-url` to an empty string (i.e., "") in order to take advantage
+# of dynamic client link population in on pages with the `projects_overview`
+# layout.
 demo-url: "" # The website link users can visit to interact with a demo of this project (e.g., "https://demo-site.com").
 ```
 

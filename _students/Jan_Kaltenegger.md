@@ -10,7 +10,7 @@ graduation_year: 2026 # Your expected year of graduation, written as an integer 
 cohort: "" # Your group's name (e.g., "ABBA")
 skills: [ "Java", "JavaScript", "Python", "C" ] # A short list of strings of your most notable skills (e.g., [ "Java", "JavaScript" ])
 highlights: [ "4x President's List" ] # A short list of strings of your most notable academic/personal achievements (e.g., [ "President's List", "Dean's List" ])
-project_key: "ggra-resources" # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
+project_key: [ "ggra-resources", "ngf-staff-dashboard" ] # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
 location: "Atlanta, GA" # Your general geographic location (e.g., "Lawrenceville, GA")
 
 #####################

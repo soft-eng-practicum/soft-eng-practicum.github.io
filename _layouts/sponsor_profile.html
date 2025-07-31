@@ -66,7 +66,23 @@ layout: main_page
                             </span>
                             <!--text-->
                             <span style = "font-size: 18px;">
-                                <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ page.sponsorships }}</span>
+                                {% assign all_projects = "" | split: "," %}
+                                {% for p in site.projects %}
+                                    {% for k in p.sponsor_key %}
+                                        {% if k == page.sponsor_key %}
+                                            {% assign all_projects = all_projects
+                                                | push: p %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                                {% if page.sponsor_key == "cengiz-gunay"
+                                        or page.sponsor_key == "anca-doloc-mihu"
+                                        or page.sponsor_key == "tirza-leader" %}
+                                    {% assign t = 89 | plus: all_projects.size %}
+                                    <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ t }}</span>
+                                {% else %}
+                                    <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ all_projects.size }}</span>
+                                {% endif %}
                                 Partnerships
                             </span>
                         </div>
@@ -88,7 +104,7 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for skill in page.skills %}
-                            <a href="#" class="btn btn-tag btn-sm" style = "text-decoration: none;">{{skill}}</a>
+                            <a href="#" class="btn btn-tag btn-sm" style = "text-decoration: none; font-size: 14px;">{{skill}}</a>
                         {% endfor %}
                     </div>
                 </div>
@@ -101,7 +117,7 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for p in sponsored_projects %}
-                        <a href="{{ p.url }}" class="btn btn-tag btn-sm" style = "text-decoration: none;">{{ p.title }}</a>
+                        <a href="{{ p.url }}" class="btn btn-tag btn-sm" style = "text-decoration: none; font-size: 14px;">{{ p.title }}</a>
                         {% endfor %}
                     </div>
                 </div>
