@@ -384,7 +384,11 @@ layout: default
                         <div class="sponsor-card">
                             <h3 style = "text-align: center;">{{ e.title }}</h3>
                             <br>
-                            <img src = "/assets/img/partners/{{ e.logo }}">
+                            {% if e.logo.size > 4 %}
+                                <img src = "/assets/img/partners/{{ e.logo }}">
+                            {% else %}
+                                <img src = "/assets/img/partners/GGC.jpg">
+                            {% endif %}
                             <p>{{ e.description }}</p>
                             <div class="sponsor-card_layers">
                                 <div class="sponsor-card_layer"></div>
