@@ -61,8 +61,10 @@ layout: default
 
         {% if page.members %}
             <p>Developed by <em>{{ page.members }}</em><br>
+        {% comment %}
         {% elsif page.cohort.size > 0 %}
             <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}</a></em><br>
+        {% endcomment %}
         {% else %}
             {% comment %}
                 Only print "Developed by" if there is at least 1 student
@@ -77,10 +79,15 @@ layout: default
                 {% endfor %}
             {% endfor %}
             {% if interns.size == 1 %}
-            <p>Developed by <em><a href = "{{ interns[0].url }}">{{ interns[0].title }}</a></em></p>
+                {% if page.cohort.size > 0 %}
+                    <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}:</a>&nbsp;&nbsp;<a href = "{{ interns[0].url }}">{{ interns[0].title }}</a></em></p>
+                {% else %}
+                    <p>Developed by <em><a href = "{{ interns[0].url }}">{{ interns[0].title }}</a></em></p>
+                {% endif %}
             {% elsif interns.size > 1 %}
                 {% assign max = interns.size | minus: 1 %}
                 {% assign count = 0 %}
+                {% unless page.cohort.size > 0 %}
                 <p>Developed by&nbsp;
                 {% for i in interns %}
                     {% if count < max %}
@@ -99,6 +106,26 @@ layout: default
                     {% endif %}
                 {% endfor %}
                 </p>
+                {% else %}
+                    <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}:</a>&nbsp;</em>
+                    {% for i in interns %}
+                        {% if count < max %}
+                            <em>
+                                <a href = "{{ i.url }}">
+                                    {{ i.title }}
+                                </a>,&nbsp;
+                            </em>
+                            {% assign count = count | plus: 1 %}
+                        {% else %}
+                            <em>
+                                <a href = "{{ i.url }}">
+                                    {{ i.title }}
+                                </a>
+                            </em>
+                        {% endif %}
+                    {% endfor %}
+                    </p>
+                {% endunless %}
             {% endif %}
         {% endif %}
 
@@ -300,7 +327,6 @@ layout: default
                         | where: "project_key", page.project_key %}
                     {% if related_students.size > 0 %}
 
-
                         {% for s in related_students %}
                         <div class="col-sm-6 col-lg-4 col-xl-3">
                             <a href = "{{s.url}}" class = "text-decoration-none d-block">
@@ -364,48 +390,49 @@ layout: default
                     <div class="header-section">
                         <h3 class="small-title">And a special thanks to...</h3>
                         {% if partners.size > 1 %}
-                        <h2 class="title">Our Partners!</h2>
+                            <h2 class="title">Our Partners!</h2>
                         {% else %}
-                        <h2 class="title">Our Partner!</h2>
+                            <h2 class="title">Our Partner!</h2>
                         {% endif %}
                     </div>
                 </div>
             </div>
-        </section>
         <!-- End Header Section -->
 
         {% if partners.size > 0 %}
             <div class = "container">
-                <div class = "row">
+                <div class = "row justify-content-center">
                 {% for e in partners %}
-                <div class = "col sponsor-card-wrapper mb-5">
-                    <a href = "{{ e.url }}" target = "_blank">
-                    <div class="sponsor-card-container">
-                        <div class="sponsor-card">
-                            <h3 style = "text-align: center;">{{ e.title }}</h3>
-                            <br>
-                            {% if e.logo.size > 4 %}
-                                <img src = "/assets/img/partners/{{ e.logo }}">
-                            {% else %}
-                                <img src = "/assets/img/partners/GGC.jpg">
-                            {% endif %}
-                            <p>{{ e.description }}</p>
-                            <div class="sponsor-card_layers">
-                                <div class="sponsor-card_layer"></div>
-                                <div class="sponsor-card_layer"></div>
-                                <div class="sponsor-card_layer"></div>
-                                <div class="sponsor-card_layer"></div>
-                                <div class="sponsor-card_layer"></div>
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        <a href = "{{e.url}}" class = "text-decoration-none d-block">
+                            <div>
+                                <div class="single-person">
+                                    <div class="person-image">
+                                        {% if e.logo.size > 4 %}
+                                            <img src="/assets/img/partners/{{ e.logo }}"
+                                                alt="{{ e.title }}">
+                                        {% else %}
+                                            <img src="/assets/img/partners/GGC.jpg"
+                                                alt="{{ e.title }}">
+                                        {% endif %}
+                                        <span class="icon">
+                                            <i class="fa fa-code"></i>
+                                        </span>
+                                    </div>
+                                    <div class="person-info">
+                                        <h3 class="full-name">{{ e.title }}</h3>
+                                        <span class="speciality">{{ e.sponsor_type }}</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    </a>
-                </div>
-                <br>
+                    <br>
                 {% endfor %}
                 </div>
             </div>
         {% endif %}
+        </section>
     {% endif %}
 
     {% if page.course_key == nil and page.semester_key == nil %}

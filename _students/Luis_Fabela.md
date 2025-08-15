@@ -1,9 +1,9 @@
 ---
 layout: student_profile_new
-title: "Luis E Fabela Nieto" # Your name (e.g., "First Last")
+title: "Luis E. Fabela Nieto" # Your name (e.g., "First Last")
 logo: "luisFabela.jpg" # Full filename of your profile picture (e.g., "firstLastProfile.jpg")
 header: "" # Full filename of your profile banner (e.g., "firstLastBanner.jpg")
-project_role: "Programmer, UI/UX Designer" # Your role in the project (e.g., "UX Designer")
+project_role: "Fullstack Developer" # Your role in the project (e.g., "UX Designer")
 contact_email: "siul_fabe@hotmail.com" # Your preferred contact email address (e.g., "flast@ggc.edu")
 major: "I.T., Conc. Software Development" # Your major (e.g., "I.T., Conc. Software Development")
 graduation_year: "2025" # Your expected year of graduation, written as an integer (e.g., 2025)

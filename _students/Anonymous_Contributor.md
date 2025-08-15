@@ -10,7 +10,7 @@ graduation_year: 2099
 cohort: ""
 skills: [ "Java", "Python", "JavaScript" ]
 highlights: [ ]
-project_key: [ ]
+project_key: [ "ggra-resources" ]
 location: "Lawrenceville, GA"
 
 website: "https://ggc.edu"

@@ -14,6 +14,7 @@ logo-thumb: thumb-flyer-GGCMaps.png
 repo-url: https://github.com/
 photos:
 - flyer-GGCMaps.png
+- thumb-flyer-GGCMaps.png
 
 project_key: "satisfeed-dashboard"
 sponsor_key: [ "satisfeed", "cengiz-gunay", "tirza-leader" ]

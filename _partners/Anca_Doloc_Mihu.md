@@ -3,7 +3,7 @@ layout: sponsor_profile
 title: "Dr. Anca Doloc-Mihu"
 sponsor_key: "anca-doloc-mihu"
 description: "Co-Principal Investigator"
-logo: adolocmihu.jpg
+logo: "adolocmihu.jpg"
 header: GGC.jpg
 website: https://www.ggc.edu/directory/anca-doloc-mihu
 industry: "Associate Professor, I.T."

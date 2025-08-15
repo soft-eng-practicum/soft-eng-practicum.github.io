@@ -3,7 +3,7 @@ layout: sponsor_profile
 title: "Satisfeed"
 sponsor_key: "satisfeed"
 description: "Satisfeed was born out of my wish to serve the community that is my home. Fueled by the joy of receiving a meal and the human connections we build along the way, I work to nourish Gwinnett."
-logo: "satisfeedLogo.png"
+logo: "satisfeedLogo.webp"
 header: "satisfeedBanner.jpg"
 website: "https://www.satisfeed.org/"
 industry: "Community Outreach"

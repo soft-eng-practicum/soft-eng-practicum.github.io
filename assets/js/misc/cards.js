@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-    //const cards = Array.from(document.querySelectorAll(".outer-div"));
-    const perPage = 4;
+
+    const perPage = 6;
     const pagination = document.getElementById("pagination");
     const searchInput = document.querySelector("input[name='search']");
     const clearFilters = document.getElementById("clearFiltersButton");
 
     let currentPage = 1;
-    let allCards = Array.from(document.querySelectorAll(".outer-div"));
+    let allCards = Array.from(document.querySelectorAll(".searchable"));
     let totalPages = Math.ceil(allCards.length / perPage);
     let filteredCards = allCards.slice();
 
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentSort = "";
 
     function showPage(page) {
+
         currentPage = page;
         const start = (page - 1) * perPage;
         const end = start + perPage;
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         renderPagination();
+
     }
 
     function renderPagination() {
@@ -68,26 +70,33 @@ document.addEventListener("DOMContentLoaded", function() {
             e.preventDefault();
             if (currentPage < totalPages) showPage(currentPage + 1);
         });
+
     }
 
     function applyFiltersAndSort() {
+
         filteredCards = allCards.filter(card => {
+
             const name = card.dataset.name.toLowerCase();
             const type = (card.dataset.type || "").toLowerCase();
             const role = (card.dataset.role || "").toLowerCase();
             const major = (card.dataset.major || "").toLowerCase();
             const classYear = (card.dataset.class || "").toLowerCase();
+            const course = (card.dataset.course || "").toLowerCase();
 
             const matchesSearch =
                 name.includes(currentSearch) ||
+                type.includes(currentSearch) ||
                 role.includes(currentSearch) ||
                 major.includes(currentSearch) ||
-                classYear.includes(currentSearch);
+                classYear.includes(currentSearch) ||
+                course.includes(currentSearch);
 
             const matchesFilter =
-                currentFilter === "" || type.includes(currentFilter);
+                currentFilter === "" || type.includes(currentFilter) || course.includes(currentFilter);
 
             return matchesSearch && matchesFilter;
+
         });
 
         if (currentSort.length > 0) {
@@ -118,10 +127,12 @@ document.addEventListener("DOMContentLoaded", function() {
             filteredCards.forEach(card => {
                 container.appendChild(card);
             });
+
         }
 
         totalPages = Math.ceil(filteredCards.length / perPage);
         showPage(1);
+
     }
 
     showPage(1);
@@ -162,7 +173,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
     });
-
-
 
 });

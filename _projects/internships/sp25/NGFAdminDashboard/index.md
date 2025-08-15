@@ -6,7 +6,7 @@ tech: [ "JavaScript", "HTML" ]
 screencast-youtube: hVx8VQ5Y79M
 prof: "gunay"
 client: "Next Generation Focus"
-client-url: "https://nextgenerationfocus.org/"
+client-url: ""
 demo-url: "https://github.com"
 description: "Digitizing record keeping."
 logo-full: flyer-GGCMaps.png
@@ -14,6 +14,7 @@ logo-thumb: thumb-flyer-GGCMaps.png
 repo-url: "https://github.com/"
 photos:
 - flyer-GGCMaps.png
+- thumb-flyer-GGCMaps.png
 
 project_key: "ngf-admin-dashboard"
 sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader" ]

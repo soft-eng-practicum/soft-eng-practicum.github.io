@@ -46,13 +46,13 @@ layout: default
             {% endfor %}
             {% if all_projects.size > 0 %}
                 <div class = "container">
-                    <div class = "row">
-                        {% for p in all_projects %}
-                            <div class = "col d-flex justify-content-center">
-                                <a href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
+                    {% for p in all_projects %}
+                        <div class = "d-flex justify-content-center">
+                            <div>
+                                <a class = "d-inline" href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
                             </div>
-                        {% endfor %}
-                    </div>
+                        </div>
+                    {% endfor %}
                 </div>
             {% endif %}
         {% elsif page.collection and page.course_key == nil
@@ -106,8 +106,7 @@ layout: default
                     and project.url != page.url %}
                     <h2 class="project-title">
                         <a id="{{ project.title | cgi_escape }}"
-                            href="{{project.demo-url}}"
-                            target="_blank">{{ project.title }} - {{
+                            href="{{ project.url }}">{{ project.title }} - {{
                                 project.phrase }}
                         </a>
                     </h2>
@@ -180,24 +179,45 @@ layout: default
                         {% if students.size > 0 %}
                             {% assign max = students.size | minus: 1 %}
                             {% assign count = 0 %}
-                            <p>Developed by
-                                {% for s in students %}
-                                    {% if count < max %}
-                                        <em>
-                                            <a href = "{{ s.url }}">
-                                                {{ s.title }}
-                                            </a>,
-                                        </em>
-                                        {% assign count = count | plus: 1 %}
-                                    {% else %}
-                                        <em>
-                                            <a href = "{{ s.url }}">
-                                                {{ s.title }}
-                                            </a>
-                                        </em>
-                                    {% endif %}
-                                {% endfor %}
-                            </p>
+                            {% unless project.cohort.size > 0 %}
+                                <p>Developed by
+                                    {% for s in students %}
+                                        {% if count < max %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}
+                                                </a>,
+                                            </em>
+                                            {% assign count = count | plus: 1 %}
+                                        {% else %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}
+                                                </a>
+                                            </em>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+                            {% else %}
+                                <p>Developed by <em><a href = "{{ project.url }}">{{ project.cohort }}:</a>&nbsp;</em>
+                                    {% for s in students %}
+                                        {% if count < max %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}
+                                                </a>,
+                                            </em>
+                                            {% assign count = count | plus: 1 %}
+                                        {% else %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}
+                                                </a>
+                                            </em>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+                            {% endunless %}
                         {% endif %}
                     {% endif %}
 
@@ -274,7 +294,7 @@ layout: default
                             {% endfor %}
                             {% if professor.size > 0 %}
                                 <p>In the course of professor <em>
-                                <a href="{{ professor[0].url }}" target="_blank">{{
+                                <a href="{{ professor[0].url }}">{{
                                   professor[0].title }}</a></em></p>
                             {% endif %}
                         {% endunless %}

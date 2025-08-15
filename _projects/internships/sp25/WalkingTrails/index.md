@@ -14,6 +14,7 @@ logo-thumb: thumb-flyer-GGCMaps.png
 repo-url: "https://github.com/"
 photos:
 - flyer-GGCMaps.png
+- thumb-flyer-GGCMaps.png
 
 project_key: "walking-trails"
 sponsor_key: [ "ggc", "cengiz-gunay", "tirza-leader" ]

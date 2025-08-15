@@ -10,7 +10,7 @@ graduation_year: 2025
 cohort: ""
 skills: [ "Java", "JavaScript", "Python", "React", "Node.js", "Angular", "Django", "MongoDB", "SQL", "Selenium WebDriver", "Bootstrap" ]
 highlights: [ "Best Overall Project – USITCC", "Best Solo Project – HackGGC II", "Best Beginner Project – HackGGC '24"]
-project_key: "walking-trails"
+project_key: [ "walking-trails" ]
 location: "Lawrenceville, GA"
 
 #####################

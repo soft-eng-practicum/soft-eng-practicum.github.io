@@ -14,6 +14,7 @@ logo-thumb: thumb-flyer-GGCMaps.png
 repo-url: "https://github.com/"
 photos:
 - flyer-GGCMaps.png
+- thumb-flyer-GGCMaps.png
 
 project_key: "ghs-portal"
 sponsor_key: [ "ghs", "cengiz-gunay", "tirza-leader" ]

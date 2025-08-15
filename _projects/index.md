@@ -7,34 +7,36 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
 
 <br>
 
-<div class = "d-flex justify-content-between mx-1">
-    <div class="dropdown grow-x">
-        <a class="btn btn-primary bg-gradient border-0 dd-arrow px-3" href="#"
-            role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-            aria-expanded="false"
-            style = "border-radius: 8px; font-size: 16px;">
-            🚀 Explore Projects
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            {% assign sub_collections = "" | split: "," %}
-            {% for p in site.projects %}
-                {% assign sub_collections = sub_collections
-                    | push: p.course_key %}
-            {% endfor %}
-            {% assign sub_collections = sub_collections | uniq %}
-            {% for key in sub_collections %}
-                <li><a class="dropdown-item" href="{{ key }}/">{{ key | upcase }}</a></li>
-            {% endfor %}
-        </ul>
+<div class = "d-flex flex-wrap justify-content-center">
+    <div class = "d-flex justify-content-center m-2 m-lg-5">
+        <div class="dropdown grow-x" style = "z-index: 1000;">
+            <a class="btn btn-primary bg-gradient border-0 dd-arrow px-3" href="#"
+                role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style = "border-radius: 8px; font-size: 16px;">
+                🚀 Explore Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                {% assign sub_collections = "" | split: "," %}
+                {% for p in site.projects %}
+                    {% assign sub_collections = sub_collections
+                        | push: p.course_key %}
+                {% endfor %}
+                {% assign sub_collections = sub_collections | uniq %}
+                {% for key in sub_collections %}
+                    <li><a class="dropdown-item" href="{{ key }}/">{{ key | upcase }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
-    <div class="grow-x">
-        <a class="btn btn-primary bg-gradient border-0 px-3" href="/students/browse"
+    <div class="d-flex justify-content-center m-2 m-lg-5">
+        <a class="grow-x btn btn-primary bg-gradient border-0 px-3 d-inline" href="/students/browse"
             role="button" style = "border-radius: 8px; font-size: 16px;">
             👩‍💻 Meet the Students
         </a>
     </div>
-    <div class="grow-x">
-        <a class="btn btn-primary bg-gradient border-0 px-3" href="/partners/browse"
+    <div class="d-flex justify-content-center m-2 m-lg-5">
+        <a class="grow-x btn btn-primary bg-gradient border-0 px-3 d-inline" href="/partners/browse"
             role="button" style = "border-radius: 8px; font-size: 16px;">
             🤝 Meet Our Partners
         </a>
@@ -127,14 +129,14 @@ We’re proud to showcase our partners—past and present—who believe in nurtu
 
 Whether you’re a prospective partner with a project idea or a student eager to join the next cohort, we’d love to hear from you. Let’s build something remarkable together.
 
-<div class = "d-flex justify-content-center my-5">
-    <div class="grow-x mx-auto">
+<div class = "d-flex flex-wrap justify-content-center my-5">
+    <div class="grow-x m-2 m-lg-5">
         <a class="btn btn-primary bg-gradient border-0 px-3" href="mailto:cgunay@ggc.edu?subject=Partnership Inquiry"
             role="button" style = "border-radius: 8px; font-size: 16px;">
             🏢 Become a Partner
         </a>
     </div>
-    <div class="grow-x mx-auto">
+    <div class="grow-x m-2 m-lg-5">
         <a class="btn btn-primary bg-gradient border-0 px-3" href="mailto:cgunay@ggc.edu?subject=Internship Opportunities"
             role="button" style = "border-radius: 8px; font-size: 16px;">
             📚 Become an Intern

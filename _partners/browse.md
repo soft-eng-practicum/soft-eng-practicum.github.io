@@ -4,51 +4,58 @@ title: "Browse All Institutional Participants"
 ---
 {% include search_bar.html %}
 
-<section class = "browse-body mt-5" id = "card-list">
-    {% assign cats = "" | split: "," %}
+<section class = "browse-body mt-5 section-team align-items-start" id = "card-list">
     {% for org in site.partners %}
         {% unless org.path contains "browse.md"
             or org.path contains "index.md"
             or org.path contains "template.md" %}
-            <div class="outer-div"
-                data-name="{{org.title}}"
-                data-type="{{org.sponsor_type}}"
-                data-industry="{{org.industry}}"
+            {% assign courses = "" | split: "," %}
+            {% for p in site.projects %}
+                {% for k in p.sponsor_key %}
+                    {% if k == org.sponsor_key %}
+                        {% assign courses = courses | push: p.course_key %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% assign courses = courses | uniq %}
+            {% assign data = "" %}
+            {% for c in courses %}
+                {% assign data = data | append: c | append: "-" %}
+                {% if c == "sd2" %}
+                    {% assign data = data | append: "soft-dev-2-software-development-2-software development 2-" %}
+                {% endif %}
+            {% endfor %}
+            {% assign size = data.size | minus: 1 %}
+            {% assign data = data | slice: 0, size %}
+            <div class="col-sm-6 col-lg-4 col-xl-3 searchable"
+                data-name="{{ org.title }}"
+                data-type = "{{ org.sponsor_type }}"
+                data-industry="{{ org.industry }}"
+                data-course="{{ data }}"
             >
-                <div class="inner-div">
-                    <div class="front">
-                        <div class="front__bkg-photo"></div>
-                        {% if org.logo.size > 4 %}
-                        <div class="front__face-photo" style="background-image: url('/assets/img/partners/{{ org.logo }}'); background-repeat: no-repeat;"></div>
-                        {% else %}
-                        <div class="front__face-photo" style="background-image: url('/assets/img/partners/GGC.jpg'); background-repeat: no-repeat;"></div>
-                        {% endif %}
-                        <div class="front__text">
-                            <h3 class="front__text-header">{{ org.title }}</h3>
-                            <br>
-                            <p class="front__text-para"><i class="fas fa-star" style = "color: #efbf04; margin-right: 4px;"></i>{{ org.sponsor_type }}</p>
-                            <span class="front__text-hover">Hover to Learn More!</span>
+                <a href = "{{ org.url }}" class = "text-decoration-none d-block"
+                    style = "height: 100%;">
+                    <div>
+                        <div class="single-person">
+                            <div class="person-image">
+                                {% if org.logo.size > 4 %}
+                                    <img src="/assets/img/partners/{{ org.logo }}"
+                                        alt="{{ org.title }}">
+                                {% else %}
+                                    <img src="/assets/img/partners/GGC.jpg"
+                                        alt="{{ org.title }}">
+                                {% endif %}
+                                <span class="icon">
+                                    <i class="fa fa-code"></i>
+                                </span>
+                            </div>
+                            <div class="person-info">
+                                <h3 class="full-name">{{ org.title }}</h3>
+                                <span class="speciality">{{ org.sponsor_type }}</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="back">
-                        <p class = "text-white fw-bold h5 badge bg-gradient">{{ org.title }}</p>
-                        <br>
-                        <div class="social-media-wrapper">
-                            <a href="{{ org.url }}" class="social-icon"><i class="bc-fab fas fa-solid fa-address-card" aria-hidden="true"></i></a>
-                            {% if org.git.size > 0 %}
-                            <a href="{{ org.git }}" class="social-icon"><i class="bc-fab fab fa-github-square" aria-hidden="true"></i></a>
-                            {% endif %}
-                            {% if org.linkedin.size > 0 %}
-                            <a href="{{ org.linkedin }}" class="social-icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-                            {% endif %}
-                            {% if org.x.size > 0 %}
-                            <a href="{{ org.x }}" class="social-icon"><i class="bc-fab fab fa-twitter-square" aria-hidden="true"></i></a>
-                            {% elsif org.instagram.size > 0 %}
-                            <a href="{{ org.instagram }}" class="social-icon"><i class="bc-fab fab fa-instagram" aria-hidden="true"></i></a>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
+                </a>
             </div>
         {% endunless %}
     {% endfor %}

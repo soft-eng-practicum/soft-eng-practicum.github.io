@@ -1,9 +1,9 @@
 ---
 layout: sponsor_profile
 title: "Dr. Cengiz Gunay"
-sponsor_key: cengiz-gunay
+sponsor_key: "cengiz-gunay"
 description: "Principal Investigator"
-logo: cgunay.jpeg
+logo: "cgunay.jpeg"
 header: GGC.jpg
 website: https://www.ggc.edu/directory/cengiz-gunay
 industry: "Associate Professor, I.T."
