@@ -13,6 +13,8 @@ photos:
 - sdace4.webp
 - sdace6.webp
 - sdace8.webp
+picture_dir: "sda-sp25"
+li_post: "https://www.linkedin.com/posts/cengiz-gunay-5010a89_softdevggc-nsf-highered-activity-7264309348296802304-8k4H"
 ---
 On April 3rd, 2025, [GGC](https://ggc.edu) hosted another inspiring installment
 of our ongoing Software Development Alumni Career Panel, bringing together

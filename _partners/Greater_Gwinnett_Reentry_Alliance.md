@@ -1,7 +1,7 @@
 ---
 layout: sponsor_profile
 title: "Greater Gwinnett Reentry Alliance"
-sponsor_key: ggra
+sponsor_key: "ggra"
 description: "We are an alliance of service providers, government agencies, and impacted citizens."
 logo: "ggraLogo.webp"
 header: "ggra.webp"

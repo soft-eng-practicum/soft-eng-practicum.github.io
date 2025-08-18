@@ -8,7 +8,7 @@ semester_key: sp25
 sort_val: "20251"
 ---
 These projects were developed by [Georgia Gwinnett College][ggc]
-students during the ITEC 3870 Software Development 2 course section
+students during the ITEC internship course
 taught by [Dr. Cengiz Gunay][gunay-ggc] in the Spring 2025
 semester. Each project was commissioned and supervised by a GGC
 professor or an external client who provided the idea, requirements,

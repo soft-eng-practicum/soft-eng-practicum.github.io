@@ -11,19 +11,24 @@ layout: default
             <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
-        {% if page.photos %}
-            <div class="project_pictures pp-mobile-pp">
+        {% if page.photos and page.picture_dir %}
+            <div class="project_pictures pp-mobile-pp mb-5">
                 <div id="slideshow">
                     {% for photo in page.photos %}
                         <div class="pictures">
-                            <a id="lightgallery" href="/assets/img/posts/{{ photo }}">
-                                <img src="/assets/img/posts/{{ photo }}">
+                            <a id="lightgallery" href="/assets/img/posts/{{ page.picture_dir }}/{{ photo }}">
+                                <img src="/assets/img/posts/{{ page.picture_dir }}/{{ photo }}">
                             </a>
                         </div>
                     {% endfor %}
                 </div>
             </div>
-            <br>
+        {% endif %}
+
+        {% if page.li_post %}
+            <div class = "mx-auto text-center mb-4">
+                <a href = "{{ page.li_post }}" target = "_blank"><span class = "h5 badge rounded-pill bg-primary pl-3">Read on LinkedIn<i class = "fa-brands fa-linkedin ml-2 pr-3"></i></span></a>
+            </div>
         {% endif %}
 
         <article class="post-content">

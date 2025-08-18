@@ -73,17 +73,16 @@
 }
 
 .section-team .single-person .person-image img {
-    width: 163px;
-    height: 163px;
     border-radius: 50%;
     object-fit: cover;
+    aspect-ratio: 1 / 1;
 }
 
 .section-team .single-person .person-image .icon {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
     display: inline-block;
     width: 60px;
     height: 60px;

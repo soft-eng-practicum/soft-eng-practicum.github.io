@@ -9,7 +9,7 @@ layout: main_page
     {% if page.header.size > 4 %}
     <div class="rounded-top-3" style="background-image: url(/assets/img/students/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
     {% else %}
-    <div class="rounded-top-3" style="background-image: url(/assets/img/students/defaultProfile.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+    <div class="rounded-top-3" style="background-image: url(/assets/img/students/defaultBanner.webp); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
     {% endif %}
     <div class="card-body p-md-5">
         <div class="d-flex flex-column gap-5">
@@ -25,12 +25,12 @@ layout: main_page
                 <div class="d-flex flex-column gap-3">
                     <div class="d-flex flex-md-row flex-column justify-content-between gap-2">
                         <!--heading-->
-                        <div>
+                        <div class = "mb-2 mb-sm-0">
                             <h1 class="mb-0" style = "font-size: 32px; color: #fff;">{{ page.title }}</h1>
                             <!--content-->
                             <div class="d-flex flex-lg-row flex-column gap-2" style = "font-family: 'Inter', sans-serif; margin-top: 16px;">
                                 <small class="fw-medium text-gray-800" style = "color: #fff !important; font-size: 16px;">{{ page.major }}</small>
-                                <small class="fw-bold profile-highlights" style = "background-color: black; border-radius: 16px; padding: 0 10px; font-size: 16px;">{{ page.project_role }}</small>
+                                <small class="fw-bold profile-highlights me-auto" style = "background-color: black; border-radius: 16px; padding: 0 10px; font-size: 16px;">{{ page.project_role }}</small>
                             </div>
                         </div>
                         <!--button-->
@@ -52,23 +52,39 @@ layout: main_page
                                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
                                 </svg>
                             </span>
-                            <span style = "font-size: 18px;">
+                            <span class = "text-light" style = "font-size: 18px;">
                                 <!--text-->
-                                <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">Something</span>
-                                important
+                                {% assign total_collaborators = 0 %}
+                                {% for k in page.project_key %}
+                                    {% assign tmp = site.projects | where: "project_key", k %}
+                                    {% for s in tmp[0].sponsor_key %}
+                                        {% assign total_collaborators = total_collaborators | plus: 1 %}
+                                    {% endfor %}
+                                {% endfor %}
+                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ total_collaborators }}</span>
+                                Collaborators
                             </span>
                         </div>
                         <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
                             <!--icon-->
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-people-fill text-primary align-baseline" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-people-fill align-baseline" viewBox="0 0 16 16" style = "color: #0000ff;">
                                     <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"></path>
                                 </svg>
                             </span>
                             <!--text-->
-                            <span style = "font-size: 18px;">
-                                <span class="text-gray-800 fw-bold" style = "color: #fff !important; font-size: 20px;">{{ page.sponsorships }}</span>
-                                Sponsorships
+                            <span class = "text-light" style = "font-size: 18px;">
+                                {% assign all_projects = "" | split: "," %}
+                                {% for p in site.projects %}
+                                    {% for k in page.project_key %}
+                                        {% if k == p.project_key %}
+                                            {% assign all_projects = all_projects
+                                                | push: p %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ all_projects.size }}</span>
+                                Projects
                             </span>
                         </div>
                         <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
@@ -79,7 +95,7 @@ layout: main_page
                                 </svg>
                             </span>
                             <!--text-->
-                            <span style = "font-size: 18px;">{{ page.location}}</span>
+                            <span class = "text-light" style = "font-size: 18px;">{{ page.location}}</span>
                         </div>
                     </div>
                 </div>
@@ -89,12 +105,23 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for skill in page.skills %}
-                            <a href="#" class="btn btn-tag btn-sm" style = "text-decoration: none; font-size: 14px;">{{skill}}</a>
+                            <a href="#" class="btn btn-tag btn-sm text-wrap" style = "text-decoration: none; font-size: 14px; font-weight: 450;">{{skill}}</a>
                         {% endfor %}
                     </div>
                 </div>
+                {% assign sponsored_projects = "" | split: "," %}
+                {% for key in page.project_key %}
+                    {% assign tmp = site.projects
+                        | where: "project_key", key %}
+                    {% for p in tmp %}
+                        {% assign sponsored_projects = sponsored_projects
+                            | push: p %}
+                    {% endfor %}
+                {% endfor %}
+                {% comment %}
                 {% assign sponsored_projects = site.projects
                     | where: "project_key", page.project_key %}
+                {% endcomment %}
                 {% if sponsored_projects.size > 0 %}
                 <div class="d-flex flex-column gap-2">
                     <!--heading-->
@@ -102,20 +129,39 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for p in sponsored_projects %}
-                        <a href="{{ p.url }}" class="btn btn-tag btn-sm" style = "text-decoration: none; font-size: 14px;">{{ p.title }}</a>
+                        <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style = "text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ p.title }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <!--heading-->
+                    <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Collaborators</h3>
+
+                    <div class="gap-2 d-flex flex-wrap">
+                        {% assign project_partners = "" | split: "," %}
+                        {% for p in sponsored_projects %}
+                            {% for k in p.sponsor_key %}
+                                    {% assign tmp = site.partners | where: "sponsor_key", k %}
+                                    {% assign project_partners = project_partners
+                                        | push: tmp[0] %}
+                            {% endfor %}
+                        {% endfor %}
+                        {% assign project_partners = project_partners | uniq %}
+                        {% for p in project_partners %}
+                            <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style = "text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ p.title }}</a>
                         {% endfor %}
                     </div>
                 </div>
                 {% endif %}
                 <div>
                     {% for highlight in page.highlights %}
-                    <span class="badge rounded-pill text-success-emphasis bg-success-subtle border border-success align-items-center profile-highlights" style = "font-size: 14px;">
+                    <span class="badge rounded-pill text-success-emphasis bg-success-subtle border border-success align-items-center profile-highlights ps-2 pe-3 text-wrap d-inline-block" style = "font-size: 15px;">
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-reply-fill me-1 align-text-top" viewBox="0 0 16 16">
                                 <path d="M5.921 11.9 1.353 8.62a.72.72 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"></path>
                             </svg>
                         </span>
-                        {{ highlight }}&nbsp;
+                        {{ highlight }}
                     </span>
                     {% endfor %}
                 </div>

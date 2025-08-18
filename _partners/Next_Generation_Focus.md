@@ -1,11 +1,11 @@
 ---
 layout: sponsor_profile
 title: "Next Generation Focus"
-sponsor_key: ngf
+sponsor_key: "ngf"
 description: "Because every child deserves a chance."
 logo: "ngfLogo.webp"
 header: "ngfBanner.webp"
-website: "https://www.gwinnettreentry.org/"
+website: "https://nextgenerationfocus.org/"
 industry: "Community Outreach"
 sponsor_type: "Client"
 sponsorships: "1"
