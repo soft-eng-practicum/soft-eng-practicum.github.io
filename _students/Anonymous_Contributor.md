@@ -11,7 +11,8 @@ cohort: ""
 skills: [ "Java", "Python", "JavaScript" ]
 highlights: [ ]
 project_key: [ "oh-counter-my-counter", "dsa-website", "pocket-pals",
- "stellar-prey" ]
+ "stellar-prey", "ga-non-profits-app", "ggra-resource-map",
+ "girzzly-hacks-app" ]
 location: "Lawrenceville, GA"
 
 website: "https://ggc.edu"
