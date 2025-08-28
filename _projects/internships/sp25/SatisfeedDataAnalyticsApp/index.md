@@ -17,13 +17,17 @@ photos:
 - thumb-flyer-GGCMaps.png
 
 project_key: "satisfeed-dashboard"
-sponsor_key: [ "satisfeed", "cengiz-gunay", "tirza-leader" ]
+sponsor_key: [ "satisfeed", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
 ---
 
-Detailed information about the {{ page.title }} development process.
+Our intern completed an initial version of the web
+portal that can parse Satisfeed’s existing data stores and produce
+an interactive analytics dashboard. The portal is already
+deployed, and we aim to deliver the product for testing in Fall 2025,
+so that we can continue improving it in later internship periods.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

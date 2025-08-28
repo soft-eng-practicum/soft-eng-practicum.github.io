@@ -4,7 +4,7 @@ title: "Code Interview Resources"
 date: 2019-08-18 13:43:17
 author: Cengiz Gunay
 categories:
-- Resources
+  - Resources
 ---
 
 Coding interviews are widespread in the IT recruitment process and can

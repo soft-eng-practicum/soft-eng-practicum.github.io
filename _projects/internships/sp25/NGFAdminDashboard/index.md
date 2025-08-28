@@ -17,13 +17,19 @@ photos:
 - thumb-flyer-GGCMaps.png
 
 project_key: "ngf-admin-dashboard"
-sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader" ]
+sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
 ---
 
-Detailed information about the {{ page.title }} development process.
+Our intern added the staff section, improved many shortcomings
+in the existing family section, and added an administrative control
+section that allows adding schooling programs and send notifications
+to families and staff.  
+We are closely working with NGF to have the product start
+a beta test period soon, while we continue fixing problems and
+adding new requested features.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

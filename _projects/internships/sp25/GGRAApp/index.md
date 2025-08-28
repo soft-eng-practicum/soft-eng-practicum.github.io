@@ -23,7 +23,8 @@ semester_key: sp25
 cohort: ""
 ---
 
-Detailed information about the {{ page.title }} development process.
+This product is now complete and has been delivered to the organization
+to start a testing phase so that we can correct any remaining issues.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

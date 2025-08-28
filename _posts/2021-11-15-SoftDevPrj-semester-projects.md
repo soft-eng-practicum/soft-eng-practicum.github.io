@@ -5,7 +5,7 @@ date: 2021-11-13
 last_modified_at: 2021-11-14
 author: Cengiz Gunay
 categories:
-- News
+  - News
 ---
 
 GGC ITEC 4860 Software Development Project course is our students'

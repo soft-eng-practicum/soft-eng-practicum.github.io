@@ -84,6 +84,14 @@ And here are the [Markdown help](https://daringfireball.net/projects/markdown/sy
 
 ---
 
+## Learn More 🧐
+
+- Adding new projects? [Click here!](./_projects/README.md)
+- Adding new partners? [Click here!](./_partners/README.md)
+- Adding new students? [Click here!](./_students/README.md)
+
+---
+
 ## Making Changes 🧪
 
 - ❗ Avoid editing shared layouts or includes unless you're sure it won't break other views.
@@ -121,5 +129,4 @@ If you're unsure about something, feel free to open a GitHub Issue or contact ou
 ### TODO 📋
 
 * Upload the Screencast videos to Youtube and link them from here.
-* Create light/dark themes with switching
-* Add AJAX-like searches for browsing students, projects, semesters, etc.
+* Create light/dark themes with automatic detection

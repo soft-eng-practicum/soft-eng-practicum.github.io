@@ -22,3 +22,7 @@ layout: default_menu
     {% endif %}
 
 {% endfor %}
+
+{% for p in site.posts %}
+    {{ p.title }}
+{% endfor %}

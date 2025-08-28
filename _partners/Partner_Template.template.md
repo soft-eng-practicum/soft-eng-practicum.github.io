@@ -8,7 +8,6 @@ header: "" # Fulle filename of your profile banner (e.g., "partnerBanner.jpg")
 website: "" # Your website (e.g., "https://ggc.edu")
 industry: "" # The industry/profession you work in (e.g., "Inpatient Care")
 sponsor_type: "" # Your role in this project (e.g., "Client", "Faculty Advisor", etc.)
-sponsorships: "" # The total amount of projects you have been a partner on (e.g., "3")
 location: "" # Your general georgraphic location (e.g., "Lawrenceville, GA")
 contact_name: "" # Your preferred name or name of contact (e.g., "Dr. Gunay")
 contact_email: "" # Your preferred contact email address (e.g., "cgunay@ggc.edu")
@@ -53,7 +52,7 @@ A brief overview of the you or your organization — your mission, founding stor
 
 A description of your core areas of work. This might include industries served, technologies used, products built, or communities supported.
 
-## Why We Partnered With the University
+## Why We Partnered With GGC
 
 An explanation of what drew you to collaborate — include shared values, talent development, innovation, diversity goals, or a desire to give back.
 

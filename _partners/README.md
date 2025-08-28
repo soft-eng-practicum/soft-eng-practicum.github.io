@@ -30,19 +30,18 @@ The following variables are **required** for each partner profile:
 ```yaml
 layout: sponsor_profile # No other value should be given.
 title: "" # The full name of the partner (individual or organization) written in plain English (e.g., "Charity Organization" or "Dr. Cengiz Gunay").
+sponsor_key: # The unique value that corresponds to this partner, written without any quotation marks, in `kebab-case` (e.g., partner-name).
+description: "" # A short, professional description of the organization. Used in project pages.
 logo: "" # The full filename of the profile picture to be used for the partner's profile.
 header: "" # The full filename of the header picture to be used for the partner's profile.
-description: "" # A short, professional description of the organization. Used in project pages.
 website: "" # The partner's website link (e.g., https://ggc.edu).
 industry: "" # The industry or role in which the partner operates (e.g., "Inpatient Care" or "Associate Professor, I.T.").
-sponsor_type: "" # The role the partner played in the project (e.g., "Sponsor", "Faculty Administrator", or "Expert Consultation").
-sponsorships: "" # The total number of projects this partner has participated in (e.g., "3").
+sponsor_type: "" # The role the partner played in the project (e.g., "Client", "Faculty Administrator", or "Expert Consultant").
 location: "" # The partner's general geographic location (e.g., "Lawrenceville, GA").
 contact_name: "" # The preferred name or name of the contact for this partner (e.g., "Dr. Gunay" or "Tom Brady").
 contact_email: "" # The preferred email for contacting the sponsor.
 skills: [] # A brief list of skills to be highlighted on the partner's profile, represented as an array of strings. Can be empty. (e.g., [ "Robotics", "Neural Nets" ])
 highlights: [] # A brief list of highlights to be shown on the partner's profile, represented as an array of strings. Can be empty. (e.g., [ "Voted Best Business, 2024", "Voted Best Customer Service, 2016" ])
-sponsor_key: # The unique value that corresponds to this partner, written without any quotation marks, in `kebab-case` (e.g., partner-name).
 ```
 
 The following variables are **optional** for each partner profile:
@@ -59,7 +58,7 @@ facebook: "" # The partner's Facebook profile link, if any (e.g., "https://faceb
 
 - All pictures relating to a partner's profile should be stored in `/assets/img/partners/`.
 - All filenames should match the value included in the front matter **exactly**.
-- Recommended size: `172px x 172px`, square aspect ratio
+- Recommended size: `500px x 500px`, square aspect ratio
 
 ---
 
@@ -94,7 +93,7 @@ Partner data will be used in:
 
 #### ⚠️ Important Notes: ⚠️
 
-- See `Example_Profile.readme.md` for a complete example.
+- See `Partner_Template.template.md` for a complete example.
 
 ---
 

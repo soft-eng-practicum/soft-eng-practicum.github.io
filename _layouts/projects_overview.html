@@ -49,7 +49,7 @@ layout: default
                     {% for p in all_projects %}
                         <div class = "d-flex justify-content-center">
                             <div>
-                                <a class = "d-inline" href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
+                    <a class = "d-inline" href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal"><span class = "fw-bold">{{ p.title }}&nbsp;</span><span class = "fw-bold fst-italic">- {{ p.phrase }}</span><i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
                             </div>
                         </div>
                     {% endfor %}

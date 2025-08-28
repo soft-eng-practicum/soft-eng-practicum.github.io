@@ -8,8 +8,8 @@ contact_email: "siul_fabe@hotmail.com" # Your preferred contact email address (e
 major: "I.T., Conc. Software Development" # Your major (e.g., "I.T., Conc. Software Development")
 graduation_year: "2025" # Your expected year of graduation, written as an integer (e.g., 2025)
 cohort: "" # Your group's name, if any (e.g., "ABBA")
-skills: ["Angular", "Java","HTML5","PHP", "Unity","SQL"] # A short list of strings of your most notable skills (e.g., [ "Java", "JavaScript" ])
-highlights: ["Dean's List Spring 23"] # A short list of strings of your most notable academic/personal achievements (e.g., [ "President's List", "Dean's List" ])
+skills: [ "Angular", "Java","HTML5","PHP", "Unity","SQL" ] # A short list of strings of your most notable skills (e.g., [ "Java", "JavaScript" ])
+highlights: [ "Dean's List Spring '23" ] # A short list of strings of your most notable academic/personal achievements (e.g., [ "President's List", "Dean's List" ])
 project_key: "ghs-portal" # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
 location: "Lawrenceville, GA" # Your general geographic location (e.g., "Lawrenceville, GA")
 

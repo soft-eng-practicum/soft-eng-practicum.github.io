@@ -33,7 +33,7 @@ graduation_year: # The year the student is, will, or has graduated, represented 
 cohort: "" # The student's team's name (e.g., New England Patriots).
 skills: [] # A brief list of skills to be highlighted on the student's profile, represented as an array of strings. Can be empty. (e.g., [ "Football", "Baseball" ])
 highlights: [] # A brief list of highlights to be shown on the student's profile, represented as an array of strings. Can be empty. (e.g., [ "7-time Super Bowl Champion", "Summa Cum Laude" ])
-project_key: # The unique value that corresponds to a specific project, written without any quotation marks, in `kebab-case` (e.g., qb-stat-tracker).
+project_key: [] # The unique value(s) that correspond to a specific project, written as a list of strings. The value of the string(s) must exactly match what is provided by the desired project's `project-key`.
 location: "" # The student's general geographic location (e.g., "Lawrenceville, GA").
 ```
 
@@ -52,7 +52,7 @@ facebook: "" # The student's Facebook profile link, if any (e.g., "https://faceb
 
 - All pictures relating to a student's profile should be stored in `/assets/img/students/`.
 - All filenames should match the value included in the front matter **exactly**.
-- Recommended size: `172px x 172px`, square aspect ratio
+- Recommended size: `500px x 500px`, square aspect ratio
 
 ---
 

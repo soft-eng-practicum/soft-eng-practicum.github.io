@@ -10,7 +10,7 @@ graduation_year: 2025 # Your expected year of graduation, written as an integer 
 cohort: "Existential Crisis" # Your group's name, if any (e.g., "ABBA")
 skills: ["JavaScript", "Python", "Angular"] # A short list of strings of your most notable skills (e.g., [ "Java", "JavaScript" ])
 highlights: ["President's List"] # A short list of strings of your most notable academic/personal achievements (e.g., [ "President's List", "Dean's List" ])
-project_key: [ ] # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
+project_key: [ "ghs-portal" ] # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
 location: "Dacula, GA" # Your general geographic location (e.g., "Lawrenceville, GA")
 
 #####################
