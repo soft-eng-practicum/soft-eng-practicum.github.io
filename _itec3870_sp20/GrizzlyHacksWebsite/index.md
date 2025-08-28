@@ -4,6 +4,8 @@ title: "Grizzly Hacks Website"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "vi-nguyen" ]
+project_key: "grizzly-hacks-website"
 
 phrase: "Supporting the Grizzly Hacks RSO!"
 tech: [ node, angular, bootstrap, html/css, firebase]

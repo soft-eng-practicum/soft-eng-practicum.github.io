@@ -4,15 +4,15 @@ title: "<i class='mr-1'>:bulb:</i>Alumni Career Connections: A Night of Mentorsh
 date: 2025-4-3
 author: Leonardo Motta
 categories:
-- News
-- Pinned
+  - News
+  - Pinned
 photos:
-- sdace1.webp
-- sdace2.webp
-- sdace3.webp
-- sdace4.webp
-- sdace6.webp
-- sdace8.webp
+  - sdace1.webp
+  - sdace2.webp
+  - sdace3.webp
+  - sdace4.webp
+  - sdace6.webp
+  - sdace8.webp
 picture_dir: "sda-sp25"
 li_post: "https://www.linkedin.com/posts/cengiz-gunay-5010a89_softdevggc-nsf-highered-activity-7264309348296802304-8k4H"
 ---

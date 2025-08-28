@@ -4,6 +4,8 @@ title: "GGC Sustainability Pledge"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "le-quang", "greatzel-unabia", "elizabeth-sudduth" ]
+project_key: "ggc-sustainability-pledge"
 
 tech: [ node, angular, html/css, firebase]
 screencast-youtube: VRr0vG4C6y8

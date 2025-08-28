@@ -4,6 +4,8 @@ title: "Grizzly Hacks Website 2"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "vi-nguyen" ]
+project_key: "grizzly-hacks-website"
 
 phrase: "Code like a Grizzly: Responsive, easy-to-use, efficient"
 tech: [ javascript, react, html/css, firebase]

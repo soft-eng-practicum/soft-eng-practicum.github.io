@@ -8,7 +8,6 @@ header: GGC.jpg
 website: https://www.ggc.edu/directory/anca-doloc-mihu
 industry: "Associate Professor, I.T."
 sponsor_type: "Faculty Administrator"
-sponsorships: 99
 location: "Lawrenceville, GA"
 contact_name: "Dr. Doloc-Mihu"
 contact_email: adolocmihu@ggc.edu

@@ -2,12 +2,20 @@
     display: inline-block;
 }
 
+.w-80 {
+    width: 80% !important;
+}
+
 .m-0-auto {
     margin: 0 auto;
 }
 
 .unset-all {
     all: unset;
+}
+
+a.bg-warning.bg-focus-unset:focus {
+    background-color: #ffc107 !important;
 }
 
 .button-container {
@@ -65,12 +73,15 @@
     background-image: linear-gradient(144deg,#003d2b, #00704e 50%,#00855d) !important;
 }
 
+.bg-dark-green {
+    background-color: #0b2015 !important;
+}
+
 .ggc-btn-d {
     align-items: center;
     background-image: linear-gradient(144deg,#003d2b, #00704e 50%,#00855d);
     border: 0;
     border-radius: 8px;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
     color: #ffffff;
     display: flex;

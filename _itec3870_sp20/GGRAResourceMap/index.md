@@ -4,6 +4,8 @@ title: "GGRA Resource Map"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "ggra" ]
+project_key: "ggra-resource-map"
 
 phrase: "For updating and displaying locations and information"
 tech: [ javascript, jquery, html/css, .netcore, c#, mssql, rest ]

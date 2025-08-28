@@ -4,6 +4,8 @@ title: "STEC Research App"
 date: 2021-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa21
+sponsor_key: [ "anca-doloc-mihu", "wendy-dustman" ]
+project_key: "stec-research-app"
 
 phrase: "Helping STEC-4500 Undergrad Research Project class"
 tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]

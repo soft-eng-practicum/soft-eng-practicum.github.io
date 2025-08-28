@@ -4,15 +4,17 @@ title: "ChemGenApp"
 date: 2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
-photos:
-- appfactory-room1-billy-door-blurred.jpg
-- appfactory-room2-bruce.jpg
-- ggcmaps-old-and-new-Prof-Moore-2.jpg
-- internapp-billy-edgar-HD-blurred.jpg
-- room-view-2-HD.jpg
-- room-view-5-HD.jpg
-- room-view-8-HD.jpg
+sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
+project_key: "chem-gen-app"
 
+photos:
+  - appfactory-room1-billy-door-blurred.jpg
+  - appfactory-room2-bruce.jpg
+  - ggcmaps-old-and-new-Prof-Moore-2.jpg
+  - internapp-billy-edgar-HD-blurred.jpg
+  - room-view-2-HD.jpg
+  - room-view-5-HD.jpg
+  - room-view-8-HD.jpg
 phrase: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
 tech: [ angular6, node, html/css ]
 screencast-youtube: 3WPrGnkCGXY

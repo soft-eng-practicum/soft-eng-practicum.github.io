@@ -4,6 +4,9 @@ title: "STEC Research Portal"
 date: 2018-05-17 14:25:23
 categories: itec3870 create
 collection: itec3870_sp18
+sponsor_key: [ "cengiz-gunay", "michael-saum" ]
+project_key: "stec-research-portal"
+
 photos:
 - IMAG2328.jpg
 - IMG_1677.JPG

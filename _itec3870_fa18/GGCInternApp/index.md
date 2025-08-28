@@ -4,15 +4,17 @@ title: "GGC Intern App"
 date: 2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
-photos:
-- appfactory-room1-billy-door-blurred.jpg
-- appfactory-room2-bruce.jpg
-- ggcmaps-old-and-new-Prof-Moore-2.jpg
-- internapp-billy-edgar-HD-blurred.jpg
-- room-view-2-HD.jpg
-- room-view-5-HD.jpg
-- room-view-8-HD.jpg
+sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
+project_key: "ggc-intern-app"
 
+photos:
+  - appfactory-room1-billy-door-blurred.jpg
+  - appfactory-room2-bruce.jpg
+  - ggcmaps-old-and-new-Prof-Moore-2.jpg
+  - internapp-billy-edgar-HD-blurred.jpg
+  - room-view-2-HD.jpg
+  - room-view-5-HD.jpg
+  - room-view-8-HD.jpg
 phrase: "Internship Application Forms (:crown: :crown: 2ND PLACE)"
 tech: [ "node", "express", "ejs", "mongodb", "html/css" ]
 demo-url: http://ggc-internapp.herokuapp.com/

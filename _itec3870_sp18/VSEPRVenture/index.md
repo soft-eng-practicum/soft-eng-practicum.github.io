@@ -4,6 +4,9 @@ title: "VSEPR Venture"
 date: 2018-05-17 14:25:23
 categories: itec3870 create
 collection: itec3870_sp18
+sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
+project_key: "vsepr-venture"
+
 photos:
 - IMAG2328.jpg
 - IMG_1677.JPG

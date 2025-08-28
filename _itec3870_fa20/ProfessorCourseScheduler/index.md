@@ -4,6 +4,8 @@ title: "Professor Course Scheduler"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "anca-doloc-mihu", "evelyn-brannock" ]
+project_key: "professor-course-scheduler"
 
 phrase: "Helps administrators and professors to create an efficient teaching schedule"
 tech: [ angular, typescript, html/css ]

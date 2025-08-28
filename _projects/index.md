@@ -24,7 +24,9 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
                 {% endfor %}
                 {% assign sub_collections = sub_collections | uniq %}
                 {% for key in sub_collections %}
-                    <li><a class="dropdown-item" href="{{ key }}/">{{ key | upcase }}</a></li>
+                    {% if key.size > 0 %}
+                        <li><a class="dropdown-item" href="{{ key }}/">{{ key | capitalize | replace: "Sd", "Software Development " }}</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>

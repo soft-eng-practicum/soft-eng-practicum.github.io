@@ -4,15 +4,17 @@ title: InternApp
 date: 2017-08-16 14:49:25
 categories: itec3870 create
 collection: itec3870_sp17
-photos:
-- IMG_20170427_145146955.jpg
-- IMG_20170427_144410982.jpg
-- IMG_20170427_144413728.jpg
-- IMG_20170427_144433983.jpg
-- IMG_20170427_145050656.jpg
-- IMG_20170427_145114857.jpg
-- IMG_20170427_145202939_HDR.jpg
+sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
+project_key: "intern-app"
 
+photos:
+  - IMG_20170427_145146955.jpg
+  - IMG_20170427_144410982.jpg
+  - IMG_20170427_144413728.jpg
+  - IMG_20170427_144433983.jpg
+  - IMG_20170427_145050656.jpg
+  - IMG_20170427_145114857.jpg
+  - IMG_20170427_145202939_HDR.jpg
 phrase: "Kickstart your career! Apply now!"
 demo-url: http://ggc-internapp.herokuapp.com/
 screencast-youtube: TNs-tkoyQG8

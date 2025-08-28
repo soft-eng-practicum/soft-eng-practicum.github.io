@@ -4,15 +4,17 @@ title: "VSEPR Venture"
 date: 2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
-photos:
-- appfactory-room1-billy-door-blurred.jpg
-- appfactory-room2-bruce.jpg
-- ggcmaps-old-and-new-Prof-Moore-2.jpg
-- internapp-billy-edgar-HD-blurred.jpg
-- room-view-2-HD.jpg
-- room-view-5-HD.jpg
-- room-view-8-HD.jpg
+sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
+project_key: "vsepr-venture"
 
+photos:
+  - appfactory-room1-billy-door-blurred.jpg
+  - appfactory-room2-bruce.jpg
+  - ggcmaps-old-and-new-Prof-Moore-2.jpg
+  - internapp-billy-edgar-HD-blurred.jpg
+  - room-view-2-HD.jpg
+  - room-view-5-HD.jpg
+  - room-view-8-HD.jpg
 phrase: "Chemistry-based 2D RPG"
 tech: [ "game-maker-2" ]
 screencast-youtube: ulWh6GOae9g

@@ -17,12 +17,23 @@ photos:
 - thumb-flyer-GGCMaps.png
 
 project_key: "walking-trails"
-sponsor_key: [ "ggc", "cengiz-gunay", "tirza-leader" ]
+sponsor_key: [ "ggc", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
 ---
-Walking Trails is an initiative formed at Georgia Gwinnett College, in partnership with the Gwinnett Parks and Recreation Department.
+
+Walking Trails is an initiative formed at Georgia Gwinnett College,
+in partnership with the
+[Gwinnett Parks and Recreation Department](https://www.gwinnettcounty.com/
+departments/parksandrecreation).
+It aims to provide web-based
+access to area trails and wellness instructions via videos.  
+
+Our interns have completed the first prototype
+of this portal for trails within our college campus, and we
+plan to start testing with stakeholders in September 2025 to collect
+feedback.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

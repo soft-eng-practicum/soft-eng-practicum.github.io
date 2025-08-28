@@ -4,6 +4,8 @@ title: "Roster Sniper"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "shaun-mitchell", "ryan-cosentino" ]
+project_key: "roster-sniper"
 
 phrase: "Get notified for openings in filled course sections"
 tech: [ python, django, html/css ]

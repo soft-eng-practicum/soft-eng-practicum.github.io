@@ -4,6 +4,8 @@ title: "Roster Sniper"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "binh-tran" ]
+project_key: "roster-sniper"
 
 phrase: "Notifies you for openings in full courses"
 tech: [ python, django, html/css, mysql ]

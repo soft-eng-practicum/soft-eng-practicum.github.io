@@ -4,15 +4,17 @@ title: "Event Tracking System"
 date: 2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
-photos:
-- appfactory-room1-billy-door-blurred.jpg
-- appfactory-room2-bruce.jpg
-- ggcmaps-old-and-new-Prof-Moore-2.jpg
-- internapp-billy-edgar-HD-blurred.jpg
-- room-view-2-HD.jpg
-- room-view-5-HD.jpg
-- room-view-8-HD.jpg
+sponsor_key: [ "cengiz-gunay", "michael-holtman" ]
+project_key: "event-tracking-system"
 
+photos:
+  - appfactory-room1-billy-door-blurred.jpg
+  - appfactory-room2-bruce.jpg
+  - ggcmaps-old-and-new-Prof-Moore-2.jpg
+  - internapp-billy-edgar-HD-blurred.jpg
+  - room-view-2-HD.jpg
+  - room-view-5-HD.jpg
+  - room-view-8-HD.jpg
 phrase: Web based event tracking built for organizers and volunteers
 tech: [ "php", "mysql", "html/css" ]
 screencast-youtube: y3DbbyLo7-s

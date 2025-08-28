@@ -4,13 +4,15 @@ title: "Insurance Squad"
 date: 2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
+sponsor_key: [ "cengiz-gunay", "andrei-olifer" ]
+project_key: "insurance-squad"
+
 photos:
 - create-cm1.jpg
 - create-mixed.jpg
 - Create-CB-1.jpg
 - Create-CB-2.jpg
 - Create-CB-3.jpg
-
 phrase: "Find, request, and negotiate the car insurance you want!"
 demo-url: http://mastermindawareness.com/insurancesquad
 members: "Anthony D'Alessandro, Kaitlin Craig, Patrik Williams"

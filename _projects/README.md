@@ -242,7 +242,7 @@ The following variables are **optional** for each project profile:
 screencast-youtube: "" # The unique video I.D. of the project showcase on YouTube (e.g., hVx8VQ5Y79M).
 client-url: "" # The website link of the client for this project (e.g., "https://charity.org").
 # 💡 Assign `client-url` to an empty string (i.e., "") in order to take advantage
-# of dynamic client link population in on pages with the `projects_overview`
+# of dynamic client link population on pages with the `projects_overview`
 # layout.
 demo-url: "" # The website link users can visit to interact with a demo of this project (e.g., "https://demo-site.com").
 ```

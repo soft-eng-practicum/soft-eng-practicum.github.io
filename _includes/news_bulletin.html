@@ -1,74 +1,82 @@
-<h3 style = "text-align: center; margin-bottom: 0px;">Read More</h3>
-<hr style = "width: 15%;" class = "mx-auto">
+<h3 class = "text-center mb-3">Read More</h3>
+<hr class = "my-2 mx-auto w-50" style = "border: 0; border: 1px solid green; text-align: center;">
 <br>
 
 <div class ="home_grid" style = "align-items: flex-start;">
 
-    <p>
-        <div class = "ilb" style = "width: 100%;">
-        <button class="ggc-btn-d dd-arrow" type="button"
-            style = "width: 100%;"
-            data-toggle="collapse"
-            data-target="#pinned-accordion"
-            aria-expanded="false"
-            aria-controls="pinned-news">
-            <span class = "text">
-                Pinned
-            </span>
-        </button>
-        </div>
-    </p>
-    <br>
-    <div class="collapse"
-        id="pinned-accordion"
-        style = "width: 80%; margin: 0 auto;">
+    <div class = "accordion w-100 my-3" id = "pinnedAccordion">
+        <div class = "accordion-item border-0">
+            <p class = "accordion-header" id = "pinned-heading">
+                <button class="ggc-btn-d dd-arrow w-100" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-pinned"
+                    aria-expanded="true"
+                    aria-controls="collapse-pinned">
+                    <span class = "text">
+                        Pinned
+                    </span>
+                </button>
+            </p>
+            <div id="collapse-pinned" class="accordion-collapse collapse show" aria-labelledby="pinned-heading" data-bs-parent="#pinnedAccordion">
+                <div class="accordion-body p0">
+                    {% assign all_posts = site.categories["Pinned"]
+                        | sort: "date", "first" | reverse %}
+                    {% assign sorted_posts = "" | split: "," %}
+                    {% assign sorted_modified = "" | split: "," %}
 
-        {% assign all_posts = site.categories["Pinned"]
-            | sort: "date", "first" | reverse %}
-        {% assign sorted_posts = "" | split: "," %}
-        {% assign sorted_modified = "" | split: "," %}
+                    {% for post in all_posts %}
+                        {% if post.last_modified %}
+                            {% assign testDate = site.time
+                                | date: "%s" %}
+                            {% assign cutoff = testDate
+                                | minus: 2592000 %}
+                            {% assign testPost = post.last_modified
+                                | date: "%s" | minus: 0 %}
+                            {% if testPost >= cutoff %}
+                                {% assign sorted_modified = sorted_modified
+                                    | push: post %}
+                            {% else %}
+                                {% assign sorted_posts = sorted_posts
+                                    | push: post %}
+                            {% endif %}
+                        {% else %}
+                            {% assign sorted_posts = sorted_posts
+                                | push: post %}
+                        {% endif %}
+                    {% endfor %}
 
-        {% for post in all_posts %}
-            {% if post.last_modified %}
-                {% assign testDate = site.time
-                    | date: "%s" %}
-                {% assign cutoff = testDate
-                    | minus: 2592000 %}
-                {% assign testPost = post.last_modified
-                    | date: "%s" | minus: 0 %}
-                {% if testPost >= cutoff %}
                     {% assign sorted_modified = sorted_modified
-                        | push: post %}
-                {% else %}
-                    {% assign sorted_posts = sorted_posts
-                        | push: post %}
-                {% endif %}
-            {% else %}
-                {% assign sorted_posts = sorted_posts
-                    | push: post %}
-            {% endif %}
-        {% endfor %}
+                        | sort: "last_modified", "first" | reverse %}
 
-        {% assign sorted_modified = sorted_modified
-            | sort: "last_modified", "first" | reverse %}
+                    {% if sorted_posts.size > 0 or sorted_modified.size > 0 %}
+                        {% assign count = 0 %}
+                        <div class="d-flex flex-column border rounded py-3 px-5 mt-5 mb-3 mx-auto w-80">
+                        <br>
+                        {% for post in sorted_modified %}
+                            {% if post.url and count < 10 %}
+                                <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.last_modified | date_to_string: "ordinal", "US" }}</span><span class = "badge bg-primary ml-1 mr-2">Updated</span>{{ post.title }}</span></a>
+                                <br>
+                                {% assign count = count | plus: 1 %}
+                            {% endif %}
+                        {% endfor %}
+                        {% for post in sorted_posts %}
+                            {% if post.url and count < 10 %}
+                                <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-2">{{ post.date | date_to_string: "ordinal", "US" }}</span>{{ post.title }}</span></a>
+                                <br>
+                                {% assign count = count | plus: 1 %}
+                            {% endif %}
+                        {% endfor %}
 
-        {% if sorted_posts.size > 0 or sorted_modified.size > 0 %}
-            <div class="card card-body">
-                <br>
-            {% for post in sorted_modified %}
-                {% if post.url %}
-                    <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.last_modified | date_to_string: "ordinal", "US" }}</span><span class = "badge bg-primary ml-1 mr-2">Updated</span>{{ post.title }}</span></a>
-                    <br>
-                {% endif %}
-            {% endfor %}
-            {% for post in sorted_posts %}
-                {% if post.url %}
-                    <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-2">{{ post.date | date_to_string: "ordinal", "US" }}</span>{{ post.title }}</span></a>
-                    <br>
-                {% endif %}
-            {% endfor %}
+                        {% if sorted_posts.size > count or sorted_modified.size > count %}
+                            <div class = "w-100 text-center">
+                                <a href = "/posts/"><span class = "badge bg-primary">See More</span></a>
+                            </div>
+                        {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
             </div>
-        {% endif %}
+        </div>
     </div>
 
     {% comment %}
@@ -86,78 +94,103 @@
         {% assign name = category %}
         {% if name != "Pinned" %}
 
-            <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: center; margin: 2% auto;">
+            <hr class = "my-2 mx-auto w-50" style = "border: 0; border: 1px solid green; text-align: center;">
 
-            <p>
-                <div class = "ilb" style = "width: 100%;">
-                <button class = "ggc-btn-d dd-arrow" type="button"
-                    style = "width: 100%;"
-                    data-toggle = "collapse"
-                    data-target = "#{{name | replace: ' ', '-'}}-accordion"
-                    aria-expanded = "false"
-                    aria-controls = "{{ name | replace: ' ', '-' }}-news">
-                    <span class = "text">
-                        {{ name }}
-                    </span>
-                </button>
-                </div>
-            </p>
-            <br>
-            <div class="collapse"
-                id="{{ name | replace: ' ', '-' }}-accordion"
-                style = "width: 80%; margin: 0 auto;">
+            <div class = "accordion w-100 my-3" id = "{{ name | replace: ' ', '-' }}Accordion">
+                <div class = "accordion-item border-0">
+                    <p class = "accordion-header" id = "{{ name | replace: ' ', '-' }}-heading">
+                        <button class = "ggc-btn-d dd-arrow w-100" type = "button"
+                            data-bs-toggle = "collapse"
+                            data-bs-target = "#collapse-{{ name | replace: ' ', '-' }}"
+                            aria-expanded = "false"
+                            aria-controls = "collapse-{{ name | replace: ' ', '-' }}">
+                            <span class = "text">
+                                {{ name}}
+                            </span>
+                        </button>
+                    </p>
+                    <div id="collapse-{{ name | replace: ' ', '-' }}" class="accordion-collapse collapse" aria-labelledby="pinned-heading" data-bs-parent="#{{ name | replace: ' ', '-' }}Accordion">
+                        <div class="accordion-body p0">
+                            {% assign all_posts = site.categories[name]
+                                | sort: "date", "first" | reverse %}
+                            {% assign sorted_posts = "" | split: "," %}
+                            {% assign sorted_modified = "" | split: "," %}
 
-                {% assign all_posts = site.categories[name]
-                    | sort: "date", "first" | reverse %}
-                {% assign sorted_posts = "" | split: "," %}
-                {% assign sorted_modified = "" | split: "," %}
+                            {% for post in all_posts %}
+                                {% if post.last_modified %}
+                                    {% assign testDate = site.time
+                                        | date: "%s" %}
+                                    {% assign cutoff = testDate
+                                        | minus: 2592000 %}
+                                    {% assign testPost = post.last_modified
+                                        | date: "%s" | minus: 0 %}
+                                    {% if testPost >= cutoff %}
+                                        {% assign sorted_modified = sorted_modified
+                                            | push: post %}
+                                    {% else %}
+                                        {% assign sorted_posts = sorted_posts
+                                            | push: post %}
+                                    {% endif %}
+                                {% else %}
+                                    {% assign sorted_posts = sorted_posts
+                                        | push: post %}
+                                {% endif %}
+                            {% endfor %}
 
-                {% for post in all_posts %}
-                    {% if post.last_modified %}
-                        {% assign testDate = site.time
-                            | date: "%s" %}
-                        {% assign cutoff = testDate
-                            | minus: 2592000 %}
-                        {% assign testPost = post.last_modified
-                            | date: "%s" | minus: 0 %}
-                        {% if testPost >= cutoff %}
                             {% assign sorted_modified = sorted_modified
-                                | push: post %}
-                        {% else %}
-                            {% assign sorted_posts = sorted_posts
-                                | push: post %}
-                        {% endif %}
-                    {% else %}
-                        {% assign sorted_posts = sorted_posts
-                            | push: post %}
-                    {% endif %}
-                {% endfor %}
+                                | sort: "last_modified", "first" | reverse %}
 
-                {% assign sorted_modified = sorted_modified
-                    | sort: "last_modified", "first" | reverse %}
+                            {% if sorted_posts.size > 0 or sorted_modified.size > 0 %}
+                                {% assign tmp = "" | split: "," %}
+                                {% for post in sorted_modified %}
+                                    {% unless post.categories contains "Pinned" %}
+                                        {% assign tmp = tmp | push: post %}
+                                    {% endunless %}
+                                {% endfor %}
+                                {% assign sorted_modified = tmp %}
+                                {% assign tmp = "" | split: "," %}
+                                {% for post in sorted_posts %}
+                                    {% unless post.categories contains "Pinned" %}
+                                        {% assign tmp = tmp | push: post %}
+                                    {% endunless %}
+                                {% endfor %}
+                                {% assign sorted_posts = tmp %}
+                                {% assign tmp = "" %}
+                                {% assign count = 0 %}
+                                <div class="d-flex flex-column border rounded py-3 px-5 mt-5 mb-3 mx-auto w-80">
+                                <br>
+                                {% for post in sorted_modified %}
+                                    {% if post.url and count < 10 %}
+                                        {% unless post.categories contains "Pinned" %}
+                                            <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.last_modified | date_to_string: "ordinal", "US" }}</span><span class = "badge bg-primary ml-1 mr-2">Updated</span>{{ post.title }}</span></a>
+                                            <br>
+                                            {% assign count = count | plus: 1 %}
+                                        {% endunless %}
+                                    {% endif %}
+                                {% endfor %}
+                                {% for post in sorted_posts %}
+                                    {% if post.url and count < 10 %}
+                                        {% unless post.categories contains "Pinned" %}
+                                            <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-2">{{ post.date | date_to_string: "ordinal", "US" }}</span>{{ post.title }}</span></a>
+                                            <br>
+                                            {% assign count = count | plus: 1 %}
+                                        {% endunless %}
+                                    {% endif %}
+                                {% endfor %}
 
-                {% if sorted_posts.size > 0 or sorted_modified.size > 0 %}
-                    <div class="card card-body">
-                        <br>
-                    {% for post in sorted_modified %}
-                        {% if post.url %}
-                            <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.last_modified | date_to_string: "ordinal", "US" }}</span><span class = "badge bg-primary ml-1 mr-2">Updated</span>{{ post.title }}</span></a>
-                            <br>
-                        {% endif %}
-                    {% endfor %}
-                    {% for post in sorted_posts %}
-                        {% if post.url %}
-                            <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-2">{{ post.date | date_to_string: "ordinal", "US" }}</span>{{ post.title }}</span></a>
-                            <br>
-                        {% endif %}
-                    {% endfor %}
+                                {% if sorted_posts.size > count or sorted_modified.size > count %}
+                                    <div class = "w-100 text-center">
+                                        <a href = "/posts/"><span class = "badge bg-primary">See More</span></a>
+                                    </div>
+                                {% endif %}
+                                </div>
+                            {% endif %}
+                        </div>
                     </div>
-                {% endif %}
+                </div>
             </div>
-
         {% endif %}
-
     {% endfor %}
-    <hr style = "border: 0; border: 1px solid green; width: 15%; text-align: center; margin: 2% auto;">
+    <hr class = "my-2 mx-auto w-50" style = "border: 0; border: 1px solid green; text-align: center;">
 
 </div>

@@ -4,6 +4,8 @@ title: "Visual Portfolio"
 date: 2022-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa22
+sponsor_key: [ "anca-doloc-mihu" ]
+project_key: "visual-portfolio"
 
 phrase: "A visually interactive tool to streamline the portfolio-making process"
 tech: [ React, NodeJS, Tailwing, Firebase, Frameer-Motion, Jest-dom ]

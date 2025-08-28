@@ -10,7 +10,7 @@ graduation_year: 2024
 cohort: ""
 skills: [ "Java", "JavaScript", "Python" ]
 highlights: [ "President’s List", "Dean’s List", "Cum Laude" ]
-project_key: [ "ngf-record-keeping" ]
+project_key: [ "ngf-admin-dashboard" ]
 location: "Dacula, GA"
 
 ## OPTIONAL VALUES

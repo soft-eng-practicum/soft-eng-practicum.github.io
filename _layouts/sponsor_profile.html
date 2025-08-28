@@ -1,270 +1,299 @@
 ---
 layout: main_page
 ---
+{% assign sponsored_projects = site.projects
+| where: "sponsor_key", page.sponsor_key %}
+{% for col in site.collections %}
+{% if col.label contains "itec" %}
+    {% for proj in site[col.label] %}
+        {% if proj.sponsor_key contains page.sponsor_key %}
+            {% assign sponsored_projects = sponsored_projects
+                | push: proj %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endfor %}
+
+{% assign project_partners = "" | split: "," %}
+{% for p in sponsored_projects %}
+    {% for k in p.sponsor_key %}
+        {% if k != page.sponsor_key %}
+            {% assign project_partners = project_partners
+                | push: k %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign project_partners = project_partners | uniq %}
+
+
 <div class="justify-content-center">
-
-<div class="col-lg-10 col-md-9 col-12 body_block align-content-center" style = "max-width: 100% !important;">
-<div class="profile-card">
-    <!--img-->
-    {% if page.header.size > 4 %}
-    <div class="rounded-top-3" style="background-image: url(/assets/img/partners/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
-    {% else %}
-    <div class="rounded-top-3" style="background-image: url(/assets/img/partners/GGC.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
-    {% endif %}
-
-    <div class="card-body p-md-5">
-        <div class="d-flex flex-column gap-5">
+    <div class="col-lg-10 col-md-9 col-12 body_block align-content-center" style = "max-width: 100% !important;">
+        <div class="profile-card">
             <!--img-->
-            <div class="mt-n8">
-                {% if page.logo.size >4 %}
-                <img src="/assets/img/partners/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
-                {% else %}
-                        <img src="/assets/img/partners/GGC.jpg" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
-                {% endif %}
-            </div>
-            <div class="d-flex flex-column gap-5">
-                <div class="d-flex flex-column gap-3">
-                    <div class="d-flex flex-md-row flex-column justify-content-between gap-2">
-                        <!--heading-->
-                        <div class = "mb-2 mb-sm-0">
-                            <h1 class="mb-0" style = "font-size: 32px; color: #fff;">{{ page.title }}</h1>
-                            <!--content-->
-                            <div class="d-flex flex-lg-row flex-column gap-2" style = "font-family: 'Inter', sans-serif; margin-top: 16px;">
-                                <small class="fw-medium text-gray-800" style = "color: #fff !important; font-size: 16px;">{{ page.industry }}</small>
-                                <small class="fw-bold profile-highlights me-auto" style = "background-color: black; border-radius: 16px; padding: 0 10px; font-size: 16px;">{{ page.sponsor_type }}</small>
+            {% if page.header.size > 4 %}
+            <div class="rounded-top-3" style="background-image: url(/assets/img/partners/{{ page.header }}); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+            {% else %}
+            <div class="rounded-top-3" style="background-image: url(/assets/img/partners/GGC.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; height: 228px;"></div>
+            {% endif %}
+
+            <div class="card-body p-md-5">
+                <div class="d-flex flex-column gap-5">
+                    <!--img-->
+                    <div class="mt-n8">
+                        {% if page.logo.size >4 %}
+                        <img src="/assets/img/partners/{{ page.logo }}" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
+                        {% else %}
+                                <img src="/assets/img/partners/GGC.jpg" alt="mentor 1" class="img-fluid rounded-4 mt-n8" id = "profile-card-picture" style = "object-fit: cover;">
+                        {% endif %}
+                    </div>
+                    <div class="d-flex flex-column gap-5">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex flex-md-row flex-column justify-content-between gap-2">
+                                <!--heading-->
+                                <div class = "mb-2 mb-sm-0">
+                                    <h1 class="mb-0" style = "font-size: 32px; color: #fff;">{{ page.title }}</h1>
+                                    <!--content-->
+                                    <div class="d-flex flex-lg-row flex-column gap-2" style = "font-family: 'Inter', sans-serif; margin-top: 16px;">
+                                        <small class="fw-medium text-gray-800" style = "color: #fff !important; font-size: 16px;">{{ page.industry }}</small>
+                                        <small class="fw-bold profile-highlights me-auto" style = "background-color: black; border-radius: 16px; padding: 0 10px; font-size: 16px;">{{ page.sponsor_type }}</small>
+                                    </div>
+                                </div>
+                                <!--button-->
+                                {% if page.website.size > 0 or page.contact_email.size > 0 %}
+                                    <div class="d-flex flex-row flex-wrap gap-3 align-items-center">
+                                        {% if page.website.size > 0 %}
+                                            <a href="{{ page.website }}" target = "_blank"
+                                                class="btn btn-outline-white">
+                                                Website
+                                            </a>
+                                        {% endif %}
+                                        {% if page.contact_email.size > 0 %}
+                                            <a href="mailto:{{ page.contact_email }}" class="btn btn-outline-white">Contact</a>
+                                        {% endif %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                            <div class="d-flex flex-md-row flex-column gap-md-4 gap-2">
+                                <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
+                                    <!--icon-->
+                                    <span class = "bg-dark-green rounded p-1">
+                                        <i class = "fa-solid fa-star text-warning"></i>
+                                    </span>
+                                    <span class = "text-light" style = "font-size: 18px;">
+                                        <!--text-->
+                                        {% assign total_students = 0 %}
+                                        {% for p in sponsored_projects %}
+                                            {% for s in site.students %}
+                                                {% for k in s.project_key %}
+                                                    {% if k == p.project_key %}
+                                                        {% assign total_students = total_students
+                                                            | plus: 1 %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endfor %}
+                                        {% endfor %}
+                                        <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ total_students }}</span>
+                                        {% unless page.sponsor_type contains "Client" %}
+                                            {{ "Students Mentored" }}
+                                        {% else %}
+                                            {{ "Student Partners" }}
+                                        {% endunless %}
+                                    </span>
+                                </div>
+                                <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
+                                    <!--icon-->
+                                    <span class = "bg-dark-green rounded p-1">
+                                        <i class="fa-solid fa-hand-holding-heart text-white"></i>
+                                    </span>
+                                    <span class = "text-light" style = "font-size: 18px;">
+                                        <!--text-->
+                                        <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ project_partners.size }}</span>
+                                        {{ "Total Collaborators" }}
+                                    </span>
+                                </div>
+                                <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
+                                    <!--icon-->
+                                    <span class = "bg-dark-green rounded p-1">
+                                        <i class="fa-solid fa-user-group text-primary"></i>
+                                    </span>
+                                    <!--text-->
+                                    <span class = "text-light" style = "font-size: 18px;">
+                                        <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ sponsored_projects.size }}</span>
+                                        Projects
+                                    </span>
+                                </div>
+                                <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
+                                    <!--icon-->
+                                    <span class = "bg-dark-green rounded p-1">
+                                        <i class = "fa-solid fa-location-dot text-danger"></i>
+                                    </span>
+                                    <!--text-->
+                                    <span class = "text-light" style = "font-size: 18px;">{{ page.location}}</span>
+                                </div>
                             </div>
                         </div>
-                        <!--button-->
-                        <div class="d-flex flex-row gap-3 align-items-center">
-                            <a href="{{ page.website }}" target = "_blank"
-                                class="btn btn-outline-white">
-                                Website
-                            </a>
-                            <a href="mailto:{{ page.contact_email }}" class="btn btn-outline-white">Contact</a>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-md-row flex-column gap-md-4 gap-2">
-                        <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
-                            <!--icon-->
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-star-fill text-warning align-baseline" viewBox="0 0 16 16">
-                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                </svg>
-                            </span>
-                            <span class = "text-light" style = "font-size: 18px;">
-                                <!--text-->
-                                {% assign total_students = 0 %}
-                                {% assign all_projects = "" | split: "," %}
-                                {% for p in site.projects %}
-                                    {% for k in p.sponsor_key %}
-                                        {% if k == page.sponsor_key %}
-                                            {% assign all_projects = all_projects
-                                                | push: p %}
-                                        {% endif %}
-                                    {% endfor %}
+                        {% if page.skills.size > 0 %}
+                        <div class="d-flex flex-column gap-2">
+                            <!--heading-->
+                            <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Skills</h3>
+
+                            <div class="gap-2 d-flex flex-wrap">
+                                {% for skill in page.skills %}
+                                    <span class="badge rounded-pill text-success-emphasis bg-success-subtle border border-success align-items-center profile-highlights ps-2 pe-3 text-wrap" style = "font-size: 14px;">
+                                        <span class = "mx-1">
+                                            <i class="fa-solid fa-web-awesome"></i>
+                                        </span>
+                                        {{ skill }}
+                                    </span>
                                 {% endfor %}
-                                {% for p in all_projects %}
-                                    {% for s in site.students %}
-                                        {% for k in s.project_key %}
-                                            {% if k == p.project_key %}
-                                                {% assign total_students = total_students
-                                                    | plus: 1 %}
-                                            {% endif %}
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if page.highlights.size > 0 %}
+                        <div class="d-flex flex-column gap-2">
+                            <!--heading-->
+                            <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Highlights</h3>
+                            <div class="gap-2 d-flex flex-wrap">
+                                {% for highlight in page.highlights %}
+                                    <span class="badge rounded-pill text-success-emphasis bg-success-subtle border border-success align-items-center profile-highlights ps-2 pe-3 text-wrap" style = "font-size: 14px;">
+                                        <span class = "mx-1">
+                                            <i class="fa-solid fa-medal"></i>
+                                        </span>
+                                        {{ highlight }}
+                                    </span>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if sponsored_projects.size > 0 %}
+                            <div class="js-collapsible-list">
+                                <div class="d-flex flex-column gap-2">
+                                    <!--heading-->
+                                    <h3 class="mb-0" style="font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Project History</h3>
+
+                                    <div class="gap-2 d-flex flex-wrap" data-role="list">
+                                        {% for p in sponsored_projects %}
+                                            <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap js-movable" style="text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ p.title }}</a>
                                         {% endfor %}
-                                    {% endfor %}
-                                {% endfor %}
-                                        <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ total_students }}</span>
-                                {% if page.sponsor_type contains "Faculty Administrator" %}
-                                    {{ "Students Mentored" }}
-                                {% elsif page.sponsor_type contains "Client" %}
-                                    {{ "Student Partners" }}
-                                {% endif %}
-                            </span>
-                        </div>
-                        <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
-                            <!--icon-->
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-people-fill align-baseline" viewBox="0 0 16 16" style = "color: #0000ff;">
-                                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"></path>
-                                </svg>
-                            </span>
-                            <!--text-->
-                            <span class = "text-light" style = "font-size: 18px;">
-                                {% assign all_projects = "" | split: "," %}
-                                {% for p in site.projects %}
-                                    {% for k in p.sponsor_key %}
-                                        {% if k == page.sponsor_key %}
-                                            {% assign all_projects = all_projects
-                                                | push: p %}
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endfor %}
-                                {% if page.sponsor_key == "cengiz-gunay"
-                                        or page.sponsor_key == "anca-doloc-mihu"
-                                        or page.sponsor_key == "tirza-leader" %}
-                                    {% assign t = 89 | plus: all_projects.size %}
-                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ t }}</span>
-                                {% else %}
-                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ all_projects.size }}</span>
-                                {% endif %}
-                                Projects
-                            </span>
-                        </div>
-                        <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
-                            <!--icon-->
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill text-danger" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"></path>
-                                </svg>
-                            </span>
-                            <!--text-->
-                            <span class = "text-light" style = "font-size: 18px;">{{ page.location}}</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                    <!--heading-->
-                    <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Skills</h3>
+                                        <a class="d-none btn btn-tag btn-sm bg-warning border-0 text-wrap bg-focus-unset" data-bs-toggle="collapse" href="#historyCollapse" role="button" aria-expanded="false" aria-controls="historyCollapse" data-role="toggle" style="text-decoration: none; font-size: 14px; color: #000000; font-weight: 450;">
+                                            See More
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="historyCollapse" data-role="collapse">
+                                        <div class="gap-2 d-flex flex-wrap" data-role="collapse-inner">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="js-collapsible-list">
+                                <div class="d-flex flex-column gap-2">
+                                    <!--heading-->
+                                    <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Collaborators</h3>
 
-                    <div class="gap-2 d-flex flex-wrap">
-                        {% for skill in page.skills %}
-                            <a href="#" class="btn btn-tag btn-sm text-wrap" style = "text-decoration: none; font-size: 14px; font-weight: 450;">{{skill}}</a>
-                        {% endfor %}
+                                    <div class="gap-2 d-flex flex-wrap" data-role="list">
+                                        {% for p in project_partners %}
+                                            {% assign tmp = site.partners | where: "sponsor_key", p %}
+                                            <a href="{{ tmp[0].url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap js-movable" style="text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ tmp[0].title }}</a>
+                                        {% endfor %}
+                                        <a class="d-none btn btn-tag btn-sm bg-warning border-0 text-wrap bg-focus-unset" data-bs-toggle="collapse" href="#collaboratorsCollapse" role="button" aria-expanded="false" aria-controls="collaboratorsCollapse" data-role="toggle" style="text-decoration: none; font-size: 14px; color: #000000; font-weight: 450;">
+                                            See More
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="collaboratorsCollapse" data-role="collapse">
+                                        <div class="gap-2 d-flex flex-wrap" data-role="collapse-inner">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
                     </div>
                 </div>
-                {% assign sponsored_projects = site.projects
-                    | where: "sponsor_key", page.sponsor_key %}
-                {% if sponsored_projects.size > 0 %}
-                <div class="d-flex flex-column gap-2">
-                    <!--heading-->
-                    <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Project History</h3>
-
-                    <div class="gap-2 d-flex flex-wrap">
-                        {% for p in sponsored_projects %}
-                        <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style = "text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ p.title }}</a>
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class="d-flex flex-column gap-2">
-                    <!--heading-->
-                    <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Collaborators</h3>
-
-                    <div class="gap-2 d-flex flex-wrap">
-                        {% assign project_partners = "" | split: "," %}
-                        {% for p in sponsored_projects %}
-                            {% for k in p.sponsor_key %}
-                                {% if k != page.sponsor_key %}
-                                    {% assign project_partners = project_partners
-                                        | push: k %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endfor %}
-                        {% assign project_partners = project_partners | uniq %}
-                        {% for p in project_partners %}
-                            {% assign tmp = site.partners | where: "sponsor_key", p %}
-                            <a href="{{ tmp[0].url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style = "text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ tmp[0].title }}</a>
-                        {% endfor %}
-                    </div>
-                </div>
+                {% assign page_content = page.content | strip_newlines | strip %}
+                {% assign not_blank = false %}
+                {% if page_content != "" and page_content != nil %}
+                    {% assign not_blank = true %}
                 {% endif %}
-                <div>
-                    {% for highlight in page.highlights %}
-                    <span class="badge rounded-pill text-success-emphasis bg-success-subtle border border-success align-items-center profile-highlights ps-2 pe-3 text-wrap" style = "font-size: 14px;">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-reply-fill me-1 align-text-top" viewBox="0 0 16 16">
-                                <path d="M5.921 11.9 1.353 8.62a.72.72 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"></path>
-                            </svg>
-                        </span>
-                        {{ highlight }}
-                    </span>
-                    {% endfor %}
-                </div>
+                {% if not_blank
+                    or page.linkedin or page.git or page.x or page.instagram
+                    or page.facebook %}
+                    <br>
+                    <br>
+                    <h3 style = "color: white;">About me</h3>
+                    <hr style = "border: none; border: 1px solid rgb(24, 24, 28); width: 30%; text-align: left; margin: 2% 0;">
+                    <div style = "background-color: white; border-radius: 16px;
+                        padding: 22px; margin-top: 32px;box-shadow: 0 10px 7px 7px rgba(51, 51, 51, 0.62);">
+                        {% if not_blank %}
+                            {{ content }}
+                        {% endif %}
+                        {% if page.linkedin.size > 0 or page.git.size > 0
+                            or page.x.size > 0 or page.facebook.size > 0
+                            or page.instagram.size > 0 %}
+                        <div class="bg-body-tertiary text-center text-white">
+                            <!-- Grid container -->
+                            <div class="container p-4 pb-0">
+                                <!-- Section: Social media -->
+                                <section class="mb-0">
+                                    {% if page.linkedin.size > 0 %}
+                                    <!-- Linkedin -->
+                                    <a
+                                      data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                                      style="background-color: #0082ca;"
+                                      href="{{ page.linkedin }}"
+                                      role="button"
+                                      ><i class="fab fa-linkedin-in"></i
+                                    ></a>
+                                    {% endif %}
+                                    {% if page.git.size > 0 %}
+                                    <!-- Github -->
+                                    <a
+                                      data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                                      style="background-color: #333333;"
+                                      href="{{ page.git }}"
+                                      role="button"
+                                      ><i class="fab fa-github"></i
+                                    ></a>
+                                    {% endif %}
+                                    {% if page.x.size > 0 %}
+                                    <!-- X -->
+                                    <a
+                                      data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                                      style="background-color: #55acee;"
+                                      href="{{ page.x }}"
+                                      role="button"
+                                      ><i class="fab fa-twitter"></i
+                                    ></a>
+                                    {% endif %}
+                                    {% if page.instagram.size > 0 %}
+                                    <!-- Instagram -->
+                                    <a
+                                      data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                                      style="background-color: #ac2bac;"
+                                      href="{{ page.instagram }}"
+                                      role="button"
+                                      ><i class="fab fa-instagram"></i
+                                    ></a>
+                                    {% endif %}
+                                    {% if page.facebook.size > 0 %}
+                                    <!-- Facebook -->
+                                    <a
+                                      data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
+                                      style="background-color: #3b5998;"
+                                      href="{{ page.facebook }}"
+                                      role="button"
+                                      ><i class="fab fa-facebook-f"></i
+                                    ></a>
+                                    {% endif %}
+                                </section>
+                                <!-- Section: Social media -->
+                            </div>
+                            <!-- Grid container -->
+                        </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
             </div>
         </div>
-        {% assign page_content = page.content | strip_newlines | strip %}
-        {% assign not_blank = false %}
-        {% if page_content != "" and page_content != nil %}
-            {% assign not_blank = true %}
-        {% endif %}
-        {% if not_blank
-            or page.linkedin or page.git or page.x or page.instagram
-            or page.facebook %}
-            <br>
-            <br>
-            <h3 style = "color: white;">About me</h3>
-            <hr style = "border: none; border: 1px solid rgb(24, 24, 28); width: 30%; text-align: left; margin: 2% 0;">
-            <div style = "background-color: white; border-radius: 16px;
-                padding: 22px; margin-top: 32px;box-shadow: 0 10px 7px 7px rgba(51, 51, 51, 0.62);">
-                {% if not_blank %}
-                    {{ content }}
-                {% endif %}
-                {% if page.linkedin.size > 0 or page.git.size > 0
-                    or page.x.size > 0 or page.facebook.size > 0
-                    or page.instagram.size > 0 %}
-                <div class="bg-body-tertiary text-center text-white">
-                    <!-- Grid container -->
-                    <div class="container p-4 pb-0">
-                        <!-- Section: Social media -->
-                        <section class="mb-0">
-                            {% if page.linkedin.size > 0 %}
-                            <!-- Linkedin -->
-                            <a
-                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                              style="background-color: #0082ca;"
-                              href="{{ page.linkedin }}"
-                              role="button"
-                              ><i class="fab fa-linkedin-in"></i
-                            ></a>
-                            {% endif %}
-                            {% if page.git.size > 0 %}
-                            <!-- Github -->
-                            <a
-                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                              style="background-color: #333333;"
-                              href="{{ page.git }}"
-                              role="button"
-                              ><i class="fab fa-github"></i
-                            ></a>
-                            {% endif %}
-                            {% if page.x.size > 0 %}
-                            <!-- X -->
-                            <a
-                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                              style="background-color: #55acee;"
-                              href="{{ page.x }}"
-                              role="button"
-                              ><i class="fab fa-twitter"></i
-                            ></a>
-                            {% endif %}
-                            {% if page.instagram.size > 0 %}
-                            <!-- Instagram -->
-                            <a
-                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                              style="background-color: #ac2bac;"
-                              href="{{ page.instagram }}"
-                              role="button"
-                              ><i class="fab fa-instagram"></i
-                            ></a>
-                            {% endif %}
-                            {% if page.facebook.size > 0 %}
-                            <!-- Facebook -->
-                            <a
-                              data-mdb-ripple-init class="bs-btn text-white btn-floating m-1"
-                              style="background-color: #3b5998;"
-                              href="{{ page.facebook }}"
-                              role="button"
-                              ><i class="fab fa-facebook-f"></i
-                            ></a>
-                            {% endif %}
-                        </section>
-                        <!-- Section: Social media -->
-                    </div>
-                    <!-- Grid container -->
-                </div>
-                {% endif %}
-            </div>
-        {% endif %}
     </div>
 </div>
-</div>
-</div>
+
+<script src="/assets/js/misc/profiles.js" defer></script>

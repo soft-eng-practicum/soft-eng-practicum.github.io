@@ -4,13 +4,15 @@ title: "Campus Maps 1"
 date: 2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
+sponsor_key: [ "cengiz-gunay", "catherine-moore" ]
+project_key: "campus-maps"
+
 photos:
 - create-cm1.jpg
 - create-mixed.jpg
 - Create-CB-1.jpg
 - Create-CB-2.jpg
 - Create-CB-3.jpg
-
 phrase: "Never be lost again"
 demo-url: http://campusmap1.duckdns.org/
 screencast-youtube: e3Cl1kVO9Ok

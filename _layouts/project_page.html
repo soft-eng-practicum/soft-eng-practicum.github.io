@@ -292,7 +292,7 @@ layout: default
     </div>
 
 
-    {% if page.cohort %}
+    {% if page.project_key %}
 
         <section class="section-team" id = "cohort-section">
 
@@ -378,11 +378,6 @@ layout: default
             {% endfor %}
         {% endfor %}
 
-        {% comment %}
-        {% assign s = site.partners
-            | where: "sponsor_key", page.sponsor_key %}
-        {% endcomment %}
-
         <!-- Start Header Section -->
         <section class="section-team" id = "partner-cards">
             <div class="row justify-content-center text-center">
@@ -435,35 +430,19 @@ layout: default
         </section>
     {% endif %}
 
-    {% if page.course_key == nil and page.semester_key == nil %}
-        <div class = "m-0-auto mt-5 mb-5" style = "width: 15%;">
-            <button class="ggc-btn-d" type = "button"
-                style = "width: 100%;"
-                data-toggle = "collapse"
-                data-target = "#pinned-accordion"
-                aria-expanded = "false"
-                aria-controls = "pinned-news"
-                onclick = "window.location.href='../'">
-                <span class = "text">
-                    Back to {{ page.collection | upcase | replace: "ITEC", "ITEC " | replace: "_", " " | replace: "FA", "Fall " | replace: "SP", "Spring " }}
-                </span>
-            </button>
-        </div>
-    {% else %}
-        <div class = "m-0-auto mt-5 mb-5" style = "width: 15%;">
-            <button class="ggc-btn-d" type = "button"
-                style = "width: 100%;"
-                data-toggle = "collapse"
-                data-target = "#pinned-accordion"
-                aria-expanded = "false"
-                aria-controls = "pinned-news"
-                onclick = "window.location.href='../'">
-                <span class = "text">
-                    Back
-                </span>
-            </button>
-        </div>
-    {% endif %}
+    <div class = "m-0-auto mt-5 mb-5" style = "width: 15%;">
+        <button class="ggc-btn-d" type = "button"
+            style = "width: 100%;"
+            data-toggle = "collapse"
+            data-target = "#pinned-accordion"
+            aria-expanded = "false"
+            aria-controls = "pinned-news"
+            onclick = "window.location.href='../'">
+            <span class = "text">
+                Back
+            </span>
+        </button>
+    </div>
 
 
 </div>

@@ -4,7 +4,7 @@ title: "Interactive map we made for Greater Gwinnett Re-entry Alliance (GGRA) in
 date: 2020-06-15
 author: Cengiz Gunay
 categories:
-- News
+  - News
 ---
 
 <center><a href="https://www.gwinnettreentry.org/resources/" target="_blank">
