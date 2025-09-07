@@ -4,20 +4,22 @@ title: "GameOfDrone"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
 collection: itec3870_fa17
-photos:
-- 24960882688_1b03c40551_o.jpg
-- 37946694695_60c8d9a787_o.jpg
-- 24960907228_4be8082c9e_o.jpg
-- 24960919378_06c0ed8ebe_o.jpg
-- 24960919508_6ff7c05418_o.jpg
-- 24960952738_e068307f20_o.jpg
-- IMG_20171130_140740485.jpg
-- IMG_20171130_140750901.jpg
-- IMG_20171130_140755482_HDR.jpg
-- 27057157559_358dbceee0_o.jpg
-- 27057246329_881b8cf4af_o.jpg
-- 38117417614_13af5d072f_o.jpg
+sponsor_key: [ "cengiz-gunay", "matthew-stackpole", "keith-erickson" ]
+project_key: "game-of-drone"
 
+photos:
+  - 24960882688_1b03c40551_o.jpg
+  - 37946694695_60c8d9a787_o.jpg
+  - 24960907228_4be8082c9e_o.jpg
+  - 24960919378_06c0ed8ebe_o.jpg
+  - 24960919508_6ff7c05418_o.jpg
+  - 24960952738_e068307f20_o.jpg
+  - IMG_20171130_140740485.jpg
+  - IMG_20171130_140750901.jpg
+  - IMG_20171130_140755482_HDR.jpg
+  - 27057157559_358dbceee0_o.jpg
+  - 27057246329_881b8cf4af_o.jpg
+  - 38117417614_13af5d072f_o.jpg
 phrase: "Brace yourself GameofDrone is coming"
 members: "Steven Beteag, Gabriel Mezquita, Tony Neese, Matthew Xiong"
 client: "Associate Professor of Mathematics Matthew Stackpole, and Associate Professor of Mathematics Keith Erickson"

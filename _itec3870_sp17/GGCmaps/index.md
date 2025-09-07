@@ -4,6 +4,9 @@ title: GGCmaps
 date: 2017-08-16 14:49:25
 categories: itec3870 create
 collection: itec3870_sp17
+sponsor_key: [ "cengiz-gunay", "catherine-moore", "michael-deiters" ]
+project_key: "ggc-maps"
+
 photos:
 - IMG_20170427_145146955.jpg
 - IMG_20170427_144410982.jpg

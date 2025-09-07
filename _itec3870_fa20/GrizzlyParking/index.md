@@ -4,6 +4,8 @@ title: "Grizzly Parking"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "joshua-walton" ]
+project_key: "grizzly-parking"
 
 phrase: "Campus lots availability"
 tech: [ react native, android, ios, html/css, firebase ]

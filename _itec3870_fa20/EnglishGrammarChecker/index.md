@@ -4,6 +4,8 @@ title: "English Grammar Checker"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "jason-palmer" ]
+project_key: "english-grammar-checker"
 
 phrase: "Project CLAWS (Concise Language and Academic Writing Suggestions) (:crown: 3RD PLACE)"
 tech: [ angular, typescript, html/css, heroku ]

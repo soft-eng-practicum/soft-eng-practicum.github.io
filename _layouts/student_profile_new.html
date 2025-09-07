@@ -1,6 +1,40 @@
 ---
 layout: main_page
 ---
+{% assign sponsored_projects = "" | split: "," %}
+{% for k in page.project_key %}
+
+    {% for p in site.projects %}
+        {% if k == p.project_key %}
+            {% assign sponsored_projects = sponsored_projects
+                | push: p %}
+        {% endif %}
+    {% endfor %}
+
+    {% for col in site.collections %}
+        {% if col.label contains "itec" %}
+            {% for proj in site[col.label] %}
+                {% if k == proj.project_key %}
+                    {% assign sponsored_projects = sponsored_projects
+                        | push: proj %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+
+{% endfor %}
+
+{% assign project_partners = "" | split: "," %}
+{% for p in sponsored_projects %}
+    {% for k in p.sponsor_key %}
+        {% if k != page.sponsor_key %}
+            {% assign project_partners = project_partners
+                | push: k %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign project_partners = project_partners | uniq %}
+
 <div class="justify-content-center">
 
 <div class="col-lg-10 col-md-9 col-12 body_block align-content-center" style = "max-width: 100% !important;">
@@ -34,15 +68,19 @@ layout: main_page
                             </div>
                         </div>
                         <!--button-->
-                        <div class="d-flex flex-row gap-3 align-items-center">
-                            {% if page.website.size > 0 %}
-                            <a href="{{ page.website }}" target = "_blank"
-                                class="btn btn-outline-white">
-                                Website
-                            </a>
-                            {% endif %}
-                            <a href="mailto:{{ page.contact_email }}" class="btn btn-outline-white">Contact</a>
-                        </div>
+                        {% if page.website.size > 0 or page.contact_email.size > 0 %}
+                            <div class="d-flex flex-row gap-3 align-items-center">
+                                {% if page.website.size > 0 %}
+                                <a href="{{ page.website }}" target = "_blank"
+                                    class="btn btn-outline-white">
+                                    Website
+                                </a>
+                                {% endif %}
+                                {% if page.contact_email.size > 0 %}
+                                    <a href="mailto:{{ page.contact_email }}" class="btn btn-outline-white">Contact</a>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                     </div>
                     <div class="d-flex flex-md-row flex-column gap-md-4 gap-2">
                         <div class="d-flex flex-row gap-2 align-items-center lh-1 profile-metrics">
@@ -52,14 +90,7 @@ layout: main_page
                             </span>
                             <span class = "text-light" style = "font-size: 18px;">
                                 <!--text-->
-                                {% assign total_collaborators = 0 %}
-                                {% for k in page.project_key %}
-                                    {% assign tmp = site.projects | where: "project_key", k %}
-                                    {% for s in tmp[0].sponsor_key %}
-                                        {% assign total_collaborators = total_collaborators | plus: 1 %}
-                                    {% endfor %}
-                                {% endfor %}
-                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ total_collaborators }}</span>
+                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ project_partners.size }}</span>
                                 Collaborators
                             </span>
                         </div>
@@ -70,16 +101,7 @@ layout: main_page
                             </span>
                             <!--text-->
                             <span class = "text-light" style = "font-size: 18px;">
-                                {% assign all_projects = "" | split: "," %}
-                                {% for p in site.projects %}
-                                    {% for k in page.project_key %}
-                                        {% if k == p.project_key %}
-                                            {% assign all_projects = all_projects
-                                                | push: p %}
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endfor %}
-                                    <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ all_projects.size }}</span>
+                                <span style = "color: #fff !important; font-size: 20px; font-weight: 800;">{{ sponsored_projects.size }}</span>
                                 Projects
                             </span>
                         </div>
@@ -126,19 +148,6 @@ layout: main_page
                     </div>
                 </div>
                 {% endif %}
-                {% assign sponsored_projects = "" | split: "," %}
-                {% for key in page.project_key %}
-                    {% assign tmp = site.projects
-                        | where: "project_key", key %}
-                    {% for p in tmp %}
-                        {% assign sponsored_projects = sponsored_projects
-                            | push: p %}
-                    {% endfor %}
-                {% endfor %}
-                {% comment %}
-                {% assign sponsored_projects = site.projects
-                    | where: "project_key", page.project_key %}
-                {% endcomment %}
                 {% if sponsored_projects.size > 0 %}
                 <div class="d-flex flex-column gap-2">
                     <!--heading-->
@@ -146,7 +155,7 @@ layout: main_page
 
                     <div class="gap-2 d-flex flex-wrap">
                         {% for p in sponsored_projects %}
-                        <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style = "text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ p.title }}</a>
+                            <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style = "text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">{{ p.title }}</a>
                         {% endfor %}
                     </div>
                 </div>

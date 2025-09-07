@@ -4,6 +4,8 @@ title: "Pocket Pals"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "joseph-zoretic", "shawna-cassagnol", "lukas-walsh" ]
+project_key: "pocket-pals"
 
 phrase: "2D top-down open world video game inspired by Pokémon"
 tech: [ unity, html/css ]

@@ -4,6 +4,8 @@ title: "Sustainability Pledge Website"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "anca-doloc-mihu", "greatzel-unabia" ]
+project_key: "sustainability-pledge"
 
 phrase: "Central hub for the Student Innovators Organization for Sustainability (SIOS) (:crown: :crown: 2ND PLACE)"
 tech: [ angular, typescript, html/css, firebase, bootstrap ]

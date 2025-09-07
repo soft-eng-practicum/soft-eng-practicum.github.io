@@ -4,6 +4,9 @@ title: "GGC Maps"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
+sponsor_key: [ "cengiz-gunay", "carlos-llorens", "ashley-still", "michael-deiters", "david-rivera-rocha" ]
+project_key: "ggc-maps"
+
 phrase: "Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
 tech: [ javascript, grunt, sass, html ]
 screencast-youtube: hVx8VQ5Y79M

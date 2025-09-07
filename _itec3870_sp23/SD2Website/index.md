@@ -4,6 +4,8 @@ title: "SD2 Website"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
+sponsor_key: [ "cengiz-gunay" ]
+project_key: "sd2-website"
 
 phrase: "Improve Friendliness and Useability"
 tech: [ bootstrap, html/css, jekyll, liquid, YAML ]

@@ -4,6 +4,8 @@ title: "Lawrenceville Coop App"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "lawrenceville-coop-ministry" ]
+project_key: "lawrenceville-coop-app"
 
 phrase: "Check in and get information about food banks"
 tech: [ react native, android, ios, html/css, firebase, google maps ]

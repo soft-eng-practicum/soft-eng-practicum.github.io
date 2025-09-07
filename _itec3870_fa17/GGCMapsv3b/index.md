@@ -4,6 +4,9 @@ title: "GGC Maps v3b"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
 collection: itec3870_fa17
+sponsor_key: [ "cengiz-gunay", "catherine-moore", "michael-deiters", "david-rivera-rocha" ]
+project_key: "ggc-maps"
+
 photos:
 - 24960882688_1b03c40551_o.jpg
 - 37946694695_60c8d9a787_o.jpg
@@ -17,7 +20,6 @@ photos:
 - 27057157559_358dbceee0_o.jpg
 - 27057246329_881b8cf4af_o.jpg
 - 38117417614_13af5d072f_o.jpg
-
 phrase: "New features: Updated parking lots and search building 3000 rooms"
 demo-url: https://soft-eng-practicum.github.io/ggcmaps/
 members: "Team NavBenders: Maryam Najiarani, Richard A Williams Jr, Joseph Pelletier"

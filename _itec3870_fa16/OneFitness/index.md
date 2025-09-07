@@ -4,13 +4,15 @@ title: OneFitness
 date: 2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
+sponsor_key: [ "cengiz-gunay", "pamela-anderson" ]
+project_key: "one-fitness"
+
 photos:
 - create-cm1.jpg
 - create-mixed.jpg
 - Create-CB-1.jpg
 - Create-CB-2.jpg
 - Create-CB-3.jpg
-
 phrase: "GGC Exercise Science Discipline mobile fitness app"
 screencast-youtube: 6TCaJin93k8
 members: "Brock Bearchell, David Guevara, Wesley McDorman, Matthew Thompson"

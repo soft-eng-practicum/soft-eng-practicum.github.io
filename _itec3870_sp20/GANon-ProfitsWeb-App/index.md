@@ -4,6 +4,8 @@ title: "GA Non-Profits Web-App"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "jasmin-alvarez" ]
+project_key: "ga-non-profits-app"
 
 phrase: "Interactive online map"
 tech: [ node, angular, html/css ]

@@ -13,7 +13,6 @@ contact_name: "" # Your preferred name or name of contact (e.g., "Dr. Gunay")
 contact_email: "" # Your preferred contact email address (e.g., "cgunay@ggc.edu")
 skills: [] # A short list of your or your organizations most notable skills (e.g., [ "Aerospace Engineering", "Avionics" ])
 highlights: [] # A short list of your or your organization's most notable achievements (e.g., [ "Time Most Influential Companies of 2022", "Forbes 30 under 30" ])
-sponsor_key: "" # A unique value used to represent you (e.g., "partner-name")
 
 #####################
 ## OPTIONAL VALUES ##

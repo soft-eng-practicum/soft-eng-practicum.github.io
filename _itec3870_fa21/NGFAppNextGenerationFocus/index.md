@@ -4,6 +4,8 @@ title: "NGF App (Next Generation Focus Organization)"
 date: 2021-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa21
+sponsor_key: [ "anca-doloc-mihu", "amy-sol" ]
+project_key: "ngf-app"
 
 phrase: "Help NGF go modern – to embrace a fully online record keeping system for students, families, volunteers and staff"
 tech: [ react, bootstrap, html/css ]

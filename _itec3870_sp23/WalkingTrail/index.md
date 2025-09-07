@@ -4,6 +4,8 @@ title: "Walking Trail"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
+sponsor_key: [ "cengiz-gunay", "karen-perell-gerson", "kristie-walsdorf", "jenny-dies" ]
+project_key: "walking-trails"
 
 phrase: "GGC Trail Guide"
 tech: [ mongodb, express.JS, react, node.js, MERN, bootstrap, html/css ]

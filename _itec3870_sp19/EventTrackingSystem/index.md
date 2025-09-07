@@ -4,17 +4,19 @@ title: "Event Tracking System"
 date: 2019-05-04 14:00:00
 categories: itec3870 create
 collection: itec3870_sp19
-photos:
-- 20190425-_RAW5499.jpg
-- 20190425-_RAW5504.jpg
-- 20190425-_RAW5505.jpg
-- 20190425-_RAW5556.jpg
-- 20190425-_RAW5557.jpg
-- 20190425-_RAW5558.jpg
-- 20190425-_RAW5660.jpg
-- 20190425-_RAW5662.jpg
-- 33858745738_2d84e86fb5_b.jpg
+sponsor_key: [ "cengiz-gunay", "michael-holtman" ]
+project_key: "event-tracking-system"
 
+photos:
+  - 20190425-_RAW5499.jpg
+  - 20190425-_RAW5504.jpg
+  - 20190425-_RAW5505.jpg
+  - 20190425-_RAW5556.jpg
+  - 20190425-_RAW5557.jpg
+  - 20190425-_RAW5558.jpg
+  - 20190425-_RAW5660.jpg
+  - 20190425-_RAW5662.jpg
+  - 33858745738_2d84e86fb5_b.jpg
 phrase: "Web based event tracking built for organizers and volunteers"
 tech: [ "php", "mysql", angular, rest, "html/css" ]
 screencast-youtube: Ym26TiFWeDA

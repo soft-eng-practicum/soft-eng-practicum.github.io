@@ -4,6 +4,9 @@ title: "BookSwap"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
 collection: itec3870_fa17
+sponsor_key: [ "cengiz-gunay", "hailey-montgomery" ]
+project_key: "book-swap"
+
 photos:
 - 24960882688_1b03c40551_o.jpg
 - 37946694695_60c8d9a787_o.jpg
@@ -17,7 +20,6 @@ photos:
 - 27057157559_358dbceee0_o.jpg
 - 27057246329_881b8cf4af_o.jpg
 - 38117417614_13af5d072f_o.jpg
-
 phrase: "Need a textbook? Lending, swapping, trading, sharing books in our campus community"
 demo-url: http://bookswap-dev.us-east-1.elasticbeanstalk.com/
 members: "Team Mercury: Alek Gartland, Chelsea D'Alessandro, Sierra Williams, Waylon Lao"

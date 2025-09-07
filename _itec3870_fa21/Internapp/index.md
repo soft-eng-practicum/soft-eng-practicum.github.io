@@ -4,6 +4,8 @@ title: "Internapp"
 date: 2021-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa21
+sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie" ]
+project_key: "intern-app"
 
 phrase: "Let GGC Find You an Internship!"
 tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]

@@ -4,6 +4,8 @@ title: "Walking Trails App"
 date: 2022-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa22
+sponsor_key: [ "anca-doloc-mihu", "karen-perell-gerson" ]
+project_key: "walking-trails"
 
 phrase: "Fitness App showcasing trails info and allowing for personalized workouts"
 tech: [ react, typescript, html/css, MongoDB, NodeJS, Express, Googlemaps, Google Map API, material-ui ]

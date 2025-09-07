@@ -60,17 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
             pagination.insertBefore(li, pagination.children[pagination.children.length - 1]);
         }
 
-        document.querySelector("#pagination a.page-link[href='#'][tabindex='-1']")
-        .addEventListener("click", (e) => {
-            e.preventDefault();
-            if (currentPage > 1) showPage(currentPage - 1);
-        });
-        document.querySelector("#next-page a")
-        .addEventListener("click", (e) => {
-            e.preventDefault();
-            if (currentPage < totalPages) showPage(currentPage + 1);
-        });
-
     }
 
     function applyFiltersAndSort() {
@@ -167,11 +156,23 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".dropdown-item[data-filter]").forEach(item => {
 
         item.addEventListener("click", function (e) {
-            e.preventDefault;
+            e.preventDefault();
             currentFilter = this.dataset.filter;
             applyFiltersAndSort();
         });
 
+    });
+
+    document.querySelector("#pagination a.page-link[href='#'][tabindex='-1']")
+    .addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentPage > 1) showPage(currentPage - 1);
+    });
+
+    document.querySelector("#next-page a")
+    .addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentPage < totalPages) showPage(currentPage + 1);
     });
 
 });

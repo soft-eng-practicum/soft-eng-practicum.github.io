@@ -4,15 +4,17 @@ title: PicturePerfect
 date: 2017-08-16 14:49:25
 categories: itec3870 create
 collection: itec3870_sp17
-photos:
-- IMG_20170427_145146955.jpg
-- IMG_20170427_144410982.jpg
-- IMG_20170427_144413728.jpg
-- IMG_20170427_144433983.jpg
-- IMG_20170427_145050656.jpg
-- IMG_20170427_145114857.jpg
-- IMG_20170427_145202939_HDR.jpg
+sponsor_key: [ "cengiz-gunay", "lindsay-gratch" ]
+project_key: "picture-perfect"
 
+photos:
+  - IMG_20170427_145146955.jpg
+  - IMG_20170427_144410982.jpg
+  - IMG_20170427_144413728.jpg
+  - IMG_20170427_144433983.jpg
+  - IMG_20170427_145050656.jpg
+  - IMG_20170427_145114857.jpg
+  - IMG_20170427_145202939_HDR.jpg
 phrase: "A cinematography and photo teaching app"
 demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
 screencast-youtube: cIvjVlIS4lM
