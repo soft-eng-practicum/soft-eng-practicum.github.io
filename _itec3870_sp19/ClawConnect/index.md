@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp19
 sponsor_key: [ "cengiz-gunay", "sasa-mitrovic" ]
 project_key: "claw-connect"
+semester_key: "sp19"
 
 photos:
   - 20190425-_RAW5499.jpg
@@ -20,6 +21,7 @@ photos:
 phrase: "Stay Connected GGC Claw Connect App - group messaging (:crown: :crown: :crown: 1ST PLACE)"
 tech: [ ionic, firebase, angular, node, html/css ]
 screencast-youtube: OS1exGPxQDI
+cohort: "Three Magicians"
 members: "Three Magicians: Shawna Cassagnol, Mansoor White, Joseph Colby Zoretic"
 client: "Sasa Mitrovic"
 description: "ClawConnect is a social media platform design by college students for college students. The goal of ClawConnect is to have it function as a platform for students to connect with eachother for resources like tutoring, group study sessions, or collaborations. ClawConnect has the potential to be a powerful tool for students, teachers, alumni, and the professional world to make connections."

@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_sp20
 sponsor_key: [ "cengiz-gunay", "ggra" ]
 project_key: "ggra-resource-map"
+semester_key: "sp20"
 
 phrase: "For updating and displaying locations and information"
 tech: [ javascript, jquery, html/css, .netcore, c#, mssql, rest ]
 screencast-youtube: XHLFTyXzt_4
+cohort: "Team AmbiguousLarks"
 members: "Team AmbigiousLarks: Khang Ho, Joshua Sales, and an anonymous member"
 client: "Brendan Spaar, [Greater Gwinnett Reentry Alliance](https://www.gwinnettreentry.org/)"
 demo-url: https://ggra-development.azurewebsites.net/larkMap.html

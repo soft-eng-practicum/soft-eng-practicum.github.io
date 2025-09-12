@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "roster-sniper" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa22"
 ---

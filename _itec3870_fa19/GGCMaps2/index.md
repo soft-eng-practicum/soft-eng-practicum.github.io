@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
+semester_key: "fa19"
+project_id: 2
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +73,7 @@ photos:
 phrase: "Bugfixes and new safety/parking/vending toggle"
 tech: [ javascript, html/css]
 screencast-youtube: d4oAzzg_bek
+cohort: "Team PlugIt"
 members: "Team PlugIt: Karen Banks, Austin Edwards, Jacob Wise, Josue Pastore-Manzano"
 client: "GGC alumni Mike Deiters and David Rivera Rocha"
 description: "GGC Maps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests. This is the latest iteration of a [previous project](../featured/ggc-maps)."

@@ -12,10 +12,6 @@ skills: [ ]
 highlights: [ ]
 project_key: [ "roster-sniper" ]
 location: "Lawrenceville, GA"
+semester_key: "fa20"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
 ---

@@ -6,11 +6,13 @@ categories: itec3870 create
 collection: itec3870_sp23
 sponsor_key: [ "cengiz-gunay", "karen-perell-gerson", "kristie-walsdorf", "jenny-dies" ]
 project_key: "walking-trails"
+semester_key: "sp23"
 
 phrase: "GGC Trail Guide"
 tech: [ mongodb, express.JS, react, node.js, MERN, bootstrap, html/css ]
 prof: gunay
 screencast-youtube: dT2bphPeOrY
+cohort: "Team TTrails"
 members: "Team TTrails: Nathan Nguyen, Peter Okolocha, Daniel Valencia"
 client: "Karen Perell-Gerson, Kristie Waldrof, and Jenny Dies"
 demo-url: https://ggctrail.onrender.com/

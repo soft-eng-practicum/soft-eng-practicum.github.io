@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "catherine-moore" ]
 project_key: "ggc-maps"
+semester_key: "sp18"
 
 photos:
   - IMAG2328.jpg
@@ -28,9 +29,10 @@ photos:
 phrase: "A Campus Map Persistent Web Application"
 demo-url: https://soft-eng-practicum.github.io/ggcmaps/
 screencast-youtube: zIZ7P6UjL8E
+cohort: "Team JPAN"
 members: "Team JPAN: Nabilah Lasker, Codjoe Jean-Paul Gamadeku, Andres Blandon"
 client: "Dr. Catherine Moore"
-client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
+client-url: ""
 description: "GGCMaps aims to better, as well as ease, the experience of students at GGC when trying to find various locations across campus. It allows users to search rooms and have them be highlighted on an interactive map for easier meetups, less time wasted finding that one classroom for the first time, and easier navigation across campus for guests. This project was started by Mike Deiters et al, in Fall of 2016. It has since been picked up for continuation by David Rivera et al, to further develop its features, and fix bugs as our Software Development II project. This is the latest update to this project for adding a GGC logo, nearby building cues, new UI controls, and clickable parking lots."
 logo-full: flyer-ggcmaps.png
 logo-thumb: thumb-flyer-ggcmaps.png

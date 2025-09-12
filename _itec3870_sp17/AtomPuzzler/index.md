@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_sp17
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "atom-puzzler"
+semester_key: "sp17"
+
 photos:
 - IMG_20170427_145146955.jpg
 - IMG_20170427_144410982.jpg
@@ -20,7 +22,7 @@ demo-url: http://johnjlam.com/AtomPuzzlerPages/
 screencast-youtube: oK54BlI11o4
 members: "Matt Nelson, King Lo, Caleb Sears, and John Lam"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "College-level gamified learning tool for chemical naming and molecular geometry."
 tech: Website created using GameMaker Studio. No database or backend.
 logo-full: flyer-atompuzzler.png

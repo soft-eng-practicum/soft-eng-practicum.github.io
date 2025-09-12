@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa20
 sponsor_key: [ "anca-doloc-mihu", "greatzel-unabia" ]
 project_key: "sustainability-pledge"
+semester_key: "fa20"
 
 phrase: "Central hub for the Student Innovators Organization for Sustainability (SIOS) (:crown: :crown: 2ND PLACE)"
 tech: [ angular, typescript, html/css, firebase, bootstrap ]
 screencast-youtube: a9Ixflzd_Ko
+cohort: "The Green Machine"
 members: "The Green Machine: Trevor Lee, Jonathan Roof, Cesar Lopez, Angel Mercado"
 client: "Greatzel Unabia"
 prof: doloc-mihu

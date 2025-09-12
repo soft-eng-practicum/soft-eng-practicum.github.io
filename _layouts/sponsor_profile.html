@@ -2,16 +2,16 @@
 layout: main_page
 ---
 {% assign sponsored_projects = site.projects
-| where: "sponsor_key", page.sponsor_key %}
+    | where: "sponsor_key", page.sponsor_key %}
 {% for col in site.collections %}
-{% if col.label contains "itec" %}
-    {% for proj in site[col.label] %}
-        {% if proj.sponsor_key contains page.sponsor_key %}
-            {% assign sponsored_projects = sponsored_projects
-                | push: proj %}
-        {% endif %}
-    {% endfor %}
-{% endif %}
+    {% if col.label contains "itec" %}
+        {% for proj in site[col.label] %}
+            {% if proj.sponsor_key contains page.sponsor_key %}
+                {% assign sponsored_projects = sponsored_projects
+                    | push: proj %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 {% endfor %}
 
 {% assign project_partners = "" | split: "," %}
@@ -135,7 +135,7 @@ layout: main_page
                         {% if page.skills.size > 0 %}
                         <div class="d-flex flex-column gap-2">
                             <!--heading-->
-                            <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Skills</h3>
+                            <h3 class="mb-0" style = "font-size: 20px; font-weight: 600px; font-family: 'Inter', sans-serif; color: #fff;">Interests</h3>
 
                             <div class="gap-2 d-flex flex-wrap">
                                 {% for skill in page.skills %}

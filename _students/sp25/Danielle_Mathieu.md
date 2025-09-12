@@ -11,6 +11,7 @@ cohort: ""
 skills: [ "Java", "JavaScript", "Python" ]
 highlights: [ "President’s List", "Dean’s List", "Cum Laude" ]
 project_key: [ "ngf-admin-dashboard" ]
+semester_key: "sp25"
 location: "Dacula, GA"
 
 ## OPTIONAL VALUES

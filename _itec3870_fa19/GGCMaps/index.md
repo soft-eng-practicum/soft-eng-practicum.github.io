@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
+semester_key: "fa19"
+project_id: 1
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +73,7 @@ photos:
 phrase: "Find your way on campus (:crown: :crown: 2ND PLACE)"
 tech: [ javascript, html/css]
 screencast-youtube: iGTNGJe5XmA
+cohort: "Team Vegan't"
 members: "Team Vegan't: Marcelo Mariduena, Jonathan Mwizerwa, Graham Giles, Philip Wall"
 client: "GGC alumni Mike Deiters and David Rivera Rocha"
 demo-url: http://ggcmaps.com

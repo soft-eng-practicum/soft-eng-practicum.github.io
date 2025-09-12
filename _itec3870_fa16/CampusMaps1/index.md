@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa16
 sponsor_key: [ "cengiz-gunay", "catherine-moore" ]
 project_key: "campus-maps"
+semester_key: "fa16"
 
 photos:
 - create-cm1.jpg
@@ -18,7 +19,7 @@ demo-url: http://campusmap1.duckdns.org/
 screencast-youtube: e3Cl1kVO9Ok
 members: "Christopher 'Cody' Cates, Eric Kim, Adam Printz, Lance Toornman"
 client: "Dr. Catherine Moore"
-client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
+client-url: ""
 description: "Familiar maps, new twists. Never be out of the loop. Easily locate services. Mobile friendly."
 logo-full: flyer-campusmaps1.png
 logo-thumb: thumb-flyer-campusmaps1.png

@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "catherine-moore", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
+project_id: 2
+semester_key: "fa17"
 
 photos:
 - 24960882688_1b03c40551_o.jpg
@@ -22,6 +24,7 @@ photos:
 - 38117417614_13af5d072f_o.jpg
 phrase: "New features: Updated parking lots and search building 3000 rooms"
 demo-url: https://soft-eng-practicum.github.io/ggcmaps/
+cohort: "Team NavBenders"
 members: "Team NavBenders: Maryam Najiarani, Richard A Williams Jr, Joseph Pelletier"
 client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
 description: "Continuing previous project. Search Function properly works in all buildings and now for 3000 building. An updated look to all parking lots with accurate handicap, staff/faculty parking, etc. New updated legend for all parking lots."

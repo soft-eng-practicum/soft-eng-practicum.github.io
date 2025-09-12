@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa16
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "elements"
+semester_key: "fa16"
 
 photos:
 - create-cm1.jpg
@@ -18,8 +19,8 @@ demo-url: https://hmontgomery.github.io/
 screencast-youtube: iUSVqSxJaGM
 members: "Roland Abrahantes, Aboubakar 'Winston' Koene, Xavier Lazo, Hailey Montgomery"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-description: 
+client-url: ""
+description: ""
 logo-full: flyer-elements.png
 logo-thumb: thumb-flyer-elements.png
 repo-url: https://github.com/soft-eng-practicum/elements

@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "oh-counter-my-counter" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa19"
 ---

@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "pamela-anderson" ]
 project_key: "one-fitness"
+semester_key: "sp18"
 
 photos:
   - IMAG2328.jpg
@@ -29,7 +30,7 @@ phrase: "GGC Exercise Science Discipline mobile fitness app"
 screencast-youtube: JokdDdCyesY
 members: Ariella Hernandez, Katrina Smith, Wil Nazario
 client: "Dr. Pam Anderson"
-client-url: http://www.ggc.edu/about-ggc/directory/pamela-anderson
+client-url: ""
 description: "Get in shape & be healthy: flexible workout plans to help user plan their workouts while keeping track of their past performance!"
 logo-full: flyer-OneFitness.jpg
 logo-thumb: thumb-flyer-OneFitness.jpg

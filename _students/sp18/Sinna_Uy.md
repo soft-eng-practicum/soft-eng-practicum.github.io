@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "auto-speaker" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "sp18"
 ---

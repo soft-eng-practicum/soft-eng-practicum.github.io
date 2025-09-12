@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa16
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "xenon"
+semester_key: "fa16"
 
 photos:
 - create-cm1.jpg
@@ -18,7 +19,7 @@ screencast-youtube: 45AhRdb5GRw
 phrase: "A chemistry study game"
 members: "Adem Abafogi, Adele Francois, Jawan Higgins, John Rose"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "An optimized mobile web game that allows students to practice and master the skill of naming chemical formulas/nomenclature in a fun format!"
 logo-full: flyer-XENON.png
 logo-thumb: thumb-flyer-XENON.png

@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "christy-conners" ]
 project_key: "shutter-plug"
+semester_key: "fa19"
+project_id: 2
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +73,7 @@ photos:
 phrase: "Your High Speed Plug-In to Photographers"
 tech: [ node, react, html/css, firebase, mongodb ]
 screencast-youtube: 2ry14QSl5ZI
+cohort: "Team Apollo"
 members: "Team Apollo: Alex Smyntyna, Jared Easton, Paul Cardenes, Haylee Anderson"
 client: "Christy Conners, Commercial Photography Teacher in Gwinnett"
 description: "ShutterPlug is a photography and videography based app where the goal is to connect customers and business owners to photographers and videographers. Photographers will have access to a web based platform that will launch their business to a higher level of exposure. Photographers/Videographers can simply upload a custom profile and link their social media and websites to the Shutter Plug App to gain thousands of potential clients. Clients can quickly browse through different photographer profiles easily by using Shutter Plug’s filters such as: Location, Availability, Price Range, Portrait/Studio, Wedding, Product, Sports, Architecture, Interior Design, Events and/or drone. There is also a scrolling feed that keeps everyone updated on events, advertisements, photo contests and more."

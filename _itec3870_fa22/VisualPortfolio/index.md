@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa22
 sponsor_key: [ "anca-doloc-mihu" ]
 project_key: "visual-portfolio"
+semester_key: "fa22"
 
 phrase: "A visually interactive tool to streamline the portfolio-making process"
 tech: [ React, NodeJS, Tailwing, Firebase, Frameer-Motion, Jest-dom ]
 screencast-youtube: a-qsBnKn9xU
+cohort: "Business Casual"
 members: "Business Casual: Robert Recallo, Benjamin Moreira, Canaan Hanley"
 client: "Dr. Anca Doloc-Mihu"
 prof: doloc-mihu

@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp23
 sponsor_key: [ "cengiz-gunay", "miranda-darlington" ]
 project_key: "grizzly-hacks-app"
+semester_key: "sp23"
 
 phrase: "Modernization of an RSO Website"
 tech: [ angular, firebase, bootstrap, html/css ]

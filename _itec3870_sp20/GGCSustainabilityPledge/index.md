@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp20
 sponsor_key: [ "cengiz-gunay", "le-quang", "greatzel-unabia", "elizabeth-sudduth" ]
 project_key: "ggc-sustainability-pledge"
+semester_key: "sp20"
 
 tech: [ node, angular, html/css, firebase]
 screencast-youtube: VRr0vG4C6y8

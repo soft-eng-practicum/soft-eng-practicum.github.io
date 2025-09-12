@@ -1,6 +1,44 @@
 ---
 layout: default
 ---
+{% assign interns = "" | split: "," %}
+{% for s in site.students %}
+    {% for key in s.project_key %}
+        {% if key == page.project_key
+            and s.semester_key == page.semester_key %}
+            {% if page.project_id %}
+                {% if page.project_id == s.project_id %}
+                    {% assign interns = interns | push: s %}
+                {% endif %}
+            {% else %}
+                {% assign interns = interns | push: s %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% assign timeline = "" | split: "," %}
+{% for col in site.collections %}
+    {% if col.label contains "itec" %}
+        {% for proj in site[col.label] %}
+            {% if proj.project_key contains page.project_key %}
+                {% assign timeline = timeline
+                    | push: proj %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+{% if page.project_key %}
+    {% assign tmp = site.projects
+        | where: "sponsor_key", page.sponsor_key %}
+    {% for p in tmp %}
+        {% assign timeline = timeline | push: p %}
+    {% endfor %}
+{% endif %}
+{% assign timeline = timeline | sort: "semester_key" | reverse %}
+
+
+
 <div class="justify-content-center">
 
     <div class="col-lg-10 col-md-9 col-12 body_block align-content-center mx-auto">
@@ -11,6 +49,9 @@ layout: default
                     <span>{{ page.phrase }}</span>
                 {% endif %}
             </h1>
+            {% comment %}
+            {{ timeline | inspect }}
+            {% endcomment %}
         </div>
 
         {% if page.photos %}
@@ -59,25 +100,13 @@ layout: default
 
         </section>
 
-        {% if page.members %}
+        {% if page.members and interns.size == 0 %}
             <p>Developed by <em>{{ page.members }}</em><br>
-        {% comment %}
-        {% elsif page.cohort.size > 0 %}
-            <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}</a></em><br>
-        {% endcomment %}
         {% else %}
             {% comment %}
                 Only print "Developed by" if there is at least 1 student
                 associated with the project.
             {% endcomment %}
-            {% assign interns = "" | split: "," %}
-            {% for s in site.students %}
-                {% for key in s.project_key %}
-                    {% if key == page.project_key %}
-                        {% assign interns = interns | push: s %}
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
             {% if interns.size == 1 %}
                 {% if page.cohort.size > 0 %}
                     <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}:</a>&nbsp;&nbsp;<a href = "{{ interns[0].url }}">{{ interns[0].title }}</a></em></p>
@@ -89,22 +118,21 @@ layout: default
                 {% assign count = 0 %}
                 {% unless page.cohort.size > 0 %}
                 <p>Developed by&nbsp;
-                {% for i in interns %}
-                    {% if count < max %}
-                        <em>
-                            <a href = "{{ i.url }}">
-                                {{ i.title }}
-                            </a>,&nbsp;
-                        </em>
-                        {% assign count = count | plus: 1 %}
-                    {% else %}
-                        <em>
-                            <a href = "{{ i.url }}">
-                                {{ i.title }}
-                            </a>
-                        </em>
-                    {% endif %}
-                {% endfor %}
+                    {% for i in interns %}
+                        {% if count < max %}
+                            <em>
+                                <a href = "{{ i.url }}">
+                                    {{ i.title }}</a>,&nbsp;
+                            </em>
+                            {% assign count = count | plus: 1 %}
+                        {% else %}
+                            <em>
+                                <a href = "{{ i.url }}">
+                                    {{ i.title }}
+                                </a>
+                            </em>
+                        {% endif %}
+                    {% endfor %}
                 </p>
                 {% else %}
                     <p>Developed by <em><a href = "#cohort-section">{{ page.cohort }}:</a>&nbsp;</em>
@@ -112,8 +140,7 @@ layout: default
                         {% if count < max %}
                             <em>
                                 <a href = "{{ i.url }}">
-                                    {{ i.title }}
-                                </a>,&nbsp;
+                                    {{ i.title }}</a>,&nbsp;
                             </em>
                             {% assign count = count | plus: 1 %}
                         {% else %}
@@ -130,6 +157,57 @@ layout: default
         {% endif %}
 
         {% if page.client-url %}
+            {% if page.sponsor_key %}
+                {% assign client = "" | split: "," %}
+                {% assign tmp = site.partners
+                    | where: "sponsor_type", "Client" %}
+                {% for key in page.sponsor_key %}
+                    {% for c in tmp %}
+                        {% if c.sponsor_key == key %}
+                            {% assign client = client | push: c %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+
+                {% if client.size > 0 %}
+                    {% assign count = 0 %}
+                    {% assign max = client.size | minus: 1 %}
+                    {% if client.size == 1 %}
+                        <p>Directed by client&nbsp;
+                    {% elsif client.size > 1 %}
+                        <p>Directed by clients&nbsp;
+                    {% endif %}
+                    {% for c in client %}
+                        {% if count != max %}
+                            <em>
+                                <a href="{{ c.url }}">
+                                    {{ c.title }}</a>,&nbsp;
+                            </em>
+                            {% assign count = count | plus: 1 %}
+                        {% else %}
+                            <em>
+                                <a href="{{ c.url }}">
+                                    {{ c.title }}
+                                </a>
+                            </em>
+                        {% endif %}
+                    {% endfor %}
+                        </p>
+                {% else %}
+                    <p>
+                    Directed by client <em>
+
+                        <a href="{{ page.client-url }}" target="_blank">
+
+                            {{ page.client }}
+
+                        </a>
+
+                    </em>
+                    </p>
+                {% endif %}
+            {% endif %}
+        {% else %}
             {% if page.sponsor_key %}
                 {% assign client = "" | split: "," %}
                 {% assign tmp = site.partners
@@ -180,11 +258,9 @@ layout: default
                     </em>
                     </p>
                 {% endif %}
-            {% endif %}
-        {% else %}
-
+            {% else %}
                 {{ "Directed by client _" | append: page.client | append: "_" | markdownify }}
-
+            {% endif %}
         {% endif %}
 
         {% if page.sponsor_key %}
@@ -206,8 +282,7 @@ layout: default
                         {% if count < max %}
                             <em>
                                 <a href="{{ s.url }}">
-                                    {{ s.title }}
-                                </a>,&nbsp;
+                                    {{ s.title }}</a>,&nbsp;
                             </em>
                             {% assign count = count | plus: 1 %}
                         {% else %}
@@ -323,8 +398,7 @@ layout: default
 
                 <div class="row justify-content-center">
 
-                    {% assign related_students = site.students
-                        | where: "project_key", page.project_key %}
+                    {% assign related_students = interns %}
                     {% if related_students.size > 0 %}
 
                         {% for s in related_students %}
@@ -378,8 +452,8 @@ layout: default
             {% endfor %}
         {% endfor %}
 
-        <!-- Start Header Section -->
         <section class="section-team" id = "partner-cards">
+            <!-- Start Header Section -->
             <div class="row justify-content-center text-center">
                 <div class="col-md-8 col-lg-6">
                     <div class="header-section">
@@ -392,42 +466,109 @@ layout: default
                     </div>
                 </div>
             </div>
-        <!-- End Header Section -->
+            <!-- End Header Section -->
 
-        {% if partners.size > 0 %}
-            <div class = "container">
-                <div class = "row justify-content-center">
-                {% for e in partners %}
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                        <a href = "{{e.url}}" class = "text-decoration-none d-block">
-                            <div>
-                                <div class="single-person">
-                                    <div class="person-image">
-                                        {% if e.logo.size > 4 %}
-                                            <img src="/assets/img/partners/{{ e.logo }}"
-                                                alt="{{ e.title }}">
-                                        {% else %}
-                                            <img src="/assets/img/partners/GGC.jpg"
-                                                alt="{{ e.title }}">
-                                        {% endif %}
-                                        <span class="icon">
-                                            <i class="fa fa-code"></i>
-                                        </span>
-                                    </div>
-                                    <div class="person-info">
-                                        <h3 class="full-name">{{ e.title }}</h3>
-                                        <span class="speciality">{{ e.sponsor_type }}</span>
+            {% if partners.size > 0 %}
+                <div class = "container">
+                    <div class = "row justify-content-center">
+                    {% for e in partners %}
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <a href = "{{e.url}}" class = "text-decoration-none d-block">
+                                <div>
+                                    <div class="single-person">
+                                        <div class="person-image">
+                                            {% if e.logo.size > 4 %}
+                                                <img src="/assets/img/partners/{{ e.logo }}"
+                                                    alt="{{ e.title }}">
+                                            {% else %}
+                                                <img src="/assets/img/partners/GGC.jpg"
+                                                    alt="{{ e.title }}">
+                                            {% endif %}
+                                            <span class="icon">
+                                                <i class="fa fa-code"></i>
+                                            </span>
+                                        </div>
+                                        <div class="person-info">
+                                            <h3 class="full-name">{{ e.title }}</h3>
+                                            <span class="speciality">{{ e.sponsor_type }}</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <br>
+                    {% endfor %}
                     </div>
-                    <br>
-                {% endfor %}
+                </div>
+            {% endif %}
+        </section>
+    {% endif %}
+
+    {% if timeline.size > 1 %}
+        <section class="section-team mt-5">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="header-section">
+                        <h3 class="small-title">See {{ page.title }}'s development history...</h3>
+                        {% assign tmp = timeline | group_by: "semester_key" %}
+                        <h2 class="title">Over {{ tmp.size }} semesters!</h2>
+                    </div>
                 </div>
             </div>
-        {% endif %}
         </section>
+        <div class="container py-5">
+            <div class="main-project-timeline text-white">
+                {% assign isLeft = false %}
+                {% for p in timeline %}
+                    {% if isLeft %}
+                    <div class="project-timeline timeline-left">
+                        <div class="card gradient-custom border-0">
+                    {% else %}
+                    <div class="project-timeline timeline-right">
+                        <div class="card gradient-custom-2 border-0">
+                    {% endif %}
+                            <div class="card-body p-4">
+                                <i class="fa-solid fa-code-merge fa-2x mb-3"></i>
+                                {% assign p_sem = p.semester_key %}
+                                {% if p_sem contains "fa" %}
+                                    {% assign p_sem = p_sem | replace: "fa", "Fall 20" %}
+                                {% else %}
+                                    {% assign p_sem = p_sem | replace: "sp", "Spring 20" %}
+                                {% endif %}
+                                <h3 class="text-white">{{ p.title }}</h3>
+                                <p class="text-white mb-2">{{ p_sem }}</p>
+                                {% if p.url == page.url %}
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fa-solid fa-star text-warning pe-2"></i>
+                                        <p class="text-white fst-italic">You are here!</p>
+                                    </div>
+                                {% endif %}
+                                {% if p.logo-thumb.size > 4 %}
+                                    {% if p.collection contains "itec" %}
+                                        <img src="/{{ p.collection }}/images/{{ p.logo-full }}"
+                                            class="img-fluid rounded mb-4 shadow" alt="{{ p.title }}">
+                                    {% else %}
+                                        <img src="/projects/{{ p.course_key }}/{{ p.semester_key }}/images/{{ p.logo-full }}"
+                                            class="img-fluid rounded mb-4 shadow" alt="{{ p.title }}">
+                                    {% endif %}
+                                {% endif %}
+                                <p class="bg-white rounded p-3">{{ p.description }}</p>
+                                {% unless p.url == page.url %}
+                                    <div class="d-flex justify-content-center mt-4">
+                                        <a href="{{ p.url }}" class="btn btn-tag btn-sm bg-light border-0 text-wrap" style="text-decoration: none; font-size: 14px; color: #006644; font-weight: 450;">Learn More</a>
+                                    </div>
+                                {% endunless %}
+                            </div>
+                        </div>
+                    </div>
+                    {% if isLeft %}
+                        {% assign isLeft = false %}
+                    {% else %}
+                        {% assign isLeft = true %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     {% endif %}
 
     <div class = "m-0-auto mt-5 mb-5" style = "width: 15%;">

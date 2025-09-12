@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "atul-saxena" ]
 project_key: "ml-stocks"
+semester_key: "sp18"
 
 photos:
   - IMAG2328.jpg
@@ -30,7 +31,7 @@ demo-url: https://notebooks.azure.com/MLStocks/libraries/MLStocks
 screencast-youtube: x5k7kj3faMg
 members: "Samuel Berende, Jarrod Bailey, Zehra Siddiqui"
 client: "Dr. Atul Saxena"
-client-url: http://www.ggc.edu/about-ggc/directory/atul-saxena
+client-url: ""
 description: "A brief introductory tutorial on stock market analysis using machine learning."
 logo-full: flyer-MLStocks.png
 logo-thumb: thumb-flyer-MLStocks.png

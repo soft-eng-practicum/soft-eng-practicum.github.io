@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "idg-mobile" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa18"
 ---

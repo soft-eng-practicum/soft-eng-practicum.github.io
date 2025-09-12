@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "brian-palm" ]
 project_key: "what-are-my-chances"
+semester_key: "fa18"
+project_id: 2
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -18,9 +20,10 @@ photos:
 phrase: "PA School Matcher by MatchMakers (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
 tech: [ "angular6", "html/css" ]
 screencast-youtube: DQcuT6XR8ag
+cohort: "Match Makers"
 members: "Match Makers: Breeona Day and Lauren Marsicano"
 client: "External client Brian Palm, physician's assistant at Gwinnett Medical Center and Northside Hospital. Brian is a Board-Certified Chief PA of Emergency Medicine. Member of the AAPA as well as Georgia Association of Physician Assistants. Former adjunct faculty and Admissions Panel member at an accredited PA school."
-client-url: https://www.linkedin.com/in/brian-palm-0b0ba72b/
+client-url: ""
 description: "The PA School Matcher is a user-friendly application that matches prospective Physician's Assistant school student's information with the requirements of selected schools and the demographics of accepted students into the program to show how likely the student is to be accepted. The results are displayed as GOOD, AVERAGE & POOR as far as chances of being accepted. The system also provides feedback on how the student could improve their chances of being accepted."
 logo-full: flyer-MatchMakers.png
 logo-thumb: thumb-flyer-MatchMakers.png

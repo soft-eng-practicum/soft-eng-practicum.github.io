@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa20
 sponsor_key: [ "cengiz-gunay", "dusan-jocic" ]
 project_key: "stellar-prey"
+semester_key: "fa20"
 
 phrase: "Game servers, clans, and community"
 tech: [ vue.js, javascript, html/css, mysql ]
 screencast-youtube: bpwgl31HXrY
+cohort: "Team A2J"
 members: "Team A2J: Asho Issak, Jacob Boyce, and an anonymous member" 
 client: "OpenWolf Engine developer, [Dušan Jocić (TheDushan)](https://github.com/TheDushan)"
 prof: gunay

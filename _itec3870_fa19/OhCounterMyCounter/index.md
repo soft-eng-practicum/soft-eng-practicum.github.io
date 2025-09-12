@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "michael-deiters" ]
 project_key: "oh-counter-my-counter"
+semester_key: "fa19"
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +72,7 @@ photos:
 phrase: "A counter tool to track your Magic the Gathering game"
 tech: [ react, html/css ]
 screencast-youtube: XEliwJYJJc4
+cohort: "Team Counter"
 members: "Team Counter: Sam Groom, Jimmy Nguyen, Matheus Silva, Phil Chazares, and an anonymous student"
 client: "GGC alumnus Mike Deiters"
 description: "Oh Counter My Counter is an assist tool app made to assist users when they play Magic the Gathering or other board/card game. It will be easily accessible through the website so that any user can just go to the page and use it. It will include a compact view so that multiple users can have the convenience of tracking their data while playing their game. There will be features such as unique dices, coin flips, timers, and random player selectors. Currently, the tool will assist Magic the Gathering (Standard and Commander), Yugioh, Munchkin and will support up to 8 players."

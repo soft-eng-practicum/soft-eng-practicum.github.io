@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "sebastien-siva" ]
 project_key: "project-review"
+semester_key: "fa17"
 
 photos:
   - 24960882688_1b03c40551_o.jpg
@@ -24,7 +25,7 @@ phrase: "Students review each other's projects anonymously"
 demo-url: http://souciernd.com/ProjectReview/
 members: "Matthew Coker, Norman Soucie, Kevin Stevens, Janna Timmer, and other."
 client: Assistant Professor of Information Technology Sebastien Siva
-client-url: http://www.ggc.edu/about-ggc/directory/sebastien-siva
+client-url: ""
 description: "Project-Review is a website platform that enables
 ofessors to assess their students through a peer review process. It
 lows a professor to hold multiple classes with students imported

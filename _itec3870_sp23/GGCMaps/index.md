@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp23
 sponsor_key: [ "cengiz-gunay", "carlos-llorens", "ashley-still", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
+semester_key: "sp23"
 
 phrase: "Your Comprehensive Guide to Georgia Gwinnett College Campus Layout, Safety, and Navigation"
 tech: [ javascript, grunt, sass, html ]
@@ -13,7 +14,7 @@ screencast-youtube: hVx8VQ5Y79M
 members: "Nick Wen, Ryan Campbell, Ti Nguyen"
 prof: gunay
 client: "Deputy Chief Carlos Llorens, Ashley Still, Mike Deiters, and David Rivera"
-client-url: https://github.com/avestech
+client-url: ""
 demo-url: https://soft-eng-practicum.github.io/ggcmaps/
 description: "The Georgia Gwinnett College map application is an essential tool for anyone navigating the campus. It provides a comprehensive map of the entire campus, including detailed information on parking lots, buildings, and classrooms. Users can easily locate specific buildings and rooms, and even view a detailed layout of each building, including safety equipment and fire escape routes. The app is designed to help users find their way around campus quickly and efficiently, saving time and reducing stress. With its intuitive design and detailed information, the Georgia Gwinnett College map application is an indispensable tool for students, faculty, and visitors alike."
 logo-full: flyer-GGCMaps.png

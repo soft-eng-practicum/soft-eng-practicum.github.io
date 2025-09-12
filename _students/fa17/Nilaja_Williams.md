@@ -13,9 +13,6 @@ highlights: [ ]
 project_key: [ "ggc-maps" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa17"
+project_id: 1
 ---

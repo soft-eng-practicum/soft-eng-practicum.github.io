@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp19
 sponsor_key: [ "cengiz-gunay", "denizhan-kaplan" ]
 project_key: "warsoft-games"
+semester_key: "sp19"
 
 photos:
   - 20190425-_RAW5499.jpg

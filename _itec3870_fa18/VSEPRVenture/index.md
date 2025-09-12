@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "vsepr-venture"
+semester_key: "fa18"
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -19,9 +20,10 @@ phrase: "Chemistry-based 2D RPG"
 tech: [ "game-maker-2" ]
 screencast-youtube: ulWh6GOae9g
 demo-url: http://gongchie.altervista.org/TestRPG/index.html
+cohort: "The Game Devs"
 members: "The Game Devs: Grace Ongchangco, Jeremiah Anderson, Lindsey Wade, Kaiser Smith"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "VSEPR Venture is a Chemistry based 2D RPG style of game. The player is given the name of a molecule and then is required to collect atoms to create the molecular structure that represents that molecule using the VSEPR Theory. The levels require the player to assess the Lewis structures and the placement of the electrons around the atom to successfully solve a particular molecule. The game features six levels, and then a test level that the player must complete to beat the game. This project was created using GameMaker Studio 2 and is written in GameMaker's proprietary programming language called GameMaker Language (GML)."
 logo-full: flyer-vsepr-venture.png
 logo-thumb: thumb-flyer-vsepr-venture.png

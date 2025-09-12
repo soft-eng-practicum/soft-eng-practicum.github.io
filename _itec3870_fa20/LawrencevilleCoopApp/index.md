@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa20
 sponsor_key: [ "cengiz-gunay", "lawrenceville-coop-ministry" ]
 project_key: "lawrenceville-coop-app"
+semester_key: "fa20"
 
 phrase: "Check in and get information about food banks"
 tech: [ react native, android, ios, html/css, firebase, google maps ]
 screencast-youtube: z7zZ5b5xhXI
+cohort: "3C Team"
 members: "3C Team: Christian Coleman, Carlos Lopez, & Chris Arackal"
 client: "Glori Smith, from [Lawrenceville Cooperative Ministry](https://lawrencevilleco-op.org/)"
 prof: gunay

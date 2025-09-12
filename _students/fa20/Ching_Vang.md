@@ -12,10 +12,6 @@ skills: [ ]
 highlights: [ ]
 project_key: [ "grizzly-parking" ]
 location: "Lawrenceville, GA"
+semester_key: "fa20"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
 ---

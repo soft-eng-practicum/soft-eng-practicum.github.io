@@ -11,11 +11,7 @@ cohort: ""
 skills: [ ]
 highlights: [ ]
 project_key: [ "elements" ]
+semester_key: "fa16"
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
 ---

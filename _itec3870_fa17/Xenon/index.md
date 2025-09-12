@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "xenon"
+semester_key: "fa17"
 
 photos:
   - 24960882688_1b03c40551_o.jpg
@@ -22,6 +23,7 @@ photos:
   - 38117417614_13af5d072f_o.jpg
 phrase: "Learn Chemistry. Play | Learn"
 demo-url: https://soft-eng-practicum.github.io/xenon/
+cohort: "Team XenaMorphs"
 members: "Team XenaMorphs: Laura Arevalo, Cat Windham, Charneaka Lewis, Magdalena Ledezma, Chinelo Obiamalu"
 client: "Assistant Professor of Chemistry Thomas Gluick and Assistant Professor of Information Technology Cengiz Gunay"
 description: "To create a user-friendly, simple web-based game that aids chemistry students in their learning of molecular nomenclature."

@@ -11,6 +11,7 @@ cohort: "Summer 2025 Internship"
 skills: [ "Java", "Rust", "ANSI C", "PHP" ]
 highlights: [ "President's List x2", "Dean's List x3" ]
 project_key: [ ]
+semester_key: "sp25"
 location: "Lawrenceville, GA"
 
 website: "https://ggc.edu"

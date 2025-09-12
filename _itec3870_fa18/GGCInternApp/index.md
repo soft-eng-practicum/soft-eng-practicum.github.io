@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
 project_key: "ggc-intern-app"
+semester_key: "fa18"
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -19,6 +20,7 @@ phrase: "Internship Application Forms (:crown: :crown: 2ND PLACE)"
 tech: [ "node", "express", "ejs", "mongodb", "html/css" ]
 demo-url: http://ggc-internapp.herokuapp.com/
 screencast-youtube: bg5kknQzL-g
+cohort: "Tech Titans"
 members: "Tech Titans: Anastasia Arnold, Kidus Dawit, Billy Pridgen, Edgar Juarez"
 client: <a href="http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie" target="_blank">Dr. Latanya Hammonds-Odie (Biology)</a> and <a href="http://www.ggc.edu/about-ggc/directory/lissa-pollacia" target="_blank">Dr. Lissa Pollacia (IT)</a>
 description: "GGC Intern App is a website where students are able to apply for either a Biology or Information Technology internship. They also have the option to upload other documents required including their resume, FERPA form, and essays."

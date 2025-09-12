@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "jared-houseman", "jacob-bradberry" ]
 project_key: "grizzly-parking"
+semester_key: "fa19"
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +72,7 @@ photos:
 phrase: "Check live which lot is best for you!"
 tech: [ node, react-native, react, html/css, firebase, android ]
 screencast-youtube: lmpXfcc2uFw
+cohort: "Parking Pirates"
 members: "Parking Pirates: Daniel Toal, Raghu Khanal, Nick Risley, Joshua Walton, Mark Levengood"
 client: "Current GGC student Jared Houseman and alumnus Jacob Bradberry"
 description: "Grizzly Parking is an app that helps people find a parking spot on GGC Campus. The app allows users to log in and create their own accounts. Each account can view the lots via color indicators showing which lots are more available. When the user parks it will update the system and the color indicator in their respective lot.  User Authentication, Forgot Password and the Parking Lots were all integrated through Google’s Firebase Platform.  This mobile app was [originally written](../itec3870_fa18/#Grizzly+Parking) in an Ionic Framework, but we decided to abandon that codebase and rewrite it in React Native.  This ended up being a good choice for us even though some experienced errors throughout the semester."

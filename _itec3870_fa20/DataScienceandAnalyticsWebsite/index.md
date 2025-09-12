@@ -6,13 +6,15 @@ categories: itec3870 create
 collection: itec3870_fa20
 sponsor_key: [ "anca-doloc-mihu", "cengiz-gunay" ]
 project_key: "dsa-website"
+semester_key: "fa20"
 
 phrase: "Help DSA students with their courses and careers (:crown: :crown: :crown: 1ST PLACE)"
 tech: [ react, gatsby, discus, html/css, netlify ]
 screencast-youtube: -zeG6oWoiKI
+cohort: "Cyber Chasers"
 members: "Cyber Chasers: Alex Abraham, Sebastien Pierre-Louis, Agapitus Iboro, and an anonymous member"
 client: 'Dr. Cengiz Gunay'
-client-url: https://www.ggc.edu/about-ggc/directory/cengiz-gunay
+client-url: ""
 prof: doloc-mihu
 demo-url: https://trusting-hopper-84508b.netlify.app/landingpage/
 description: "As part of our Software Development 2 course with Dr. Anca Doloc Mihu, we're required to create a website with for the Data Science and Analytics (DSA) program students. The website will consist of a login page, user profiles, information about DSA majors, and some kind of discussion board. This website will be accessible by users, Admin, DSA committee, and students. There will be a hierarchy of user authenticity. That is the features accessible by a systems admin will not be available to a DSA committee member or students in the DSA program."

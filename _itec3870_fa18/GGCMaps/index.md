@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
+semester_key: "fa18"
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -19,6 +20,7 @@ phrase: "A Campus Map Persistent Web Application"
 demo-url: https://ggc-sd.github.io/ggcmaps3/
 tech: [ "javascript", "html5", "sass", "svg" ]
 screencast-youtube: ssZTyvGVXLw
+cohort: "GGC Maps 3"
 members: "GGC Maps 3: David Hagerty, Travis Simmons, Sean Lomar Hutchinson, Alain Hirwa"
 client: "<a href='http://deiters.me/' target='_blank'>Mike Deiters</a> and David Rivera-Rocha"
 description: "GGC Maps is a progressive web application designed to help students locate rooms in the various buildings on GGC’s campus from their computer or mobile device - with or without an internet connection. New features: building W mapped (only the C3 portion and not the newly constructed wing). Safety toggle fixed and in working condition with a legend display."

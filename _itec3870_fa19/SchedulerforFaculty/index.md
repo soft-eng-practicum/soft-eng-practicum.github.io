@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "sonal-dekhane" ]
 project_key: "scheduler-for-faculty"
+semester_key: "fa19"
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -70,6 +71,7 @@ photos:
   - 20191121-_RAW6545.jpg
 phrase: "A web app for scheduling classes for faculty"
 tech: [ angular, node, angularCI, express, html/css, mongoose, mongodb ]
+cohort: "Team CyberATL"
 members: "Team CyberATL: Juan Sebastian Perez, Victor Akinla, Terrance Perry"
 client: "[Dr Sonal Dekhane](http://www.ggc.edu/about-ggc/directory/sonal-dekhane)"
 description: "Scheduler is a web application designed to help Georgia Gwinnett College faculty members to efficiently register for courses, then, the system will be assisted by an administrator who is responsible for the correct assignment of course sections to finally establish the most appropriate schedule for the semester"

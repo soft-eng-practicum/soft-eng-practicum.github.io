@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa20
 sponsor_key: [ "cengiz-gunay", "joseph-zoretic", "shawna-cassagnol", "lukas-walsh" ]
 project_key: "pocket-pals"
+semester_key: "fa20"
 
 phrase: "2D top-down open world video game inspired by Pokémon"
 tech: [ unity, html/css ]
 screencast-youtube: UTw_G8459uQ
+cohort: "Aqua Team Thunder Force"
 members: "Aqua Team Thunder Force: Dennis Dalton and anonymous members"
 client: "GGC IT graduates, Joseph Zoretic, Shawna Cassagnol, and Lukas Walsh"
 prof: gunay

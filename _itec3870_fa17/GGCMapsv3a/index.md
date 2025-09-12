@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "catherine-moore", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
+project_id: 1
+semester_key: "fa17"
 
 photos:
 - 24960882688_1b03c40551_o.jpg
@@ -22,6 +24,7 @@ photos:
 - 38117417614_13af5d072f_o.jpg
 phrase: "New features: Event listing, safety mode, predictive search"
 demo-url: https://soft-eng-practicum.github.io/ggcmaps/
+cohort: "Team Adventuras"
 members: "Team Adventuras: Bryan Yeap, Matt Soucy, Robert Westervelt, Nilaja Williams"
 client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
 description: "Predictive Search Functionality: Provides multiple solutions based on current input by the user. User input can be at any place within the provided solutions. Safety Mode: Provides an overlay of safety related items. Items include AEDs, Fire Extinguishers, Fire Alarms, Trauma Kits, and Safety Shelters. Event Information Tab: Provides event information related to events held on GGC campus. Event list changes depending on the building being accessed. Provides events up to 2 weeks ahead of current date. Functional Service Worker: Checks all cache versions in the users browser and deletes any old versions. Additional files for cache. Updated Building Legend: Add locations and building labels. Turns off if parking legend is on, vice versa."

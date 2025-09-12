@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp19
 sponsor_key: [ "cengiz-gunay", "michael-holtman" ]
 project_key: "event-tracking-system"
+semester_key: "sp19"
 
 photos:
   - 20190425-_RAW5499.jpg
@@ -22,7 +23,7 @@ tech: [ "php", "mysql", angular, rest, "html/css" ]
 screencast-youtube: Ym26TiFWeDA
 members: "Aaleyah Joseph, Dionne Mitchner, Adefemi Kolawole"
 client: "Michael Holtmann"
-client-url: https://www.linkedin.com/in/michael-holtmann-a4671173/
+client-url: ""
 description: Event tracker is a web application that aims to make it easier for organizers to manage events and allow for volunteers to be able to apply for the events all on one platform.
 logo-full: flyer-indellibles.png
 logo-thumb: thumb-flyer-indellibles.png

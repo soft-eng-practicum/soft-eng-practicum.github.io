@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "anca-doloc-mihu" ]
 project_key: "stars-judging-app"
+semester_key: "fa19"
+project_id: 1
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +73,7 @@ photos:
 phrase: "A web/mobile app for judging scientific posters (:crown: :crown: :crown: 1ST PLACE)"
 tech: [ node, ionic, angular, html/css, couchdb, pouchdb, android ]
 screencast-youtube: 5cVWPM-nqDI
+cohort: "Team Polaris"
 members: "Team Polaris: Nancy Sardar, Jacob Weekley, Juan Linares, Andrew Plourde"
 client: "[Dr Cengiz Gunay](http://www.ggc.edu/about-ggc/directory/cengiz-gunay) and [Dr Anca Doloc-Mihu](http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu)"
 description: "The STaRS Judging App is a hybrid mobile and web application for faculty judges to utilize during the STaRS poster competition held at Georgia Gwinnett College. It is used to facilitate and manage the ratings judges provide and keeps track of them whether the application is online or offline. Also provides results for student presenters to check their scores. The main goal of this application is to provide faculty judges with an easier, user-friendly interface to submit their ratings and critiques for student posters during the STaRS event."

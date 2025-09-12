@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "anca-doloc-mihu", "cengiz-gunay" ]
 project_key: "stars-judging-app"
+semester_key: "fa19"
+project_id: 2
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -70,6 +72,7 @@ photos:
   - 20191121-_RAW6545.jpg
 phrase: "A web/mobile app for judging scientific posters"
 tech: [ node, ionic, react, html/css, couchdb, android ]
+cohort: "Team Penguins"
 members: "Team Penguins: Anthony Morariu, Joel Garcia, Juan Juarez, Ruth Whitehouse"
 client: "[Dr Cengiz Gunay](http://www.ggc.edu/about-ggc/directory/cengiz-gunay) and [Dr Anca Doloc-Mihu](http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu)"
 description: "The STaRS Judging App is designed to be used at events for easy and convenient judging of the content displayed. The powerful sync features allows for real time viewing of the incoming vote submissions. Administrators are able to sort and query the judging results using various criteria and view how each judge voted."

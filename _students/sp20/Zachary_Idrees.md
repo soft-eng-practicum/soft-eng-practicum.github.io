@@ -13,9 +13,6 @@ highlights: [ ]
 project_key: [ "grizzly-hacks-website" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "sp20"
+project_id: 2
 ---

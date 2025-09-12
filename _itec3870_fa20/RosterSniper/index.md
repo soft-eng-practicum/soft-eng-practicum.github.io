@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa20
 sponsor_key: [ "cengiz-gunay", "shaun-mitchell", "ryan-cosentino" ]
 project_key: "roster-sniper"
+semester_key: "fa20"
 
 phrase: "Get notified for openings in filled course sections"
 tech: [ python, django, html/css ]
 screencast-youtube: UnhcAceFtYs
+cohort: "Team Technolo-G"
 members: "Team Technolo-G: Devin Rogers, Jeremy (Jeremia) Reyes, Joshua (Mart) Miller, Safiyullah (Safi) Khan"
 client: "GGC students, Shaun Mitchell and Ryan Cosentino"
 prof: gunay

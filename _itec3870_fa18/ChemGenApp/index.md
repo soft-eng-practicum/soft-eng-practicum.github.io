@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "chem-gen-app"
+semester_key: "fa18"
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -18,9 +19,10 @@ photos:
 phrase: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
 tech: [ angular6, node, html/css ]
 screencast-youtube: 3WPrGnkCGXY
+cohort: "Free Radicals"
 members: "Free Radicals: Ben Jackson, William Bullock, Bruce Carson, Trivon Etheridge"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "ChemGenApp is a program/website that generates as much information regarding a chemical reaction as possible in order to assist Chemistry professors with making quizzes."
 logo-full: flyer-chemquiz.png
 logo-thumb: thumb-flyer-chemquiz.png

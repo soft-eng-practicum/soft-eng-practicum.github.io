@@ -15,10 +15,10 @@
         <div class="dropdown-menu w-100" aria-labelledby="sortMenuButton">
             <a class="dropdown-item" href="#" data-sort = "name-asc"><i class="fas fa-arrow-down-a-z" style = "margin-right: 4px;"></i>Name: A to Z</a>
             <a class="dropdown-item" href="#" data-sort = "name-desc"><i class="fas fa-arrow-up-a-z" style = "margin-right: 4px;"></i>Name: Z to A</a>
-            {% unless page.path contains "partners" %}
+            {% if page.path contains "students" %}
                 <a class="dropdown-item" href="#" data-sort = "class-asc"><i class="fas fa-arrow-down-short-wide" style = "margin-right: 4px;"></i>Class: Ascending</a>
                 <a class="dropdown-item" href="#" data-sort = "class-desc"><i class="fas fa-arrow-up-short-wide" style = "margin-right: 4px;"></i>Class: Descending</a>
-            {% endunless %}
+            {% endif %}
         </div>
     </div>
     <div class="dropdown m-2 m-lg-3" style = "max-width: 250px;">

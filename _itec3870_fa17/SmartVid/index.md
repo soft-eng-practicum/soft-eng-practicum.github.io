@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "shelby-fencil-shuler" ]
 project_key: "smart-vid"
+semester_key: "fa17"
 
 photos:
   - 24960882688_1b03c40551_o.jpg
@@ -21,9 +22,10 @@ photos:
   - 27057246329_881b8cf4af_o.jpg
   - 38117417614_13af5d072f_o.jpg
 phrase: "Make learning fun by giving students the best viewing & learning experience"
+cohort: "The Brogrammers"
 members: "The Brogrammers"
 client: Dr Shelby Fencil Shuler
-client-url: http://www.ggc.edu/about-ggc/directory/shelby-shuler
+client-url: ""
 description: "SmartVid is an educational platform designed to enable professors to create a more interactive learning experience by uploading videos to be viewed by their active classes. The benefit of SmartVid is that the videos created by the professors will be tailored toward the classes they teach, providing a personalized resource where students can access the material their professors are teaching. Additionally, professors will be able to monitor the activity of their students via progress bars showing how much of the video (and which part) the students have viewed. This will be coupled with periodically introduced quizzes as the video is viewed, designed by the professor(s). A professor would then be able to decide what action would be taken if the student fails the quiz (IE: the student must re-watch the video, the quiz must be immediately retaken, etc.)."
 tech: "PHP, Bootstrap, HTML/CSS, Javascript"
 logo-full: flyer-smartvid.jpg

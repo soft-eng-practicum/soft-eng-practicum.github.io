@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa16
 sponsor_key: [ "cengiz-gunay", "pamela-anderson" ]
 project_key: "one-fitness"
+semester_key: "fa16"
 
 photos:
 - create-cm1.jpg
@@ -17,7 +18,7 @@ phrase: "GGC Exercise Science Discipline mobile fitness app"
 screencast-youtube: 6TCaJin93k8
 members: "Brock Bearchell, David Guevara, Wesley McDorman, Matthew Thompson"
 client: "Dr. Pamela Anderson"
-client-url: http://www.ggc.edu/about-ggc/directory/pamela-anderson
+client-url: ""
 description: "Get in shape & be healthy: flexible workout plans to help user plan their workouts while keeping track of their past performance!"
 logo-full: flyer-one-fitness.png
 logo-thumb: thumb-flyer-one-fitness.png

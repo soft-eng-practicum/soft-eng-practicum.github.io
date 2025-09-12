@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "vsepr-venture"
+semester_key: "sp18"
 
 photos:
 - IMAG2328.jpg
@@ -28,9 +29,10 @@ photos:
 
 phrase: Chemistry-based 2D RPG
 demo-url: https://github.com/soft-eng-practicum/VSEPR-Venture/releases
+cohort: "Team Enigma"
 members: "Team Enigma: Sasa Mitrovic, Jason Yu, Viktor Gutsu"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "VSEPR Venture is a chemistry-based game with a 2D RPG feel to it. The game revolves around the VSEPR Theory and provides users with a unique way to practice what they've learned in their chemistry classes. This project was created using GameMaker Studio 2 and is written in GameMakers proprietary programming language called GameMaker Language (GML)."
 logo-full: flyer-VSEPR.png
 logo-thumb: thumb-flyer-VSEPR.png

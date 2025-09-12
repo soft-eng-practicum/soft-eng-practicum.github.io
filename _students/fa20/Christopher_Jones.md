@@ -12,10 +12,6 @@ skills: [ ]
 highlights: [ ]
 project_key: [ "professor-course-scheduler" ]
 location: "Lawrenceville, GA"
+semester_key: "fa20"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
 ---

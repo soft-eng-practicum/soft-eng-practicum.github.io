@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "gianluca-parilli", "joshua-tran", "chelsea-d-alessandro" ]
 project_key: "grizzly-parking"
+semester_key: "fa18"
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -18,9 +19,10 @@ photos:
 phrase: "Mobile app that guesses free parking spots on campus"
 tech: [ "angular6", "ionic", "firebase", "html/css" ]
 screencast-youtube: 7anq8EQsdnY
+cohort: "Code Wranglers"
 members: "Code Wranglers: Jared Houseman, Jake Bradberry, Paul Cardenas"
 client: "Gianluca Parilli, Joshua Tran, Chelsea D'Alessandro"
-client-url: http://www.ggc.edu/about-ggc/directory/pamela-anderson
+client-url: ""
 description: "GrizzlyParking is an app designed to assist with parking on GGC Campus by calculating the highest possible chance of a parking spot in different parking lots."
 logo-full: flyer-grizzly-parking.png
 logo-thumb: thumb-flyer-grizzly-parking.png

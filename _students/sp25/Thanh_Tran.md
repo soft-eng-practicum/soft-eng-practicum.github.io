@@ -11,6 +11,7 @@ cohort: "" # Your group's name, if any (e.g., "ABBA")
 skills: ["React", "Firebase", "TypeScript", "Node.js", "Next.js", "MySQL", "Data Visualization", "Git"] # A short list of strings of your most notable skills (e.g., [ "Java", "JavaScript" ])
 highlights: ["USITCC 2025 Database Design 1st Place", "Microsoft Office 3rd Place", "President’s List"] # A short list of strings of your most notable academic/personal achievements (e.g., [ "President's List", "Dean's List" ])
 project_key: [ "satisfeed-dashboard", "quiz-retake-app" ] # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
+semester_key: "sp25"
 location: "Lawrenceville, GA" # Your general geographic location (e.g., "Lawrenceville, GA")
 
 #####################

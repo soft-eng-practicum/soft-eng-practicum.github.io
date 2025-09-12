@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "chem-xplosion"
+semester_key: "fa17"
 
 photos:
 - 24960882688_1b03c40551_o.jpg
@@ -22,9 +23,10 @@ photos:
 - 38117417614_13af5d072f_o.jpg
 phrase: Make learning basic chemistry fun, interesting, and enticing
 demo-url: https://github.com/soft-eng-practicum/tech-challenged/releases
+cohort: "Team Tech Challenged"
 members: "Team Tech Challenged: Anjan Panchatcharam, Armando Gonzalez, Eric Jenkins, Brendon Serrano"
 client: Assistant Professor of Chemistry Thomas Gluick
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: Our purpose was to create a game that would make learning basic chemistry fun, interesting, and enticing for any user looking to learn. The game would primarily be focused upon chemical reactions.
 tech: Unity, C#, Unity Collaboration Tool, Unity Test Tools
 logo-full: flyer-chemXplosion.jpg

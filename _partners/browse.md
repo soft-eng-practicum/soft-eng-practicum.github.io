@@ -4,7 +4,20 @@ title: "Browse All Institutional Participants"
 ---
 {% include search_bar.html %}
 
-<section class = "browse-body mt-5 section-team align-items-start" id = "card-list">
+<div class = "mt-5 mx-auto">
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center" id="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item" id="next-page">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<section class = "browse-body mt-3 section-team align-items-start" id = "card-list">
     {% for org in site.partners %}
         {% unless org.path contains "browse.md"
             or org.path contains "index.md"
@@ -60,17 +73,3 @@ title: "Browse All Institutional Participants"
         {% endunless %}
     {% endfor %}
 </section>
-
-<br>
-<br>
-
-<nav aria-label="Page navigation">
-    <ul class="pagination justify-content-end" id="pagination">
-        <li class="page-item">
-            <a class="page-link" href="#" tabindex="-1">Previous</a>
-        </li>
-        <li class="page-item" id="next-page">
-            <a class="page-link" href="#">Next</a>
-        </li>
-    </ul>
-</nav>

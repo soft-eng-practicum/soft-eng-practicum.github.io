@@ -32,33 +32,75 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function renderPagination() {
 
-        // Clear old page number buttons, but keep Previous and Next
-        const allItems = pagination.querySelectorAll("li.page-item");
-        allItems.forEach((item) => {
-            const link = item.querySelector("a");
-            if (link && !["Previous", "Next"].includes(link.textContent.trim())) {
-                item.remove();
-            }
+        // Remove old buttons, keep Prev/Next
+        const items = pagination.querySelectorAll("li.page-item");
+        items.forEach((item) => {
+            const link = item.querySelector("a, span");
+            if (!link) return;
+            const label = link.textContent.trim();
+            const isPrevNext = label === "Previous" || label === "Next";
+            if (!isPrevNext) item.remove();
         });
 
-        for (let i = 1; i <= totalPages; i++) {
+        const insertBeforeNode = pagination.children[pagination.children.length - 1];
+        const MAX_BUTTONS = window.innerWidth >= 500 ? 5 : 3;
+        console.log(MAX_BUTTONS);
+
+        const addPage = (n) => {
             const li = document.createElement("li");
             li.className = "page-item";
-            if (i === currentPage) li.classList.add("active");
+            if (n === currentPage) li.classList.add("active");
 
             const a = document.createElement("a");
             a.className = "page-link";
             a.href = "#";
-            a.textContent = i;
-
+            a.textContent = n;
             a.addEventListener("click", (e) => {
                 e.preventDefault();
-                showPage(i);
+                showPage(n);
             });
 
             li.appendChild(a);
-            pagination.insertBefore(li, pagination.children[pagination.children.length - 1]);
+            pagination.insertBefore(li, insertBeforeNode);
+        };
+
+        const addEllipsis = (n) => {
+            const li = document.createElement("li");
+            li.className = "page-item";
+
+            const a = document.createElement("a");
+            a.className = "page-link";
+            a.href = "#";
+            a.textContent = "...";
+            a.addEventListener("click", (e) => {
+                e.preventDefault();
+                showPage(n);
+            });
+
+            li.appendChild(a);
+            pagination.insertBefore(li, insertBeforeNode);
+        };
+
+        if (totalPages <= MAX_BUTTONS) {
+            for (let i = 1; i <= totalPages; i++) addPage(i);
+            return;
         }
+
+        // Compute a centered window of MAX_BUTTONS around currentPage
+        let start = currentPage - Math.floor(MAX_BUTTONS / 2);
+        if (start < 1) start = 1;
+        let end = start + MAX_BUTTONS - 1;
+        if (end > totalPages) {
+            end = totalPages;
+            start = end - MAX_BUTTONS + 1;
+        }
+
+        if (start > 1) addEllipsis(1);
+
+        // Windowed page numbers
+        for (let i = start; i <= end; i++) addPage(i);
+
+        if (end < totalPages) addEllipsis(totalPages);
 
     }
 

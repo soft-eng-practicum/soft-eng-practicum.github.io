@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "chem-xplosion"
+semester_key: "sp18"
 
 photos:
   - IMAG2328.jpg
@@ -28,9 +29,10 @@ photos:
 phrase: 3D Chemistry Learning Module
 demo-url: https://github.com/soft-eng-practicum/ChemXplosion/releases
 screencast-youtube: JBfP3A0_Z-U
+cohort: "Team ChemJam"
 members: "Team ChemJam: Alex Croghan, Hieu Dinh, Evan Lamkie, Michael Lopez, Rae Vroman"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "This project is to design a 3D based learning module that will be both fun and educational for Chemistry students beginning to learn chemical reactions. This project was started in Fall 2017 in collobartion with GGC Professor Thomas Gluick as a way to provide an educational and entertaining game for Chemistry students."
 logo-full: flyer-ChemXplosion.jpg
 logo-thumb: thumb-flyer-ChemXplosion.jpg

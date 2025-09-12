@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "matthew-stackpole", "keith-erickson" ]
 project_key: "game-of-drone"
+semester_key: "fa17"
 
 photos:
   - 24960882688_1b03c40551_o.jpg

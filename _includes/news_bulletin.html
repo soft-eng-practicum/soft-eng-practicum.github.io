@@ -79,6 +79,81 @@
         </div>
     </div>
 
+    <div class = "accordion w-100 my-3" id = "resourcesAccordion">
+        <div class = "accordion-item border-0">
+            <p class = "accordion-header" id = "resources-heading">
+                <button class="ggc-btn-d dd-arrow w-100" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-resources"
+                    aria-expanded="false"
+                    aria-controls="collapse-resources">
+                    <span class = "text">
+                        Resources
+                    </span>
+                </button>
+            </p>
+            <div id="collapse-resources" class="accordion-collapse collapse" aria-labelledby="resources-heading" data-bs-parent="#resourcesAccordion">
+                <div class="accordion-body p0">
+                    {% assign all_posts = site.categories["Resources"]
+                        | sort: "date", "first" | reverse %}
+                    {% assign sorted_posts = "" | split: "," %}
+                    {% assign sorted_modified = "" | split: "," %}
+
+                    {% for post in all_posts %}
+                        {% if post.last_modified %}
+                            {% assign testDate = site.time
+                                | date: "%s" %}
+                            {% assign cutoff = testDate
+                                | minus: 2592000 %}
+                            {% assign testPost = post.last_modified
+                                | date: "%s" | minus: 0 %}
+                            {% if testPost >= cutoff %}
+                                {% assign sorted_modified = sorted_modified
+                                    | push: post %}
+                            {% else %}
+                                {% assign sorted_posts = sorted_posts
+                                    | push: post %}
+                            {% endif %}
+                        {% else %}
+                            {% assign sorted_posts = sorted_posts
+                                | push: post %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% assign sorted_modified = sorted_modified
+                        | sort: "last_modified", "first" | reverse %}
+
+                    {% if sorted_posts.size > 0 or sorted_modified.size > 0 %}
+                        {% assign count = 0 %}
+                        <div class="d-flex flex-column border rounded py-3 px-5 mt-5 mb-3 mx-auto w-80">
+                        <br>
+                        {% for post in sorted_modified %}
+                            {% if post.url and count < 10 %}
+                                <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.last_modified | date_to_string: "ordinal", "US" }}</span><span class = "badge bg-primary ml-1 mr-2">Updated</span>{{ post.title }}</span></a>
+                                <br>
+                                {% assign count = count | plus: 1 %}
+                            {% endif %}
+                        {% endfor %}
+                        {% for post in sorted_posts %}
+                            {% if post.url and count < 10 %}
+                                <a href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-2">{{ post.date | date_to_string: "ordinal", "US" }}</span>{{ post.title }}</span></a>
+                                <br>
+                                {% assign count = count | plus: 1 %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if sorted_posts.size > count or sorted_modified.size > count %}
+                            <div class = "w-100 text-center">
+                                <a href = "/posts/"><span class = "badge bg-primary">See More</span></a>
+                            </div>
+                        {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
     {% comment %}
         Alphabetize categories before displaying them
     {% endcomment %}
@@ -92,7 +167,7 @@
     {% for category in cats %}
 
         {% assign name = category %}
-        {% if name != "Pinned" %}
+        {% if name != "Pinned" and name != "Resources" %}
 
             <hr class = "my-2 mx-auto w-50" style = "border: 0; border: 1px solid green; text-align: center;">
 

@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
 project_key: "intern-app"
+semester_key: "fa19"
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +72,7 @@ photos:
 phrase: "Let GGC find you an Internship!"
 tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
 screencast-youtube: CB7A34H65l4
+cohort: "Team Meraki"
 members: "Team Meraki: Jose Cantillo, Kyle Tate, Leon Le, Jordan Vincent, Ethan Kim"
 client: "[Dr Lissa Pollacia](http://www.ggc.edu/about-ggc/directory/lissa-pollacia) and [Dr Latanya Hammonds-Odie](http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie)"
 demo-url: http://ggc-internapp.herokuapp.com/

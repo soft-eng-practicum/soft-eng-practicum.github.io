@@ -11,6 +11,7 @@ cohort: ""
 skills: [ "JavaScript", "React", "Node.js", "Express.js", "MongoDB" ] # A short list of strings of your most notable skills (e.g., [ "Java", "JavaScript" ])
 highlights: [ "Dean's List 2022-2023" ] # A short list of strings of your most notable academic/personal achievements (e.g., [ "President's List", "Dean's List" ])
 project_key: [ "ngf-admin-dashboard" ] # The unique value that corresponds to the project you completed (e.g., "chemistry-app")
+semester_key: "sp25"
 location: "Atlanta, GA" # Your general geographic location (e.g., "Lawrenceville, GA")
 
 

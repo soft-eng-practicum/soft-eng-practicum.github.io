@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp17
 sponsor_key: [ "cengiz-gunay", "lindsay-gratch" ]
 project_key: "picture-perfect"
+semester_key: "sp17"
 
 photos:
   - IMG_20170427_145146955.jpg
@@ -20,7 +21,7 @@ demo-url: http://alvinuity.altervista.org/SimpleQ/Home.php
 screencast-youtube: cIvjVlIS4lM
 members: "Alain Hirwa, Anwar Saleeby, and Neal Klemenc"
 client: "Dr. Lyndsay Gratch"
-client-url: http://www.ggc.edu/about-ggc/directory/lyndsay-gratch
+client-url: ""
 description: "Learn the basics of cinematography and photo composition"
 tech: Mobile app with Ionic 2. No backend or database. Not on app markets yet.
 logo-full: flyer-pictureperfect.png

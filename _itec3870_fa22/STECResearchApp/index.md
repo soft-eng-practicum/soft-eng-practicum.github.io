@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa22
 sponsor_key: [ "anca-doloc-mihu", "wendy-dustman" ]
 project_key: "stec-research-app"
+semester_key: "fa22"
 
 phrase: "Helping STEC-4500 Undergrad Research Project class"
 tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
 screencast-youtube: Z97aJVH2VHI
+cohort: "Wired Wires Experts"
 members: "Wired Wires Experts: Jeancarlo Masciotti, Miranda Darlington, Andres Almaraz, Jafet Leon-Perez"
 client: "Dr Wendy Dustman"
 prof: doloc-mihu

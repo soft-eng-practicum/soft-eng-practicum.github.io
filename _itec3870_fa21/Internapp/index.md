@@ -6,10 +6,12 @@ categories: itec3870 create
 collection: itec3870_fa21
 sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie" ]
 project_key: "intern-app"
+semester_key: "fa21"
 
 phrase: "Let GGC Find You an Internship!"
 tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
 screencast-youtube: CB7A34H65l4
+cohort: "Team Bancobanco"
 members: "Team Bancobanco: Matthew Rosario, Jordan Harrison, Michael Murillo"
 client: "[Dr Lissa Pollacia](http://www.ggc.edu/about-ggc/directory/lissa-pollacia) and [Dr Latanya Hammonds-Odie](http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie)"
 demo-url: http://ggc-internapp.herokuapp.com/

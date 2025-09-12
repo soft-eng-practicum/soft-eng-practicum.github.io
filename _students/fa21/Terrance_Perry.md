@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "stec-research-app" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa21"
 ---

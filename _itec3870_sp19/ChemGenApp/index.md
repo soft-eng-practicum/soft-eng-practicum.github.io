@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp19
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "chem-gen-app"
+semester_key: "sp19"
 
 photos:
   - 20190425-_RAW5499.jpg
@@ -20,9 +21,10 @@ photos:
 phrase: "Chemistry Quiz Generator"
 tech: [ angular6, html/css ]
 screencast-youtube: zLY_XvmaHTU
+cohort: "Catalyst Quartet"
 members: "Catalyst Quartet: Austin Lomax, Farzin Valizadeh, Wesley McMillen, Matthew Stiller"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "ChemGenApp is a program/website that generates as much information regarding a chemical reaction as possible in order to assist Chemistry professors with making quizzes."
 logo-full: flyer-catalyst-quartet.png
 logo-thumb: thumb-flyer-catalyst-quartet.png

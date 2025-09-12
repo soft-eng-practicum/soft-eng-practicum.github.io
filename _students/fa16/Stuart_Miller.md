@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "simple-q" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa16"
 ---

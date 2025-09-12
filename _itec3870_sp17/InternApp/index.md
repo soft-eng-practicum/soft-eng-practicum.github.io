@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp17
 sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
 project_key: "intern-app"
+semester_key: "sp17"
 
 photos:
   - IMG_20170427_145146955.jpg

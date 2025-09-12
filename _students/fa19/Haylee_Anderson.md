@@ -13,9 +13,6 @@ highlights: [ ]
 project_key: [ "shutter-plug" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa19"
+project_id: 2
 ---

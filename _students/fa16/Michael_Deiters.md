@@ -10,12 +10,8 @@ graduation_year: 2020
 cohort: ""
 skills: [ ]
 highlights: [ ]
-project_key: [ "elements" ]
+project_key: [ "ggm-campus-maps" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "fa16"
 ---

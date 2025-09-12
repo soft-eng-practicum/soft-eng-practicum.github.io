@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
 project_key: "email-guard"
+semester_key: "sp18"
 
 photos:
   - IMAG2328.jpg
@@ -27,9 +28,10 @@ photos:
   - 41832258701_7c705a927a_h.jpg
 phrase: "Stops bad Emails!"
 screencast-youtube: 8PYuHMCoQ-Y
+cohort: "The EmailGuardians"
 members: "The EmailGuardians: Spencer Williams, Gilad Berman, Brandon Henry, Nishanth Mangineni"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "Saves professors a headache and helps prepare students for the workforce."
 logo-full: flyer-EmailGuard.jpg
 logo-thumb: thumb-flyer-EmailGuard.jpg

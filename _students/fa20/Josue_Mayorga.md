@@ -12,10 +12,6 @@ skills: [ ]
 highlights: [ ]
 project_key: [ "english-grammar-checker" ]
 location: "Lawrenceville, GA"
+semester_key: "fa20"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
 ---

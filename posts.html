@@ -50,6 +50,51 @@ title: Posts
         </div>
     {% endif %}
 
+    {% assign all_posts = site.categories["Resources"]
+        | sort: "date", "first" | reverse %}
+    {% assign sorted_posts = "" | split: "," %}
+    {% assign sorted_modified = "" | split: "," %}
+
+    {% for post in all_posts %}
+        {% if post.last_modified %}
+            {% assign testDate = site.time
+                | date: "%s" %}
+            {% assign cutoff = testDate
+                | minus: 2592000 %}
+            {% assign testPost = post.last_modified
+                | date: "%s" | minus: 0 %}
+            {% if testPost >= cutoff %}
+                {% assign sorted_modified = sorted_modified
+                    | push: post %}
+            {% else %}
+                {% assign sorted_posts = sorted_posts
+                    | push: post %}
+            {% endif %}
+        {% else %}
+            {% assign sorted_posts = sorted_posts
+                | push: post %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign sorted_modified = sorted_modified
+        | sort: "last_modified", "first" | reverse %}
+
+    {% if sorted_posts.size > 0 or sorted_modified.size > 0 %}
+        <div class = "d-flex flex-column border rounded px-4 py-3 mt-4">
+            <h3>Resources</h3>
+            {% for post in sorted_modified %}
+                {% if post.url %}
+                    <a class = "my-2" href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.last_modified | date_to_string: "ordinal", "US" }}</span><span class = "badge bg-danger mr-1">Pinned</span><span class = "badge bg-primary mr-2">Updated</span>{{ post.title }}</span></a>
+                {% endif %}
+            {% endfor %}
+            {% for post in sorted_posts %}
+                {% if post.url %}
+                    <a class = "my-2" href = "{{ post.url }}"><span><span class = "badge bg-gradient mr-1">{{ post.date | date_to_string: "ordinal", "US" }}</span>{{ post.title }}</span></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endif %}
+
     {% comment %}
         Alphabetize categories before displaying them
     {% endcomment %}
@@ -62,7 +107,7 @@ title: Posts
     {% assign cats = cats | sort %}
     {% for category in cats %}
         {% assign name = category %}
-        {% if name != "Pinned" %}
+        {% if name != "Pinned" and name != "Resources" %}
             {% assign all_posts = site.categories[name]
                 | sort: "date", "first" | reverse %}
             {% assign sorted_posts = "" | split: "," %}

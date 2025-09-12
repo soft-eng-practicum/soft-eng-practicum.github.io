@@ -6,14 +6,15 @@ categories: itec3870 create
 collection: itec3870_fa22
 sponsor_key: [ "anca-doloc-mihu", "amy-sol", "ryan-gambrell" ]
 project_key: "ngf-app"
-
+semester_key: "fa22"
 
 phrase: "Help NGF modernize! Embrace a fully online record keeping system for students, families, volunteers and staff"
 tech: [ react, bootstrap, html/css ]
 screencast-youtube: c8pfxX6FkaM
+cohort: "Quaint Quartet"
 members: "Quaint Quartet: Michael Conner and Stephanie Mendiola-Tenorio"
 client: "Amy Sol and Ryan Gambrell"
-client-url: https://nextgenerationfocus.org/
+client-url: ""
 prof: doloc-mihu
 description: "NGF App will be a fully online record keeping system that will enable the many students, families, volunteers, part-time employees, and board members to have access through the web. This will allow individuals, via an account system, to add and update their own records, as well as give administrators the ability to manage the records of everyone in the system."
 repo-url: https://github.com/GGC-SD/NgfApp-StaffDash

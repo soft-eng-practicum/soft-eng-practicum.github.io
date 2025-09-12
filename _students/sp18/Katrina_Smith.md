@@ -13,9 +13,5 @@ highlights: [ ]
 project_key: [ "one-fitness" ]
 location: "Lawrenceville, GA"
 website: ""
-git: ""
-linkedin: ""
-x: ""
-instagram: ""
-facebook: ""
+semester_key: "sp18"
 ---

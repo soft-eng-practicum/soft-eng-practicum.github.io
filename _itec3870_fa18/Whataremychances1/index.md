@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "brian-palm" ]
 project_key: "what-are-my-chances"
+semester_key: "fa18"
+project_id: 1
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg
@@ -18,9 +20,10 @@ photos:
 phrase: "PA School Matcher by Fantastic Four"
 tech: [ "angular6", "mongodb", "mongoose", "node", "html/css" ]
 screencast-youtube: dACs_bAXd4Q
+cohort: "Fantastic Four"
 members: "Fantastic Four: Elizabeth Haynie, Bradform Mashlum, Dionne Mitchner, Nishanth Mangineni"
 client: "External client Brian Palm, physician's assistant at Gwinnett Medical Center and Northside Hospital. Brian is a Board-Certified Chief PA of Emergency Medicine. Member of the AAPA as well as Georgia Association of Physician Assistants. Former adjunct faculty and Admissions Panel member at an accredited PA school."
-client-url: https://www.linkedin.com/in/brian-palm-0b0ba72b/
+client-url: ""
 description: "We are building a mobile-friendly web application that assists with helping physician assistant students determine which schools they are eligible to get into. They can enter their GPA, GRE, healthcare hours. From there, graphs with be presented comparing them to students nationally."
 logo-full: flyer-fantasticFour.png
 logo-thumb: thumb-flyer-fantasticFour.png

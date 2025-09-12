@@ -6,10 +6,13 @@ categories: itec3870 create
 collection: itec3870_sp20
 sponsor_key: [ "cengiz-gunay", "vi-nguyen" ]
 project_key: "grizzly-hacks-website"
+semester_key: "sp20"
+project_id: 1
 
 phrase: "Supporting the Grizzly Hacks RSO!"
 tech: [ node, angular, bootstrap, html/css, firebase]
 screencast-youtube: Yzh8gksAtMo
+cohort: "Team Evil"
 members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle"
 client: 'GGC student Vi "Jimmy" Nguyen'
 demo-url: https://grizzly-hacks.web.app/home

@@ -6,6 +6,7 @@ categories: itec3870 create
 collection: itec3870_sp18
 sponsor_key: [ "cengiz-gunay", "scott-warfield" ]
 project_key: "auto-speaker"
+semester_key: "sp18"
 
 photos:
   - IMAG2328.jpg

@@ -11,6 +11,7 @@ cohort: ""
 skills: [ "Java", "JavaScript", "Python", "React", "Node.js", "Angular", "Django", "MongoDB", "SQL", "Selenium WebDriver", "Bootstrap" ]
 highlights: [ "Best Overall Project – USITCC", "Best Solo Project – HackGGC II", "Best Beginner Project – HackGGC '24"]
 project_key: [ "walking-trails" ]
+semester_key: "sp25"
 location: "Lawrenceville, GA"
 
 #####################

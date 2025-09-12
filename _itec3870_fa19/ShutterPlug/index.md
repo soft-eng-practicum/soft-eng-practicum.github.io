@@ -6,6 +6,8 @@ categories: itec3870 create
 collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "christy-conners" ]
 project_key: "shutter-plug"
+semester_key: "fa19"
+project_id: 1
 
 photos:
   - 20191121-_RAW5983.jpg
@@ -71,6 +73,7 @@ photos:
 phrase: "Your High Speed Plug-In to Photographers (:crown: 3RD PLACE)"
 tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
 screencast-youtube: BXEuS-EflOk
+cohort: "Team ShadowFax"
 members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
 client: "Christy Conners, Commercial Photography Teacher in Gwinnett"
 demo-url: https://shutterplug.herokuapp.com/
