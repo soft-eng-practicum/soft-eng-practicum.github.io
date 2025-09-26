@@ -78,12 +78,31 @@
                 {% endif %}
             {% endif %}
 
+            {% assign overarching_data = "false" %}
+            {% for proj in site.projects %}
+                {% if proj.project_key == p.project_key
+                    and proj.url != p.url %}
+                    {% assign overarching_data = "true" %}
+                {% endif %}
+            {% endfor %}
+            {% for col in site.collections %}
+                {% if col.label contains "itec" %}
+                    {% for proj in site[col.label] %}
+                        {% if proj.project_key == p.project_key
+                            and proj.url != p.url %}
+                            {% assign overarching_data = "multi-term" %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+
             <div class="col-sm-6 col-lg-4 col-xl-3 searchable"
                 data-name="{{ p.title }}"
                 data-role="{{ tech_data }}"
                 data-major=""
                 data-class="{{ class_data }}"
                 data-course="{{ course_data }}"
+                data-overarching="{{ overarching_data }}"
             >
                 <a href = "{{ p.url }}" class = "text-decoration-none d-block"
                     style = "height: 100%;">

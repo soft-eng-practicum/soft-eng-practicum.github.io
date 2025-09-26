@@ -14,11 +14,33 @@
 
         </li>
 
+        <!--
         <li class = "nav__menu-item desktop-nav first">
 
             <a href = "{{ '/featured/' | relative_url }}">
 
                 Featured
+
+            </a>
+
+        </li>
+        -->
+
+        <li class = "nav__menu-item desktop-nav">
+
+            <a href = "{{ '/students/browse.html' | relative_url }}">
+
+                Students
+
+            </a>
+
+        </li>
+
+        <li class = "nav__menu-item desktop-nav">
+
+            <a href = "{{ '/partners/browse.html' | relative_url }}">
+
+                Partners
 
             </a>
 
@@ -65,7 +87,13 @@
             <!--<SubMenu />-->
             <ul class = "nav__submenu">
 
+                <!--
                 <li class = "nav__submenu-item"><a href = "{{ '/featured/' | relative_url }}">Featured</a></li>
+                -->
+
+                <li class = "nav__submenu-item"><a href = "{{ '/students/browse.html' | relative_url }}">Students</a></li>
+
+                <li class = "nav__submenu-item"><a href = "{{ '/partners/browse.html' | relative_url }}">Partners</a></li>
 
                 <li class = "nav__submenu-item"><a href = "{{ '/projects/' | relative_url }}">Projects</a></li>
 

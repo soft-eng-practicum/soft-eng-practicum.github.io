@@ -114,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const major = (card.dataset.major || "").toLowerCase();
             const classYear = (card.dataset.class || "").toLowerCase();
             const course = (card.dataset.course || "").toLowerCase();
+            const overarching = (card.dataset.overarching || "").toLowerCase();
 
             const matchesSearch =
                 name.includes(currentSearch) ||
@@ -124,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 course.includes(currentSearch);
 
             const matchesFilter =
-                currentFilter === "" || type.includes(currentFilter) || course.includes(currentFilter);
+                currentFilter === "" || type.includes(currentFilter) || course.includes(currentFilter) || overarching.includes(currentFilter);
 
             return matchesSearch && matchesFilter;
 

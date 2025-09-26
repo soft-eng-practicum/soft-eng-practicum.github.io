@@ -7,6 +7,11 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
 
 <br>
 
+{% include project_search_widget.html %}
+
+<h3>Top Techologies</h3>
+{% include leaderboard.html %}
+
 <div class = "d-flex flex-wrap justify-content-center">
     <div class = "d-flex justify-content-center m-2 m-lg-5">
         <div class="dropdown grow-x" style = "z-index: 1000;">
