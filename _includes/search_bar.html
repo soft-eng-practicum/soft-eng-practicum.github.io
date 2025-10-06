@@ -1,7 +1,7 @@
 <div class="input-group">
     <input type = "text" name = "search" class = "form-control"
-        placeholder = "Search..." aria-label = "Search Query"
-        style = "border-radius: 24px; max-height: 50px; font-size: 14px;">
+        placeholder = "Search by name, role, project type, etc.!" aria-label = "Search Query"
+        style = "border-radius: 24px; max-height: 50px; font-size: 16px;">
 </div>
 
 <br>
@@ -15,10 +15,10 @@
         <div class="dropdown-menu w-100" aria-labelledby="sortMenuButton">
             <a class="dropdown-item" href="#" data-sort = "name-asc"><i class="fas fa-arrow-down-a-z" style = "margin-right: 4px;"></i>Name: A to Z</a>
             <a class="dropdown-item" href="#" data-sort = "name-desc"><i class="fas fa-arrow-up-a-z" style = "margin-right: 4px;"></i>Name: Z to A</a>
-            {% unless page.path contains "partners" %}
+            {% if page.path contains "students" %}
                 <a class="dropdown-item" href="#" data-sort = "class-asc"><i class="fas fa-arrow-down-short-wide" style = "margin-right: 4px;"></i>Class: Ascending</a>
                 <a class="dropdown-item" href="#" data-sort = "class-desc"><i class="fas fa-arrow-up-short-wide" style = "margin-right: 4px;"></i>Class: Descending</a>
-            {% endunless %}
+            {% endif %}
         </div>
     </div>
     <div class="dropdown m-2 m-lg-3" style = "max-width: 250px;">
@@ -33,6 +33,9 @@
                 <a class="dropdown-item" href="#" data-filter = "client"><i class="fas fa-user-tie" style = "margin-right: 4px;"></i>Client</a>
                 <a class="dropdown-item" href="#" data-filter = "faculty"><i class="fas fa-user-graduate" style = "margin-right: 4px;"></i>Faculty</a>
             {% endif %}
+            {% if page.url contains "projects" %}
+                <a class="dropdown-item" href="#" data-filter = "multi-term"><i class="fa-solid fa-clock-rotate-left" style = "margin-right: 4px;"></i>Multi-term Projects</a>
+            {% endif %}
         </div>
     </div>
     <div class="dropdown m-2 m-lg-3" style = "max-width: 250px;">
@@ -43,4 +46,4 @@
     </div>
 </div>
 
-<script src = "/assets/js/misc/cards.js" defer></script>
+<script src="/assets/js/misc/cards.js" defer></script>

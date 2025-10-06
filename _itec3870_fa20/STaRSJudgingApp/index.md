@@ -4,10 +4,14 @@ title: "STaRS Judging App"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "anca-doloc-mihu" ]
+project_key: "stars-judging-app"
+semester_key: "fa20"
 
 phrase: "Collects scores from judges and creates reports"
 tech: [ angular, typescript, html/css, couchdb, pouchdb ]
 screencast-youtube: Pw4vPMyrdbA
+cohort: "Team Comet Watchers"
 members: "Team Comet Watchers: Greg Dagnan, Matthew LaFayette, Dakota Norris, Gabriella Pujada"
 client: "IT professor, Dr. Anca Doloc-Mihu"
 prof: gunay

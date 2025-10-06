@@ -4,71 +4,75 @@ title: "Internapp"
 date: 2019-12-14 14:00:00
 categories: itec3870 create
 collection: itec3870_fa19
-photos:
-- 20191121-_RAW5983.jpg
-- 20191121-_RAW5985.jpg
-- 20191121-_RAW5991.jpg
-- 20191121-_RAW6004.jpg
-- 20191121-_RAW6008.jpg
-- 20191121-_RAW6012.jpg
-- 20191121-_RAW6016.jpg
-- 20191121-_RAW6017.jpg
-- 20191121-_RAW6021.jpg
-- 20191121-_RAW6025.jpg
-- 20191121-_RAW6032.jpg
-- 20191121-_RAW6033.jpg
-- 20191121-_RAW6040.jpg
-- 20191121-_RAW6042.jpg
-- 20191121-_RAW6059.jpg
-- 20191121-_RAW6067.jpg
-- 20191121-_RAW6071.jpg
-- 20191121-_RAW6072.jpg
-- 20191121-_RAW6082.jpg
-- 20191121-_RAW6083.jpg
-- 20191121-_RAW6085.jpg
-- 20191121-_RAW6104.jpg
-- 20191121-_RAW6106.jpg
-- 20191121-_RAW6112.jpg
-- 20191121-_RAW6113.jpg
-- 20191121-_RAW6117.jpg
-- 20191121-_RAW6140.jpg
-- 20191121-_RAW6150.jpg
-- 20191121-_RAW6153.jpg
-- 20191121-_RAW6156.jpg
-- 20191121-_RAW6160.jpg
-- 20191121-_RAW6171.jpg
-- 20191121-_RAW6181.jpg
-- 20191121-_RAW6207.jpg
-- 20191121-_RAW6210.jpg
-- 20191121-_RAW6214.jpg
-- 20191121-_RAW6224.jpg
-- 20191121-_RAW6233.jpg
-- 20191121-_RAW6246.jpg
-- 20191121-_RAW6253.jpg
-- 20191121-_RAW6275.jpg
-- 20191121-_RAW6276.jpg
-- 20191121-_RAW6320.jpg
-- 20191121-_RAW6323.jpg
-- 20191121-_RAW6325.jpg
-- 20191121-_RAW6334.jpg
-- 20191121-_RAW6338.jpg
-- 20191121-_RAW6347.jpg
-- 20191121-_RAW6396.jpg
-- 20191121-_RAW6404.jpg
-- 20191121-_RAW6415.jpg
-- 20191121-_RAW6417.jpg
-- 20191121-_RAW6449.jpg
-- 20191121-_RAW6455.jpg
-- 20191121-_RAW6460.jpg
-- 20191121-_RAW6462.jpg
-- 20191121-_RAW6489.jpg
-- 20191121-_RAW6516.jpg
-- 20191121-_RAW6534.jpg
-- 20191121-_RAW6545.jpg
+sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
+project_key: "intern-app"
+semester_key: "fa19"
 
+photos:
+  - 20191121-_RAW5983.jpg
+  - 20191121-_RAW5985.jpg
+  - 20191121-_RAW5991.jpg
+  - 20191121-_RAW6004.jpg
+  - 20191121-_RAW6008.jpg
+  - 20191121-_RAW6012.jpg
+  - 20191121-_RAW6016.jpg
+  - 20191121-_RAW6017.jpg
+  - 20191121-_RAW6021.jpg
+  - 20191121-_RAW6025.jpg
+  - 20191121-_RAW6032.jpg
+  - 20191121-_RAW6033.jpg
+  - 20191121-_RAW6040.jpg
+  - 20191121-_RAW6042.jpg
+  - 20191121-_RAW6059.jpg
+  - 20191121-_RAW6067.jpg
+  - 20191121-_RAW6071.jpg
+  - 20191121-_RAW6072.jpg
+  - 20191121-_RAW6082.jpg
+  - 20191121-_RAW6083.jpg
+  - 20191121-_RAW6085.jpg
+  - 20191121-_RAW6104.jpg
+  - 20191121-_RAW6106.jpg
+  - 20191121-_RAW6112.jpg
+  - 20191121-_RAW6113.jpg
+  - 20191121-_RAW6117.jpg
+  - 20191121-_RAW6140.jpg
+  - 20191121-_RAW6150.jpg
+  - 20191121-_RAW6153.jpg
+  - 20191121-_RAW6156.jpg
+  - 20191121-_RAW6160.jpg
+  - 20191121-_RAW6171.jpg
+  - 20191121-_RAW6181.jpg
+  - 20191121-_RAW6207.jpg
+  - 20191121-_RAW6210.jpg
+  - 20191121-_RAW6214.jpg
+  - 20191121-_RAW6224.jpg
+  - 20191121-_RAW6233.jpg
+  - 20191121-_RAW6246.jpg
+  - 20191121-_RAW6253.jpg
+  - 20191121-_RAW6275.jpg
+  - 20191121-_RAW6276.jpg
+  - 20191121-_RAW6320.jpg
+  - 20191121-_RAW6323.jpg
+  - 20191121-_RAW6325.jpg
+  - 20191121-_RAW6334.jpg
+  - 20191121-_RAW6338.jpg
+  - 20191121-_RAW6347.jpg
+  - 20191121-_RAW6396.jpg
+  - 20191121-_RAW6404.jpg
+  - 20191121-_RAW6415.jpg
+  - 20191121-_RAW6417.jpg
+  - 20191121-_RAW6449.jpg
+  - 20191121-_RAW6455.jpg
+  - 20191121-_RAW6460.jpg
+  - 20191121-_RAW6462.jpg
+  - 20191121-_RAW6489.jpg
+  - 20191121-_RAW6516.jpg
+  - 20191121-_RAW6534.jpg
+  - 20191121-_RAW6545.jpg
 phrase: "Let GGC find you an Internship!"
 tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
 screencast-youtube: CB7A34H65l4
+cohort: "Team Meraki"
 members: "Team Meraki: Jose Cantillo, Kyle Tate, Leon Le, Jordan Vincent, Ethan Kim"
 client: "[Dr Lissa Pollacia](http://www.ggc.edu/about-ggc/directory/lissa-pollacia) and [Dr Latanya Hammonds-Odie](http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie)"
 demo-url: http://ggc-internapp.herokuapp.com/

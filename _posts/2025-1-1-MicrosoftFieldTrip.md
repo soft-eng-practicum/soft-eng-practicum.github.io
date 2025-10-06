@@ -4,8 +4,8 @@ title: "<i class='fab fa-windows text-primary mr-1'></i>Grizzlies Spotted at Mic
 date: 2025-1-1
 author: Leonardo Motta
 categories:
-- News
-- Pinned
+  - News
+  - Pinned
 ---
 ### A Warm Welcome
 <hr>

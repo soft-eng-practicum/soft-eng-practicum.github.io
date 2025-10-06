@@ -4,10 +4,14 @@ title: "Roster Sniper"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "binh-tran" ]
+project_key: "roster-sniper"
+semester_key: "sp20"
 
 phrase: "Notifies you for openings in full courses"
 tech: [ python, django, html/css, mysql ]
 screencast-streamable: s/ndkddh/ojasn
+cohort: "Thinking Code"
 members: "Thinking Code: Ryan Cosentino and Shaun Mitchell"
 client: "GGC IT faculty, [Dr. Binh Tran](https://www.ggc.edu/about-ggc/directory/binh-tran)"
 description: "Have you ever found a course which matches your schedule perfectly only to realize it's run out of seats? Say goodbye to checking banner everyday for weeks and hello to Roster Sniper! Our website helps students track courses by sending email notifications once a particular course becomes available. Students are able to create accounts, login and logout, search for and track courses, and manage notifications through our easy to use web application developed with Django. Course data is stored in a MySQL database and is updated periodically by scraping data from banner."

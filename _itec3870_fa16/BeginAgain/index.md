@@ -4,18 +4,21 @@ title: "Begin Again"
 date: 2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
+sponsor_key: [ "cengiz-gunay", "latanya-hammonds-odie", "lissa-pollacia" ]
+project_key: "begin-again"
+semester_key: "fa16"
+
 photos:
 - create-cm1.jpg
 - create-mixed.jpg
 - Create-CB-1.jpg
 - Create-CB-2.jpg
 - Create-CB-3.jpg
-
 phrase: "Apply for internships. Apply for your future"
 demo-url: https://ggc-internapp.herokuapp.com/login
 members: Taylor Brust, Joseph Cox, Vimal Darji, Jonathan Nguyen
 client: "Dr. Latanya Hammonds-Odie and Dr. Lissa Pollacia"
-client-url: http://www.ggc.edu/about-ggc/directory/
+client-url: ""
 description: "Internship applications for Biology and IT students at GGC"
 logo-full: flyer-internship.png
 logo-thumb: thumb-flyer-internship.png

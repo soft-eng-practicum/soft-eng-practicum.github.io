@@ -4,13 +4,17 @@ title: "English Grammar Checker"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "jason-palmer" ]
+project_key: "english-grammar-checker"
+semester_key: "fa20"
 
 phrase: "Project CLAWS (Concise Language and Academic Writing Suggestions) (:crown: 3RD PLACE)"
 tech: [ angular, typescript, html/css, heroku ]
 screencast-youtube: lxdCXsfeN18
+cohort: "CtrlAltSpri4ng"
 members: "CtrlAltSpri4ng: Nga Tran, Fawhn Hanlon, Francisco Pomaya-Ramos, Josue Mayorga"
 client: "English professor, Dr. Jason Palmer"
-client-url: https://www.ggc.edu/about-ggc/directory/jason-palmer
+client-url: ""
 prof: gunay
 description: "Our team is updating and improving upon the existing [Grammark program](https://grammark.org/). The goal for this program is to help GGC students enrolled in ENG 1101 and 1102 develop persuasive, academic writing skills by flagging potential false positive grammar checks and offering corrective feedback. Ultimately, the user should be able to either take or leave the program’s feedback and/ or corrections based upon their knowledge of grammatical rules in the English language and the rules of academic writing."
 logo-full: flyer-grammark.jpg

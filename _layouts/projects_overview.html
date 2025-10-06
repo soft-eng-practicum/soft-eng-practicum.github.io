@@ -49,7 +49,7 @@ layout: default
                     {% for p in all_projects %}
                         <div class = "d-flex justify-content-center">
                             <div>
-                                <a class = "d-inline" href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
+                    <a class = "d-inline" href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal"><span class = "fw-bold">{{ p.title }}&nbsp;</span><span class = "fw-bold fst-italic">- {{ p.phrase }}</span><i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
                             </div>
                         </div>
                     {% endfor %}
@@ -71,13 +71,13 @@ layout: default
             {% endfor %}
             {% if all_projects.size > 0 %}
                 <div class = "container">
-                    <div class = "row">
-                        {% for p in all_projects %}
-                            <div class = "col d-flex justify-content-center">
-                                <a href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal">{{ p.title }}<i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
+                    {% for p in all_projects %}
+                        <div class = "d-flex justify-content-center">
+                            <div>
+                    <a class = "d-inline" href = "#{{ p.title | cgi_escape }}"><span class = "h5 badge rounded-pill bg-gradient pl-3 fw-normal"><span class = "fw-bold">{{ p.title }}&nbsp;</span><span class = "fw-bold fst-italic">- {{ p.phrase }}</span><i class = "fa-solid fa-circle-down ml-2 pr-3"></i></span></a>
                             </div>
-                        {% endfor %}
-                    </div>
+                        </div>
+                    {% endfor %}
                 </div>
             {% endif %}
         {% endif %}
@@ -165,17 +165,24 @@ layout: default
                         </a>
                     </div>
 
-                    {% if project.members %}
-                        <p>Developed by <em>{{ project.members }}</em></p>
-                    {% else %}
-                        {% assign students = "" | split: "," %}
-                        {% for s in site.students %}
-                            {% for key in s.project_key %}
-                                {% if key == project.project_key %}
+                    {% assign students = "" | split: "," %}
+                    {% for s in site.students %}
+                        {% for key in s.project_key %}
+                            {% if key == project.project_key
+                                and s.semester_key == project.semester_key %}
+                                {% if project.project_id %}
+                                    {% if project.project_id == s.project_id %}
+                                        {% assign students = students | push: s %}
+                                    {% endif %}
+                                {% else %}
                                     {% assign students = students | push: s %}
                                 {% endif %}
-                            {% endfor %}
+                            {% endif %}
                         {% endfor %}
+                    {% endfor %}
+                    {% if project.members and students.size == 0 %}
+                        <p>Developed by <em>{{ project.members }}</em></p>
+                    {% else %}
                         {% if students.size > 0 %}
                             {% assign max = students.size | minus: 1 %}
                             {% assign count = 0 %}
@@ -255,8 +262,7 @@ layout: default
                                             {% if count < max %}
                                                 <em>
                                                     <a href="{{ c.url }}">
-                                                        {{ c.title }}
-                                                    </a>,
+                                                        {{ c.title }}</a>,&nbsp;
                                                 </em>
                                                 {% assign count = count | plus: 1 %}
                                             {% else %}
@@ -272,8 +278,50 @@ layout: default
                             {% endif %}
                         {% endif %}
                     {% else %}
+                        {% assign clients = "" | split: "," %}
+                        {% for p in site.partners %}
+                            {% if p.sponsor_type == "Client" %}
+                                {% for key in project.sponsor_key %}
+                                    {% if p.sponsor_key == key %}
+                                        {% assign clients = clients | push: p %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if clients.size > 0 %}
+                            {% if clients.size == 1 %}
+                                <p>Directed by client
+                                    <em>
+                                        <a href="{{ clients[0].url }}">
+                                            {{ clients[0].title }}
+                                        </a>
+                                    </em>
+                                </p>
+                            {% elsif clients.size > 1 %}
+                                {% assign max = clients.size | minus: 1 %}
+                                {% assign count = 0 %}
+                                <p>Directed by clients
+                                    {% for c in clients %}
+                                        {% if count < max %}
+                                            <em>
+                                                <a href="{{ c.url }}">
+                                                    {{ c.title }}</a>,&nbsp;
+                                            </em>
+                                            {% assign count = count | plus: 1 %}
+                                        {% else %}
+                                            <em>
+                                                <a href="{{ c.url }}">
+                                                    {{ c.title }}
+                                                </a>
+                                            </em>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+                            {% endif %}
+                        {% else %}
                             {{ "Directed by client _" | append: project.client
                                 | append: "_" | markdownify }}
+                        {% endif %}
                     {% endif %}
 
                     {% if project.prof %}
@@ -409,19 +457,114 @@ layout: default
                         </a>
                     </div>
 
-                    {% if project.members %}
+                    {% assign students = "" | split: "," %}
+                    {% for s in site.students %}
+                        {% for key in s.project_key %}
+                            {% if key == project.project_key
+                                and s.semester_key == project.semester_key %}
+                                {% if project.project_id %}
+                                    {% if project.project_id == s.project_id %}
+                                        {% assign students = students | push: s %}
+                                    {% endif %}
+                                {% else %}
+                                    {% assign students = students | push: s %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    {% if project.members and students.size == 0 %}
                         <p>Developed by <em>{{ project.members }}</em></p>
-                    {% elsif page.cohort.size > 0 %}
-                        <p>Developed by <em>{{ project.cohort }}</em></p>
+                    {% else %}
+                        {% if students.size > 0 %}
+                            {% assign max = students.size | minus: 1 %}
+                            {% assign count = 0 %}
+                            {% unless project.cohort.size > 0 %}
+                                <p>Developed by
+                                    {% for s in students %}
+                                        {% if count < max %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}</a>,&nbsp;
+                                            </em>
+                                            {% assign count = count | plus: 1 %}
+                                        {% else %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}</a>
+                                            </em>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+                            {% else %}
+                                <p>Developed by <em><a href = "{{ project.url }}">{{ project.cohort }}:</a>&nbsp;</em>
+                                    {% for s in students %}
+                                        {% if count < max %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}</a>,&nbsp;
+                                            </em>
+                                            {% assign count = count | plus: 1 %}
+                                        {% else %}
+                                            <em>
+                                                <a href = "{{ s.url }}">
+                                                    {{ s.title }}</a>
+                                            </em>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+                            {% endunless %}
+                        {% endif %}
                     {% endif %}
 
-                    {% if project.client-url %}
+                    {% if project.client-url.size > 0 %}
                         Directed by client <em>
                             <a href="{{ project.client-url }}" target="_blank">{{
                                 project.client }}</a></em>
-                            {% else %}
+                    {% else %}
+                        {% assign clients = "" | split: "," %}
+                        {% for p in site.partners %}
+                            {% if p.sponsor_type == "Client" %}
+                                {% for key in project.sponsor_key %}
+                                    {% if p.sponsor_key == key %}
+                                        {% assign clients = clients | push: p %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if clients.size > 0 %}
+                            {% if clients.size == 1 %}
+                                <p>Directed by client
+                                    <em>
+                                        <a href="{{ clients[0].url }}">
+                                            {{ clients[0].title }}
+                                        </a>
+                                    </em>
+                                </p>
+                            {% elsif clients.size > 1 %}
+                                {% assign max = clients.size | minus: 1 %}
+                                {% assign count = 0 %}
+                                <p>Directed by clients
+                                    {% for c in clients %}
+                                        {% if count < max %}
+                                            <em>
+                                                <a href="{{ c.url }}">
+                                                    {{ c.title }}</a>,&nbsp;
+                                            </em>
+                                            {% assign count = count | plus: 1 %}
+                                        {% else %}
+                                            <em>
+                                                <a href="{{ c.url }}">
+                                                    {{ c.title }}
+                                                </a>
+                                            </em>
+                                        {% endif %}
+                                    {% endfor %}
+                                </p>
+                            {% endif %}
+                        {% else %}
                             {{ "Directed by client _" | append: project.client
                                 | append: "_" | markdownify }}
+                        {% endif %}
                     {% endif %}
 
                     {% if project.prof %}

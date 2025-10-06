@@ -4,21 +4,25 @@ title: "ChemGenApp"
 date: 2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
-photos:
-- appfactory-room1-billy-door-blurred.jpg
-- appfactory-room2-bruce.jpg
-- ggcmaps-old-and-new-Prof-Moore-2.jpg
-- internapp-billy-edgar-HD-blurred.jpg
-- room-view-2-HD.jpg
-- room-view-5-HD.jpg
-- room-view-8-HD.jpg
+sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
+project_key: "chem-gen-app"
+semester_key: "fa18"
 
+photos:
+  - appfactory-room1-billy-door-blurred.jpg
+  - appfactory-room2-bruce.jpg
+  - ggcmaps-old-and-new-Prof-Moore-2.jpg
+  - internapp-billy-edgar-HD-blurred.jpg
+  - room-view-2-HD.jpg
+  - room-view-5-HD.jpg
+  - room-view-8-HD.jpg
 phrase: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
 tech: [ angular6, node, html/css ]
 screencast-youtube: 3WPrGnkCGXY
+cohort: "Free Radicals"
 members: "Free Radicals: Ben Jackson, William Bullock, Bruce Carson, Trivon Etheridge"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
+client-url: ""
 description: "ChemGenApp is a program/website that generates as much information regarding a chemical reaction as possible in order to assist Chemistry professors with making quizzes."
 logo-full: flyer-chemquiz.png
 logo-thumb: thumb-flyer-chemquiz.png

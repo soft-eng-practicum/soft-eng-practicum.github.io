@@ -1,0 +1,147 @@
+<div class = "container mb-5">
+
+    {% include search_bar.html %}
+
+    <div class = "mt-5 mx-auto">
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center" id="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item" id="next-page">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class = "browse-body mt-5 section-team align-items-start" id = "card-list">
+        {% assign all_projects = "" | split: "," %}
+        {% for p in site.projects %}
+            {% if p.project_key %}
+                {% assign all_projects = all_projects | push: p %}
+            {% endif %}
+        {% endfor %}
+        {% for col in site.collections %}
+            {% if col.label contains "itec" %}
+                {% for proj in site[col.label] %}
+                    {% if proj.project_key %}
+                        {% assign all_projects = all_projects | push: proj %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+        {% for p in all_projects %}
+            {% assign course_data = "sd2" %}
+            {% if p.course_key %}
+                {% assign course_data = p.course_key %}
+            {% endif %}
+            {% if course_data contains "sd" %}
+                {% assign course_data = course_data | append: "-soft-dev-2-software-development-2-software development 2" %}
+                {% if p.course_key == "sd1" %}
+                    {% assign course_data = couse_data | replace: "2", "1" %}
+                {% endif %}
+            {% endif %}
+
+            {% assign class_data = "" %}
+            {% if p.semester_key %}
+                {% assign class_data = p.semester_key %}
+                {% if class_data contains "sp" %}
+                    {% assign tmp = p.semester_key | replace: "sp", "spring-" %}
+                    {% assign class_data = class_data | append: "-" | append: tmp %}
+                    {% assign tmp = p.semester_key | replace: "sp", "spring " %}
+                    {% assign class_data = class_data | append: "-" | append: tmp %}
+                    {% assign year = p.semester_key | slice: -2, 2 %}
+                    {% assign rep_year = year | prepend: "20" %}
+                    {% assign tmp = class_data | replace: year, rep_year %}
+                    {% assign class_data = class_data | append: "-" | append: tmp %}
+                {% elsif class_data contains "fa" %}
+                    {% assign tmp = p.semester_key | replace: "fa", "fall-" %}
+                    {% assign class_data = class_data | append: "-" | append: tmp %}
+                    {% assign tmp = p.semester_key | replace: "fa", "fall " %}
+                    {% assign class_data = class_data | append: "-" | append: tmp %}
+                    {% assign year = p.semester_key | slice: -2, 2 %}
+                    {% assign rep_year = year | prepend: "20" %}
+                    {% assign tmp = class_data | replace: year, rep_year %}
+                    {% assign class_data = class_data | append: "-" | append: tmp %}
+                {% endif %}
+            {% endif %}
+
+            {% assign tech_data = "" %}
+            {% if p.tech %}
+                {% for k in p.tech %}
+                    {% assign tech_data = tech_data | append: k | append: "-" %}
+                {% endfor %}
+                {% if tech_data.size > 0 %}
+                    {% assign tmp = tech_data.size | minus: 1 %}
+                    {% assign tech_data = tech_data | slice: 0, tmp %}
+                {% endif %}
+            {% endif %}
+
+            {% assign overarching_data = "false" %}
+            {% for proj in site.projects %}
+                {% if proj.project_key == p.project_key
+                    and proj.url != p.url %}
+                    {% assign overarching_data = "true" %}
+                {% endif %}
+            {% endfor %}
+            {% for col in site.collections %}
+                {% if col.label contains "itec" %}
+                    {% for proj in site[col.label] %}
+                        {% if proj.project_key == p.project_key
+                            and proj.url != p.url %}
+                            {% assign overarching_data = "multi-term" %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+
+            <div class="col-sm-6 col-lg-4 col-xl-3 searchable"
+                data-name="{{ p.title }}"
+                data-role="{{ tech_data }}"
+                data-major=""
+                data-class="{{ class_data }}"
+                data-course="{{ course_data }}"
+                data-overarching="{{ overarching_data }}"
+            >
+                <a href = "{{ p.url }}" class = "text-decoration-none d-block"
+                    style = "height: 100%;">
+                    <div>
+                        <div class="single-person">
+                            <div class="person-image">
+                                {% if p.logo-full.size > 4 %}
+                                    {% if p.collection contains "itec" %}
+                                        <img src="/{{ p.collection }}/images/{{ p.logo-full }}"
+                                            alt="{{ p.title }}">
+                                    {% else %}
+                                        <img src="/projects/{{ p.course_key }}/{{ p.semester_key }}/images/{{ p.logo-full }}"
+                                            alt="{{ p.title }}">
+                                    {% endif %}
+                                {% else %}
+                                    <img src="/assets/img/students/defaultProfile.jpg"
+                                        alt="{{ p.title }}">
+                                {% endif %}
+                                <span class="icon">
+                                    <i class="fa fa-code"></i>
+                                </span>
+                            </div>
+                            <div class="person-info">
+                                <h3 class="full-name">{{ p.title }}</h3>
+                                {% if p.course_key %}
+                                    {% if p.course_key contains "sd" %}
+                                        <span class="speciality">{{ p.course_key | replace: "sd", "Software Development " | upcase }}</span>
+                                    {% else %}
+                                        <span class="speciality">{{ p.course_key | upcase }}</span>
+                                    {% endif %}
+                                {% elsif p.collection contains "itec" %}
+                                    <span class="speciality">Software Development 2</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </section>
+
+</div>

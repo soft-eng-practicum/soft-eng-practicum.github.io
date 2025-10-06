@@ -4,10 +4,14 @@ title: "Grizzly Parking"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "cengiz-gunay", "joshua-walton" ]
+project_key: "grizzly-parking"
+semester_key: "fa20"
 
 phrase: "Campus lots availability"
 tech: [ react native, android, ios, html/css, firebase ]
 screencast-youtube: VTJzBHplwR8
+cohort: "Team SMC"
 members: "Team SMC: Gretchen Marie, Lillian Sheppard, Ching Vang"
 client: "GGC IT graduate, Joshua Walton"
 prof: gunay

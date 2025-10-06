@@ -4,13 +4,16 @@ title: "NGF Mobile App"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
+sponsor_key: [ "cengiz-gunay", "amy-sol", "ryan-gambrell", "ngf" ]
+project_key: "ngf-mobile-app"
+semester_key: "sp23"
 
 phrase: "Revolutionizing Record-Keeping"
 tech: [ android, react, bootstrap, html/css ]
 screencast-youtube: UOzs2U4Ia9s
 members: "Moises Pineda, Aroosa Saeed, Elleni Gidey"
 client: "Amy Sol and Ryan Gambrell"
-client-url: https://nextgenerationfocus.org/
+client-url: ""
 prof: gunay
 description: "NGF (Next Generation Focus) is a non-profit organization dedicated to supporting underserved communities and providing educational opportunities to children and young adults. In order to streamline their record keeping process and provide greater accessibility to their stakeholders, NGF is launching an innovative online platform called the NGF App. This fully online system will enable students, families, volunteers, part-time employees, and board members to access their records and manage them through a secure account system. The App will revolutionize the way NGF manages its records, giving administrators greater control and efficiency while empowering individuals to manage their own information."
 logo-full: flyer-NGFApp.jpg

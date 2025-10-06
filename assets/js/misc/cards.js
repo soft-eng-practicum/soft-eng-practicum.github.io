@@ -32,44 +32,75 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function renderPagination() {
 
-        // Clear old page number buttons, but keep Previous and Next
-        const allItems = pagination.querySelectorAll("li.page-item");
-        allItems.forEach((item) => {
-            const link = item.querySelector("a");
-            if (link && !["Previous", "Next"].includes(link.textContent.trim())) {
-                item.remove();
-            }
+        // Remove old buttons, keep Prev/Next
+        const items = pagination.querySelectorAll("li.page-item");
+        items.forEach((item) => {
+            const link = item.querySelector("a, span");
+            if (!link) return;
+            const label = link.textContent.trim();
+            const isPrevNext = label === "Previous" || label === "Next";
+            if (!isPrevNext) item.remove();
         });
 
-        for (let i = 1; i <= totalPages; i++) {
+        const insertBeforeNode = pagination.children[pagination.children.length - 1];
+        const MAX_BUTTONS = window.innerWidth >= 500 ? 5 : 3;
+        console.log(MAX_BUTTONS);
+
+        const addPage = (n) => {
             const li = document.createElement("li");
             li.className = "page-item";
-            if (i === currentPage) li.classList.add("active");
+            if (n === currentPage) li.classList.add("active");
 
             const a = document.createElement("a");
             a.className = "page-link";
             a.href = "#";
-            a.textContent = i;
-
+            a.textContent = n;
             a.addEventListener("click", (e) => {
                 e.preventDefault();
-                showPage(i);
+                showPage(n);
             });
 
             li.appendChild(a);
-            pagination.insertBefore(li, pagination.children[pagination.children.length - 1]);
+            pagination.insertBefore(li, insertBeforeNode);
+        };
+
+        const addEllipsis = (n) => {
+            const li = document.createElement("li");
+            li.className = "page-item";
+
+            const a = document.createElement("a");
+            a.className = "page-link";
+            a.href = "#";
+            a.textContent = "...";
+            a.addEventListener("click", (e) => {
+                e.preventDefault();
+                showPage(n);
+            });
+
+            li.appendChild(a);
+            pagination.insertBefore(li, insertBeforeNode);
+        };
+
+        if (totalPages <= MAX_BUTTONS) {
+            for (let i = 1; i <= totalPages; i++) addPage(i);
+            return;
         }
 
-        document.querySelector("#pagination a.page-link[href='#'][tabindex='-1']")
-        .addEventListener("click", (e) => {
-            e.preventDefault();
-            if (currentPage > 1) showPage(currentPage - 1);
-        });
-        document.querySelector("#next-page a")
-        .addEventListener("click", (e) => {
-            e.preventDefault();
-            if (currentPage < totalPages) showPage(currentPage + 1);
-        });
+        // Compute a centered window of MAX_BUTTONS around currentPage
+        let start = currentPage - Math.floor(MAX_BUTTONS / 2);
+        if (start < 1) start = 1;
+        let end = start + MAX_BUTTONS - 1;
+        if (end > totalPages) {
+            end = totalPages;
+            start = end - MAX_BUTTONS + 1;
+        }
+
+        if (start > 1) addEllipsis(1);
+
+        // Windowed page numbers
+        for (let i = start; i <= end; i++) addPage(i);
+
+        if (end < totalPages) addEllipsis(totalPages);
 
     }
 
@@ -83,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const major = (card.dataset.major || "").toLowerCase();
             const classYear = (card.dataset.class || "").toLowerCase();
             const course = (card.dataset.course || "").toLowerCase();
+            const overarching = (card.dataset.overarching || "").toLowerCase();
 
             const matchesSearch =
                 name.includes(currentSearch) ||
@@ -93,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 course.includes(currentSearch);
 
             const matchesFilter =
-                currentFilter === "" || type.includes(currentFilter) || course.includes(currentFilter);
+                currentFilter === "" || type.includes(currentFilter) || course.includes(currentFilter) || overarching.includes(currentFilter);
 
             return matchesSearch && matchesFilter;
 
@@ -167,11 +199,23 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".dropdown-item[data-filter]").forEach(item => {
 
         item.addEventListener("click", function (e) {
-            e.preventDefault;
+            e.preventDefault();
             currentFilter = this.dataset.filter;
             applyFiltersAndSort();
         });
 
+    });
+
+    document.querySelector("#pagination a.page-link[href='#'][tabindex='-1']")
+    .addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentPage > 1) showPage(currentPage - 1);
+    });
+
+    document.querySelector("#next-page a")
+    .addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentPage < totalPages) showPage(currentPage + 1);
     });
 
 });

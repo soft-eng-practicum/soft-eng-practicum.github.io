@@ -4,6 +4,9 @@ title: "SAUCE 2.0"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
+sponsor_key: [ "cengiz-gunay", "sairam-tangirala", "tae-song-lee" ]
+project_key: "sauce-20"
+semester_key: "sp23"
 
 phrase: "A dashboard designed for structural analysis using contactless evaluation"
 tech: [ python, flask, jupyter-dash ]

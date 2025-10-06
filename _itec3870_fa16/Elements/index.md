@@ -4,20 +4,23 @@ title: Elements
 date: 2016-12-07 14:49:25
 categories: itec3870 create
 collection: itec3870_fa16
+sponsor_key: [ "cengiz-gunay", "thomas-gluick" ]
+project_key: "elements"
+semester_key: "fa16"
+
 photos:
 - create-cm1.jpg
 - create-mixed.jpg
 - Create-CB-1.jpg
 - Create-CB-2.jpg
 - Create-CB-3.jpg
-
 phrase: "Practice chemistry!"
 demo-url: https://hmontgomery.github.io/
 screencast-youtube: iUSVqSxJaGM
 members: "Roland Abrahantes, Aboubakar 'Winston' Koene, Xavier Lazo, Hailey Montgomery"
 client: "Dr. Thomas Gluick"
-client-url: http://www.ggc.edu/about-ggc/directory/thomas-gluick
-description: 
+client-url: ""
+description: ""
 logo-full: flyer-elements.png
 logo-thumb: thumb-flyer-elements.png
 repo-url: https://github.com/soft-eng-practicum/elements

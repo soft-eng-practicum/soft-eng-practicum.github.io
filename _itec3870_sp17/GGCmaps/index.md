@@ -4,6 +4,10 @@ title: GGCmaps
 date: 2017-08-16 14:49:25
 categories: itec3870 create
 collection: itec3870_sp17
+sponsor_key: [ "cengiz-gunay", "catherine-moore", "michael-deiters" ]
+project_key: "ggc-maps"
+semester_key: "sp17"
+
 photos:
 - IMG_20170427_145146955.jpg
 - IMG_20170427_144410982.jpg
@@ -17,7 +21,7 @@ phrase: "Search rooms. Find rooms. Don't get lost in A (even offline!)"
 demo-url: http://ggcmaps.com/
 members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie" Muse
 client: "Dr. Catherine Moore & Michael Deiters"
-client-url: http://www.ggc.edu/about-ggc/directory/catherine-moore
+client-url: ""
 description: "Webapp that allows finding GGC campus rooms from their numbers (second semester)."
 tech: "Progressive webapp that can work offline with a custom Javascript front-end. It requires no back-end to function. It can save itself as a desktop shortcut on mobile platforms."
 logo-full: flyer-ggcmaps.png

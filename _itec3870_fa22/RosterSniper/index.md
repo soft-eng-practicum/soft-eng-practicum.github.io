@@ -4,10 +4,14 @@ title: "Roster Sniper"
 date: 2022-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa22
+sponsor_key: [ "anca-doloc-mihu", "shaun-mitchell", "ryan-cosentino" ]
+project_key: "roster-sniper"
+semester_key: "fa22"
 
 phrase: "Get notified for openings in filled course sections"
 tech: [ python, django, html/css ]
 screencast-youtube: UnhcAceFtYs
+cohort: "The Musketeers"
 members: "The Musketeers: Chenanniah Mac-Cephas, Alex, Ian Dowlatkhah, Justin Sandman"
 client: "Shaun Mitchell and Ryan Cosentino"
 prof: doloc-mihu

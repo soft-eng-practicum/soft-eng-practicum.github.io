@@ -4,22 +4,26 @@ title: "The Drone Zone"
 date: 2017-11-30 14:00:00
 categories: itec3870 create
 collection: itec3870_fa17
-photos:
-- 24960882688_1b03c40551_o.jpg
-- 37946694695_60c8d9a787_o.jpg
-- 24960907228_4be8082c9e_o.jpg
-- 24960919378_06c0ed8ebe_o.jpg
-- 24960919508_6ff7c05418_o.jpg
-- 24960952738_e068307f20_o.jpg
-- IMG_20171130_140740485.jpg
-- IMG_20171130_140750901.jpg
-- IMG_20171130_140755482_HDR.jpg
-- 27057157559_358dbceee0_o.jpg
-- 27057246329_881b8cf4af_o.jpg
-- 38117417614_13af5d072f_o.jpg
+sponsor_key: [ "cengiz-gunay", "matthew-stackpole" ]
+project_key: "the-drone-zone"
+semester_key: "fa17"
 
+photos:
+  - 24960882688_1b03c40551_o.jpg
+  - 37946694695_60c8d9a787_o.jpg
+  - 24960907228_4be8082c9e_o.jpg
+  - 24960919378_06c0ed8ebe_o.jpg
+  - 24960919508_6ff7c05418_o.jpg
+  - 24960952738_e068307f20_o.jpg
+  - IMG_20171130_140740485.jpg
+  - IMG_20171130_140750901.jpg
+  - IMG_20171130_140755482_HDR.jpg
+  - 27057157559_358dbceee0_o.jpg
+  - 27057246329_881b8cf4af_o.jpg
+  - 38117417614_13af5d072f_o.jpg
 phrase: AR Drone Controller Application
 demo-url: https://bitbucket.org/cgunay-ggc/thedronezone
+cohort: "The Dronze Zone"
 members: "The Drone Zone: Reuben Boima Massaquoi, Afeefa Firdaus, Brian Bailey"
 client: Associate Professor of Mathematics Matthew Stackpole (left GGC in Dec 2017)
 description: "Create an application that can control an AR drone via a controller. Log data in a csv file: X velocity, Y velocity, Z velocity, Altitude, Pitch, and Roll. Motivation - Graph and use the data to create math problems for students."

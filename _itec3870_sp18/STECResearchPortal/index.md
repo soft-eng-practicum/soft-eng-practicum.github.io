@@ -4,6 +4,10 @@ title: "STEC Research Portal"
 date: 2018-05-17 14:25:23
 categories: itec3870 create
 collection: itec3870_sp18
+sponsor_key: [ "cengiz-gunay", "michael-saum" ]
+project_key: "stec-research-portal"
+semester_key: "sp18"
+
 photos:
 - IMAG2328.jpg
 - IMG_1677.JPG
@@ -25,9 +29,10 @@ photos:
 
 phrase: A Replacement Web Interface For Our STEC Projects
 demo-url: https://etc.cardboard.software/stec
+cohort: "Cardboard Consultancy"
 members: "CardBoard Consultancy: Dave Chesser, Austin Bond, Jacky Sylvain"
 client: "Dr. Michael Saum"
-client-url: http://www.ggc.edu/about-ggc/directory/michael-saum
+client-url: ""
 description: "This project was requested by Dr. Saum to create a more friendly interface to listings of the STEC research opportunities. Dr. Cengiz Günay is the one sponsoring the project with his Software Dev. II class."
 logo-full: flyer-cardboard.png
 logo-thumb: thumb-flyer-cardboard.png

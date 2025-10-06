@@ -4,13 +4,17 @@ title: "Professor Course Scheduler"
 date: 2020-11-23 14:00:00
 categories: itec3870 create
 collection: itec3870_fa20
+sponsor_key: [ "anca-doloc-mihu", "evelyn-brannock" ]
+project_key: "professor-course-scheduler"
+semester_key: "fa20"
 
 phrase: "Helps administrators and professors to create an efficient teaching schedule"
 tech: [ angular, typescript, html/css ]
 screencast-youtube: NZKo_mkaoN0
+cohort: "Team Apple"
 members: "Team Apple: Taylor Williams, Taisann Kham, Dustin Cofer, Christopher Jones"
 client: "IT professor, Dr. Evelyn Brannock"
-client-url: https://www.ggc.edu/about-ggc/directory/evelyn-brannock
+client-url: ""
 prof: doloc-mihu
 description: "As part of our Software Development II course with Dr. Anca Doloc Mihu, we have been working on a Professor Course Scheduler. In the scheduler, professors can set preferences on classes that are setup by administrators. The website application attempts to provide an intuitive interface for professors to resolve course conflicts, set preferences on courses, and set available hours. For administrators, the interface should allow them to easily see conflicted courses, courses with no teaching professor, and download/upload this data into an excel spreadsheet for easy conversion."
 logo-full: flyer-Scheduler2020.png

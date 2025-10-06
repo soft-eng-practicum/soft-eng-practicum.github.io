@@ -1,0 +1,42 @@
+{% assign all_tech = "" | split: "," %}
+
+{% for p in site.projects %}
+    {% if p.tech %}
+        {% for t in p.tech %}
+            {% assign tmp = t | downcase %}
+            {% assign all_tech = all_tech | push: tmp %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+{% for col in site.collections %}
+    {% if col.label contains "itec" %}
+        {% for p in site[col.label] %}
+            {% if p.tech %}
+                {% for t in p.tech %}
+                    {% assign tmp = t | downcase %}
+                    {% assign all_tech = all_tech | push: tmp %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+{% assign unique_tech = all_tech | uniq %}
+{% assign ranks = "" | split: "," %}
+{% for t in unique_tech %}
+    {% assign count = 0 %}
+    {% for k in all_tech %}
+        {% if t == k %}
+            {% assign count = count | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+    {% assign tmp = count %}
+    {% assign tmp = tmp | append: "-" %}
+    {% assign tmp = tmp | append: t %}
+    {% assign ranks = ranks | push: tmp %}
+{% endfor %}
+
+{% assign ranks = ranks | sort | reverse %}
+{% for t in ranks %}
+    {{ t }}
+{% endfor %}

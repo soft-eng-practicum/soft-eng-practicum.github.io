@@ -4,13 +4,17 @@ title: "SD2 Website"
 date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
+sponsor_key: [ "cengiz-gunay" ]
+project_key: "sd2-website"
+semester_key: "sp23"
 
 phrase: "Improve Friendliness and Useability"
 tech: [ bootstrap, html/css, jekyll, liquid, YAML ]
 screencast-youtube: 9iHkWCmnz-8
+cohort: "Team Bluez Boys"
 members: 'Team Bluez Boys: Ahmed Mohamed, Andres "Drey" Sanchez, Roberto Alvarado'
 client: 'Cengiz Gunay'
-client-url: http://www.ggc.edu/about-ggc/directory/cengiz-gunay
+client-url: ""
 prof: gunay
 demo-url: https://soft-eng-practicum.github.io/soft-eng-practicum-website/
 description: "The software development website will have enhanced styling and usability by improving its appearance. In addition, the website will be updated to provide a better accounting of faculty, students, and technologies involved. Lists will be added that enable users to click and access more detailed information. For example, clicking on a student's name will display a list of all the projects they have worked on. These improvements will enhance the user experience and make the site more user-friendly."

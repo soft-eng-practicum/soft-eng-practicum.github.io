@@ -4,19 +4,19 @@ title: "<i class='mr-1'>:robot:</i>Inside Google: Grizzlies Visit Atlanta Campus
 date: 2025-2-11
 author: Leonardo Motta
 categories:
-- News
-- Pinned
+  - News
+  - Pinned
 photos:
-- google1.webp
-- google2.webp
-- google3.webp
-- google4.webp
-- google5.webp
-- google6.webp
-- google7.webp
-- google8.webp
-- google10.webp
-- google11.webp
+  - google1.webp
+  - google2.webp
+  - google3.webp
+  - google4.webp
+  - google5.webp
+  - google6.webp
+  - google7.webp
+  - google8.webp
+  - google10.webp
+  - google11.webp
 picture_dir: "google-sp25"
 li_post: "https://www.linkedin.com/posts/cengiz-gunay-5010a89_ggchsisd-sdfieldtrip-softwaredevelopment-activity-7296011215569375232-Np92"
 ---

@@ -4,21 +4,25 @@ title: "IDGMobile"
 date: 2018-11-29 14:00:00
 categories: itec3870 create
 collection: itec3870_fa18
-photos:
-- appfactory-room1-billy-door-blurred.jpg
-- appfactory-room2-bruce.jpg
-- ggcmaps-old-and-new-Prof-Moore-2.jpg
-- internapp-billy-edgar-HD-blurred.jpg
-- room-view-2-HD.jpg
-- room-view-5-HD.jpg
-- room-view-8-HD.jpg
+sponsor_key: [ "cengiz-gunay", "josue-rodriguez" ]
+project_key: "idg-mobile"
+semester_key: "fa18"
 
+photos:
+  - appfactory-room1-billy-door-blurred.jpg
+  - appfactory-room2-bruce.jpg
+  - ggcmaps-old-and-new-Prof-Moore-2.jpg
+  - internapp-billy-edgar-HD-blurred.jpg
+  - room-view-2-HD.jpg
+  - room-view-5-HD.jpg
+  - room-view-8-HD.jpg
 phrase: "Iglesia De Gwinnett Mobile App"
 tech: [ "android", "youtube-api" ]
 screencast-youtube: 79McrxIbQWc
+cohort: "S.T.A.R. Labs"
 members: "S.T.A.R. Labs: Cesar M. Romero, Jose Castro, Juan Gomez, Boji Benji"
 client: "Josue Rodriguez"
-client-url: https://www.iglesiadegwinnett.com/
+client-url: ""
 description: "IDGMobile is a app designed for a church called Iglesia De Gwinnett.The purpose of this app is to share weekly messages to anyone who would like to watch."
 logo-full: flyer-IDG-StarLabs.png
 logo-thumb: thumb-flyer-IDG-StarLabs.png

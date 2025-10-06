@@ -6,7 +6,7 @@ tech: [ "JavaScript", "HTML" ]
 screencast-youtube: hVx8VQ5Y79M
 prof: "gunay"
 client: "Green and Healthy Schools"
-client-url: "https://ggc.edu"
+client-url: ""
 demo-url: "https://github.com"
 description: "Our interns have completed the first draft portal for them to collect registrations from K-12 instructors and administrators and post project progress reports."
 logo-full: flyer-GGCMaps.png
@@ -17,13 +17,17 @@ photos:
 - thumb-flyer-GGCMaps.png
 
 project_key: "ghs-portal"
-sponsor_key: [ "ghs", "cengiz-gunay", "tirza-leader" ]
+sponsor_key: [ "ghs", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
 ---
 
-Detailed information about the {{ page.title }} development process.
+Our interns have completed the first draft portal to collect
+registrations from K-12 instructors and administrators and post
+project progress reports.
+We plan to start testing this portal in September 2025 and collect
+feedback to continue further development.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

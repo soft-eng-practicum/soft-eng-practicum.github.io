@@ -4,6 +4,9 @@ title: "Good Vibes"
 date: 2020-04-22 14:00:00
 categories: itec3870 create
 collection: itec3870_sp20
+sponsor_key: [ "cengiz-gunay", "eric-jenkins" ]
+project_key: "good-vibes"
+semester_key: "sp20"
 
 phrase: "The positive, anonymous messaging app for GGC students"
 tech: [ android, unity, c#, mysql, php ]
