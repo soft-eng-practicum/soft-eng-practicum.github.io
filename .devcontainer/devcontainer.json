@@ -1,0 +1,25 @@
+{
+  "name": "Jekyll Site",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": { "label": "Jekyll", "onAutoForward": "openPreview" }
+  },
+  "postCreateCommand": "bundle config set path 'vendor/bundle' && bundle install",
+  "postStartCommand": "echo 'Run: bundle exec jekyll serve --livereload --host 0.0.0.0 --port 4000'",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Shopify.theme-check-vscode",   // optional for Liquid
+        "rebornix.Ruby",
+        "bung87.vscode-gemfile",
+        "ritwickdey.LiveServer"         // optional
+      ]
+    }
+  }
+}
