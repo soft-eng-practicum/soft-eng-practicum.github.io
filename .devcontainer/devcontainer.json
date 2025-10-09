@@ -3,12 +3,13 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [4000],
+  "forwardPorts": [4000, 35729],
   "portsAttributes": {
-    "4000": { "label": "Jekyll", "onAutoForward": "openPreview" }
+    "4000": { "label": "Jekyll", "onAutoForward": "openPreview" },
+    "35729": { "label": "LiveReload" }
   },
   "postCreateCommand": "bundle config set path 'vendor/bundle' && bundle install",
-  "postStartCommand": "echo 'Run: bundle exec jekyll serve --livereload --host 0.0.0.0 --port 4000'",
+  "postStartCommand": "bash .devcontainer/scripts/start-jekyll.sh",
   "features": {
     "ghcr.io/devcontainers/features/node:1": { "version": "20" }
   },
