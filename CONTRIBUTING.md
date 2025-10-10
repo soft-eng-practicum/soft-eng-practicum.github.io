@@ -21,6 +21,16 @@ participating, please contact the site's owner and maintainer,
 
 ## Getting Started 🛠️
 
+#### Easiest: Use our GitHub Codespace!
+
+1. **Fork this repo on GitHub**
+2. **Navigate to Code → Codespaces → Create**
+3. **Create a new Codespace from your fork**
+
+**Important: see [billing info for Codespaces](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces)**
+
+#### Otherwise...
+
 1. **Clone the repository**
 
 ```bash

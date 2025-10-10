@@ -17,12 +17,12 @@ layout: default
     {% endfor %}
 {% endfor %}
 
-{% assign timeline = "" | split: "," %}
+{% assign all_projects = "" | split: "," %}
 {% for col in site.collections %}
     {% if col.label contains "itec" %}
         {% for proj in site[col.label] %}
             {% if proj.project_key contains page.project_key %}
-                {% assign timeline = timeline
+                {% assign all_projects = all_projects
                     | push: proj %}
             {% endif %}
         {% endfor %}
@@ -32,12 +32,53 @@ layout: default
     {% assign tmp = site.projects
         | where: "sponsor_key", page.sponsor_key %}
     {% for p in tmp %}
-        {% assign timeline = timeline | push: p %}
+        {% assign all_projects = all_projects | push: p %}
     {% endfor %}
 {% endif %}
-{% assign timeline = timeline | sort: "semester_key" | reverse %}
 
+{% assign sp_projects = "" | split: "," %}
+{% assign fa_projects = "" | split: "," %}
 
+{% for p in all_projects %}
+    {% if p.semester_key contains "sp" %}
+        {% assign sp_projects = sp_projects | push: p %}
+    {% else %}
+        {% assign fa_projects = fa_projects | push: p %}
+    {% endif %}
+{% endfor %}
+{% assign sp_projects = sp_projects | sort: "semester_key" %}
+{% assign fa_projects = fa_projects | sort: "semester_key" %}
+
+{% assign years = "" | split: "," %}
+
+{% for p in all_projects %}
+    {% assign year = p.semester_key %}
+    {% assign year = year | slice: -2, 2 %}
+    {% assign year = year | minus: 0 %}
+    {% assign years = years | push: year %}
+{% endfor %}
+{% assign years = years | uniq | sort %}
+
+{% assign timeline = "" | split: "," %}
+{% for y in years %}
+    {% for s in sp_projects %}
+        {% assign year = s.semester_key %}
+        {% assign year = year | slice: -2, 2 %}
+        {% assign year = year | minus: 0 %}
+        {% if year == y %}
+            {% assign timeline = timeline | push: s %}
+        {% endif %}
+    {% endfor %}
+    {% for f in fa_projects %}
+        {% assign year = f.semester_key %}
+        {% assign year = year | slice: -2, 2 %}
+        {% assign year = year | minus: 0 %}
+        {% if year == y %}
+            {% assign timeline = timeline | push: f %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign timeline = timeline | reverse %}
 
 <div class="justify-content-center">
 
