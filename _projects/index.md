@@ -7,10 +7,12 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
 
 <br>
 
-{% include project_search_widget.html %}
+<h3 class="mb-3 text-center">Top Techologies</h3>
+<div class="mb-5">
+    {% include leaderboard.html %}
+</div>
 
-<h3>Top Techologies</h3>
-{% include leaderboard.html %}
+{% include project_search_widget.html %}
 
 <div class = "d-flex flex-wrap justify-content-center">
     <div class = "d-flex justify-content-center m-2 m-lg-5">

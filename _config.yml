@@ -113,7 +113,22 @@ collections:
     date: 2025-01-01
     output: true
 
-exclude: [ "README.md", "**/README.md", "**/*.template.md" ]
+#exclude: [ "README.md", "**/README.md", "**/*.template.md" ]
+exclude:
+  - vendor/
+  - .bundle/
+  - .devcontainer/
+  - .git/
+  - .github/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - Containerfile
+  - Dockerfile
+  - README.md
+  - "**/README.md"
+  - "**/*.template.md"
+
 # Build settings
 markdown: kramdown
 plugins:

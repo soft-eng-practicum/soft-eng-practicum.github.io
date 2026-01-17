@@ -8,8 +8,8 @@ contact_email: "lmotta@ggc.edu"
 major: "I.T., Conc. Software Development"
 graduation_year: 2025
 cohort: "Summer 2025 Internship"
-skills: [ "Java", "Rust", "ANSI C", "PHP" ]
-highlights: [ "President's List x2", "Dean's List x3" ]
+skills: [ "Java", "Rust", "ANSI C", "PHP", "JavaScript" ]
+highlights: [ "President's List x2", "Dean's List x4" ]
 project_key: [ ]
 semester_key: "sp25"
 location: "Lawrenceville, GA"
