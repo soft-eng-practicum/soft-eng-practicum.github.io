@@ -5,7 +5,7 @@ layout: default
 {% for s in site.students %}
     {% for key in s.project_key %}
         {% if key == page.project_key
-            and s.semester_key == page.semester_key %}
+            and s.semester_key == page.semester_key or s.multi_semester %}
             {% if page.project_id %}
                 {% if page.project_id == s.project_id %}
                     {% assign interns = interns | push: s %}
