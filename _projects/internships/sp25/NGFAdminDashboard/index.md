@@ -16,7 +16,7 @@ photos:
 - flyer-GGCMaps.png
 - thumb-flyer-GGCMaps.png
 
-project_key: "ngf-admin-dashboard"
+project_key: "ngf-app"
 sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25

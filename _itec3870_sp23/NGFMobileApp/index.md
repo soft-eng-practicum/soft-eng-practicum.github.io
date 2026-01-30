@@ -5,7 +5,7 @@ date: 2023-04-28 14:00:00
 categories: itec3870 create
 collection: itec3870_sp23
 sponsor_key: [ "cengiz-gunay", "amy-sol", "ryan-gambrell", "ngf" ]
-project_key: "ngf-mobile-app"
+project_key: "ngf-app"
 semester_key: "sp23"
 
 phrase: "Revolutionizing Record-Keeping"

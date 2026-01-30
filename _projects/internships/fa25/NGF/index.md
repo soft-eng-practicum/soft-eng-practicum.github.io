@@ -9,7 +9,7 @@ client-url: "https://nextgenerationfocus.org"
 description: "Digitizing record keeping for Next Generation Focus."
 logo-full: "../../../../assets/img/partners/ngfLogo.webp"
 logo-thumb: "../../../../assets/img/partners/ngfLogoSmall.webp"
-project_key: "ngf-portal"
+project_key: "ngf-app"
 sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: fa25

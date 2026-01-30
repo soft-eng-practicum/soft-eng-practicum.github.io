@@ -10,9 +10,8 @@ graduation_year: 2026
 cohort: "NUL"
 skills: ["C#", "Java", "JavaScript", "React"]
 highlights: []
-project_key: ["ngf-portal", "walking-trails-website"]
+project_key: ["ngf-app:fa25", "walking-trails-website:sp25"]
 location: "Lawrenceville, GA"
-semester_key: "fa25"
-multi_semester: true
+semester_key: ["fa25", "sp25"]
 git: "https://github.com/fahmed10"
 ---
