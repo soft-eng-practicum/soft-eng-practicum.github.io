@@ -10,7 +10,7 @@ graduation_year: 2020
 cohort: ""
 skills: [ ]
 highlights: [ ]
-project_key: [ "ngf-mobile-app" ]
+project_key: [ "ngf-app" ]
 location: "Lawrenceville, GA"
 website: ""
 semester_key: "sp23"

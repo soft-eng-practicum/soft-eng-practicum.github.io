@@ -1,35 +1,24 @@
 ---
 layout: project_page
-title: "NGF Admin Dashboard"
+title: "NGF Portal"
 phrase: "Optimizing administrative operations"
-tech: [ "JavaScript", "HTML" ]
-screencast-youtube: hVx8VQ5Y79M
+tech: [ "JavaScript", "HTML", "React", "NodeJS" ]
 prof: "gunay"
 client: "Next Generation Focus"
-client-url: ""
-demo-url: "https://github.com"
-description: "Digitizing record keeping."
-logo-full: flyer-GGCMaps.png
-logo-thumb: thumb-flyer-GGCMaps.png
-repo-url: "https://github.com/"
-photos:
-- flyer-GGCMaps.png
-- thumb-flyer-GGCMaps.png
-
+client-url: "https://nextgenerationfocus.org"
+description: "Digitizing record keeping for Next Generation Focus."
+logo-full: "../../../../assets/img/partners/ngfLogo.webp"
+logo-thumb: "../../../../assets/img/partners/ngfLogoSmall.webp"
 project_key: "ngf-app"
 sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
-semester_key: sp25
-cohort: ""
+semester_key: fa25
 ---
 
-Our intern added the staff section, improved many shortcomings
-in the existing family section, and added an administrative control
-section that allows adding schooling programs and send notifications
-to families and staff.  
-We are closely working with NGF to have the product start
-a beta test period soon, while we continue fixing problems and
-adding new requested features.
+The UI was redesigned and improved for the admin, staff, and family sections,
+and the final missing features were added to the application to make it fully functional.
+We are working with NGF to deploy the website on a subdomain under their domain,
+using AWS for hosting the site.
 
 <!-- lightgallery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

@@ -4,8 +4,8 @@ layout: default
 {% assign interns = "" | split: "," %}
 {% for s in site.students %}
     {% for key in s.project_key %}
-        {% if key == page.project_key
-            and s.semester_key == page.semester_key %}
+        {% assign full_project_key = page.project_key | append: ":" | append: page.semester_key %}
+        {% if s.semester_key contains page.semester_key and key == full_project_key or key == page.project_key %}
             {% if page.project_id %}
                 {% if page.project_id == s.project_id %}
                     {% assign interns = interns | push: s %}
