@@ -21,15 +21,63 @@ participating, please contact the site's owner and maintainer,
 
 ## Getting Started 🛠️
 
-#### Easiest: Use our GitHub Codespace!
+### Recommended: GitHub Codespaces (No Local Setup Needed)
 
-1. **Fork this repo on GitHub**
-2. **Navigate to Code → Codespaces → Create**
-3. **Create a new Codespace from your fork**
+Using GitHub Codespaces lets you develop and preview the site entirely in your browser without installing anything locally.
 
-**Important: see [billing info for Codespaces](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces)**
+---
 
-#### Otherwise...
+### Step 1: Fork This Repository
+
+On GitHub:
+
+1. Go to:  
+   https://github.com/soft-eng-practicum/soft-eng-practicum.github.io  
+2. Click **Fork** near the top-right of the page  
+3. Fork it into your own account  
+
+> You will make changes in your fork, not the main repository.
+
+---
+
+### Step 2: Open a Codespace
+
+From **your fork**:
+
+1. Click the green **Code** button  
+2. Select the **Codespaces** tab  
+3. Click **Create codespace on master**
+
+> The first launch may take a few minutes to set up.
+
+---
+
+### Step 3: Run the Site
+
+Inside the Codespace terminal, run:
+
+```bash
+bundle install
+bundle exec jekyll serve --host 0.0.0.0 --port 4000
+```
+When the server starts:
+
+- Open the **Ports** panel in Codespaces (usually at the bottom or in the “Ports” tab)
+- Find **port 4000** in the list
+- Click the **Open in Browser** (or globe) icon next to port 4000
+
+The site will then load in your browser.
+
+>🎉 You now have a live preview!
+
+### ⚠️ Billing Note
+
+Codespaces has free usage limits for students, but it is not unlimited.
+See: https://docs.github.com/en/billing/concepts/product-billing/github-codespaces
+
+---
+
+## Otherwise...
 
 1. **Clone the repository**
 

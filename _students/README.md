@@ -8,8 +8,9 @@ Each student is represented by a single Markdown file containing YAML front matt
 
 ## Structure 📁
 
-1. Each file should be named using the format `FirstName_LastName.md`.
-2. There should be no sub-directories.
+1. Within `_students/` find your semester folder  (if your semester is **not there**, add your semester's folder **using existing format**)
+2. Each file should be named using the format `FirstName_LastName.md`
+3. There should be no sub-directories aside from semester folders
 
 ---
 
@@ -19,7 +20,8 @@ Please consult the
 [relevant documentation](https://jekyllrb.com/docs/front-matter/) for more
 details about front matter.
 
-The following variables are **required** for each student profile:
+### The following variables are **required** for each student profile:
+> NOTE: All required variables must exist, but their values may be left blank if necessary.
 
 ```yaml
 layout: student_profile_new # No other value should be given.
@@ -37,7 +39,8 @@ project_key: [] # The unique value(s) that correspond to a specific project, wri
 location: "" # The student's general geographic location (e.g., "Lawrenceville, GA").
 ```
 
-The following variables are **optional** for each student profile:
+### The following variables are **optional** for each student profile:
+> NOTE: If you are not utilizing an optional variable please remove it or comment the line out.
 
 ```yaml
 website: "" # The student's personal website link, if any (e.g., "https://mysite.com").
@@ -48,10 +51,10 @@ instagram: "" # The student's Instagram profile link, if any (e.g., "https://ins
 facebook: "" # The student's Facebook profile link, if any (e.g., "https://facebook.com/username").
 ```
 
-#### ⚠️ Important Notes: ⚠️
+#### ⚠️ Important Notes **(Images)**: ⚠️
 
-- All pictures relating to a student's profile should be stored in `/assets/img/students/`.
-- All filenames should match the value included in the front matter **exactly**.
+- All images relating to a student's profile should be stored in `/assets/img/students/`.
+- All image filenames should match the value included in the front matter **exactly**.
 - Recommended size: `500px x 500px`, square aspect ratio
 
 ---
@@ -69,7 +72,7 @@ Student data will be used in:
 ## Editing or Adding Students 🚧
 
 - To add a new student:
-    1. Create a new Markdown file in `/_students/` named `FirstName_LastName.md`.
+    1. Create a new Markdown file in `/_students/(current semester)/` named `FirstName_LastName.md`.
     2. Fill in the required front matter, at minimum.
     3. Upload the corresponding photo to `/assets/img/students/`.
 
@@ -87,7 +90,7 @@ Student data will be used in:
 
 #### ⚠️ Important Notes: ⚠️
 
-- See `Example_Profile.readme.md` for a complete example.
+- See [Student_Template.template.md](https://github.com/soft-eng-practicum/soft-eng-practicum.github.io/blob/master/_students/Student_Template.template.md) for a complete example.
 
 ---
 
