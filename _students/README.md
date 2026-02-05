@@ -90,7 +90,7 @@ Student data will be used in:
 
 #### ⚠️ Important Notes: ⚠️
 
-- See [Student_Template.template.md](https://github.com/soft-eng-practicum/soft-eng-practicum.github.io/blob/master/_students/Student_Template.template.md) for a complete example.
+- See [Student_Template.template.md](Student_Template.template.md) for a complete example.
 
 ---
 
