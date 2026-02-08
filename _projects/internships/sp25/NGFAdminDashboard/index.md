@@ -21,6 +21,7 @@ sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Danielle-Mathieu", "Jan-Kaltenegger", "Sebastian-Carmagnola" ]
 ---
 
 Our intern added the staff section, improved many shortcomings

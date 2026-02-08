@@ -20,6 +20,7 @@ sponsor_key: [ "ggc", "anca-doloc-mihu" ]
 course_key: sd2
 semester_key: sp25
 cohort: ""
+student_ids: [ "Thanh-Tran" ]
 ---
 
 The system is built with React for the frontend and Firebase for backend services. It allows:

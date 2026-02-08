@@ -21,6 +21,7 @@ sponsor_key: [ "ghs", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Luis-Fabela", "Sean-Nolan" ]
 ---
 
 Our interns have completed the first draft portal to collect

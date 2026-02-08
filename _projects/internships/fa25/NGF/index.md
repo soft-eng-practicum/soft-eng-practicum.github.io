@@ -13,6 +13,7 @@ project_key: "ngf-app"
 sponsor_key: [ "ngf", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: fa25
+student_ids: [ "Fareed-Ahmed" ]
 ---
 
 The UI was redesigned and improved for the admin, staff, and family sections,

@@ -21,6 +21,7 @@ sponsor_key: [ "satisfeed", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Thanh-Tran" ]
 ---
 
 Our intern completed an initial version of the web
