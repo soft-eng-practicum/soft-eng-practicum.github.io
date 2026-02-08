@@ -5,7 +5,7 @@ date: 2023-04-28 14:00:00
 
 course_key: internships
 semester_key: fa25
-sort_val: "20251"
+sort_val: "20252"
 ---
 These projects were developed by [Georgia Gwinnett College][ggc]
 students during the ITEC internship course
