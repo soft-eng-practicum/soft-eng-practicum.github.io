@@ -1,5 +1,6 @@
 ---
 layout: student_profile_new
+student_id: "" # Your unique id. Should be the same as the file name, but with hyphens instead of underscores, e.g., "First-Last"
 title: "" # Your name (e.g., "First Last")
 logo: "" # Full filename of your profile picture (e.g., "firstLastProfile.jpg")
 header: "" # Full filename of your profile banner (e.g., "firstLastBanner.jpg")
