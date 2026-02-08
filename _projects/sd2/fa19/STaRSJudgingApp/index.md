@@ -7,7 +7,6 @@ collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "anca-doloc-mihu" ]
 project_key: "stars-judging-app"
 semester_key: "fa19"
-project_id: 1
 
 photos:
   - 20191121-_RAW5983.jpg

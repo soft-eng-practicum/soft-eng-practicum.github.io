@@ -167,18 +167,9 @@ layout: default
 
                     {% assign students = "" | split: "," %}
                     {% for s in site.students %}
-                        {% for key in s.project_key %}
-                            {% if key == project.project_key
-                                and s.semester_key == project.semester_key %}
-                                {% if project.project_id %}
-                                    {% if project.project_id == s.project_id %}
-                                        {% assign students = students | push: s %}
-                                    {% endif %}
-                                {% else %}
-                                    {% assign students = students | push: s %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
+                        {% if page.student_ids contains s.student_id %}
+                            {% assign students = students | push: s %}
+                        {% endif %}
                     {% endfor %}
                     {% if project.members and students.size == 0 %}
                         <p>Developed by <em>{{ project.members }}</em></p>
@@ -459,18 +450,9 @@ layout: default
 
                     {% assign students = "" | split: "," %}
                     {% for s in site.students %}
-                        {% for key in s.project_key %}
-                            {% if key == project.project_key
-                                and s.semester_key == project.semester_key %}
-                                {% if project.project_id %}
-                                    {% if project.project_id == s.project_id %}
-                                        {% assign students = students | push: s %}
-                                    {% endif %}
-                                {% else %}
-                                    {% assign students = students | push: s %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}
+                        {% if page.student_ids contains s.student_id %}
+                            {% assign students = students | push: s %}
+                        {% endif %}
                     {% endfor %}
                     {% if project.members and students.size == 0 %}
                         <p>Developed by <em>{{ project.members }}</em></p>

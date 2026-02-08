@@ -7,7 +7,6 @@ collection: itec3870_fa18
 sponsor_key: [ "cengiz-gunay", "brian-palm" ]
 project_key: "what-are-my-chances"
 semester_key: "fa18"
-project_id: 2
 
 photos:
   - appfactory-room1-billy-door-blurred.jpg

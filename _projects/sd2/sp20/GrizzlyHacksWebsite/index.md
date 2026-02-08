@@ -7,7 +7,6 @@ collection: itec3870_sp20
 sponsor_key: [ "cengiz-gunay", "vi-nguyen" ]
 project_key: "grizzly-hacks-website"
 semester_key: "sp20"
-project_id: 1
 
 phrase: "Supporting the Grizzly Hacks RSO!"
 tech: [ node, angular, bootstrap, html/css, firebase]

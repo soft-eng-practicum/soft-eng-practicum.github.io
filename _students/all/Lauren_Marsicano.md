@@ -14,6 +14,5 @@ highlights: [ ]
 location: "Lawrenceville, GA"
 website: ""
 
-project_id: 2
 student_id: "Lauren-Marsicano"
 ---

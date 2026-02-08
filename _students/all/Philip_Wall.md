@@ -14,6 +14,5 @@ highlights: [ ]
 location: "Lawrenceville, GA"
 website: ""
 
-project_id: 1
 student_id: "Philip-Wall"
 ---

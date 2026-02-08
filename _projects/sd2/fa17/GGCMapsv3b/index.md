@@ -6,7 +6,6 @@ categories: itec3870 create
 collection: itec3870_fa17
 sponsor_key: [ "cengiz-gunay", "catherine-moore", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
-project_id: 2
 semester_key: "fa17"
 
 photos:

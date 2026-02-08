@@ -7,7 +7,6 @@ collection: itec3870_sp20
 sponsor_key: [ "cengiz-gunay", "vi-nguyen" ]
 project_key: "grizzly-hacks-website"
 semester_key: "sp20"
-project_id: 2
 
 phrase: "Code like a Grizzly: Responsive, easy-to-use, efficient"
 tech: [ javascript, react, html/css, firebase]

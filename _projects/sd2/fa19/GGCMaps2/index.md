@@ -7,7 +7,6 @@ collection: itec3870_fa19
 sponsor_key: [ "cengiz-gunay", "michael-deiters", "david-rivera-rocha" ]
 project_key: "ggc-maps"
 semester_key: "fa19"
-project_id: 2
 
 photos:
   - 20191121-_RAW5983.jpg
