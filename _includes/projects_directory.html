@@ -100,8 +100,8 @@
                     <section class="directory__profile">
                         <img src="{{ '/assets/img/nav_logo.webp' | relative_url}}" alt="GGC Grizzlies Icon" class="directory__picture">
                         <span class="directory__name">{{ semester.items[0].semester_key
-                            | replace: "sp", "Spring '"
-                            | replace: "fa", "Fall '" }}</span>
+                            | replace: "sp", "Spring 20"
+                            | replace: "fa", "Fall 20" }}</span>
                         {% assign total_projects = site.projects
                             | where: "course_key", page.course_key 
                             | where: "semester_key", semester.items[0].semester_key %}

@@ -2,26 +2,10 @@
 layout: main_page
 ---
 {% assign sponsored_projects = "" | split: "," %}
-{% for k in page.project_key %}
-
-    {% for p in site.projects %}
-        {% if k == p.project_key %}
-            {% assign sponsored_projects = sponsored_projects
-                | push: p %}
-        {% endif %}
-    {% endfor %}
-
-    {% for col in site.collections %}
-        {% if col.label contains "itec" %}
-            {% for proj in site[col.label] %}
-                {% if k == proj.project_key %}
-                    {% assign sponsored_projects = sponsored_projects
-                        | push: proj %}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-
+{% for p in site.projects %}
+    {% if p.student_ids contains page.student_id %}
+        {% assign sponsored_projects = sponsored_projects | push: p %}
+    {% endif %}
 {% endfor %}
 
 {% assign project_partners = "" | split: "," %}

@@ -21,6 +21,7 @@ sponsor_key: [ "ggc", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Joel-Erulu", "Mathews-Binny" ]
 ---
 
 Walking Trails is an initiative formed at Georgia Gwinnett College,

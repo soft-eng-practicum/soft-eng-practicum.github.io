@@ -21,6 +21,7 @@ sponsor_key: [ "ggra", "cengiz-gunay", "tirza-leader" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Jan-Kaltenegger" ]
 ---
 
 This product is now complete and has been delivered to the organization

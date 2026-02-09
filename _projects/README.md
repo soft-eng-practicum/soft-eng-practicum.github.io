@@ -24,10 +24,6 @@ _projects/
 This structure supports dynamic generation of course directories and semester
 subviews using Jekyll’s `group_by` and `where` filters.
 
-#### ⚠️ Important Notes: ⚠️
-
-- **Collections like `_itec3870_*` are legacy artifacts that contain older project information.**
-
 ---
 
 ## Creating New "Sub-Collections"
@@ -234,6 +230,7 @@ sponsor_key: [] # The unique values that corresponds to the partner(s) responsib
 course_key: "" # A unique value that corresponds to the course in which this project was worked on (e.g., "sd2" or "internship").
 semester_key: "" # A unique value that corresponds to the semester during which this project was worked on (e.g., "sp25" or "fa24").
 cohort: "" # The name of the group that worked on this project (e.g., "ABBA").
+student_ids: [] # The list of ids for the students that worked on this project (e.g., [ "First-Last" ])
 ```
 
 The following variables are **optional** for each project profile:

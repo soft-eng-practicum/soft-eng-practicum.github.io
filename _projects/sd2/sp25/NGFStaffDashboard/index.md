@@ -20,6 +20,7 @@ sponsor_key: [ "ngf", "anca-doloc-mihu" ]
 course_key: sd2
 semester_key: sp25
 cohort: ""
+student_ids: [ "Danielle-Mathieu", "Jan-Kaltenegger", "Sebastian-Carmagnola" ]
 ---
 
 Detailed information about the {{ page.title }} development process.

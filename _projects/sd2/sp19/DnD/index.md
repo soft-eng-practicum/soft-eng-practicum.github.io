@@ -1,0 +1,59 @@
+---
+layout: project_page
+title: DnD
+date: 2019-05-04 14:00:00
+categories: itec3870 create
+collection: itec3870_sp19
+sponsor_key: [ "cengiz-gunay", "earle-cooley" ]
+project_key: "dnd"
+semester_key: "sp19"
+
+photos:
+  - 20190425-_RAW5499.jpg
+  - 20190425-_RAW5504.jpg
+  - 20190425-_RAW5505.jpg
+  - 20190425-_RAW5556.jpg
+  - 20190425-_RAW5557.jpg
+  - 20190425-_RAW5558.jpg
+  - 20190425-_RAW5660.jpg
+  - 20190425-_RAW5662.jpg
+  - 33858745738_2d84e86fb5_b.jpg
+phrase: DragonCon and Databases
+tech: [ react, firebase ]
+members: "Jeremy Cooley, Kaiser Smith, Jocelyn Rose"
+client: "Earle Cooley"
+description: "Inventory Database WebApp for DragonCon's TechOps."
+logo-full: flyer-DnD.png
+logo-thumb: thumb-flyer-DnD.png
+repo-url: https://github.com/soft-eng-practicum/DragonCon-inventory
+course_key: sd2
+student_ids: [ "Jeremy-Cooley", "Jocelyn-Rose", "Kaiser-Smith-2" ]
+---
+
+Detailed information about the {{ page.title }} development process.
+
+<!-- lightgallery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/lightgallery/1.3.7/js/lightgallery.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/g/lg-zoom"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        $("body").lightGallery({
+
+            zoom: true,
+            selector: 'a#lightgallery',
+            selectWithin: 'body'
+
+        });
+
+    });
+
+</script>
+
+[ggc]: http://www.ggc.edu
+[gunay-ggc]: http://www.ggc.edu/about-ggc/directory/cengiz-gunay
+[doloc-ggc]: http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu
