@@ -3,18 +3,14 @@ layout: project_page
 title: "Walking Trails"
 phrase: "Encouraging accessible fitness habits"
 tech: [ "JavaScript", "HTML" ]
-screencast-youtube: hVx8VQ5Y79M
 prof: "gunay"
 client: "GGC"
 client-url: ""
-demo-url: "https://www.ggc.edu"
+demo-url: "https://gwinnettwalks.com/"
 description: "It aims to provide web-based access to area trails and wellness instructions via videos."
-logo-full: flyer-GGCMaps.png
-logo-thumb: thumb-flyer-GGCMaps.png
-repo-url: "https://github.com/"
+logo-full: walking-trails-site.png
 photos:
-- flyer-GGCMaps.png
-- thumb-flyer-GGCMaps.png
+- walking-trails-site.png
 
 project_key: "walking-trails"
 sponsor_key: [ "ggc", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]

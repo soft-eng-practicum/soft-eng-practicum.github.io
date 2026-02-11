@@ -73,19 +73,20 @@ layout: default
         <div class="project-links button-container pp-button-container">
 
             {% if page.demo-url %}
-                <div class = "ilb">
-                    <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.demo-url }}', '_blank')">
+                <div class="ilb">
+                    <button class="ggc-btn-d" role="button" onclick="window.open('{{ page.demo-url }}', '_blank')">
                         <span class="text">Demo Site</span>
                     </button>
                 </div>
-
             {% endif %}
 
-            <div class = "ilb">
-                <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.repo-url }}', '_blank')">
-                    <span class="text">Source Code</span>
-                </button>
-            </div>
+            {% if page.repo-url %}
+                <div class="ilb">
+                    <button class="ggc-btn-d" role="button" onclick="window.open('{{ page.repo-url }}', '_blank')">
+                        <span class="text">Source Code</span>
+                    </button>
+                </div>
+            {% endif %}
 
         </div>
 
