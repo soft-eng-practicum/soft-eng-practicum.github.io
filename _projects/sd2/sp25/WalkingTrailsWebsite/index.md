@@ -12,7 +12,7 @@ description: "It aims to provide web-based access to area trails and wellness in
 logo-full: walking-trails-flyer.png
 logo-thumb: walking-trails-flyer.png
 
-project_key: "walking-trails-website"
+project_key: "walking-trails"
 sponsor_key: [ "ggc", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: sd2
 semester_key: sp25
