@@ -10,7 +10,6 @@ graduation_year: 2026
 cohort: "" 
 skills: ["React", "Angular", "ASP.NET Core", "MongoDB", "TailwindCSS", "TypeScript", "C#", "UI/UX Design", "System Design"] 
 highlights: ["Top-5 at CCSCSE research competition", "President’s List"] 
-
 location: "Loganville, GA" 
 student_id: "Samuel-Keller"
 
@@ -48,37 +47,38 @@ Senior Information Technology student at Georgia Gwinnett College with concentra
 
 <!-- Include or delete -->
 
-<!-- ## My Role in the Project -->
-<!-- Provide a short summary of your project—what it was, what problem it solved, and what your role was.
+## My Roles
+**Satisfeed GeoAnalytics Dashboard:**
+Satisfeed is a MapLibre-powered analytics dashboard that turns distribution data and school / library location data into privacy-aware geographic insights for food-insecurity planning.
 
-**Sponsor:** [Sponsor Name]  
-**Team Size:** [e.g., Solo / 3 students]  
-**Duration:** [e.g., 10 weeks – Summer 2025]
+- **Sponsor:** Georgia Gwinnett College and Satisfeed
+- **Team Size:** 3 people
+- **Duration:** Fall 2025
 
-> Example:  
-> I developed a web-based dashboard for tracking lab inventory levels in real time. My responsibilities included designing the UI in Figma, implementing the front-end in React, and integrating Firebase for real-time updates. -->
-<!-- End delete -->
+I led the front-end architecture and UI/UX for Satisfeed, designing the dashboard’s information hierarchy, visual system, and interactive map experience. Along with my team, I built the Next.js + Tailwind + MapLibre front end, implemented layered map overlays and heatmaps, and helped shape a privacy-aware GeoJSON data flow so complex datasets could be explored clearly and safely in a real client-facing environment.
 
-<!-- Include or delete -->
+**AnalySim:**
+Analysim is a free online web platform enabling researchers to analyze and share data by providing interactive visualizations, and collaborate with others. The open platform is specialized for working with high-dimensional data sets such as those constructed via computational modeling. Analysim also allows you to run custom analysis on any type of data.
 
-<!-- ## Skills Applied & Learned -->
-<!-- List the technologies, tools, or soft skills you used or developed during your project.
+- **Sponsor:** Georgia Gwinnett College 
+- **Team Size:** Solo
+- **Duration:** Spring 2026
+  
+As a front-end developer, I so far have focused on refactoring AnalySim's UI by introducing a token-based design system and global styles. Migrating pages into reusable, consistent patterns to improve maintainability and scalability.
 
-- Full-stack development (React, Node.js)
-- RESTful APIs & Firebase integration
-- Agile sprints & team communication
-- Scientific data visualization -->
-<!-- End delete -->
 
-<!-- Include or delete -->
+## Skills Applied & Learned
 
-<!-- ## Reflections -->
-<!-- Share a short paragraph or a few bullet points reflecting on the experience:
+- Front-end architecture and design systems (token-based theming, global styles)
+- React / Next.js development
+- SCSS architecture and scalable CSS
+- Legacy UI refactoring and migration
+- Interactive maps and geospatial data (MapLibre, GeoJSON)
+- CSV data parsing and transformation
+- Responsive UI/UX implementation
+- Git, PRs, and version control
+- Stakeholder communication on technical decisions
 
-- What was your biggest challenge?
-- What are you proud of?
-- What did you learn about yourself or your career goals?
 
-> Example:  
-> This project taught me how to scope a product from idea to MVP. It also gave me the confidence to work directly with a sponsor and justify design decisions. I now know I want to pursue a career in health tech. -->
-<!-- End delete -->
+## Reflections
+coming soon
