@@ -3,24 +3,17 @@ layout: project_page
 title: "GHS App"
 phrase: "Enabling K-12 engagement"
 tech: [ "JavaScript", "HTML" ]
-screencast-youtube: hVx8VQ5Y79M
 prof: "gunay"
 client: "Green and Healthy Schools"
 client-url: ""
-demo-url: "https://github.com"
 description: "Our interns have completed the first draft portal for them to collect registrations from K-12 instructors and administrators and post project progress reports."
-logo-full: flyer-GGCMaps.png
-logo-thumb: thumb-flyer-GGCMaps.png
-repo-url: "https://github.com/"
-photos:
-- flyer-GGCMaps.png
-- thumb-flyer-GGCMaps.png
 
 project_key: "ghs-portal"
 sponsor_key: [ "ghs", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Luis-Fabela", "Sean-Nolan" ]
 ---
 
 Our interns have completed the first draft portal to collect

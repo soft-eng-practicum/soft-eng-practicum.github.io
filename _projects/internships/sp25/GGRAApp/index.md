@@ -3,24 +3,17 @@ layout: project_page
 title: "GGRA App"
 phrase: "Assisting growth and reintegration"
 tech: [ "JavaScript", "HTML" ]
-screencast-youtube: hVx8VQ5Y79M
 prof: "gunay"
 client: "Greater Gwinnett Reentry Alliance"
 client-url: ""
-demo-url: "https://github.com"
 description: "Our interns developed an interactive resources map for helping returning citizens."
-logo-full: flyer-GGCMaps.png
-logo-thumb: thumb-flyer-GGCMaps.png
-repo-url: "https://github.com/"
-photos:
-- flyer-GGCMaps.png
-- thumb-flyer-GGCMaps.png
 
 project_key: "ggra-resources"
 sponsor_key: [ "ggra", "cengiz-gunay", "tirza-leader" ]
 course_key: internships
 semester_key: sp25
 cohort: ""
+student_ids: [ "Jan-Kaltenegger" ]
 ---
 
 This product is now complete and has been delivered to the organization

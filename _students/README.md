@@ -8,23 +8,23 @@ Each student is represented by a single Markdown file containing YAML front matt
 
 ## Structure 📁
 
-1. Within `_students/` find your semester folder  (if your semester is **not there**, add your semester's folder **using existing format**)
+1. Within `_students/all`, there is a file for each student
 2. Each file should be named using the format `FirstName_LastName.md`
-3. There should be no sub-directories aside from semester folders
+3. There should be no sub-directories
 
 ---
 
 ## Front Matter
 
-Please consult the
-[relevant documentation](https://jekyllrb.com/docs/front-matter/) for more
-details about front matter.
+Please consult the [relevant documentation](https://jekyllrb.com/docs/front-matter/)
+for more details about front matter.
 
 ### The following variables are **required** for each student profile:
 > NOTE: All required variables must exist, but their values may be left blank if necessary.
 
 ```yaml
 layout: student_profile_new # No other value should be given.
+student_id: "" # The unique id of the student. Should be the same as the file name, but with hyphens instead of underscores, e.g., "FirstName-LastName"
 title: "" # The full name of the student written in plain English (e.g., "Tom Brady").
 logo: "" # The full filename of the profile picture to be used for the student's profile.
 header: "" # The full filename of the header picture to be used for the student's profile.
@@ -35,7 +35,6 @@ graduation_year: # The year the student is, will, or has graduated, represented 
 cohort: "" # The student's team's name (e.g., New England Patriots).
 skills: [] # A brief list of skills to be highlighted on the student's profile, represented as an array of strings. Can be empty. (e.g., [ "Football", "Baseball" ])
 highlights: [] # A brief list of highlights to be shown on the student's profile, represented as an array of strings. Can be empty. (e.g., [ "7-time Super Bowl Champion", "Summa Cum Laude" ])
-project_key: [] # The unique value(s) that correspond to a specific project, written as a list of strings. The value of the string(s) must exactly match what is provided by the desired project's `project-key`.
 location: "" # The student's general geographic location (e.g., "Lawrenceville, GA").
 ```
 
@@ -72,7 +71,7 @@ Student data will be used in:
 ## Editing or Adding Students 🚧
 
 - To add a new student:
-    1. Create a new Markdown file in `/_students/(current semester)/` named `FirstName_LastName.md`.
+    1. Create a new Markdown file in `/_students/all/` named `FirstName_LastName.md` (if a student with your name already exists, add a number after your name, like `FirstName_LastName_2.md`).
     2. Fill in the required front matter, at minimum.
     3. Upload the corresponding photo to `/assets/img/students/`.
 
@@ -90,7 +89,7 @@ Student data will be used in:
 
 #### ⚠️ Important Notes: ⚠️
 
-- See [Student_Template.template.md](https://github.com/soft-eng-practicum/soft-eng-practicum.github.io/blob/master/_students/Student_Template.template.md) for a complete example.
+- See [Student_Template.template.md](Student_Template.template.md) for a complete example.
 
 ---
 

@@ -3,55 +3,16 @@ layout: default
 ---
 {% assign interns = "" | split: "," %}
 {% for s in site.students %}
-    {% for key in s.project_key %}
-        {% if key == page.project_key
-            and s.semester_key == page.semester_key %}
-            {% if page.project_id %}
-                {% if page.project_id == s.project_id %}
-                    {% assign interns = interns | push: s %}
-                {% endif %}
-            {% else %}
-                {% assign interns = interns | push: s %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
-
-{% assign all_projects = "" | split: "," %}
-{% for col in site.collections %}
-    {% if col.label contains "itec" %}
-        {% for proj in site[col.label] %}
-            {% if proj.project_key contains page.project_key %}
-                {% assign all_projects = all_projects
-                    | push: proj %}
-            {% endif %}
-        {% endfor %}
+    {% if page.student_ids contains s.student_id %}
+        {% assign interns = interns | push: s %}
     {% endif %}
 {% endfor %}
-{% if page.project_key %}
-    {% assign tmp = site.projects
-        | where: "sponsor_key", page.sponsor_key %}
-    {% for p in tmp %}
-        {% assign all_projects = all_projects | push: p %}
-    {% endfor %}
-{% endif %}
 
-{% assign sp_projects = "" | split: "," %}
-{% assign fa_projects = "" | split: "," %}
-
-{% for p in all_projects %}
-    {% if p.semester_key contains "sp" %}
-        {% assign sp_projects = sp_projects | push: p %}
-    {% else %}
-        {% assign fa_projects = fa_projects | push: p %}
-    {% endif %}
-{% endfor %}
-{% assign sp_projects = sp_projects | sort: "semester_key" %}
-{% assign fa_projects = fa_projects | sort: "semester_key" %}
-
+{% assign sp_projects = site.projects | where: "project_key", page.project_key | where_exp: "p", "p.semester_key contains 'sp'" | sort: "semester_key" %}
+{% assign fa_projects = site.projects | where: "project_key", page.project_key | where_exp: "p", "p.semester_key contains 'fa'" | sort: "semester_key" %}
 {% assign years = "" | split: "," %}
 
-{% for p in all_projects %}
+{% for p in site.projects %}
     {% assign year = p.semester_key %}
     {% assign year = year | slice: -2, 2 %}
     {% assign year = year | minus: 0 %}
@@ -90,9 +51,6 @@ layout: default
                     <span>{{ page.phrase }}</span>
                 {% endif %}
             </h1>
-            {% comment %}
-            {{ timeline | inspect }}
-            {% endcomment %}
         </div>
 
         {% if page.photos %}
@@ -115,19 +73,20 @@ layout: default
         <div class="project-links button-container pp-button-container">
 
             {% if page.demo-url %}
-                <div class = "ilb">
-                    <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.demo-url }}', '_blank')">
+                <div class="ilb">
+                    <button class="ggc-btn-d" role="button" onclick="window.open('{{ page.demo-url }}', '_blank')">
                         <span class="text">Demo Site</span>
                     </button>
                 </div>
-
             {% endif %}
 
-            <div class = "ilb">
-                <button class="ggc-btn-d" role="button" onclick = "window.open('{{ page.repo-url }}', '_blank')">
-                    <span class="text">Source Code</span>
-                </button>
-            </div>
+            {% if page.repo-url %}
+                <div class="ilb">
+                    <button class="ggc-btn-d" role="button" onclick="window.open('{{ page.repo-url }}', '_blank')">
+                        <span class="text">Source Code</span>
+                    </button>
+                </div>
+            {% endif %}
 
         </div>
 
