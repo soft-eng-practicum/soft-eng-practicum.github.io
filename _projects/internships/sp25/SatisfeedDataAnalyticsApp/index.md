@@ -3,18 +3,10 @@ layout: project_page
 title: "Satisfeed Data Analytics App"
 phrase: "Empowering impactful community contributions."
 tech: [ "JavaScript", "HTML" ]
-screencast-youtube: hVx8VQ5Y79M
 prof: "gunay"
 client: "Satisfeed"
 client-url: ""
-demo-url: https://github.com
 description: "Data analytics app."
-logo-full: flyer-GGCMaps.png
-logo-thumb: thumb-flyer-GGCMaps.png
-repo-url: https://github.com/
-photos:
-- flyer-GGCMaps.png
-- thumb-flyer-GGCMaps.png
 
 project_key: "satisfeed-dashboard"
 sponsor_key: [ "satisfeed", "cengiz-gunay", "tirza-leader", "anca-doloc-mihu" ]
