@@ -21,6 +21,7 @@ sponsor_key: [ "satisfeed", "cengiz-gunay", "anca-doloc-mihu" ]
 course_key: sd2
 semester_key: fa25
 cohort: "Let 'Em Cook"
+student_ids: [ "Samuel-Keller" ]
 ---
 
 Our team designed and developed an interactive web portal that transforms Satisfeed’s existing data into a clear, actionable analytics dashboard. We integrated distribution data and community resources into a unified map-based interface, giving Satisfeed real-time visibility into food-distribution needs across Gwinnett County. This project was a continuation of Satisfeed: Data Analytics App and developed by the team "Let 'Em Cook" in Fall 2025, consisting of Dylan Long, Ewura Ama Awere, and Sam Keller.
