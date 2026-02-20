@@ -9,7 +9,7 @@ project_key: "walking-trails"
 semester_key: "sp23"
 
 phrase: "GGC Trail Guide"
-tech: [ mongodb, express.JS, react, node.js, MERN, bootstrap, html/css ]
+tech: [ mongodb, express.JS, react, node.js, bootstrap, html/css ]
 prof: gunay
 screencast-youtube: dT2bphPeOrY
 cohort: "Team TTrails"

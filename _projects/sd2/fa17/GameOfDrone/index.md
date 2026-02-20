@@ -29,7 +29,7 @@ e application must be user friendly, because our main audience will be students 
 e application must also record time, Velocity x/y/z, pitch, roll, Yaw, Altitude.
 ch data collection will be unique to each student who use the application, and will be used to make their very own calculus problems.
 . Stackpole hopes that this will change his student’s view on calculus, and hope they will enjoy the subject."
-tech: "Python, Qt, AR Drone"
+tech: [Python, Qt, AR Drone]
 logo-full: flyer-gameofdrone-new.jpg
 logo-thumb: thumb-flyer-gameofdrone-new.jpg
 screencast-youtube: KFycTiE1j-c

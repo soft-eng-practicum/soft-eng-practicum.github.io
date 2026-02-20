@@ -9,7 +9,7 @@ project_key: "grizzly-hacks-website"
 semester_key: "sp20"
 
 phrase: "Supporting the Grizzly Hacks RSO!"
-tech: [ node, angular, bootstrap, html/css, firebase]
+tech: [ node.js, angular, bootstrap, html/css, firebase]
 screencast-youtube: Yzh8gksAtMo
 cohort: "Team Evil"
 members: "Team Evil: Josh Beers, Anne Joseph, Danielle Battle"

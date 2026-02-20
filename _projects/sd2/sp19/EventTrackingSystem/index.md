@@ -19,7 +19,7 @@ photos:
   - 20190425-_RAW5662.jpg
   - 33858745738_2d84e86fb5_b.jpg
 phrase: "Web based event tracking built for organizers and volunteers"
-tech: [ "php", "mysql", angular, rest, "html/css" ]
+tech: [ "php", "mysql", angular, "html/css" ]
 screencast-youtube: Ym26TiFWeDA
 members: "Aaleyah Joseph, Dionne Mitchner, Adefemi Kolawole"
 client: "Michael Holtmann"

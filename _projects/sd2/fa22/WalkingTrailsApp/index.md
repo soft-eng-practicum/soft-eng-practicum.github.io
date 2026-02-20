@@ -9,7 +9,7 @@ project_key: "walking-trails"
 semester_key: "fa22"
 
 phrase: "Fitness App showcasing trails info and allowing for personalized workouts"
-tech: [ react, typescript, html/css, MongoDB, NodeJS, Express, Googlemaps, Google Map API, material-ui ]
+tech: [ react, typescript, html/css, MongoDB, node.js, Express, Google Maps API, material ui ]
 screencast-youtube: j3sLqDTzJUw
 cohort: "Fantastic 4"
 members: "Fanstatic 4: Charlie Chae, Serena Bonsu, Jardy Pery "

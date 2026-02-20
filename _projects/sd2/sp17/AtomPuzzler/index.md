@@ -24,7 +24,7 @@ members: "Matt Nelson, King Lo, Caleb Sears, and John Lam"
 client: "Dr. Thomas Gluick"
 client-url: ""
 description: "College-level gamified learning tool for chemical naming and molecular geometry."
-tech: Website created using GameMaker Studio. No database or backend.
+tech: ["GameMaker Studio"]
 logo-full: flyer-atompuzzler.png
 logo-thumb: thumb-flyer-atompuzzler.png
 repo-url: https://github.com/soft-eng-practicum/AtomPuzzler

@@ -9,7 +9,7 @@ project_key: "stec-research-app"
 semester_key: "fa21"
 
 phrase: "Helping STEC-4500 Undergrad Research Project class"
-tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
+tech: [ angular, typescript, html/css, netlify, MongoDB, node.js, Express, bootstrap ]
 screencast: https://web.microsoftstream.com/video/c2dbcd3b-c362-437f-9081-673c06fa993c
 cohort: "Research Rats"
 members: "Research Rats Team: Ching Vang, Kristoffer Hendricks, Terrance Perry"

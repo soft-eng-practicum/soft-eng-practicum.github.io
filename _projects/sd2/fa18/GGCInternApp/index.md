@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "Internship Application Forms (:crown: :crown: 2ND PLACE)"
-tech: [ "node", "express", "ejs", "mongodb", "html/css" ]
+tech: [ "node.js", "express", "ejs", "mongodb", "html/css" ]
 demo-url: http://ggc-internapp.herokuapp.com/
 screencast-youtube: bg5kknQzL-g
 cohort: "Tech Titans"

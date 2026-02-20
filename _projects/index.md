@@ -7,9 +7,9 @@ title: "Innovating Beyond the Classroom: Student-Led Software & STEM Projects"
 
 <br>
 
-<h3 class="mb-3 text-center">Top Techologies</h3>
-<div class="mb-5">
-    {% include leaderboard.html %}
+<h3 class="mb-3 text-center">Top Technologies</h3>
+<div class="mb-5 d-grid mx-auto" style="grid-template-columns: 1fr 1fr; max-width: 32rem;">
+    {% include tech_leaderboard.html %}
 </div>
 
 {% include project_search_widget.html %}

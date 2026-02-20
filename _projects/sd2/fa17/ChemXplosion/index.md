@@ -28,7 +28,7 @@ members: "Team Tech Challenged: Anjan Panchatcharam, Armando Gonzalez, Eric Jenk
 client: Assistant Professor of Chemistry Thomas Gluick
 client-url: ""
 description: Our purpose was to create a game that would make learning basic chemistry fun, interesting, and enticing for any user looking to learn. The game would primarily be focused upon chemical reactions.
-tech: Unity, C#, Unity Collaboration Tool, Unity Test Tools
+tech: [ "Unity", "C#" ]
 logo-full: flyer-chemXplosion.jpg
 logo-thumb: thumb-flyer-chemXplosion.jpg
 screencast-youtube: T6DWbuIMuR8

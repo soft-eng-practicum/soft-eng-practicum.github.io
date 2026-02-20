@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "Let GGC find you an Internship!"
-tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
+tech: [ node.js, express, ejs, html/css, mongodb, mlab, heroku ]
 screencast-youtube: CB7A34H65l4
 cohort: "Team Meraki"
 members: "Team Meraki: Jose Cantillo, Kyle Tate, Leon Le, Jordan Vincent, Ethan Kim"

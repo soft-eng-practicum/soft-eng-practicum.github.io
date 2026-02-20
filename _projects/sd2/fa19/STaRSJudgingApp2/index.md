@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "A web/mobile app for judging scientific posters"
-tech: [ node, ionic, react, html/css, couchdb, android ]
+tech: [ node.js, ionic, react, html/css, couchdb, android ]
 cohort: "Team Penguins"
 members: "Team Penguins: Anthony Morariu, Joel Garcia, Juan Juarez, Ruth Whitehouse"
 client: "[Dr Cengiz Gunay](http://www.ggc.edu/about-ggc/directory/cengiz-gunay) and [Dr Anca Doloc-Mihu](http://www.ggc.edu/about-ggc/directory/anca-doloc-mihu)"

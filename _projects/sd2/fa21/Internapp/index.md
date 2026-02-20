@@ -9,7 +9,7 @@ project_key: "intern-app"
 semester_key: "fa21"
 
 phrase: "Let GGC Find You an Internship!"
-tech: [ node, express, ejs, html/css, mongodb, mlab, heroku ]
+tech: [ node.js, express, ejs, html/css, mongodb, mlab, heroku ]
 screencast-youtube: CB7A34H65l4
 cohort: "Team Bancobanco"
 members: "Team Bancobanco: Matthew Rosario, Jordan Harrison, Michael Murillo"

@@ -22,7 +22,7 @@ screencast-youtube: TNs-tkoyQG8
 members: "Team DaSquad: Robert Bryan, Blake Norman, Khaled Asad, and Michael Cawton"
 client: <a href="http://www.ggc.edu/about-ggc/directory/latanya-hammonds-odie" target="_blank">Dr. Latanya Hammonds-Odie (Biology)</a> and <a href="http://www.ggc.edu/about-ggc/directory/lissa-pollacia" target="_blank">Dr. Lissa Pollacia (IT)</a>
 description: "Online applications for ITEC 4900 and BIOL 4800 internship courses (second semester)."
-tech: Website with EJS templating in the frontend, Express+Node.JS in the backend with MongoDB hosted on mLab.
+tech: ["ejs", "express", "node.js", "MongoDB"]
 logo-full: flyer-internapp.png
 logo-thumb: thumb-flyer-internapp.png
 repo-url: https://github.com/soft-eng-practicum/internapp

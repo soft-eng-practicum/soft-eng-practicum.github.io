@@ -19,7 +19,7 @@ photos:
   - 20190425-_RAW5662.jpg
   - 33858745738_2d84e86fb5_b.jpg
 phrase: "Stay Connected GGC Claw Connect App - group messaging (:crown: :crown: :crown: 1ST PLACE)"
-tech: [ ionic, firebase, angular, node, html/css ]
+tech: [ ionic, firebase, angular, node.js, html/css ]
 screencast-youtube: OS1exGPxQDI
 cohort: "Three Magicians"
 members: "Three Magicians: Shawna Cassagnol, Mansoor White, Joseph Colby Zoretic"

@@ -32,7 +32,7 @@ lows a professor to hold multiple classes with students imported
 om D2L or manual invitation. Using an algorithm that makes sure no
 o students review each other is essential to making this website’s
 rpose effective and efficient.  " 
-tech: PHP, HTML/CSS/Javascript, MySQL
+tech: [PHP, HTML/CSS, Javascript, MySQL]
 logo-full: flyer-project-review.jpg
 logo-thumb: thumb-flyer-project-review.jpg
 screencast-youtube: Pn5CEHVvSYk

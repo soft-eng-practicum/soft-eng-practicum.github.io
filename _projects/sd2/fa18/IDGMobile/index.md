@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "Iglesia De Gwinnett Mobile App"
-tech: [ "android", "youtube-api" ]
+tech: [ "android", "youtube api" ]
 screencast-youtube: 79McrxIbQWc
 cohort: "S.T.A.R. Labs"
 members: "S.T.A.R. Labs: Cesar M. Romero, Jose Castro, Juan Gomez, Boji Benji"

@@ -24,7 +24,7 @@ demo-url: https://github.com/aknobloch/WinRemote/releases
 members: "Team disabledTech: Aaron Knobloch, Jeff Graves, Tobin Michael Crone"
 client: IBM Advisory Developer/X-Force Security Scott Warfield
 description: "Remote Shortcuts for the PC. Server/Client bluetooth connection interface. Graceful shutdowns and reconnects on both server and client. Data IO via connection on both server and client. Server execution framework constructed. Dynamic button creation framework constructed."
-tech: Electron, C#, Bluetooth, Android, Java
+tech: [ "Electron", "C#", "Java" ]
 logo-full: flyer-disabledTech.jpg
 logo-thumb: thumb-flyer-disabledTech.jpg
 screencast-youtube: Li0N2zdFWYY

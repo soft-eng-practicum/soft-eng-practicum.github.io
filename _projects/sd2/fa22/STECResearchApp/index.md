@@ -9,7 +9,7 @@ project_key: "stec-research-app"
 semester_key: "fa22"
 
 phrase: "Helping STEC-4500 Undergrad Research Project class"
-tech: [ angular, typescript, html/css, netlify, MongoDB, NodeJS, Express, bootstrap ]
+tech: [ angular, typescript, html/css, netlify, MongoDB, node.js, Express, bootstrap ]
 screencast-youtube: Z97aJVH2VHI
 cohort: "Wired Wires Experts"
 members: "Wired Wires Experts: Jeancarlo Masciotti, Miranda Darlington, Andres Almaraz, Jafet Leon-Perez"

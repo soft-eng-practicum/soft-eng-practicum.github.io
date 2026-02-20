@@ -23,7 +23,7 @@ members: "Alain Hirwa, Anwar Saleeby, and Neal Klemenc"
 client: "Dr. Lyndsay Gratch"
 client-url: ""
 description: "Learn the basics of cinematography and photo composition"
-tech: Mobile app with Ionic 2. No backend or database. Not on app markets yet.
+tech: [ "Ionic" ]
 logo-full: flyer-pictureperfect.png
 logo-thumb: thumb-flyer-pictureperfect.png
 repo-url: https://github.com/soft-eng-practicum/pictureperfect

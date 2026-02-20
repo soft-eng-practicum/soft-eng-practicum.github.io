@@ -9,7 +9,7 @@ project_key: "lawrenceville-coop-app"
 semester_key: "fa20"
 
 phrase: "Check in and get information about food banks"
-tech: [ react native, android, ios, html/css, firebase, google maps ]
+tech: [ react native, android, ios, html/css, firebase, google maps api ]
 screencast-youtube: z7zZ5b5xhXI
 cohort: "3C Team"
 members: "3C Team: Christian Coleman, Carlos Lopez, & Chris Arackal"

@@ -27,7 +27,7 @@ cohort: "Team Adventuras"
 members: "Team Adventuras: Bryan Yeap, Matt Soucy, Robert Westervelt, Nilaja Williams"
 client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
 description: "Predictive Search Functionality: Provides multiple solutions based on current input by the user. User input can be at any place within the provided solutions. Safety Mode: Provides an overlay of safety related items. Items include AEDs, Fire Extinguishers, Fire Alarms, Trauma Kits, and Safety Shelters. Event Information Tab: Provides event information related to events held on GGC campus. Event list changes depending on the building being accessed. Provides events up to 2 weeks ahead of current date. Functional Service Worker: Checks all cache versions in the users browser and deletes any old versions. Additional files for cache. Updated Building Legend: Add locations and building labels. Turns off if parking legend is on, vice versa."
-tech: "Single page application, HTML/CSS, Sass, Javascript, Grunt, SVG, Selenium and BrowserStack testing"
+tech: ["HTML/CSS", "Sass", "Javascript", "Grunt", "Selenium"]
 logo-full: flyer-ggcmaps-adventuras-new.jpg
 logo-thumb: thumb-flyer-ggcmaps-adventuras-new.jpg
 screencast-youtube: xVOkgmRYMaY

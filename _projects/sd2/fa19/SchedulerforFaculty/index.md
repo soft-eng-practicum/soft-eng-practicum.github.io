@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "A web app for scheduling classes for faculty"
-tech: [ angular, node, angularCI, express, html/css, mongoose, mongodb ]
+tech: [ angular, node.js, express, html/css, mongoose, mongodb ]
 cohort: "Team CyberATL"
 members: "Team CyberATL: Juan Sebastian Perez, Victor Akinla, Terrance Perry"
 client: "[Dr Sonal Dekhane](http://www.ggc.edu/about-ggc/directory/sonal-dekhane)"

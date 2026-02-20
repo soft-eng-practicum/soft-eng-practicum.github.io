@@ -1,0 +1,38 @@
+{% assign all_tech = "" | split: "," %}
+
+{% for p in site.projects %}
+    {% if p.tech %}
+        {% for t in p.tech %}
+            {% assign tmp = t | downcase %}
+            {% assign all_tech = all_tech | push: tmp %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+{% assign unique_tech = all_tech | uniq %}
+
+{% assign tech_counts = "" | split: "," %}
+{% for t in unique_tech %}
+    {% assign count = 0 %}
+    {% for k in all_tech %}
+        {% if t == k %}
+            {% assign count = count | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+    {% assign tmp = count | prepend: "000" | slice: -3, 3 %}
+    {% assign tmp = tmp | append: "@:^" %}
+    {% assign tmp = tmp | append: t %}
+    {% assign tech_counts = tech_counts | push: tmp %}
+{% endfor %}
+
+{% assign tech_counts = tech_counts | sort | reverse | slice: 0, 8 %}
+
+{% for t in tech_counts %}
+    {% assign pair = t | split: "@:^" %}
+    {% assign tech = pair[1] | upcase %}
+    <div class="d-flex justify-content-center">
+        <div class="border border-info rounded d-inline-flex align-items-center mb-3 mx-3 w-100">
+            <i class="fa-solid fa-wrench px-2"></i>
+            <p class="pe-2">{{ tech }} ({{ pair[0] }} total)</p>
+        </div>
+    </div>
+{% endfor %}

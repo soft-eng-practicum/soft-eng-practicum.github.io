@@ -28,7 +28,6 @@ members: "Team TripleJ: Jessica Sok, Joseph Tsegaye, Jose Moreno"
 client: Dr Jon Rees
 client-url: ""
 description: "Lipid-Lator is a mobile application for the Android platform currently available on the Google Play Store. This application was designed for Dr. Jon Rees who needs this application to be able to perform daily tasks at his current employment. Due to the nature of the app, it can also be of use to many people around the world as it is a utility application. With Lipid-Lator, one is able to calculate the abbreviation, formula, and monoisotopic molar mass of over 97 million different combinations of lipids. All of the data is completely offline so there is no need for any internet connection at all. This application can and will help many chemists easily and rapidly find the information they need."
-tech: "Android app using Android Studio, works offline, calculates molar masses of over 97 million different combinations of options"
 logo-full: flyer-LipidLator.png
 logo-thumb: thumb-flyer-LipidLator.png
 screencast-youtube: B8mQj-wBI9A

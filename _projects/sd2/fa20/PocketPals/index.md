@@ -9,7 +9,7 @@ project_key: "pocket-pals"
 semester_key: "fa20"
 
 phrase: "2D top-down open world video game inspired by Pokémon"
-tech: [ unity, html/css ]
+tech: [ "Unity", "C#" ]
 screencast-youtube: UTw_G8459uQ
 cohort: "Aqua Team Thunder Force"
 members: "Aqua Team Thunder Force: Dennis Dalton and anonymous members"

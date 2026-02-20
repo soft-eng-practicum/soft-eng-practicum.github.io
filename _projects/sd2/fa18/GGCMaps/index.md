@@ -18,7 +18,7 @@ photos:
   - room-view-8-HD.jpg
 phrase: "A Campus Map Persistent Web Application"
 demo-url: https://ggc-sd.github.io/ggcmaps3/
-tech: [ "javascript", "html5", "sass", "svg" ]
+tech: [ "javascript", "html/css", "sass" ]
 screencast-youtube: ssZTyvGVXLw
 cohort: "GGC Maps 3"
 members: "GGC Maps 3: David Hagerty, Travis Simmons, Sean Lomar Hutchinson, Alain Hirwa"
