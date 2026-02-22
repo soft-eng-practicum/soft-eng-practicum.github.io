@@ -27,7 +27,7 @@ cohort: "The Dronze Zone"
 members: "The Drone Zone: Reuben Boima Massaquoi, Afeefa Firdaus, Brian Bailey"
 client: Associate Professor of Mathematics Matthew Stackpole (left GGC in Dec 2017)
 description: "Create an application that can control an AR drone via a controller. Log data in a csv file: X velocity, Y velocity, Z velocity, Altitude, Pitch, and Roll. Motivation - Graph and use the data to create math problems for students."
-tech: Python, AR Drone, Sony PS1/2 game controller, Pygame, Python tkinter/tcl.
+tech: ["Python", "Pygame", "Tkinter"]
 logo-full: flyer-thedronezone.png
 logo-thumb: thumb-flyer-thedronezone.png
 screencast-youtube: mx76xg2OJrg

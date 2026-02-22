@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "PA School Matcher by MatchMakers (:crown: 3RD PLACE + :thumbsup: winner of the two competing teams)"
-tech: [ "angular6", "html/css" ]
+tech: [ "angular", "html/css" ]
 screencast-youtube: DQcuT6XR8ag
 cohort: "Match Makers"
 members: "Match Makers: Breeona Day and Lauren Marsicano"

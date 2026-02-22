@@ -2,7 +2,7 @@
 layout: project_page
 title: "Walking Trails Website"
 phrase: "Encouraging accessible fitness habits"
-tech: [ "JavaScript", "HTML", "React", "NodeJS" ]
+tech: [ "JavaScript", "HTML/CSS", "React", "node.js" ]
 screencast-youtube: GMcxyf645Pk
 prof: "gunay"
 client: "GGC"

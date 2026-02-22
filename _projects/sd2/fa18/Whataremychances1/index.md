@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "PA School Matcher by Fantastic Four"
-tech: [ "angular6", "mongodb", "mongoose", "node", "html/css" ]
+tech: [ "angular", "mongodb", "mongoose", "node", "html/css" ]
 screencast-youtube: dACs_bAXd4Q
 cohort: "Fantastic Four"
 members: "Fantastic Four: Elizabeth Haynie, Bradform Mashlum, Dionne Mitchner, Nishanth Mangineni"

@@ -16,31 +16,13 @@
     </div>
 
     <section class = "browse-body mt-5 section-team align-items-start" id = "card-list">
-        {% assign all_projects = "" | split: "," %}
         {% for p in site.projects %}
-            {% if p.project_key %}
-                {% assign all_projects = all_projects | push: p %}
-            {% endif %}
-        {% endfor %}
-        {% for col in site.collections %}
-            {% if col.label contains "itec" %}
-                {% for proj in site[col.label] %}
-                    {% if proj.project_key %}
-                        {% assign all_projects = all_projects | push: proj %}
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-        {% for p in all_projects %}
             {% assign course_data = "sd2" %}
             {% if p.course_key %}
                 {% assign course_data = p.course_key %}
             {% endif %}
             {% if course_data contains "sd" %}
                 {% assign course_data = course_data | append: "-soft-dev-2-software-development-2-software development 2" %}
-                {% if p.course_key == "sd1" %}
-                    {% assign course_data = couse_data | replace: "2", "1" %}
-                {% endif %}
             {% endif %}
 
             {% assign class_data = "" %}
@@ -79,22 +61,11 @@
             {% endif %}
 
             {% assign overarching_data = "false" %}
-            {% for proj in site.projects %}
-                {% if proj.project_key == p.project_key
-                    and proj.url != p.url %}
-                    {% assign overarching_data = "true" %}
-                {% endif %}
-            {% endfor %}
-            {% for col in site.collections %}
-                {% if col.label contains "itec" %}
-                    {% for proj in site[col.label] %}
-                        {% if proj.project_key == p.project_key
-                            and proj.url != p.url %}
-                            {% assign overarching_data = "multi-term" %}
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-            {% endfor %}
+            {% assign related_projects = site.projects | where_exp: "proj", "proj.project_key != nil" | where_exp: "proj", "proj.project_key == p.project_key" %}
+
+            {% if related_projects.size > 1 %}
+                {% assign overarching_data = "multi-term" %}
+            {% endif %}
 
             <div class="col-sm-6 col-lg-4 col-xl-3 searchable"
                 data-name="{{ p.title }}"

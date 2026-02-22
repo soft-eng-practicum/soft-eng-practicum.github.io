@@ -9,7 +9,7 @@ project_key: "ggra-resource-map"
 semester_key: "sp20"
 
 phrase: "For updating and displaying locations and information"
-tech: [ javascript, jquery, html/css, .netcore, c#, mssql, rest ]
+tech: [ javascript, jquery, html/css, .net core, c#, sql ]
 screencast-youtube: XHLFTyXzt_4
 cohort: "Team AmbiguousLarks"
 members: "Team AmbigiousLarks: Khang Ho, Joshua Sales, and an anonymous member"

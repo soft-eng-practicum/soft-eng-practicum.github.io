@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "Check live which lot is best for you!"
-tech: [ node, react-native, react, html/css, firebase, android ]
+tech: [ "node.js", "react-native", "react", "html/css", "firebase" ]
 screencast-youtube: lmpXfcc2uFw
 cohort: "Parking Pirates"
 members: "Parking Pirates: Daniel Toal, Raghu Khanal, Nick Risley, Joshua Walton, Mark Levengood"

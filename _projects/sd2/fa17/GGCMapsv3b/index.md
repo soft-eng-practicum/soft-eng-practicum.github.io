@@ -27,7 +27,7 @@ cohort: "Team NavBenders"
 members: "Team NavBenders: Maryam Najiarani, Richard A Williams Jr, Joseph Pelletier"
 client: "Assistant Professor in Arts Catherine Moore, students Michael Deiters and David Rivera Rocha"
 description: "Continuing previous project. Search Function properly works in all buildings and now for 3000 building. An updated look to all parking lots with accurate handicap, staff/faculty parking, etc. New updated legend for all parking lots."
-tech: "Single page application, HTML/CSS, Sass, Javascript, Grunt, SVG, Selenium and BrowserStack testing"
+tech: ["HTML/CSS", "Sass", "Javascript", "Grunt", "Selenium"]
 logo-full: flyer-ggcmaps-navbenders.jpg
 logo-thumb: thumb-flyer-ggcmaps-navbenders.jpg
 screencast-vimeo: 245831389 

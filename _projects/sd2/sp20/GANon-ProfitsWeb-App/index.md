@@ -9,7 +9,7 @@ project_key: "ga-non-profits-app"
 semester_key: "sp20"
 
 phrase: "Interactive online map"
-tech: [ node, angular, html/css ]
+tech: [ node.js, angular, html/css ]
 screencast-youtube: MxFcWwkqitA
 cohort: "IT Crowd"
 members: "IT Crowd: Matheus Silva, Makela Adams, and an anonymous member"

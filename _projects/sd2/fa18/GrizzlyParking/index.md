@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "Mobile app that guesses free parking spots on campus"
-tech: [ "angular6", "ionic", "firebase", "html/css" ]
+tech: [ "angular", "ionic", "firebase", "html/css" ]
 screencast-youtube: 7anq8EQsdnY
 cohort: "Code Wranglers"
 members: "Code Wranglers: Jared Houseman, Jake Bradberry, Paul Cardenas"

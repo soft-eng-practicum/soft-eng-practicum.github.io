@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "Your High Speed Plug-In to Photographers"
-tech: [ node, react, html/css, firebase, mongodb ]
+tech: [ node.js, react, html/css, firebase, mongodb ]
 screencast-youtube: 2ry14QSl5ZI
 cohort: "Team Apollo"
 members: "Team Apollo: Alex Smyntyna, Jared Easton, Paul Cardenes, Haylee Anderson"

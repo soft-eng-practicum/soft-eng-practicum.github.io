@@ -9,7 +9,7 @@ project_key: "visual-portfolio"
 semester_key: "fa22"
 
 phrase: "A visually interactive tool to streamline the portfolio-making process"
-tech: [ React, NodeJS, Tailwing, Firebase, Frameer-Motion, Jest-dom ]
+tech: [ React, node.js, Tailwind, Firebase, Framer-Motion, Jest ]
 screencast-youtube: a-qsBnKn9xU
 cohort: "Business Casual"
 members: "Business Casual: Robert Recallo, Benjamin Moreira, Canaan Hanley"

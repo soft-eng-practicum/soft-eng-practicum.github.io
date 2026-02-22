@@ -27,7 +27,7 @@ cohort: "Team XenaMorphs"
 members: "Team XenaMorphs: Laura Arevalo, Cat Windham, Charneaka Lewis, Magdalena Ledezma, Chinelo Obiamalu"
 client: "Assistant Professor of Chemistry Thomas Gluick and Assistant Professor of Information Technology Cengiz Gunay"
 description: "To create a user-friendly, simple web-based game that aids chemistry students in their learning of molecular nomenclature."
-tech: "Javascript, Phaser, MongoDB, mLab"
+tech: [ Javascript, Phaser, MongoDB, mLab ]
 logo-full: flyer-xenamorphs.jpg
 logo-thumb: thumb-flyer-xenamorphs.jpg
 screencast-youtube: 7Zr2xxn9mUw

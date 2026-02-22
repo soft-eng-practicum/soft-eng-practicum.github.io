@@ -19,7 +19,7 @@ photos:
   - 20190425-_RAW5662.jpg
   - 33858745738_2d84e86fb5_b.jpg
 phrase: "Chemistry Quiz Generator"
-tech: [ angular6, html/css ]
+tech: [ angular, html/css ]
 screencast-youtube: zLY_XvmaHTU
 cohort: "Catalyst Quartet"
 members: "Catalyst Quartet: Austin Lomax, Farzin Valizadeh, Wesley McMillen, Matthew Stiller"

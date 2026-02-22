@@ -23,7 +23,7 @@ members: David Rivera-Rocha, Josh Gerth, Carlos Pacheco-Perez, Margaret "Maggie"
 client: "Dr. Catherine Moore & Michael Deiters"
 client-url: ""
 description: "Webapp that allows finding GGC campus rooms from their numbers (second semester)."
-tech: "Progressive webapp that can work offline with a custom Javascript front-end. It requires no back-end to function. It can save itself as a desktop shortcut on mobile platforms."
+tech: [ "HTML/CSS", "Javascript" ]
 logo-full: flyer-ggcmaps.png
 logo-thumb: thumb-flyer-ggcmaps.png
 repo-url: https://github.com/soft-eng-practicum/ggcmaps

@@ -22,7 +22,7 @@ members: "Team Monstars: King Oruga, Joshua Tran, Peter Odeojo, William \"Matt\"
 client: "Karen Klett, Koko Hunt, and Dr. Lana McDowell"
 client-url: ""
 description: "Reintegration, restoration, and reentry of returning citizens."
-tech: Website with HTML/CSS/Javascript frontend and an ASP.Net backend using C#. SQL Server database.
+tech: [ "HTML/CSS", "Javascript", "ASP.NET", "C#", "SQL" ]
 logo-full: flyer-GGRA.png
 logo-thumb: thumb-flyer-GGRA.png
 repo-url: https://github.com/soft-eng-practicum/GGRAwebsite

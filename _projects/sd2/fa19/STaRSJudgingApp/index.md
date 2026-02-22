@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "A web/mobile app for judging scientific posters (:crown: :crown: :crown: 1ST PLACE)"
-tech: [ node, ionic, angular, html/css, couchdb, pouchdb, android ]
+tech: [ node.js, ionic, angular, html/css, couchdb, pouchdb, android ]
 screencast-youtube: 5cVWPM-nqDI
 cohort: "Team Polaris"
 members: "Team Polaris: Nancy Sardar, Jacob Weekley, Juan Linares, Andrew Plourde"

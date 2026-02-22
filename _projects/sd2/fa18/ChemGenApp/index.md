@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "Chemistry Quiz Generator (:crown: :crown: :crown: 1ST PLACE)"
-tech: [ angular6, node, html/css ]
+tech: [ angular, node.js, html/css ]
 screencast-youtube: 3WPrGnkCGXY
 cohort: "Free Radicals"
 members: "Free Radicals: Ben Jackson, William Bullock, Bruce Carson, Trivon Etheridge"

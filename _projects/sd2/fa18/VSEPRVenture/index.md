@@ -17,7 +17,7 @@ photos:
   - room-view-5-HD.jpg
   - room-view-8-HD.jpg
 phrase: "Chemistry-based 2D RPG"
-tech: [ "game-maker-2" ]
+tech: [ "GameMaker Studio" ]
 screencast-youtube: ulWh6GOae9g
 demo-url: http://gongchie.altervista.org/TestRPG/index.html
 cohort: "The Game Devs"

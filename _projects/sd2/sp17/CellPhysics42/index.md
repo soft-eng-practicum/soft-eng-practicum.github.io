@@ -22,7 +22,7 @@ members: "Michael Holtmann, Jory Alexander, and Bess Burnett"
 client: "Dr. Kenneth Sales"
 client-url: ""
 description: "Can visualize 1-D and 2-D rules as 2-D triangles and 3-D pyramids, respectively."
-tech: Java application with JavaFX GUI and 3D visualization. 3-D models were also printed using a 3-D printer.
+tech: [ "Java", "JavaFX" ]
 logo-full: flyer-team42.png
 logo-thumb: thumb-flyer-team42.png
 repo-url: https://github.com/soft-eng-practicum/CellPhysics42

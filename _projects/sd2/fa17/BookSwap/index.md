@@ -27,7 +27,7 @@ cohort: "Team Mercury"
 members: "Team Mercury: Alek Gartland, Chelsea D'Alessandro, Sierra Williams, Waylon Lao"
 client: "Student Hailey Montgomery"
 description: "Continuation of project from Spring 2017 Software Development Project course. Changes: Database - Hosting, Amazon Web Services (AWS); UI/UX Complete redesign of entire site, Style: minimalist modern, Colors, Image assets; Pages: Blade template & usage, JavaScript, Bootstrap, → CSS ←"
-tech: Amazon AWS (Elastic Beanstalk 2, Simple Email Service, Relational Data Service), PHP, Laravel, HTML/CSS, Javascript
+tech: [AWS, PHP, Laravel, HTML/CSS, Javascript]
 logo-full: flyer-bookswap.png
 logo-thumb: thumb-flyer-bookswap.png
 screencast-youtube: OSNYOYd8ozk

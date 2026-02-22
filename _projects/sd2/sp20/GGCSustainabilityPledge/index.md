@@ -8,7 +8,7 @@ sponsor_key: [ "cengiz-gunay", "le-quang", "greatzel-unabia", "elizabeth-sudduth
 project_key: "ggc-sustainability-pledge"
 semester_key: "sp20"
 
-tech: [ node, angular, html/css, firebase]
+tech: [ node.js, angular, html/css, firebase]
 screencast-youtube: VRr0vG4C6y8
 members: "Chris Martinez, David Mercado, and Denzel Gomez"
 client: "GGC student Le Quang Greatzel Unabia and GGC faculty, Chair of Sustainability Committee [Dr. Elizabeth Sudduth](https://www.ggc.edu/about-ggc/directory/elizabeth-sudduth)"

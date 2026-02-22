@@ -27,7 +27,7 @@ members: "The Brogrammers"
 client: Dr Shelby Fencil Shuler
 client-url: ""
 description: "SmartVid is an educational platform designed to enable professors to create a more interactive learning experience by uploading videos to be viewed by their active classes. The benefit of SmartVid is that the videos created by the professors will be tailored toward the classes they teach, providing a personalized resource where students can access the material their professors are teaching. Additionally, professors will be able to monitor the activity of their students via progress bars showing how much of the video (and which part) the students have viewed. This will be coupled with periodically introduced quizzes as the video is viewed, designed by the professor(s). A professor would then be able to decide what action would be taken if the student fails the quiz (IE: the student must re-watch the video, the quiz must be immediately retaken, etc.)."
-tech: "PHP, Bootstrap, HTML/CSS, Javascript"
+tech: [PHP, Bootstrap, HTML/CSS, Javascript]
 logo-full: flyer-smartvid.jpg
 logo-thumb: thumb-flyer-smartvid.jpg
 screencast-youtube: l2tCRhr-2lY

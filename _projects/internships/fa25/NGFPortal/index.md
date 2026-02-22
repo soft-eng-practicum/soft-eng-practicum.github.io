@@ -2,7 +2,7 @@
 layout: project_page
 title: "NGF Portal"
 phrase: "Optimizing administrative operations"
-tech: [ "JavaScript", "HTML", "React", "NodeJS" ]
+tech: [ "JavaScript", "HTML", "React", "node.js" ]
 prof: "gunay"
 client: "Next Generation Focus"
 client-url: "https://nextgenerationfocus.org"

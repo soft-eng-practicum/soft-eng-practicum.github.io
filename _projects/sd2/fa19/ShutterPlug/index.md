@@ -70,7 +70,7 @@ photos:
   - 20191121-_RAW6534.jpg
   - 20191121-_RAW6545.jpg
 phrase: "Your High Speed Plug-In to Photographers (:crown: 3RD PLACE)"
-tech: [ node, react, redux, html/css, mongodb, mlab, heroku ]
+tech: [ node.js, react, redux, html/css, mongodb, mlab, heroku ]
 screencast-youtube: BXEuS-EflOk
 cohort: "Team ShadowFax"
 members: "Team ShadowFax: Richard Smith, Ryan Cunico, Rodney Brown, Malik Norford"
